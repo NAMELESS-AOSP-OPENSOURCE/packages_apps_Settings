@@ -60,4 +60,7 @@
 
     <!-- Display customization category -->
     <string name="customization_category_title">Customization</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
 </resources>
