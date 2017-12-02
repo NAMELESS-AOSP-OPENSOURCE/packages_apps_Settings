@@ -155,6 +155,12 @@
             android:title="@string/lift_to_wake_title"/>
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="proximity_on_wake"
+            android:title="@string/proximity_wake_title"
+            android:summary="@string/proximity_wake_summary"
+            android:defaultValue="@*android:bool/config_proximityCheckOnWakeEnabledByDefault"/>
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
             android:title="@string/wakeup_when_plugged_unplugged_title"
             android:summary="@string/wakeup_when_plugged_unplugged_summary"

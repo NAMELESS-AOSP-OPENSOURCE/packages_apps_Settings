@@ -59,6 +59,7 @@ public class DisplaySettings extends DashboardFragment
     private static final String TAG = "DisplaySettings";
 
     private SystemSettingPrimarySwitchPreference mCarrierLabel;
+    private static final String KEY_PROXIMITY_ON_WAKE = "proximity_on_wake";
 
     @Override
     public int getMetricsCategory() {
@@ -81,6 +82,15 @@ public class DisplaySettings extends DashboardFragment
 
         mCarrierLabel = (SystemSettingPrimarySwitchPreference) findPreference("enable_custom_carrier_label");
         mCarrierLabel.setOnPreferenceClickListener(this);
+
+        final Preference proximityWakePreference =
+                (Preference) getPreferenceScreen().findPreference(KEY_PROXIMITY_ON_WAKE);
+        final boolean enableProximityOnWake =
+                getResources().getBoolean(com.android.internal.R.bool.config_proximityCheckOnWake);
+
+        if (!enableProximityOnWake && proximityWakePreference != null){
+            getPreferenceScreen().removePreference(proximityWakePreference);
+        }
     }
 
     @Override
@@ -147,6 +157,16 @@ public class DisplaySettings extends DashboardFragment
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
             new BaseSearchIndexProvider(R.xml.display_settings) {
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    List<String> keys = super.getNonIndexableKeys(context);
+                    if (!context.getResources().getBoolean(
+                            com.android.internal.R.bool.config_proximityCheckOnWake)) {
+                        keys.add(KEY_PROXIMITY_ON_WAKE);
+                    }
+                    return keys;
+                }
 
                 @Override
                 public List<AbstractPreferenceController> createPreferenceControllers(
