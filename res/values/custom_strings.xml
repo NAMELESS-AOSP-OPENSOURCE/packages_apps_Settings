@@ -221,4 +221,7 @@
     <string name="qs_multi_users_title">Multi users icon</string>
     <string name="qs_power_menu_title">Power menu icon</string>
     <string name="qs_auto_brightness_title">Auto brightness icon</string>
+
+    <!-- Themes -->
+    <string name="theme_category_title">Theme</string>
 </resources>
