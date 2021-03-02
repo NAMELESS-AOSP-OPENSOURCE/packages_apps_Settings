@@ -651,4 +651,10 @@
     <string name="use_photos_spoof_title">Unlimited Google Photos storage</string>
     <string name="use_photos_spoof_summary">Spoof device as Pixel XL to get unlimited photo storage at original quality</string>
     <string name="use_photos_spoof_info">Restart Google Photos app for it to take effect</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+    <string name="duration_less_than_one_minute">Less than 1 Minute</string> 
+
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s today</string>
 </resources>
