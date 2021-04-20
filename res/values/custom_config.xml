@@ -14,4 +14,9 @@
 
     <!-- Lower resolution string -->
     <string name="config_lower_resolution_string">FHD+</string>
+
+    <!-- Settings intelligence suggestions class -->
+    <string name="config_settingsintelligence_suggestions_class" translatable="false">
+        com.android.settings.intelligence.suggestions.SuggestionService
+    </string>
 </resources>
