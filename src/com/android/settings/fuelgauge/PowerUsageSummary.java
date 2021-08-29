@@ -407,9 +407,9 @@ public class PowerUsageSummary extends PowerUsageBase implements
             mBatteryTempPref.setSummary(getResources().getString(R.string.status_unavailable));
         }
         if (mBatteryHealthSupported) {
-            mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(getResources().getString(R.string.config_batteryCalculatedCapacity)));
-            mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(getResources().getString(R.string.config_batteryDesignCapacity)));
-            mBatteryChargeCycles.setSubtitle(parseBatteryCycle(getResources().getString(R.string.config_batteryChargeCycles)));
+            mCurrentBatteryCapacity.setSummary(parseBatterymAhText(getResources().getString(R.string.config_batteryCalculatedCapacity)));
+            mDesignedBatteryCapacity.setSummary(parseBatterymAhText(getResources().getString(R.string.config_batteryDesignCapacity)));
+            mBatteryChargeCycles.setSummary(parseBatteryCycle(getResources().getString(R.string.config_batteryChargeCycles)));
         }
     }
 
