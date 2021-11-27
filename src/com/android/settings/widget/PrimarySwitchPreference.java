@@ -17,6 +17,8 @@
 package com.android.settings.widget;
 
 import android.content.Context;
+import android.os.VibrationEffect;
+import android.os.Vibrator;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -42,21 +44,27 @@ public class PrimarySwitchPreference extends RestrictedPreference {
     private boolean mCheckedSet;
     private boolean mEnableSwitch = true;
 
+    private final Vibrator mVibrator;
+
     public PrimarySwitchPreference(Context context, AttributeSet attrs,
             int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
+        mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
     }
 
     public PrimarySwitchPreference(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
     }
 
     public PrimarySwitchPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
+        mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
     }
 
     public PrimarySwitchPreference(Context context) {
         super(context);
+        mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
     }
 
     @Override
@@ -82,6 +90,7 @@ public class PrimarySwitchPreference extends RestrictedPreference {
                     } else {
                         persistBoolean(mChecked);
                     }
+                    mVibrator.vibrate(VibrationEffect.get(VibrationEffect.EFFECT_CLICK));
                 }
             });
 
