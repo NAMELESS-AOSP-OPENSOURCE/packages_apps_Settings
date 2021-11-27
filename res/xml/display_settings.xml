@@ -186,6 +186,16 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/quick_settings_category_title">
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="qs_footer_warnings"
+            android:title="@string/qs_footer_warnings_title"
+            android:summary="@string/qs_footer_warnings_summary"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/status_bar_category_title">
 
         <Preference
