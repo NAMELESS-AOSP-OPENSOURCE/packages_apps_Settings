@@ -54,8 +54,8 @@
     <string name="statusbar_items_title">Statusbar items</string>
     <string name="statusbar_items_summary">Choose what icons to show in status bar</string>
 
-    <!-- Display customization category -->
-    <string name="customization_category_title">Customization</string>
+    <!-- Statusbar customization category -->
+    <string name="status_bar_category_title">Status bar</string>
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
@@ -88,7 +88,7 @@
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
 
     <!-- Statusbar net monitor -->
-    <string name="statusbar_ntraffic">Network</string>
+    <string name="network_category_title">Network</string>
     <string name="network_traffic_state_title">Network speed</string>
     <string name="network_traffic_state_summary">Show network speed in the status bar</string>
     <string name="network_traffic_state_enable">Show network speed</string>

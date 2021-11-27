@@ -54,6 +54,12 @@
             android:summary="@string/summary_placeholder"
             android:fragment="com.android.settings.display.ScreenTimeoutSettings"
             settings:controller="com.android.settings.display.ScreenTimeoutPreferenceController"/>
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_battery_info"
+            android:title="@string/lockscreen_battery_info_title"
+            android:summary="@string/lockscreen_battery_info_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -168,27 +174,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/customization_category_title">
-
-	<Preference
-            android:key="systemui_tuner_statusbar"
-            android:title="@string/statusbar_items_title"
-            android:summary="@string/statusbar_items_summary" >
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
-        </Preference>
-
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
-            android:key="lockscreen_battery_info"
-            android:title="@string/lockscreen_battery_info_title"
-            android:summary="@string/lockscreen_battery_info_summary"
-            android:defaultValue="true" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="statusbar_ntraffic"
-        android:title="@string/statusbar_ntraffic">
+        android:title="@string/network_category_title">
 
         <com.android.settings.preference.SystemSettingPrimarySwitchPreference
             android:key="network_traffic_state"
@@ -197,5 +183,18 @@
             android:summary="@string/network_traffic_state_summary"
             android:defaultValue="false"
             settings:controller="com.android.settings.display.NetworkTrafficPreferenceController" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/status_bar_category_title">
+
+        <Preference
+            android:key="systemui_tuner_statusbar"
+            android:title="@string/statusbar_items_title"
+            android:summary="@string/statusbar_items_summary" >
+            <intent android:action="android.intent.action.MAIN"
+                android:targetPackage="com.android.systemui"
+                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+        </Preference>
     </PreferenceCategory>
 </PreferenceScreen>
