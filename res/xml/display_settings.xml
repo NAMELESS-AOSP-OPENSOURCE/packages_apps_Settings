@@ -185,4 +185,17 @@
             android:summary="@string/lockscreen_battery_info_summary"
             android:defaultValue="true" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="statusbar_ntraffic"
+        android:title="@string/statusbar_ntraffic">
+
+        <com.android.settings.preference.SystemSettingPrimarySwitchPreference
+            android:key="network_traffic_state"
+            android:fragment="com.android.settings.display.NetworkTraffic"
+            android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.display.NetworkTrafficPreferenceController" />
+    </PreferenceCategory>
 </PreferenceScreen>
