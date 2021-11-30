@@ -676,4 +676,8 @@
     <string name="optimized_charge_enable_title">Enable optimized charging</string>
     <string name="optimized_charge_ceiling_title">Stop charging level</string>
     <string name="optimized_charge_floor_title">Start charging level</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats?</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset!</string>
 </resources>
