@@ -192,4 +192,8 @@
     <!-- QS battery estimates -->
     <string name="qs_show_battery_estimate_title">Battery estimates</string>
     <string name="qs_show_battery_estimate_summary">Show estimated remaining battery life next to the icon</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Use 4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
 </resources>
