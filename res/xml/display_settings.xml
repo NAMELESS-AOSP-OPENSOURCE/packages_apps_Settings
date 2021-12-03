@@ -216,6 +216,12 @@
             android:title="@string/qs_footer_warnings_title"
             android:summary="@string/qs_footer_warnings_summary"
             android:defaultValue="true" />
+
+        <Preference
+            android:key="qs_footer_icons"
+            android:title="@string/qs_footer_icons_title"
+            android:summary="@string/qs_footer_icons_summary"
+            android:fragment="com.android.settings.display.QsFooterIconsSettings" />
     </PreferenceCategory>
 
     <PreferenceCategory
