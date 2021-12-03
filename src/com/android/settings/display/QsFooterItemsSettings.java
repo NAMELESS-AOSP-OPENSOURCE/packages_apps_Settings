@@ -7,12 +7,12 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-public class QsFooterIconsSettings extends SettingsPreferenceFragment {
+public class QsFooterItemsSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle savedInstance) {
         super.onCreate(savedInstance);
-        addPreferencesFromResource(R.xml.qs_footer_icons);
+        addPreferencesFromResource(R.xml.qs_footer_items);
     }
 
     @Override

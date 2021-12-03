@@ -211,17 +211,11 @@
             android:summary="@string/qs_show_battery_estimate_summary"
             android:defaultValue="true"/>
 
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
-            android:key="qs_footer_warnings"
-            android:title="@string/qs_footer_warnings_title"
-            android:summary="@string/qs_footer_warnings_summary"
-            android:defaultValue="true" />
-
         <Preference
-            android:key="qs_footer_icons"
-            android:title="@string/qs_footer_icons_title"
-            android:summary="@string/qs_footer_icons_summary"
-            android:fragment="com.android.settings.display.QsFooterIconsSettings" />
+            android:key="qs_footer_items"
+            android:title="@string/qs_footer_items_title"
+            android:summary="@string/qs_footer_items_summary"
+            android:fragment="com.android.settings.display.QsFooterItemsSettings" />
     </PreferenceCategory>
 
     <PreferenceCategory

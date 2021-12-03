@@ -3,7 +3,7 @@
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
-    android:title="@string/qs_footer_icons_title">
+    android:title="@string/qs_footer_items_title">
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="qs_edit_toggle"
@@ -18,6 +18,11 @@
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="qs_power_menu_toggle"
         android:title="@string/qs_power_menu_title"
+        android:defaultValue="true" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="qs_footer_warnings"
+        android:title="@string/qs_footer_warnings_title"
         android:defaultValue="true" />
 
 </PreferenceScreen>
