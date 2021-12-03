@@ -19,6 +19,7 @@ package com.android.settings.widget;
 import android.content.Context;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
+import android.provider.Settings;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -44,27 +45,32 @@ public class PrimarySwitchPreference extends RestrictedPreference {
     private boolean mCheckedSet;
     private boolean mEnableSwitch = true;
 
+    private final Context mContext;
     private final Vibrator mVibrator;
 
     public PrimarySwitchPreference(Context context, AttributeSet attrs,
             int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
+        mContext = context;
     }
 
     public PrimarySwitchPreference(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
+        mContext = context;
     }
 
     public PrimarySwitchPreference(Context context, AttributeSet attrs) {
         super(context, attrs);
         mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
+        mContext = context;
     }
 
     public PrimarySwitchPreference(Context context) {
         super(context);
         mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
+        mContext = context;
     }
 
     @Override
@@ -90,7 +96,10 @@ public class PrimarySwitchPreference extends RestrictedPreference {
                     } else {
                         persistBoolean(mChecked);
                     }
-                    mVibrator.vibrate(VibrationEffect.get(VibrationEffect.EFFECT_CLICK));
+                    if (Settings.System.getInt(mContext.getContentResolver(),
+                            Settings.System.HAPTIC_FEEDBACK_ENABLED, 1) != 0) {
+                        mVibrator.vibrate(VibrationEffect.get(VibrationEffect.EFFECT_CLICK));
+                    }
                 }
             });
 
