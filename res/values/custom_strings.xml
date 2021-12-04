@@ -227,4 +227,9 @@
     <string name="theme_customization_font_title">Headline / Body font</string>
     <string name="theme_customization_icon_shape_title">Icon shape</string>
     <string name="theme_customization_icon_pack_title">Icon pack</string>
+
+    <!-- Ambient Display Swipe Gesture -->
+    <string name="ambient_gesture_title">Gestures</string>
+    <string name="ambient_swipe_title">Swipe to wake</string>
+    <string name="ambient_swipe_summary">Allow waking the device by swiping up or down when the device is dozing</string>
 </resources>
