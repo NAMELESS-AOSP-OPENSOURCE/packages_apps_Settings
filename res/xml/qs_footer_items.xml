@@ -21,6 +21,11 @@
         android:defaultValue="true" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="qs_auto_brightness_toggle"
+        android:title="@string/qs_auto_brightness_title"
+        android:defaultValue="false" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="qs_footer_warnings"
         android:title="@string/qs_footer_warnings_title"
         android:defaultValue="true" />
