@@ -281,4 +281,22 @@
         android:fragment="com.android.settings.notification.SoundWorkSettings"
         android:order="100"
         settings:controller="com.android.settings.notification.WorkSoundsPreferenceController"/>
+
+    <PreferenceCategory
+        android:title="@string/media_category_title">
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="adaptive_playback_enabled"
+            android:title="@string/adaptive_playback_title"
+            android:summary="@string/adaptive_playback_summary"
+            android:defaultValue="false" />
+
+        <com.android.settings.custom.preference.SystemSettingListPreference
+            android:key="adaptive_playback_timeout"
+            android:title="@string/adaptive_playback_timeout_title"
+            android:entries="@array/adaptive_playback_timeout_entries"
+            android:entryValues="@array/adaptive_playback_timeout_values"
+            android:defaultValue="30000"
+            android:dependency="adaptive_playback_enabled" />
+    </PreferenceCategory>
 </PreferenceScreen>
