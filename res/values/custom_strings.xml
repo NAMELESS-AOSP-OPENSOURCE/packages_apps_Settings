@@ -233,4 +233,8 @@
     <string name="ambient_gesture_title">Gestures</string>
     <string name="ambient_swipe_title">Swipe to wake</string>
     <string name="ambient_swipe_summary">Allow waking the device by swiping up or down when the device is dozing</string>
+
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
 </resources>
