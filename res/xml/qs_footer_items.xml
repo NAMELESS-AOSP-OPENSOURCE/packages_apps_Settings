@@ -8,31 +8,37 @@
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="qs_edit_toggle"
         android:title="@string/qs_edit_title"
+        android:summary="@string/qs_edit_summary"
         android:defaultValue="true" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="qs_multi_users_toggle"
         android:title="@string/qs_multi_users_title"
+        android:summary="@string/qs_multi_users_summary"
         android:defaultValue="true" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="qs_power_menu_toggle"
         android:title="@string/qs_power_menu_title"
+        android:summary="@string/qs_power_menu_summary"
         android:defaultValue="true" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="qs_auto_brightness_toggle"
         android:title="@string/qs_auto_brightness_title"
+        android:summary="@string/qs_auto_brightness_summary"
         android:defaultValue="false" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="qs_running_services_toggle"
         android:title="@string/qs_running_services_title"
+        android:summary="@string/qs_running_services_summary"
         android:defaultValue="false" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="qs_footer_warnings"
         android:title="@string/qs_footer_warnings_title"
+        android:summary="@string/qs_footer_warnings_summary"
         android:defaultValue="true" />
 
 </PreferenceScreen>

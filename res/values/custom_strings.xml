@@ -217,11 +217,17 @@
     <string name="qs_footer_items_title">QS footer items</string>
     <string name="qs_footer_items_summary">Choose what items to show in qs footer</string>
     <string name="qs_footer_warnings_title">QS footer warnings</string>
+    <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
     <string name="qs_edit_title">Edit icon</string>
+    <string name="qs_edit_summary">Display edit icon in the QS footer</string>
     <string name="qs_multi_users_title">Multi users icon</string>
+    <string name="qs_multi_users_summary">Display multi users icon in the QS footer</string>
     <string name="qs_power_menu_title">Power menu icon</string>
+    <string name="qs_power_menu_summary">Display power menu icon in the QS footer</string>
     <string name="qs_auto_brightness_title">Auto brightness icon</string>
+    <string name="qs_auto_brightness_summary">Display toggle for adaptive brightness in the QS footer</string>
     <string name="qs_running_services_title">Running services icon</string>
+    <string name="qs_running_services_summary">Display running services icon in the QS footer</string>
 
     <!-- Themes -->
     <string name="theme_category_title">Theme</string>
