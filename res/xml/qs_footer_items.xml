@@ -26,6 +26,11 @@
         android:defaultValue="false" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="qs_running_services_toggle"
+        android:title="@string/qs_running_services_title"
+        android:defaultValue="false" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="qs_footer_warnings"
         android:title="@string/qs_footer_warnings_title"
         android:defaultValue="true" />
