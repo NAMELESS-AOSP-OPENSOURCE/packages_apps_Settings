@@ -57,6 +57,14 @@
             android:summary="@string/lockscreen_privacy_controls_summary"
             settings:controller="com.android.settings.display.ControlsPrivacyPreferenceController" />
 
+        <com.android.settings.preference.SystemSettingPrimarySwitchPreference
+            android:key="pulse_ambient_light"
+            android:title="@string/pulse_ambient_light_title"
+            android:summary="@string/pulse_ambient_light_summary"
+            android:fragment="com.android.settings.display.EdgeLightningSettings"
+            android:defaultValue="false"
+            settings:controller="com.android.settings.display.EdgeLightningPreferenceController" />
+
         <com.android.settings.custom.preference.SwitchPreference
             android:key="lockscreen_double_line_clock_switch"
             android:title="@string/lockscreen_double_line_clock_setting_toggle"
