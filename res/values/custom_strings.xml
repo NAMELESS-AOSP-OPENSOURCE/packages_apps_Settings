@@ -137,7 +137,7 @@
     <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
 
     <!-- Heads up -->
-    <string name="noti_cust_category">Customizations</string>
+    <string name="noti_cust_category">Notification bar</string>
     <string name="heads_up_notifications">Heads up</string>
     <string name="heads_up_notifications_summary">Customise heads up notifications settings</string>
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
@@ -275,4 +275,10 @@
     <!-- Notification headers -->
     <string name="notification_headers_title">Notification headers</string>
     <string name="notification_headers_summary">Show headers in the notification shade</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 </resources>
