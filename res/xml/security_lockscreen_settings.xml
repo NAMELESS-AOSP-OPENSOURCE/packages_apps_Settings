@@ -117,6 +117,12 @@
             <intent android:action="org.lineageos.settings.device.DOZE_SETTINGS" />
         </com.android.settings.custom.preference.RemotePreference>
 
+        <Preference
+            android:key="always_on_display_schedule"
+            android:title="@string/always_on_display_schedule_title"
+            android:fragment="com.android.settings.display.AODSchedule"
+            settings:controller="com.android.settings.display.AODSchedulePreferenceController" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
