@@ -340,4 +340,8 @@
     <string name="gesture_navbar_length_title">Pill length</string>
     <string name="hide_label">Hidden</string>
     <string name="long_label">Long</string>
+
+    <!-- Wake up from fod -->
+    <string name="wake_on_fod_pressed_title">Wake up from fod</string>
+    <string name="wake_on_fod_pressed_summary">Jump to lockscreen when fod is pressed in ambient display</string>
 </resources>
