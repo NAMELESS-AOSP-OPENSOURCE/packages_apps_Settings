@@ -219,13 +219,23 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/status_bar_category_title">
+        android:title="@string/status_bar_gesture_category">
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="status_bar_brightness_control"
             android:title="@string/status_bar_toggle_brightness"
             android:summary="@string/status_bar_toggle_brightness_summary"
-            android:defaultValue="false"/>
+            android:defaultValue="false" />
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="status_bar_brightness_control_no_landscape"
+            android:summary="@string/disable_in_landscape_summary"
+            android:title="@string/disable_in_landscape_title"
+            android:dependency="status_bar_brightness_control" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/status_bar_category_title">
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="show_fourg_icon"
