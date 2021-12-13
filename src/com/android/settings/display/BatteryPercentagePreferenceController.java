@@ -59,9 +59,7 @@ public class BatteryPercentagePreferenceController extends BasePreferenceControl
         if (!Utils.isBatteryPresent(mContext)) {
             return CONDITIONALLY_UNAVAILABLE;
         }
-        return mContext.getResources().getBoolean(
-                R.bool.config_battery_percentage_setting_available) ? AVAILABLE
-                : UNSUPPORTED_ON_DEVICE;
+        return UNSUPPORTED_ON_DEVICE;
     }
 
     @Override
@@ -75,8 +73,7 @@ public class BatteryPercentagePreferenceController extends BasePreferenceControl
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         boolean showPercentage = (Boolean) newValue;
-        Settings.System.putInt(mContext.getContentResolver(), SHOW_BATTERY_PERCENT,
-                showPercentage ? 1 : 0);
+        Settings.System.putInt(mContext.getContentResolver(), SHOW_BATTERY_PERCENT, 0);
         FeatureFactory.getFactory(mContext).getMetricsFeatureProvider()
                 .action(mContext, SettingsEnums.OPEN_BATTERY_PERCENTAGE, showPercentage);
         return true;
