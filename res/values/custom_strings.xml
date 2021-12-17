@@ -520,4 +520,10 @@
 
     <!-- System Update -->
     <string name="system_update_title">System update</string>
+
+    <!-- Custom Signal bar icons -->
+    <string name="custom_signal_bar_title">Signal icon</string>
+
+    <!-- Custom Wi-Fi bar icons -->
+    <string name="custom_wifi_bar_title">Wi-Fi icon</string>
 </resources>

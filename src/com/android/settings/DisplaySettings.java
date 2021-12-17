@@ -35,6 +35,12 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
+import android.content.om.IOverlayManager;
+import android.os.RemoteException;
+import android.os.ServiceManager;
+import android.provider.Settings;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -42,6 +48,9 @@ import java.util.List;
 @SearchIndexable(forTarget = SearchIndexable.ALL & ~SearchIndexable.ARC)
 public class DisplaySettings extends DashboardFragment {
     private static final String TAG = "DisplaySettings";
+
+    private IOverlayManager mOverlayManager;
+    private IOverlayManager mOverlayService;
 
     @Override
     public int getMetricsCategory() {
@@ -91,6 +100,10 @@ public class DisplaySettings extends DashboardFragment {
                 "android.theme.customization.adaptive_icon_shape"));
         controllers.add(new OverlayCategoryPreferenceController(context,
                 "android.theme.customization.icon_pack"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.signal_icon"));
+        controllers.add(new OverlayCategoryPreferenceController(context,
+                "android.theme.customization.wifi_icon"));
         return controllers;
     }
 
