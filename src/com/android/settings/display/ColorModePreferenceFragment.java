@@ -149,14 +149,17 @@ public class ColorModePreferenceFragment extends RadioButtonPickerFragment {
                 Arrays.asList(
                         R.layout.color_mode_view1,
                         R.layout.color_mode_view2,
-                        R.layout.color_mode_view3));
+                        R.layout.color_mode_view3,
+                        R.layout.color_mode_view4,
+                        R.layout.color_mode_view5,
+                        R.layout.color_mode_view6));
     }
 
     void addViewPager(LayoutPreference preview) {
         final ArrayList<Integer> tmpviewPagerList = getViewPagerResource();
         mViewPager = preview.findViewById(R.id.viewpager);
 
-        mViewPagerImages = new View[3];
+        mViewPagerImages = new View[6];
         for (int idx = 0; idx < tmpviewPagerList.size(); idx++) {
             mViewPagerImages[idx] =
                     getLayoutInflater().inflate(tmpviewPagerList.get(idx), null /* root */);
@@ -166,6 +169,9 @@ public class ColorModePreferenceFragment extends RadioButtonPickerFragment {
         mPageList.add(mViewPagerImages[0]);
         mPageList.add(mViewPagerImages[1]);
         mPageList.add(mViewPagerImages[2]);
+        mPageList.add(mViewPagerImages[3]);
+        mPageList.add(mViewPagerImages[4]);
+        mPageList.add(mViewPagerImages[5]);
 
         mViewPager.setAdapter(new ColorPagerAdapter(mPageList));
 
