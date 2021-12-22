@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
+    android:title="@string/accessibility_touch_vibration_title" >
+
+    <com.android.settings.preference.SystemSettingMainSwitchPreference
+        android:defaultValue="true"
+        android:key="haptic_feedback_enabled"
+        android:title="@string/haptic_feedback_enable" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:defaultValue="true"
+        android:key="haptic_on_face"
+        android:title="@string/haptic_on_face_title"
+        android:summary="@string/haptic_on_face_summary" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:defaultValue="true"
+        android:key="haptic_on_qs"
+        android:title="@string/haptic_on_qs_title"
+        android:summary="@string/haptic_on_qs_summary"
+        android:dependency="haptic_feedback_enabled" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:defaultValue="true"
+        android:key="haptic_on_switch"
+        android:title="@string/haptic_on_switch_title"
+        android:summary="@string/haptic_on_switch_summary"
+        android:dependency="haptic_feedback_enabled" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:defaultValue="true"
+        android:key="haptic_on_statusbar"
+        android:title="@string/haptic_on_statusbar_title"
+        android:summary="@string/haptic_on_statusbar_summary"
+        android:dependency="haptic_feedback_enabled" />
+
+    <com.android.settings.custom.preference.SystemSettingListPreference
+        android:key="haptic_on_back"
+        android:title="@string/haptic_on_back_title"
+        android:entries="@array/back_gesture_haptic_entries"
+        android:entryValues="@array/back_gesture_haptic_values"
+        android:defaultValue="2"
+        android:dependency="haptic_feedback_enabled" />
+
+    <com.android.settings.custom.preference.SystemSettingListPreference
+        android:key="haptic_on_fod"
+        android:title="@string/haptic_on_fod_title"
+        android:entries="@array/fod_haptic_entries"
+        android:entryValues="@array/fod_haptic_values"
+        android:defaultValue="2" />
+
+</PreferenceScreen>

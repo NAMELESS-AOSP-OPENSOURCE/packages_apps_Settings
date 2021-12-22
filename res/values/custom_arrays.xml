@@ -241,4 +241,29 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+
+    <!-- Haptic feedback -->
+    <string-array name="back_gesture_haptic_entries" translatable="false">
+        <item>@string/haptic_disabled</item>
+        <item>@string/back_gesture_haptic_dragged</item>
+        <item>@string/back_gesture_haptic_dragged_triggered</item>
+    </string-array>
+
+    <string-array name="back_gesture_haptic_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="fod_haptic_entries" translatable="false">
+        <item>@string/haptic_disabled</item>
+        <item>@string/fod_haptic_authenticated</item>
+        <item>@string/fod_haptic_pressed_authenticated</item>
+    </string-array>
+
+    <string-array name="fod_haptic_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
 </resources>
