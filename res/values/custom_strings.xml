@@ -394,4 +394,8 @@
     <!-- Colored Statusbar Icons -->
     <string name="statusbar_icons_style_title">Colored icons</string>
     <string name="statusbar_icons_style_summary">Display colored style icons on status bar (requires SystemUI restart)</string>
+
+    <!-- Udfps background -->
+    <string name="udfps_background_title">Fod icon background</string>
+    <string name="udfps_background_summary">Show background for fod icon in lockscreen</string>
 </resources>

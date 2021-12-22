@@ -57,6 +57,12 @@
             android:summary="@string/lockscreen_privacy_controls_summary"
             settings:controller="com.android.settings.display.ControlsPrivacyPreferenceController" />
 
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="show_udfps_bg"
+            android:title="@string/udfps_background_title"
+            android:summary="@string/udfps_background_summary"
+            android:defaultValue="true" />
+
         <com.android.settings.preference.SystemSettingPrimarySwitchPreference
             android:key="pulse_ambient_light"
             android:title="@string/pulse_ambient_light_title"
