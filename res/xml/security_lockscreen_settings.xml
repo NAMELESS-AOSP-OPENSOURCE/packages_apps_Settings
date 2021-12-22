@@ -61,7 +61,15 @@
             android:key="show_udfps_bg"
             android:title="@string/udfps_background_title"
             android:summary="@string/udfps_background_summary"
-            android:defaultValue="true" />
+            android:defaultValue="true"
+            settings:controller="com.android.settings.display.UdfpsBgPreferenceController" />
+
+        <com.android.settings.custom.preference.SystemSettingListPreference
+            android:key="udfps_icon_color"
+            android:title="@string/udfps_icon_color_title"
+            android:entries="@array/udfps_icon_color_entries"
+            android:entryValues="@array/udfps_icon_color_values"
+            android:defaultValue="0" />
 
         <com.android.settings.preference.SystemSettingPrimarySwitchPreference
             android:key="pulse_ambient_light"

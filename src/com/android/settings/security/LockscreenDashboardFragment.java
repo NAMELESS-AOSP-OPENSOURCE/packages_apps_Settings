@@ -19,6 +19,7 @@ package com.android.settings.security;
 import android.app.settings.SettingsEnums;
 import android.content.Context;
 import android.hardware.display.AmbientDisplayConfiguration;
+import android.os.Bundle;
 
 import androidx.annotation.VisibleForTesting;
 
@@ -34,6 +35,9 @@ import com.android.settings.security.screenlock.LockScreenPreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
+
+import com.android.settings.custom.preference.SystemSettingListPreference;
+import com.android.settings.custom.preference.SystemSettingSwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -61,9 +65,16 @@ public class LockscreenDashboardFragment extends DashboardFragment
     static final String KEY_ADD_USER_FROM_LOCK_SCREEN =
             "security_lockscreen_add_users_when_locked";
 
+    static final String KEY_SHOW_UDFPS_BG =
+            "show_udfps_bg";
+    static final String KEY_UDFPS_ICON_COLOR =
+            "udfps_icon_color";
 
     private AmbientDisplayConfiguration mConfig;
     private OwnerInfoPreferenceController mOwnerInfoPreferenceController;
+
+    private SystemSettingSwitchPreference mShowUdfpsBg;
+    private SystemSettingListPreference mUdfpsIconColor;
 
     @Override
     public int getMetricsCategory() {
@@ -92,6 +103,14 @@ public class LockscreenDashboardFragment extends DashboardFragment
         use(AmbientDisplayNotificationsPreferenceController.class).setConfig(getConfig(context));
         use(DoubleTapScreenPreferenceController.class).setConfig(getConfig(context));
         use(PickupGesturePreferenceController.class).setConfig(getConfig(context));
+    }
+
+    @Override
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
+        super.onCreatePreferences(savedInstanceState, rootKey);
+        mShowUdfpsBg = (SystemSettingSwitchPreference) findPreference(KEY_SHOW_UDFPS_BG);
+        mUdfpsIconColor = (SystemSettingListPreference) findPreference(KEY_UDFPS_ICON_COLOR);
+        mUdfpsIconColor.setEnabled(!mShowUdfpsBg.isChecked());
     }
 
     @Override

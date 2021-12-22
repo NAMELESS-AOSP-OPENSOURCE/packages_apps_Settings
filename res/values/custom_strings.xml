@@ -398,4 +398,7 @@
     <!-- Udfps background -->
     <string name="udfps_background_title">Fod icon background</string>
     <string name="udfps_background_summary">Show background for fod icon in lockscreen</string>
+    <string name="udfps_icon_color_title">Fod icon color</string>
+    <string name="udfps_icon_color_black">Black</string>
+    <string name="udfps_icon_color_white">White</string>
 </resources>

@@ -266,4 +266,15 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
+    <!-- Udfps icon color -->
+    <string-array name="udfps_icon_color_entries" translatable="false">
+        <item>@string/udfps_icon_color_black</item>
+        <item>@string/udfps_icon_color_white</item>
+    </string-array>
+
+    <string-array name="udfps_icon_color_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
 </resources>
