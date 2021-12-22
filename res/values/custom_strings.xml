@@ -390,4 +390,8 @@
     <string name="haptic_on_fod_title">Fingerprint haptic</string>
     <string name="fod_haptic_authenticated">On authenticated</string>
     <string name="fod_haptic_pressed_authenticated">On pressed &amp; authenticated</string>
+
+    <!-- Colored Statusbar Icons -->
+    <string name="statusbar_icons_style_title">Colored icons</string>
+    <string name="statusbar_icons_style_summary">Display colored style icons on status bar (requires SystemUI restart)</string>
 </resources>
