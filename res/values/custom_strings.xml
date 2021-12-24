@@ -401,4 +401,8 @@
     <string name="udfps_icon_color_title">Fod icon color</string>
     <string name="udfps_icon_color_black">Black</string>
     <string name="udfps_icon_color_white">White</string>
+
+    <!-- Location privacy indicator -->
+    <string name="location_privacy_indicator_title">Show privacy indicator for location</string>
+    <string name="location_privacy_indicator_summary">Reboot to take effect</string>
 </resources>
