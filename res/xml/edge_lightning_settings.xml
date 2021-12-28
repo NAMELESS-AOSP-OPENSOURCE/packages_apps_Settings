@@ -89,4 +89,11 @@
         android:entryValues="@array/pulse_ambient_light_layout_values"
         android:summary="%s"
         android:defaultValue="1" />
+
+    <com.android.settings.custom.preference.CustomSeekBarPreference
+        android:key="pulse_ambient_light_width"
+        android:title="@string/pulse_ambient_light_width_title"
+        android:max="150"
+        android:min="1"
+        android:defaultValue="125" />
 </PreferenceScreen>
