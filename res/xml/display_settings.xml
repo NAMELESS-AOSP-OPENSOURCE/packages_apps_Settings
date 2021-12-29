@@ -243,6 +243,12 @@
             android:summary="@string/qs_show_battery_estimate_summary"
             android:defaultValue="true"/>
 
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="qstile_requires_unlocking"
+            android:title="@string/qstile_requires_unlocking_title"
+            android:summary="@string/qstile_requires_unlocking_summary"
+            android:defaultValue="true" />
+
         <Preference
             android:key="qs_footer_items"
             android:title="@string/qs_footer_items_title"
