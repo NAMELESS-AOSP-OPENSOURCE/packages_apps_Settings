@@ -57,8 +57,6 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {
     private static final String TAG = "OverlayCategoryPC";
     private static final String FONT_KEY = "android.theme.customization.font";
-    private static final String ICON_PACK_KEY = "android.theme.customization.icon_pack";
-    private static final String ICON_SHAPE_KEY = "android.theme.customization.adaptive_icon_shape";
 
     @VisibleForTesting
     static final String PACKAGE_DEVICE_DEFAULT = "package_device_default";
@@ -66,7 +64,7 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
             Comparator.comparing(OverlayInfo::getPackageName);
     private final IOverlayManager mOverlayManager;
     private final boolean mAvailable;
-    private final boolean mIsOverlay;
+    private final boolean mIsFonts;
     private final String mCategory;
     private final PackageManager mPackageManager;
     private final String mDeviceDefaultLabel;
@@ -82,9 +80,7 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         mCategory = category;
         mAvailable = overlayManager != null && !getOverlayInfos().isEmpty();
         mDeviceDefaultLabel = mContext.getString(R.string.overlay_option_device_default);
-        mIsOverlay = FONT_KEY.equals(category) ||
-                     ICON_PACK_KEY.equals(category) ||
-                     ICON_SHAPE_KEY.equals(category);
+        mIsFonts = FONT_KEY.equals(category);
     }
 
     public OverlayCategoryPreferenceController(Context context, String category) {
@@ -141,7 +137,7 @@ public class OverlayCategoryPreferenceController extends DeveloperOptionsPrefere
         Log.w(TAG, "setOverlay packageNames=" + packageNames.toString());
         Log.w(TAG, "setOverlay label=" + label);
 
-        if (mIsOverlay) {
+        if (mIsFonts) {
             // For fonts we also need to set this setting
             String value = Settings.Secure.getStringForUser(mContext.getContentResolver(),
                     Settings.Secure.THEME_CUSTOMIZATION_OVERLAY_PACKAGES, UserHandle.USER_CURRENT);
