@@ -22,6 +22,7 @@ public class batteryIcon extends SettingsPreferenceFragment
     private static final String KEY_STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String KEY_STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String KEY_STATUS_BAR_BATTERY_TEXT_CHARGING = "status_bar_battery_text_charging";
+    private static final String LEFT_BATTERY_TEXT = "do_left_battery_text";
 
     private static final int BATTERY_STYLE_PORTRAIT = 0;
     private static final int BATTERY_STYLE_TEXT = 4;
@@ -30,6 +31,7 @@ public class batteryIcon extends SettingsPreferenceFragment
     private SystemSettingListPreference mBatteryPercent;
     private SystemSettingListPreference mBatteryStyle;
     private SystemSettingSwitchPreference mBatteryTextCharging;
+    private SystemSettingSwitchPreference mLeftBatteryText;
 
 
    @Override
@@ -53,6 +55,10 @@ public class batteryIcon extends SettingsPreferenceFragment
         mBatteryTextCharging = (SystemSettingSwitchPreference) findPreference(KEY_STATUS_BAR_BATTERY_TEXT_CHARGING);
         mBatteryTextCharging.setEnabled(batterystyle == BATTERY_STYLE_HIDDEN ||
                 (batterystyle != BATTERY_STYLE_TEXT && batterypercent != 2));
+
+        mLeftBatteryText = (SystemSettingSwitchPreference) findPreference(LEFT_BATTERY_TEXT);
+        mLeftBatteryText.setEnabled(
+                batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN);
  }
 
     @Override
@@ -65,6 +71,8 @@ public class batteryIcon extends SettingsPreferenceFragment
                     value != BATTERY_STYLE_TEXT && value != BATTERY_STYLE_HIDDEN);
             mBatteryTextCharging.setEnabled(value == BATTERY_STYLE_HIDDEN ||
                     (value != BATTERY_STYLE_TEXT && batterypercent != 2));
+            mLeftBatteryText.setEnabled(
+                    value != BATTERY_STYLE_TEXT && value != BATTERY_STYLE_HIDDEN);
             return true;
         } else if (preference == mBatteryPercent) {
             int value = Integer.parseInt((String) newValue);
