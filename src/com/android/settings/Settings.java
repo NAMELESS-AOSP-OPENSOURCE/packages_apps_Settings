@@ -326,4 +326,6 @@ public class Settings extends SettingsActivity {
     public static class AppDashboardActivity extends SettingsActivity {}
 
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+
+    public static class HeadsUpSettingsActivity extends SettingsActivity {}
 }

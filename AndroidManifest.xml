@@ -4292,6 +4292,13 @@
                   android:theme="@style/SudThemeGlif.Light">
         </activity>
 
+        <activity android:name=".Settings$HeadsUpSettingsActivity"
+            android:label="@string/heads_up_notifications"
+            android:exported="true">
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.android.settings.notification.HeadsUpSettings"/>
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
