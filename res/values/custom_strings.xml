@@ -56,7 +56,6 @@
 
     <!-- Statusbar customization category -->
     <string name="status_bar_category_title">Status bar</string>
-    <string name="status_bar_battery_category_title">Battery customizations</string>
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
@@ -459,6 +458,8 @@
     <string name="bluetooth_timeout_summary_8hours">8 hours</string>
 
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_custom_title">Battery icon</string>
+    <string name="status_bar_battery_custom_summary">Customize your statusbar battery icon</string>
     <string name="status_bar_battery_style_title">Battery style</string>
     <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
     <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
@@ -484,8 +485,8 @@
     <string name="total_ram">Total available RAM</string>
 
     <!-- QSTile requires unlocking before being accessible -->
-    <string name="qstile_requires_unlocking_title">Secure QS tiles require unlocking</string>
-    <string name="qstile_requires_unlocking_summary">The following QS tiles require unlocking before you can acccess them from lock screen:\nAirplane, Cellular, NFC, Hotspot, USB tethering and Location</string>
+    <string name="qstile_requires_unlocking_title">Secure QS tiles</string>
+    <string name="qstile_requires_unlocking_summary">Require unlocking to access some sensitive QS tiles</string>
 
     <!-- Charging animation -->
     <string name="charging_animation_title">Charging animation</string>
