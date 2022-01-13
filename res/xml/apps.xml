@@ -66,8 +66,11 @@
         android:key="game_settings"
         android:title="@string/game_settings_title"
         android:summary="@string/game_settings_summary"
-        android:order="-995"
-        settings:controller="com.android.settings.applications.GameSettingsPreferenceController">
+        android:order="-995">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="org.exthmui.game"
+            android:targetClass="org.exthmui.game.ui.MainActivity" />
     </Preference>
 
     <PreferenceCategory
