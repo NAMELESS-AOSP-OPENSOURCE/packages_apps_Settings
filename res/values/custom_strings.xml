@@ -494,4 +494,8 @@
 
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Enable floating rotate button</string>
+
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Secure power menu</string>
+    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
 </resources>
