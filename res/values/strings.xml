@@ -13491,7 +13491,7 @@
     <!-- Color category name in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_color">Color</string>
     <!-- Name of Other display controls category in Display Settings [CHAR LIMIT=none] -->
-    <string name="category_name_display_controls">Other display controls</string>
+    <string name="category_name_display_controls">Display controls</string>
     <!-- Others category name [CHAR LIMIT=none] -->
     <string name="category_name_others">Others</string>
     <!-- General category name [CHAR LIMIT=none] -->

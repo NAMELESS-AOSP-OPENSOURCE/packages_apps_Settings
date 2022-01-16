@@ -22,47 +22,6 @@
     settings:keywords="@string/keywords_display">
 
     <PreferenceCategory
-        android:title="@string/category_name_brightness">
-
-        <com.android.settingslib.RestrictedPreference
-            android:key="brightness"
-            android:title="@string/brightness"
-            settings:keywords="@string/keywords_display_brightness_level"
-            settings:useAdminDisabledSummary="true"
-            settings:userRestriction="no_config_brightness"/>
-
-        <com.android.settings.widget.PrimarySwitchPreference
-            android:key="auto_brightness_entry"
-            android:title="@string/auto_brightness_title"
-            android:fragment="com.android.settings.display.AutoBrightnessSettings"
-            settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="@string/category_name_lock_display">
-
-        <Preference
-            android:key="lockscreen_from_display_settings"
-            android:title="@string/lockscreen_settings_title"
-            android:fragment="com.android.settings.security.LockscreenDashboardFragment"
-            settings:keywords="@string/keywords_ambient_display_screen"
-            settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController"/>
-
-        <com.android.settingslib.RestrictedPreference
-            android:key="screen_timeout"
-            android:title="@string/screen_timeout"
-            android:summary="@string/summary_placeholder"
-            android:fragment="com.android.settings.display.ScreenTimeoutSettings"
-            settings:controller="com.android.settings.display.ScreenTimeoutPreferenceController"/>
-
-        <com.android.settings.custom.preference.SystemSettingSwitchPreference
-            android:key="lockscreen_battery_info"
-            android:title="@string/lockscreen_battery_info_title"
-            android:summary="@string/lockscreen_battery_info_summary"
-            android:defaultValue="true" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:title="@string/category_name_appearance">
 
         <com.android.settings.display.darkmode.DarkModePreference
@@ -89,6 +48,23 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/category_name_brightness">
+
+        <com.android.settingslib.RestrictedPreference
+            android:key="brightness"
+            android:title="@string/brightness"
+            settings:keywords="@string/keywords_display_brightness_level"
+            settings:useAdminDisabledSummary="true"
+            settings:userRestriction="no_config_brightness"/>
+
+        <com.android.settings.widget.PrimarySwitchPreference
+            android:key="auto_brightness_entry"
+            android:title="@string/auto_brightness_title"
+            android:fragment="com.android.settings.display.AutoBrightnessSettings"
+            settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
+    </PreferenceCategory>
+
+     <PreferenceCategory
         android:title="@string/category_name_color">
 
         <com.android.settings.widget.PrimarySwitchPreference
@@ -182,19 +158,27 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/double_tap_gesture_category">
+        android:title="@string/category_name_lock_display">
 
-        <com.android.settings.custom.preference.SwitchPreference
-            android:key="tap_to_wake"
-            android:summary="@string/double_tap_gesture_summary"
-            android:title="@string/double_tap_gesture_title" />
+        <Preference
+            android:key="lockscreen_from_display_settings"
+            android:title="@string/lockscreen_settings_title"
+            android:fragment="com.android.settings.security.LockscreenDashboardFragment"
+            settings:keywords="@string/keywords_ambient_display_screen"
+            settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController"/>
+
+        <com.android.settingslib.RestrictedPreference
+            android:key="screen_timeout"
+            android:title="@string/screen_timeout"
+            android:summary="@string/summary_placeholder"
+            android:fragment="com.android.settings.display.ScreenTimeoutSettings"
+            settings:controller="com.android.settings.display.ScreenTimeoutPreferenceController"/>
 
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
-            android:key="double_tap_no_landscape"
-            android:summary="@string/disable_in_landscape_summary"
-            android:title="@string/disable_in_landscape_title"
-            android:dependency="tap_to_wake" />
-
+            android:key="lockscreen_battery_info"
+            android:title="@string/lockscreen_battery_info_title"
+            android:summary="@string/lockscreen_battery_info_summary"
+            android:defaultValue="true" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -312,6 +296,22 @@
             android:title="@string/status_bar_clock_date_title"
             android:summary="@string/status_bar_clock_date_summary"
             android:fragment="com.android.settings.display.StatusbarClockSettings" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/double_tap_gesture_category">
+
+        <com.android.settings.custom.preference.SwitchPreference
+            android:key="tap_to_wake"
+            android:summary="@string/double_tap_gesture_summary"
+            android:title="@string/double_tap_gesture_title" />
+
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="double_tap_no_landscape"
+            android:summary="@string/disable_in_landscape_summary"
+            android:title="@string/disable_in_landscape_title"
+            android:dependency="tap_to_wake" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
