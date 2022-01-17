@@ -59,4 +59,10 @@
         settings:controller="com.android.settings.display.NightDisplayIntensityPreferenceController"
         settings:unavailableSliceSubtitle="@string/night_display_not_currently_on"/>
 
+     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="fod_night_light"
+        android:title="@string/fod_night_light_title"
+        android:summary="@string/fod_night_light_summary"
+        android:defaultValue="@*android:bool/disable_fod_night_light"/>
+
 </PreferenceScreen>
