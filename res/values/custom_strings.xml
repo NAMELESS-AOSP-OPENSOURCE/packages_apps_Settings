@@ -415,10 +415,6 @@
     <string name="udfps_icon_color_black">Black</string>
     <string name="udfps_icon_color_white">White</string>
 
-    <!-- Location privacy indicator -->
-    <string name="location_privacy_indicator_title">Use new indicator for location</string>
-    <string name="location_privacy_indicator_summary">Show green indicator at top right corner of status bar</string>
-
     <!--  screen, setting option name to change wifi timeout -->
     <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
 
