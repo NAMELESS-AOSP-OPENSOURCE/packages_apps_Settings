@@ -517,4 +517,7 @@
     <!-- App list -->
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
+
+    <!-- System Update -->
+    <string name="system_update_title">System update</string>
 </resources>
