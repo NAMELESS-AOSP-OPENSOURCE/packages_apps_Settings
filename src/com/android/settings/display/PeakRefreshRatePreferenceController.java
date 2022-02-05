@@ -22,6 +22,7 @@ import static android.provider.Settings.System.MIN_REFRESH_RATE;
 import android.content.Context;
 import android.provider.Settings;
 import android.view.Display;
+import android.widget.Toast;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -41,8 +42,12 @@ public class PeakRefreshRatePreferenceController extends BasePreferenceControlle
 
     private ListPreference mListPreference;
 
+    private final float defaultRefreshRate;
+
     public PeakRefreshRatePreferenceController(Context context) {
         super(context, KEY_PEAK_REFRESH_RATE);
+        defaultRefreshRate = (float) context.getResources().getInteger(
+                        com.android.internal.R.integer.config_defaultPeakRefreshRate);
     }
 
     @Override
@@ -85,8 +90,6 @@ public class PeakRefreshRatePreferenceController extends BasePreferenceControlle
 
     @Override
     public void updateState(Preference preference) {
-        final float defaultRefreshRate = (float) mContext.getResources().getInteger(
-                        com.android.internal.R.integer.config_defaultPeakRefreshRate);
         final float currentValue = Settings.System.getFloat(mContext.getContentResolver(),
                 PEAK_REFRESH_RATE, defaultRefreshRate);
         int index = mListPreference.findIndexOfValue(
@@ -98,12 +101,13 @@ public class PeakRefreshRatePreferenceController extends BasePreferenceControlle
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        Settings.System.putFloat(mContext.getContentResolver(), PEAK_REFRESH_RATE,
-                Float.valueOf((String) newValue));
-        if (!mContext.getResources().getBoolean(R.bool.config_supports_dynamic_refresh_rate_controls)){
-            Settings.System.putFloat(mContext.getContentResolver(), MIN_REFRESH_RATE,
-                    Float.valueOf((String) newValue));
+        float peakValue = Float.valueOf((String) newValue);
+        if (peakValue < Settings.System.getFloat(mContext.getContentResolver(),
+                MIN_REFRESH_RATE, defaultRefreshRate)) {
+            Toast.makeText(mContext, R.string.peak_less_than_min, Toast.LENGTH_LONG).show();
+            return false;
         }
+        Settings.System.putFloat(mContext.getContentResolver(), PEAK_REFRESH_RATE, peakValue);
         updateState(preference);
         return true;
     }

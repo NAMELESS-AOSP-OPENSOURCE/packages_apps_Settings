@@ -17,10 +17,12 @@
 package com.android.settings.display;
 
 import static android.provider.Settings.System.MIN_REFRESH_RATE;
+import static android.provider.Settings.System.PEAK_REFRESH_RATE;
 
 import android.content.Context;
 import android.provider.Settings;
 import android.view.Display;
+import android.widget.Toast;
 
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -40,6 +42,8 @@ public class MinRefreshRatePreferenceController extends BasePreferenceController
 
     private ListPreference mListPreference;
 
+    private final float defaultRefreshRate;
+
     private List<String> mEntries = new ArrayList<>();
     private List<String> mValues = new ArrayList<>();
 
@@ -58,6 +62,9 @@ public class MinRefreshRatePreferenceController extends BasePreferenceController
                 }
             }
         }
+
+        defaultRefreshRate = (float) context.getResources().getInteger(
+                        com.android.internal.R.integer.config_defaultPeakRefreshRate);
     }
 
     @Override
@@ -84,8 +91,6 @@ public class MinRefreshRatePreferenceController extends BasePreferenceController
 
     @Override
     public void updateState(Preference preference) {
-        final float defaultRefreshRate = (float) mContext.getResources().getInteger(
-                        com.android.internal.R.integer.config_defaultRefreshRate);
         final float currentValue = Settings.System.getFloat(mContext.getContentResolver(),
                 MIN_REFRESH_RATE, defaultRefreshRate);
         int index = mListPreference.findIndexOfValue(
@@ -97,6 +102,12 @@ public class MinRefreshRatePreferenceController extends BasePreferenceController
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        float minValue = Float.valueOf((String) newValue);
+        if (minValue > Settings.System.getFloat(mContext.getContentResolver(),
+                PEAK_REFRESH_RATE, defaultRefreshRate)) {
+            Toast.makeText(mContext, R.string.min_greater_than_peak, Toast.LENGTH_LONG).show();
+            return false;
+        }
         Settings.System.putFloat(mContext.getContentResolver(), MIN_REFRESH_RATE,
                 Float.valueOf((String) newValue));
         updateState(preference);
