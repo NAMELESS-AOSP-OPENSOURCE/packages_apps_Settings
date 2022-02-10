@@ -54,6 +54,13 @@
         settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
         settings:keywords="@string/keywords_system_navigation" />
 
+    <com.android.settings.custom.preference.SecureSettingSwitchPreference
+        android:key="sysui_nav_bar_inverse"
+        android:title="@string/navbar_invert_layout_title"
+        android:summary="@string/navbar_invert_layout_summary"
+        android:defaultValue="false"
+        settings:controller="com.android.settings.gestures.InverseNavbarLayoutPreferenceController" />
+
     <Preference
         android:key="gesture_one_handed"
         android:title="@string/one_handed_title"
