@@ -148,6 +148,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="lockscreen_gestures"
         android:title="@string/ambient_gesture_title"
         android:order="1001">
 

@@ -22,6 +22,7 @@ import android.hardware.display.AmbientDisplayConfiguration;
 import android.os.Bundle;
 
 import androidx.annotation.VisibleForTesting;
+import androidx.preference.PreferenceGroup;
 
 import com.android.settings.R;
 import com.android.settings.dashboard.DashboardFragment;
@@ -35,6 +36,8 @@ import com.android.settings.security.screenlock.LockScreenPreferenceController;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.search.SearchIndexable;
+
+import com.android.internal.util.custom.CustomUtils;
 
 import com.android.settings.custom.preference.SystemSettingListPreference;
 import com.android.settings.custom.preference.SystemSettingSwitchPreference;
@@ -65,15 +68,23 @@ public class LockscreenDashboardFragment extends DashboardFragment
     static final String KEY_ADD_USER_FROM_LOCK_SCREEN =
             "security_lockscreen_add_users_when_locked";
 
+    static final String KEY_WHAT_TO_SHOW =
+            "lockscreen_what_to_show";
+    static final String KEY_GESTURE =
+            "lockscreen_gestures";
+
     static final String KEY_SHOW_UDFPS_BG =
             "show_udfps_bg";
     static final String KEY_UDFPS_ICON_COLOR =
             "udfps_icon_color";
+    static final String KEY_WAKE_FROM_FOD =
+            "wake_on_fod_pressed";
 
     private AmbientDisplayConfiguration mConfig;
     private OwnerInfoPreferenceController mOwnerInfoPreferenceController;
 
     private SystemSettingSwitchPreference mShowUdfpsBg;
+    private SystemSettingSwitchPreference mWakeFromFod;
     private SystemSettingListPreference mUdfpsIconColor;
 
     @Override
@@ -109,8 +120,15 @@ public class LockscreenDashboardFragment extends DashboardFragment
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         super.onCreatePreferences(savedInstanceState, rootKey);
         mShowUdfpsBg = (SystemSettingSwitchPreference) findPreference(KEY_SHOW_UDFPS_BG);
+        mWakeFromFod = (SystemSettingSwitchPreference) findPreference(KEY_WAKE_FROM_FOD);
         mUdfpsIconColor = (SystemSettingListPreference) findPreference(KEY_UDFPS_ICON_COLOR);
         mUdfpsIconColor.setEnabled(!mShowUdfpsBg.isChecked());
+
+        if (!CustomUtils.isUdfps(getContext())) {
+            ((PreferenceGroup) findPreference(KEY_WHAT_TO_SHOW)).removePreference(mShowUdfpsBg);
+            ((PreferenceGroup) findPreference(KEY_WHAT_TO_SHOW)).removePreference(mUdfpsIconColor);
+            ((PreferenceGroup) findPreference(KEY_GESTURE)).removePreference(mWakeFromFod);
+        }
     }
 
     @Override
