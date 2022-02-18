@@ -102,6 +102,11 @@
             android:summary="@string/display_white_balance_summary"
             settings:controller="com.android.settings.display.DisplayWhiteBalancePreferenceController"/>
 
+        <com.android.settings.custom.preference.SwitchPreference
+            android:key="lower_resolution"
+            android:title="@string/lower_resolution_title"
+            settings:controller="com.android.settings.display.LowerResolutionPreferenceController"/>
+
         <ListPreference
             android:key="min_refresh_rate"
             android:title="@string/min_refresh_rate_title"

@@ -12,4 +12,6 @@
     <string name="config_maintainer_name" translatable="false"></string>
     <string name="config_maintainer_link" translatable="false"></string>
 
+    <!-- Lower resolution string -->
+    <string name="config_lower_resolution_string">FHD+</string>
 </resources>
