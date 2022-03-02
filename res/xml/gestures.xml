@@ -122,6 +122,12 @@
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="click_partial_screenshot"
+        android:title="@string/click_partial_screenshot_title"
+        android:summary="@string/click_partial_screenshot_summary"
+        android:defaultValue="false" />
+
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
         android:key="lockscreen_power_menu_disabled"
         android:title="@string/lockscreen_power_menu_disabled_title"
         android:summary="@string/lockscreen_power_menu_disabled_summary"

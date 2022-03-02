@@ -586,4 +586,8 @@
     <string name="enable_lawnchair_title">Enable Lawnchair</string>
     <string name="enable_lawnchair_summary">Switch to lawnchair as default launcher and disable pixel launcher</string>
     <string name="enable_lawnchair_info">Reboot to take effect</string>
+
+    <!-- Click to partical screenshot -->
+    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
 </resources>
