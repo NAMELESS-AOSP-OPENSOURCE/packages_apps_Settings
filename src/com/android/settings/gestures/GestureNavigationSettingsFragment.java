@@ -166,6 +166,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         mGestureNavbarLengthPreference.setProgress(Settings.Secure.getIntForUser(
             resolver, Settings.Secure.GESTURE_NAVBAR_LENGTH_MODE,
             1, UserHandle.USER_CURRENT));
+        mGestureNavbarLengthPreference.setHapticFeedbackMode(SeekBarPreference.HAPTIC_FEEDBACK_MODE_ON_TICKS);
         mGestureNavbarLengthPreference.setOnPreferenceChangeListener((p, v) ->
             Settings.Secure.putIntForUser(resolver, Settings.Secure.GESTURE_NAVBAR_LENGTH_MODE,
                 (Integer) v, UserHandle.USER_CURRENT));
@@ -177,6 +178,7 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         pref.setContinuousUpdates(true);
         pref.setProgress(Settings.System.getInt(getContext().getContentResolver(),
             Settings.System.GESTURE_NAVBAR_RADIUS, 0));
+        pref.setHapticFeedbackMode(SeekBarPreference.HAPTIC_FEEDBACK_MODE_ON_TICKS);
         pref.setOnPreferenceChangeListener((p, v) ->
             Settings.System.putInt(getContext().getContentResolver(),
                 Settings.System.GESTURE_NAVBAR_RADIUS, (Integer) v));

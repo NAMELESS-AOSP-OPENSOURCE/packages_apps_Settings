@@ -390,6 +390,8 @@
     <string name="haptic_on_switch_summary">Do haptic feedback when clicked switches in settings</string>
     <string name="haptic_on_statusbar_title">Status bar</string>
     <string name="haptic_on_statusbar_summary">Do haptic feedback when clicked status bar</string>
+    <string name="haptic_on_slider_title">System slider</string>
+    <string name="haptic_on_slider_summary">Do haptic feedback when changed slider value</string>
     <string name="haptic_disabled">Disabled</string>
     <string name="haptic_on_back_title">Back gestures haptic</string>
     <string name="back_gesture_haptic_dragged">On dragging</string>
