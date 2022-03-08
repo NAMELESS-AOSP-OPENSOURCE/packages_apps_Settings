@@ -44,6 +44,7 @@ import com.android.settingslib.TetherUtil;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.search.SearchIndexable;
 import ink.kscope.settings.wifi.tether.WifiTetherHiddenSsidPreferenceController;
+import ink.kscope.settings.wifi.tether.WifiTetherAutoOffPreferenceController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -74,6 +75,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
     private WifiTetherSecurityPreferenceController mSecurityPreferenceController;
     private WifiTetherHiddenSsidPreferenceController mHiddenSsidPrefController;
     private WifiTetherApBandPreferenceController mApBandPrefController;
+    private WifiTetherAutoOffPreferenceController mAutoOffPrefController;
 
     private WifiManager mWifiManager;
     private boolean mRestartWifiApAfterConfigChange;
@@ -121,6 +123,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
         mPasswordPreferenceController = use(WifiTetherPasswordPreferenceController.class);
         mApBandPrefController = use(WifiTetherApBandPreferenceController.class);
         mHiddenSsidPrefController = use(WifiTetherHiddenSsidPreferenceController.class);
+        mAutoOffPrefController = use(WifiTetherAutoOffPreferenceController.class);
     }
 
     @Override
@@ -221,6 +224,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
         }
         configBuilder.setHiddenSsid(mHiddenSsidPrefController.isHiddenSsidEnabled());
         mApBandPrefController.setupBands(configBuilder);
+        mAutoOffPrefController.updateConfig(configBuilder);
         return configBuilder.build();
     }
 
@@ -235,6 +239,7 @@ public class WifiTetherSettings extends RestrictedDashboardFragment
         use(WifiTetherPasswordPreferenceController.class).updateDisplay();
         use(WifiTetherApBandPreferenceController.class).updateDisplay();
         use(WifiTetherHiddenSsidPreferenceController.class).updateDisplay();
+        use(WifiTetherAutoOffPreferenceController.class).updateDisplay();
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
