@@ -20,7 +20,7 @@ import android.content.Context;
 import android.sysprop.DisplayProperties;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import com.android.settings.custom.preference.SwitchPreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;

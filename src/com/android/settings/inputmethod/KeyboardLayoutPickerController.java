@@ -26,7 +26,7 @@ import android.view.InputDevice;
 import androidx.fragment.app.Fragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import com.android.settings.custom.preference.SwitchPreference;
 
 import com.android.settings.core.BasePreferenceController;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
@@ -42,7 +42,7 @@ public class KeyboardLayoutPickerController extends BasePreferenceController imp
         InputManager.InputDeviceListener, LifecycleObserver, OnStart, OnStop {
 
     private final InputManager mIm;
-    private final Map<SwitchPreference, KeyboardLayout> mPreferenceMap;
+    private final Map<com.android.settings.custom.preference.SwitchPreference, KeyboardLayout> mPreferenceMap;
 
     private Fragment mParent;
     private int mInputDeviceId;
@@ -100,11 +100,11 @@ public class KeyboardLayoutPickerController extends BasePreferenceController imp
 
     @Override
     public boolean handlePreferenceTreeClick(Preference preference) {
-        if (!(preference instanceof SwitchPreference)) {
+        if (!(preference instanceof com.android.settings.custom.preference.SwitchPreference)) {
             return false;
         }
 
-        final SwitchPreference switchPref = (SwitchPreference) preference;
+        final com.android.settings.custom.preference.SwitchPreference switchPref = (com.android.settings.custom.preference.SwitchPreference) preference;
         final KeyboardLayout layout = mPreferenceMap.get(switchPref);
         if (layout != null) {
             final boolean checked = switchPref.isChecked();
@@ -143,7 +143,7 @@ public class KeyboardLayoutPickerController extends BasePreferenceController imp
                 mInputDeviceIdentifier);
         Arrays.sort(enabledKeyboardLayouts);
 
-        for (Map.Entry<SwitchPreference, KeyboardLayout> entry : mPreferenceMap.entrySet()) {
+        for (Map.Entry<com.android.settings.custom.preference.SwitchPreference, KeyboardLayout> entry : mPreferenceMap.entrySet()) {
             entry.getKey().setChecked(Arrays.binarySearch(enabledKeyboardLayouts,
                     entry.getValue().getDescriptor()) >= 0);
         }
@@ -151,7 +151,7 @@ public class KeyboardLayoutPickerController extends BasePreferenceController imp
 
     private void createPreferenceHierarchy() {
         for (KeyboardLayout layout : mKeyboardLayouts) {
-            final SwitchPreference pref = new SwitchPreference(mScreen.getContext());
+            final com.android.settings.custom.preference.SwitchPreference pref = new com.android.settings.custom.preference.SwitchPreference(mScreen.getContext());
             pref.setTitle(layout.getLabel());
             pref.setSummary(layout.getCollection());
             pref.setKey(layout.getDescriptor());

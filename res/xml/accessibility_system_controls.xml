@@ -36,13 +36,13 @@
         settings:searchable="false"
         settings:controller="com.android.settings.gestures.OneHandedEnablePreferenceController"/>
 
-    <SwitchPreference
+    <com.android.settings.custom.preference.SwitchPreference
         android:key="toggle_power_button_ends_call_preference"
         android:persistent="false"
         android:title="@string/accessibility_power_button_ends_call_prerefence_title"
         settings:controller="com.android.settings.accessibility.PowerButtonEndsCallPreferenceController"/>
 
-    <SwitchPreference
+    <com.android.settings.custom.preference.SwitchPreference
         android:key="toggle_lock_screen_rotation_preference"
         android:persistent="false"
         android:title="@string/accelerometer_title"

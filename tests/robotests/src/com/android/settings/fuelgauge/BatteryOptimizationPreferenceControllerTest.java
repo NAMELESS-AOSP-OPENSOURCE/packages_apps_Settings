@@ -28,7 +28,7 @@ import android.content.Context;
 import android.content.Intent;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import com.android.settings.custom.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.SettingsActivity;

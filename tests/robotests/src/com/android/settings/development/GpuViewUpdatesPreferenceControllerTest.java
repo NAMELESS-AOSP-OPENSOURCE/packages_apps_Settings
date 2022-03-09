@@ -26,7 +26,7 @@ import android.os.SystemProperties;
 import android.view.ThreadedRenderer;
 
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import com.android.settings.custom.preference.SwitchPreference;
 
 import org.junit.Before;
 import org.junit.Test;

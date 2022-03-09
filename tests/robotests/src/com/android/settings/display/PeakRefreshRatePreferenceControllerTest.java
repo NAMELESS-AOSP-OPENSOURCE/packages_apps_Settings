@@ -26,7 +26,7 @@ import android.content.Context;
 import android.provider.Settings;
 import android.view.Display;
 
-import androidx.preference.SwitchPreference;
+import com.android.settings.custom.preference.SwitchPreference;
 
 import org.junit.Before;
 import org.junit.Test;

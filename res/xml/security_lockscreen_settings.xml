@@ -28,7 +28,7 @@
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_lock_screen_notif"/>
 
-        <SwitchPreference
+        <com.android.settings.custom.preference.SwitchPreference
             android:key="security_dispaly_lockscreen_bypass"
             android:title="@string/lockscreen_bypass_title"
             android:summary="@string/lockscreen_bypass_summary"
@@ -45,19 +45,19 @@
             android:title="@string/owner_info_settings_title"
             android:summary="@string/owner_info_settings_summary" />
 
-        <SwitchPreference
+        <com.android.settings.custom.preference.SwitchPreference
             android:key="lockscreen_privacy_wallet_switch"
             android:title="@string/lockscreen_privacy_wallet_setting_toggle"
             android:summary="@string/lockscreen_privacy_wallet_summary"
             settings:controller="com.android.settings.display.WalletPrivacyPreferenceController" />
 
-        <SwitchPreference
+        <com.android.settings.custom.preference.SwitchPreference
             android:key="lockscreen_privacy_controls_switch"
             android:title="@string/lockscreen_privacy_controls_setting_toggle"
             android:summary="@string/lockscreen_privacy_controls_summary"
             settings:controller="com.android.settings.display.ControlsPrivacyPreferenceController" />
 
-        <SwitchPreference
+        <com.android.settings.custom.preference.SwitchPreference
             android:key="lockscreen_double_line_clock_switch"
             android:title="@string/lockscreen_double_line_clock_setting_toggle"
             android:summary="@string/lockscreen_double_line_clock_summary"
@@ -97,7 +97,7 @@
             settings:searchable="false"
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
-        <SwitchPreference
+        <com.android.settings.custom.preference.SwitchPreference
             android:key="ambient_display_notification"
             android:title="@string/doze_title"
             android:summary="@string/doze_summary"

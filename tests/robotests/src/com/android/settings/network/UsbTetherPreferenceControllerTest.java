@@ -27,7 +27,7 @@ import static org.mockito.Mockito.when;
 import android.content.Context;
 import android.net.TetheringManager;
 
-import androidx.preference.SwitchPreference;
+import com.android.settings.custom.preference.SwitchPreference;
 import androidx.test.core.app.ApplicationProvider;
 
 import org.junit.Before;

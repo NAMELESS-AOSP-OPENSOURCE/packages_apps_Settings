@@ -29,7 +29,7 @@ import android.os.UserManager;
 import androidx.fragment.app.Fragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import com.android.settings.custom.preference.SwitchPreference;
 
 import org.junit.Before;
 import org.junit.Test;

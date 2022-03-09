@@ -19,7 +19,7 @@ package com.android.settings.development;
 import static com.google.common.truth.Truth.assertThat;
 
 import androidx.fragment.app.FragmentActivity;
-import androidx.preference.SwitchPreference;
+import com.android.settings.custom.preference.SwitchPreference;
 
 import org.junit.Before;
 import org.junit.Test;

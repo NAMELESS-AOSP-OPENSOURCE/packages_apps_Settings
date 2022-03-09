@@ -21,7 +21,7 @@ import android.nfc.NfcAdapter;
 import android.provider.Settings;
 
 import androidx.annotation.VisibleForTesting;
-import androidx.preference.SwitchPreference;
+import com.android.settings.custom.preference.SwitchPreference;
 
 import com.android.settings.R;
 

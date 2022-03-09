@@ -29,7 +29,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import androidx.preference.PreferenceCategory;
-import androidx.preference.SwitchPreference;
+import com.android.settings.custom.preference.SwitchPreference;
 
 import com.android.internal.accessibility.AccessibilityShortcutController;
 import com.android.settings.R;

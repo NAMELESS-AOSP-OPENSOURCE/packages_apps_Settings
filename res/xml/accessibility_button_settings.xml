@@ -52,7 +52,7 @@
         android:persistent="false"
         settings:controller="com.android.settings.accessibility.FloatingMenuSizePreferenceController"/>
 
-    <SwitchPreference
+    <com.android.settings.custom.preference.SwitchPreference
         android:key="accessibility_button_fade"
         android:title="@string/accessibility_button_fade_title"
         android:summary="@string/accessibility_button_fade_summary"

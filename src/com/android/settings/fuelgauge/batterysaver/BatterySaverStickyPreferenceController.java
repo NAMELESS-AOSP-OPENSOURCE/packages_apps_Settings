@@ -7,7 +7,7 @@ import android.provider.Settings.Global;
 import android.text.TextUtils;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import com.android.settings.custom.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;

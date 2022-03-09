@@ -79,7 +79,7 @@
 
     </PreferenceCategory>
 
-    <SwitchPreference
+    <com.android.settings.custom.preference.SwitchPreference
         android:key="vibrate_input_devices"
         android:title="@string/vibrate_input_devices"
         android:summary="@string/vibrate_input_devices_summary"
