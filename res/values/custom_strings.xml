@@ -208,4 +208,8 @@
     <!-- Roaming indicator icon -->
     <string name="roaming_indicator_icon_title">Roaming indicator</string>
     <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+
+    <!-- Units -->
+    <string name="unit_second">sec</string>
+    <string name="unit_ms">ms</string>
 </resources>

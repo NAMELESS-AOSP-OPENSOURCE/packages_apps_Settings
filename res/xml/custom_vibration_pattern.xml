@@ -27,7 +27,7 @@
         android:max="1000"
         settings:min="0"
         settings:interval="100"
-        settings:units="ms"/>
+        settings:units="@string/unit_ms"/>
 
     <!-- Custom ringtone vibration pattern 2 -->
     <com.android.settings.custom.preference.CustomSeekBarPreference
@@ -36,7 +36,7 @@
         android:max="1000"
         settings:min="0"
         settings:interval="100"
-        settings:units="ms"/>
+        settings:units="@string/unit_ms"/>
 
     <!-- Custom ringtone vibration pattern 3 -->
     <com.android.settings.custom.preference.CustomSeekBarPreference
@@ -45,6 +45,6 @@
         android:max="1000"
         settings:min="0"
         settings:interval="100"
-        settings:units="ms"/>
+        settings:units="@string/unit_ms"/>
 
 </PreferenceScreen>

@@ -25,7 +25,7 @@
             android:max="300"
             settings:min="5"
             settings:interval="5"
-            settings:units="sec"
+            settings:units="@string/unit_second"
             android:dependency="status_bar_clock_auto_hide"
             android:defaultValue="60" />
 
@@ -35,7 +35,7 @@
             android:max="300"
             settings:min="5"
             settings:interval="5"
-            settings:units="sec"
+            settings:units="@string/unit_second"
             android:dependency="status_bar_clock_auto_hide"
             android:defaultValue="5" />
 

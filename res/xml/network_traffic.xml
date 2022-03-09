@@ -42,6 +42,6 @@
         android:max="10"
         settings:min="1"
         android:defaultValue="1"
-        settings:units="sec" />
+        settings:units="@string/unit_second" />
 
 </PreferenceScreen>
