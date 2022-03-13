@@ -580,4 +580,10 @@
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+
+    <!-- Lawnchair switcher -->
+    <string name="app_info_misc">Miscellaneous</string>
+    <string name="enable_lawnchair_title">Enable Lawnchair</string>
+    <string name="enable_lawnchair_summary">Switch to lawnchair as default launcher and disable pixel launcher</string>
+    <string name="enable_lawnchair_info">Reboot to take effect</string>
 </resources>

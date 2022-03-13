@@ -94,4 +94,22 @@
         android:order="20"
         settings:controller="com.android.settings.applications.SpecialAppAccessPreferenceController"/>
 
+    <PreferenceCategory
+        android:key="app_info_misc"
+        android:title="@string/app_info_misc"
+        android:order="233">
+
+        <com.android.settings.custom.preference.SwitchPreference
+            android:key="enable_lawnchair"
+            android:title="@string/enable_lawnchair_title"
+            android:summary="@string/enable_lawnchair_summary"/>
+
+        <Preference
+            android:key="enable_lawnchair_info"
+            android:icon="@drawable/ic_info_outline"
+            android:summary="@string/enable_lawnchair_info"
+            android:selectable="false"
+            settings:searchable="false"/>
+    </PreferenceCategory>
+
 </PreferenceScreen>
