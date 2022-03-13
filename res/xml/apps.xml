@@ -99,6 +99,18 @@
         android:title="@string/app_info_misc"
         android:order="233">
 
+        <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="use_photos_spoof"
+            android:title="@string/use_photos_spoof_title"
+            android:summary="@string/use_photos_spoof_summary"
+            android:defaultValue="true"/>
+
+        <Preference
+            android:icon="@drawable/ic_info_outline"
+            android:summary="@string/use_photos_spoof_info"
+            android:selectable="false"
+            settings:searchable="false"/>
+
         <com.android.settings.custom.preference.SwitchPreference
             android:key="enable_lawnchair"
             android:title="@string/enable_lawnchair_title"

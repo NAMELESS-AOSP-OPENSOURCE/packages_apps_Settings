@@ -49,6 +49,11 @@ public class AppDashboardFragment extends DashboardFragment implements
     private static final String TAG = "AppDashboardFragment";
     private AppsPreferenceController mAppsPreferenceController;
 
+    private static final String KEY_PHOTOS_SPOOF = "use_photos_spoof";
+    private static final String SYS_PHOTOS_SPOOF = "persist.sys.pixelprops.gphotos";
+
+    private SwitchPreference mPhotosSpoof;
+
     private static final String KEY_MISC = "app_info_misc";
 
     private static final String KEY_ENABLE_LAWNCHAIR = "enable_lawnchair";
@@ -99,6 +104,11 @@ public class AppDashboardFragment extends DashboardFragment implements
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+        mPhotosSpoof = (SwitchPreference) findPreference(KEY_PHOTOS_SPOOF);
+        mPhotosSpoof.setChecked(SystemProperties.getBoolean(SYS_PHOTOS_SPOOF, true));
+        mPhotosSpoof.setOnPreferenceChangeListener(this);
+
         mEnableLawnchair = (SwitchPreference) findPreference(KEY_ENABLE_LAWNCHAIR);
         mLawnchairInfo = (Preference) findPreference(KEY_LAWNCHAIR_INFO);
 
@@ -113,7 +123,11 @@ public class AppDashboardFragment extends DashboardFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mEnableLawnchair) {
+        if (preference == mPhotosSpoof) {
+            boolean value = (Boolean) newValue;
+            SystemProperties.set(SYS_PHOTOS_SPOOF, value ? "true" : "false");
+            return true;
+        } else if (preference == mEnableLawnchair) {
             boolean value = (Boolean) newValue;
             LauncherUtils.setEnabled(value);
             LauncherUtils.setLastStatus(value);

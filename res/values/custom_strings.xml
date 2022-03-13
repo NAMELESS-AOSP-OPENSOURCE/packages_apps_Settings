@@ -646,4 +646,9 @@
     <!-- Volume dialog position -->
     <string name="left_volume_dialog_title">Left volume dialog</string>
     <string name="left_volume_dialog_summary">Show volume dialog at left side in portrait mode</string>
+
+    <!-- Unlimited g00gle ph0t0s st0rage -->
+    <string name="use_photos_spoof_title">Unlimited Google Photos storage</string>
+    <string name="use_photos_spoof_summary">Spoof device as Pixel XL to get unlimited photo storage at original quality</string>
+    <string name="use_photos_spoof_info">Restart Google Photos app for it to take effect</string>
 </resources>
