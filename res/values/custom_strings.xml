@@ -669,4 +669,8 @@
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
     <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
+
+    <!-- Optimized charge -->
+    <string name="optimized_charge_title">Optimized charging</string>
+    <string name="optimized_charge_summary">Limit charging to 75%-80% to extend battery life</string>
 </resources>
