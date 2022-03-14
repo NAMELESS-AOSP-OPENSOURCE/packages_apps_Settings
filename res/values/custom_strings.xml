@@ -364,4 +364,7 @@
     <!-- Notification count -->
     <string name="status_bar_notif_count_title">Notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
+    <!-- Maintainer info -->
+    <string name="maintainer_info_title">Device Maintainer</string>
 </resources>
