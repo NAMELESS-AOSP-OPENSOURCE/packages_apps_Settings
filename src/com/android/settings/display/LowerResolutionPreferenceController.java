@@ -130,6 +130,7 @@ public class LowerResolutionPreferenceController extends TogglePreferenceControl
                     mOm.setEnabled(PKG_SYSUI, isChecked, USER_SYSTEM);
                     SystemProperties.set("persist.sys.display.lower_resolution", isChecked ? "1" : "0");
                     killProcesses();
+                    CustomUtils.restartSystemUi(mContext);
                 } catch (RemoteException re) {
                     if (DEBUG) Log.i(TAG, "RemoteException catched!");
                     throw re.rethrowFromSystemServer();

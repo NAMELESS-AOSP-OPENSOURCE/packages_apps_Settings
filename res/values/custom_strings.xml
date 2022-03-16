@@ -559,7 +559,7 @@
     <string name="lower_resolution_title">Lower screen resolution</string>
     <string name="lower_resolution_summary">Switch to %1$s resolution to decrease power consumption</string>
     <string name="lower_resolution_dlg_title">Warning</string>
-    <string name="lower_resolution_dlg_text">This will kill all background apps!\n\nBootanimation will be misplaced after enabled lower resolution\n\nNote: Restart SystemUI if status bar icons messed up</string>
+    <string name="lower_resolution_dlg_text">This will kill all background apps and restart SystemUI!\n\nNote: Bootanimation will be misplaced after enabled lower resolution</string>
 
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
