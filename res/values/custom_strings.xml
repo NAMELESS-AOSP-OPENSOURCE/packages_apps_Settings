@@ -672,5 +672,8 @@
 
     <!-- Optimized charge -->
     <string name="optimized_charge_title">Optimized charging</string>
-    <string name="optimized_charge_summary">Limit charging to 75%-80% to extend battery life</string>
+    <string name="optimized_charge_summary">Limit charging to extend battery life</string>
+    <string name="optimized_charge_enable_title">Enable optimized charging</string>
+    <string name="optimized_charge_ceiling_title">Stop charging level</string>
+    <string name="optimized_charge_floor_title">Start charging level</string>
 </resources>
