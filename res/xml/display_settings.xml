@@ -225,6 +225,12 @@
             android:summary="@string/qstile_requires_unlocking_summary"
             android:defaultValue="true" />
 
+         <Preference
+            android:key="qs_brightness_slider"
+            android:title="@string/qs_brightness_slider_title"
+            android:summary="@string/qs_brightness_slider_summary"
+            android:fragment="com.android.settings.display.QsBrightnessSliderSettings" />
+
         <Preference
             android:key="qs_tile_layout"
             android:title="@string/qs_tile_layout_title"

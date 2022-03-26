@@ -224,8 +224,6 @@
     <string name="qs_multi_users_summary">Display multi users icon in the QS footer</string>
     <string name="qs_power_menu_title">Power menu icon</string>
     <string name="qs_power_menu_summary">Display power menu icon in the QS footer</string>
-    <string name="qs_auto_brightness_title">Auto brightness icon</string>
-    <string name="qs_auto_brightness_summary">Display toggle for adaptive brightness in the QS footer</string>
     <string name="qs_running_services_title">Running services icon</string>
     <string name="qs_running_services_summary">Display running services icon in the QS footer</string>
 
@@ -708,4 +706,18 @@
     <string name="qs_tile_hide_label_summary">Show only icon for QS tiles</string>
     <string name="qs_tile_vertical_layout_title">Vertical layout</string>
     <string name="qs_tile_vertical_layout_summary">Enable vertical layout for QS tiles</string>
+	
+    <!-- QS Brightness -->
+    <string name="qs_brightness_slider_title">QS brightness slider</string>
+    <string name="qs_brightness_slider_summary">Customize brightness slider in QS panel</string>
+    <string name="qs_show_brightness_title">Brightness slider</string>
+    <string name="qs_show_brightness_hide">Hide</string>
+    <string name="qs_show_brightness_normal">Show in QS Panel</string>
+    <string name="qs_show_brightness_both">Show in QS &amp; Quick QS Panel</string>
+    <string name="qs_show_auto_brightness_button_title">Auto brightness button</string>
+    <string name="qs_show_auto_brightness_button_hide">Hide</string>
+    <string name="qs_show_auto_brightness_button_slider">Show near slider</string>
+    <string name="qs_show_auto_brightness_button_footer">Show in footer</string>
+    <string name="qs_brightness_position_position_title">Move to bottom</string>
+    <string name="qs_brightness_position_position_summary">Show brightness slider in the bottom of QS panel</string>
 </resources>
