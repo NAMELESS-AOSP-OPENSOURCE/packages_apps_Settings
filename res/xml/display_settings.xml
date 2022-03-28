@@ -226,6 +226,12 @@
             android:defaultValue="true" />
 
         <Preference
+            android:key="qs_tile_layout"
+            android:title="@string/qs_tile_layout_title"
+            android:summary="@string/qs_tile_layout_summary"
+            android:fragment="com.android.settings.display.QsTileLayoutSettings" />
+
+        <Preference
             android:key="qs_footer_items"
             android:title="@string/qs_footer_items_title"
             android:summary="@string/qs_footer_items_summary"
