@@ -720,4 +720,8 @@
     <string name="qs_show_auto_brightness_button_footer">Show in footer</string>
     <string name="qs_brightness_position_position_title">Move to bottom</string>
     <string name="qs_brightness_position_position_summary">Show brightness slider in the bottom of QS panel</string>
+
+    <!-- Lockscreen media art -->
+    <string name="keygaurd_media_art_title">Media art</string>
+    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
 </resources>
