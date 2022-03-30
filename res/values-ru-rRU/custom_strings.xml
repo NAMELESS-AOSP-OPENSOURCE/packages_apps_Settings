@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Warning message displayed if user choses not to validate the EAP server -->
+    <string name="wifi_do_not_validate_eap_server_warning">Сертификат не указан. Ваше соединение не будет приватным.</string>
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
+    <string name="min_greater_than_peak">Минимальная частота обновления не может быть больше максимальной!</string>
+    <string name="peak_less_than_min">Максимальная частота обновления не может быть меньше минимальной!</string>
+    <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления</string>
+    <string name="battery_saver_refresh_rate_summary">Используйте 60 Гц в качестве максимальной частоты обновления для экономии энергии при включенной функции энергосбережения</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Нажмите, чтобы показать информацию</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Объединить громкость рингтона и уведомлений</string>
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Смахните для снимка экрана</string>
+    <string name="three_finger_gesture_summary">Проведите тремя пальцами вниз, чтобы сделать снимок экрана</string>
+    <!-- Screenshot shutter -->
+    <string name="screenshot_shutter_sound_title">Звук скриншота</string>
+    <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
+    <string name="color_mode_balance_category">Баланс цвета</string>
+    <string name="color_mode_balance_red">Интенсивность красного</string>
+    <string name="color_mode_balance_green">Интенсивность зеленого</string>
+    <string name="color_mode_balance_blue">Интенсивность синего</string>
+    <string name="keywords_color_balance">цвет, цветовой баланс, цветокоррекция, красный, зеленый, синий, LiveDisplay</string>
+    <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
+    <string name="build_date">Дата сборки</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Увеличение громкости звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальный уровень громкости</string>
+    <string name="increasing_ring_ramp_up_time_title">Время нарастания</string>
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Включить расширенную перезагрузку</string>
+    <string name="global_actions_advanced_reboot_summary">Показать варианты рекавери и загрузчика в меню питания</string>
+    <!-- Double Tap to wake/sleep -->
+    <string name="double_tap_gesture_category">Дабл-тап, чтобы включить / выключить</string>
+    <string name="double_tap_gesture_title">Включить жест касания</string>
+    <string name="double_tap_gesture_summary">Дважды коснитесь экрана, чтобы пробудить устройство или перевести в спящий режим</string>
+    <string name="disable_in_landscape_title">Отключить в альбомной ориентации</string>
+    <string name="disable_in_landscape_summary">Предотвращение ошибочного касания в альбомном режиме</string>
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Элементы строки состояния</string>
+    <string name="statusbar_items_summary">Выберите, какие значки отображать в строке состояния</string>
+    <!-- Statusbar customization category -->
+    <string name="status_bar_category_title">Строка состояния</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Предотвратить случайное пробуждение</string>
+    <string name="proximity_wake_summary">Перед включением экрана проверять датчик приближения</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Шаблон вибрации рингтона</string>
+    <string name="pattern_dzzz_dzzz">дззз-дззз</string>
+    <string name="pattern_dzzz_da">дззз-да</string>
+    <string name="pattern_mm_mm_mm">мм-мм-мм</string>
+    <string name="pattern_da_da_dzzz">да-да-дззз</string>
+    <string name="pattern_da_dzzz_da">да-дззз-да</string>
+    <string name="pattern_custom">Пользовательский</string>
+    <string name="custom_vibration_pattern_title">Пользовательский шаблон</string>
+    <string name="custom_vibration_pattern_summary">Установите пользовательский шаблон вибрации</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Всегда включен при зарядке</string>
+    <string name="doze_on_charge_summary">Показывать амбиент экран все время при зарядке</string>
+    <!-- Lockscreen Charging info -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
+    <string name="lockscreen_battery_info_summary">Отображать подробную информацию во время зарядки</string>
+    <!-- Volume button music control -->
+    <string name="volume_button_music_control_title">Управление воспроизведением</string>
+    <string name="volume_button_music_control_summary">Когда экран выключен, долгое нажатие клавиш регулировки громкости пропускает музыкальные треки</string>
+    <!-- Statusbar net monitor -->
+    <string name="network_category_title">Сеть</string>
+    <string name="network_traffic_state_title">Скорость сети</string>
+    <string name="network_traffic_state_summary">Показывать скорость сети в строке состояния</string>
+    <string name="network_traffic_state_enable">Показать скорость сети</string>
+    <string name="network_traffic_mode_title">Режим отображения</string>
+    <string name="network_traffic_dynamic">Динамический</string>
+    <string name="network_traffic_download">Скачивание</string>
+    <string name="network_traffic_upload">Загрузка</string>
+    <string name="network_traffic_autohide_threshold_title">Автоматически скрывать порог</string>
+    <string name="network_traffic_refresh_interval_title">Интервал обновления</string>
+    <!-- Statusbar Clock -->
+    <string name="status_bar_clock_date_title">Часы и дата</string>
+    <string name="status_bar_clock_date_summary">Настройте часы и дату в строке состояния</string>
+    <string name="status_bar_clock_title">Настройки часов</string>
+    <string name="status_bar_clock_show">Показать часы и дату</string>
+    <string name="status_bar_clock_style_title">Стиль часов</string>
+    <string name="status_bar_clock_style_right">Вправо</string>
+    <string name="status_bar_clock_style_center">Центр</string>
+    <string name="status_bar_clock_style_left">Влево</string>
+    <string name="status_bar_date_title">Настройки даты</string>
+    <string name="status_bar_am_pm_title">Стиль AM / PM</string>
+    <string name="status_bar_am_pm_info">24-часовой формат включен</string>
+    <string name="status_bar_am_pm_normal">Нормальный</string>
+    <string name="status_bar_am_pm_small">Маленький</string>
+    <string name="status_bar_am_pm_hidden">Скрытый (по умолчанию)</string>
+    <string name="clock_seconds_display">Показать секунды</string>
+    <string name="clock_date_display">Дата</string>
+    <string name="clock_date_display_summary">Отображать настраиваемую дату перед часами</string>
+    <string name="clock_date_display_none">Не показывать</string>
+    <string name="clock_date_display_small">Маленький размер шрифта</string>
+    <string name="clock_date_display_normal">Нормальный размер шрифта</string>
+    <string name="clock_date_style">Стиль даты</string>
+    <string name="clock_date_style_normal">Нормальный</string>
+    <string name="clock_date_style_lowercase">Срочные буквы</string>
+    <string name="clock_date_style_uppercase">Прописные буквы</string>
+    <string name="clock_date_format_custom">Пользовательский формат Java</string>
+    <string name="clock_date_format">Формат даты</string>
+    <string name="clock_date_string_edittext_title">Должен быть в формате, например. мм/дд/гг</string>
+    <string name="clock_date_string_edittext_summary">Введите строку</string>
+    <string name="clock_date_right">Необходимое время</string>
+    <string name="clock_date_left">Осталось времени</string>
+    <string name="clock_date_position">Позиция даты</string>
+    <string name="status_bar_clock_auto_hide_title">Автоматически скрывать часы</string>
+    <string name="status_bar_clock_auto_hide_summary">Скрывать и показывать часы через определенные промежутки времени</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Скрыть продолжительность</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Показать продолжительность</string>
+    <!-- Heads up -->
+    <string name="noti_cust_category">Панель уведомлений</string>
+    <string name="heads_up_notifications">Внимание</string>
+    <string name="heads_up_notifications_summary">Настроить параметры уведомлений заголовков</string>
+    <string name="summary_heads_up_enabled">Всплывающие уведомления включены</string>
+    <string name="summary_heads_up_disabled">Всплывающие уведомления отключены</string>
+    <string name="add_heads_up_package">Добавить приложение</string>
+    <string name="add_heads_up_stoplist_summary">Отключить уведомления в этих приложениях</string>
+    <string name="add_heads_up_blacklist_summary">Отключить уведомления от этих приложений</string>
+    <string name="heads_up_stoplist_title">Стоп список</string>
+    <string name="heads_up_blacklist_title">Черный список</string>
+    <string name="profile_choose_app">Выбрать приложение</string>
+    <string name="dialog_delete_title">Удалить</string>
+    <string name="dialog_delete_message">Удалить выбранный элемент?</string>
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Тайм-аут</string>
+    <string name="heads_up_time_out_summary">Уведомления о просмотре будут отображаться в течение <xliff:g id="number">%d</xliff:g> секунд</string>
+    <string name="heads_up_time_out_2sec">2 секунды</string>
+    <string name="heads_up_time_out_4sec">4 секунды</string>
+    <string name="heads_up_time_out_5sec">5 секунд</string>
+    <string name="heads_up_time_out_6sec">6 секунд</string>
+    <string name="heads_up_time_out_8sec">8 секунд</string>
+    <string name="heads_up_time_out_10sec">10 секунд</string>
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Таймер отложенного сигнала</string>
+    <string name="heads_up_snooze_summary_one_minute">Смахивание вверх при просмотре уведомлений приведет котложить оповещение от этого приложения на 1 минуту</string>
+    <string name="heads_up_snooze_summary">Проведение по экрану при просмотре уведомлений откладывает уведомления от этого приложения на <xliff:g id="number">%d</xliff:g> минут</string>
+    <string name="heads_up_snooze_disabled_summary">Таймер откладывания отключен</string>
+    <string name="heads_up_snooze_1min">1 минута</string>
+    <string name="heads_up_snooze_5min">5 минут</string>
+    <string name="heads_up_snooze_10min">10 минут</string>
+    <string name="heads_up_snooze_15min">15 минут</string>
+    <string name="heads_up_snooze_20min">20 минут</string>
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Сделайте заголовки менее раздражающими</string>
+    <string name="less_boring_heads_up_summary">Показывать заголовки только для программы набора номера или обмена сообщениями, если они не находятся на переднем плане</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Кнопка \"Остановить приложение\"</string>
+    <string name="notification_guts_kill_app_button_summary">Показывать кнопку остановки приложения в меню длительного нажатия уведомления</string>
+    <!-- Wakeup options -->
+    <string name="wakeup_when_plugged_unplugged_title">Просыпаться при зарядке</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Пробуждает устройство, если зарядное устройство подключено/отключено</string>
+    <!-- QS battery estimates -->
+    <string name="qs_show_battery_estimate_title">Оценка заряда батареи</string>
+    <string name="qs_show_battery_estimate_summary">Показывать приблизительный оставшийся срок службы батареи рядом со значком</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Использовать значок 4G</string>
+    <string name="show_fourg_icon_summary">Отображать значок 4G в значке сигнала вместо LTE</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Показать значок отключения данных</string>
+    <string name="data_disabled_icon_summary">Отображать крестик рядом с полосой сигналов, когда данные отключены</string>
+    <!-- Combined signal icons -->
+    <string name="combined_status_bar_signal_icons_title">Комбинированные значки сети</string>
+    <string name="combined_status_bar_signal_icons_summary">Включить комбинированные значки сети в строке состояния</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Индикатор роуминга</string>
+    <string name="roaming_indicator_icon_summary">Отображать индикатор роуминга на значке сети в режиме роуминга</string>
+    <!-- Units -->
+    <string name="unit_second">сек</string>
+    <string name="unit_ms">мс</string>
+    <!-- Show old style mobile data icon -->
+    <string name="use_old_mobiletype_title">Использовать старый стиль значков мобильных данных</string>
+    <string name="use_old_mobiletype_summary">Показывать значок типа сети над сигнальным индикатором</string>
+    <!-- QS footer items -->
+    <string name="quick_settings_category_title">Быстрые настройки</string>
+    <string name="qs_footer_items_title">Элементы нижнего колонтитула QS</string>
+    <string name="qs_footer_items_summary">Выберите, какие элементы отображать в нижнем колонтитуле qs</string>
+    <string name="qs_footer_warnings_title">Предупреждения нижнего колонтитула QS</string>
+    <string name="qs_footer_warnings_summary">Отображать предупреждение внизу панели QS, когда сеть контролируется внешними приложениями или VPN</string>
+    <string name="qs_edit_title">Значок редактирования</string>
+    <string name="qs_edit_summary">Отображать значок редактирования в нижнем колонтитуле QS</string>
+    <string name="qs_multi_users_title">Значок для нескольких пользователей</string>
+    <string name="qs_multi_users_summary">Отображать значок с несколькими пользователями в нижнем колонтитуле QS</string>
+    <string name="qs_power_menu_title">Значок меню питания</string>
+    <string name="qs_power_menu_summary">Отображать значок меню питания в нижнем колонтитуле QS</string>
+    <string name="qs_running_services_title">Значок запущенных служб</string>
+    <string name="qs_running_services_summary">Отображать значок запущенных служб в нижнем колонтитуле QS</string>
+    <!-- Ambient Display Swipe Gesture -->
+    <string name="ambient_gesture_title">Жесты</string>
+    <string name="ambient_swipe_title">Проведите по экрану, чтобы разбудить</string>
+    <string name="ambient_swipe_summary">Разрешить вывод устройства из спящего режима с помощью смахивания вверх или вниз, когда устройство находится в режиме ожидания</string>
+    <!-- PIN scramble -->
+    <string name="unlock_scramble_pin_layout_title">Макет ввода Pin-кода</string>
+    <string name="unlock_scramble_pin_layout_summary">Закодировать макет PIN при разблокировке устройства</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного PIN-кода / пароля</string>
+    <!-- Adaptive Playback -->
+    <string name="media_category_title">Медиа</string>
+    <string name="adaptive_playback_title">Адаптивное воспроизведение</string>
+    <string name="adaptive_playback_summary">Приостановить воспроизведение мультимедиа, когда звук отключен, и возобновить его, увеличив громкость в течение тайм-аута</string>
+    <string name="adaptive_playback_timeout_title">Тайм-аут воспроизведения</string>
+    <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
+    <string name="adaptive_playback_timeout_1_min">1 минута</string>
+    <string name="adaptive_playback_timeout_2_min">2 минуты</string>
+    <string name="adaptive_playback_timeout_5_min">5 минут</string>
+    <string name="adaptive_playback_timeout_10_min">10 минут</string>
+    <!-- Brightness control -->
+    <string name="status_bar_gesture_category">Жесты в строке состояния</string>
+    <string name="status_bar_toggle_brightness">Регулировка яркости</string>
+    <string name="status_bar_toggle_brightness_summary">Отрегулируйте яркость, перемещая курсор по строке состояния</string>
+    <!-- AOD Schedule -->
+    <string name="default_string">По умолчанию</string>
+    <string name="disabled">Отключено</string>
+    <string name="always_on_display_schedule_title">Расписание всегда активного экрана</string>
+    <string name="always_on_display_schedule_sunset">Закат</string>
+    <string name="always_on_display_schedule_sunrise">Восход</string>
+    <string name="always_on_display_schedule_mixed_sunset">Включается от заката до времени</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Включается от времени до восхода солнца</string>
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Заголовки уведомлений</string>
+    <string name="notification_headers_summary">Показывать заголовки в тени уведомлений</string>
+    <!-- Incall options -->
+    <string name="incall_category">Параметры разговора</string>
+    <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
+    <string name="incall_vibrate_call_wait_title">Вибрация при ожидании вызова</string>
+    <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
+    <string name="flashlight_on_call_title">Мигающий фонарик при входящем звонке</string>
+    <string name="flashlight_on_call_disabled">Отключено</string>
+    <string name="flashlight_on_call_ringer">При звонке</string>
+    <string name="flashlight_on_call_no_ringer">Когда звонок молчит</string>
+    <string name="flashlight_on_call_silent">В полном беззвучном режиме (без звонка или вибрации)</string>
+    <string name="flashlight_on_call_always">Всегда</string>
+    <string name="flashlight_on_call_ignore_dnd_title">Игнорировать \"Не беспокоить\"</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">Следует ли мигать в режиме \"Не беспокоить\"</string>
+    <string name="flashlight_on_call_rate_title">Оценить</string>
+    <string name="flashlight_on_call_rate_summary">Частота мигания фонарика при вызове</string>
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Цикличный переход между режимами</string>
+    <string name="prevent_ringing_option_cycle_summary">Вкл. (цикличный переход между режимами)</string>
+    <string name="prevent_ringing_option_normal">Нормальный</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Включить фонарик при выключенном экране</string>
+    <string name="torch_power_button_gesture_none">Отключено</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания (более медленный отклик на одно нажатие), отключает двойное нажатие кнопки питания для камеры.</string>
+    <string name="torch_power_button_gesture_lp">Длительное нажатие кнопки питания</string>
+    <!-- Pulse notifications lightning -->
+    <string name="pulse_ambient_light_title">Подсветка по краям экрана</string>
+    <string name="pulse_ambient_light_summary">Амбиент подсветка для пульсирующих уведомлений</string>
+    <string name="pulse_ambient_light_enable">Показать амбиент подсветку</string>
+    <string name="ambient_notification_light_enabled_title">Показать на AOD</string>
+    <string name="aod_disabled">AOD отключен</string>
+    <string name="ambient_notification_light_enabled_summary">Продолжать показывать амбиент подсветку на AOD</string>
+    <string name="ambient_notification_light_hide_aod_title">Скрыть содержимое AOD</string>
+    <string name="ambient_notification_light_hide_aod_summary">Скрыть содержимое AOD при освещении краев</string>
+    <string name="ambient_notification_light_duration_title">Продолжительность</string>
+    <string name="ambient_notification_light_duration_summary">Время, необходимое для завершения каждой анимации</string>
+    <string name="ambient_notification_light_repeats_title">Повторяется</string>
+    <string name="ambient_notification_light_repeats_summary">Сколько раз анимация должна отображаться \ n0 до бесконечности</string>
+    <string name="ambient_notification_light_timeout_title">Тайм-аут</string>
+    <string name="ambient_notification_light_timeout_forever">Навсегда</string>
+    <string name="ambient_notification_light_timeout_half_minute">30 секунд</string>
+    <string name="ambient_notification_light_timeout_minute">1 минута</string>
+    <string name="ambient_notification_light_timeout_three_minutes">3 минуты</string>
+    <string name="ambient_notification_light_timeout_five_minutes">5 минут</string>
+    <string name="ambient_notification_light_timeout_ten_minutes">10 минут</string>
+    <string name="set_to_zero">Установите для повторов значение 0, чтобы включить</string>
+    <string name="ambient_notification_color_mode_title">Цветовой режим</string>
+    <string name="ambient_notification_color_mode_accent">Цвет акцента</string>
+    <string name="ambient_notification_color_mode_wall">Доминирующий цвет обоев</string>
+    <string name="ambient_notification_color_mode_notification">Цвет значка уведомления</string>
+    <string name="ambient_notification_color_mode_custom">@string/ambient_notification_light_color_title</string>
+    <string name="ambient_notification_light_color_title">Пользовательский цвет</string>
+    <string name="pulse_ambient_light_show_always_title">Всегда показывать</string>
+    <string name="pulse_ambient_light_show_always_summary">Показывать индикаторы для всех событий сна, а не только для уведомлений</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Режим повторного включения света</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Перезапустить</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Обратная</string>
+    <string name="pulse_ambient_light_layout_title">Светлый вид</string>
+    <string name="pulse_ambient_light_layout_solid">Сплошной</string>
+    <string name="pulse_ambient_light_layout_faded">Блеклый</string>
+    <string name="pulse_ambient_light_width_title">Ширина света</string>
+    <string name="pulse_light_layout_style_title">Светлый стиль оформления</string>
+    <string name="pulse_light_both">Все четыре стороны</string>
+    <string name="pulse_light_top_bottom">Только сверху и снизу</string>
+    <string name="pulse_light_left_right">Только слева и справа</string>
+    <!-- IME button space -->
+    <string name="navbar_category">Панель навигации</string>
+    <string name="navigation_bar_ime_space_title">Расстояние кнопок IME</string>
+    <string name="navigation_bar_ime_space_summary">Показать пространство кнопки IME под клавиатурой</string>
+    <!-- Gesture navbar length -->
+    <string name="gesture_navbar_length_title">Длина полосы жестов</string>
+    <string name="hide_label">Скрыть</string>
+    <string name="long_label">Длинная</string>
+    <!-- Wake up from fod -->
+    <string name="wake_on_fod_pressed_title">Просыпаться от датчика отпечатков пальца</string>
+    <string name="wake_on_fod_pressed_summary">Переход к экрану блокировки когда активен отпечаток пальца при всегда активном дисплее</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Выберите размер рисунка</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">Показать ошибку шаблона</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">Показать точки шаблона</string>
+    <!-- Suppress notifications if screen is on -->
+    <string name="notification_sound_vib_screen_on_title">Звук уведомления, если экран активен</string>
+    <string name="notification_sound_vib_screen_on_summary">Воспроизведение звука и вибрации для уведомлений, когда экран включен</string>
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title">Количество уведомлений</string>
+    <string name="status_bar_notif_count_summary">Показать количество поступивших уведомлений</string>
+    <!-- Maintainer info -->
+    <string name="maintainer_info_title">Сопровождающий устройства</string>
+    <!-- Toast app icon -->
+    <string name="toast_icon_title">Иконка всплывающего уведомления</string>
+    <string name="toast_icon_summary">Отображать значок соответствующего приложения на всплывающем уведомлении</string>
+    <!-- Haptic feedback -->
+    <string name="touch_haptic_summary">Настроить тактильную вибро связь для системных виджетов</string>
+    <string name="haptic_feedback_enable">Включить виброотклик</string>
+    <string name="haptic_on_face_title">Разблокировка по лицу</string>
+    <string name="haptic_on_face_summary">Тактильная обратная связь при аутентификации разблокировки по лицу</string>
+    <string name="haptic_on_qs_title">Элементы QS</string>
+    <string name="haptic_on_qs_summary">Создавать тактильную вибро связь при нажатии плиток qs</string>
+    <string name="haptic_on_switch_title">Переключатель настроек</string>
+    <string name="haptic_on_switch_summary">Создавать тактильную вибро связь при нажатии переключателей в настройках</string>
+    <string name="haptic_on_statusbar_title">Строка состояния</string>
+    <string name="haptic_on_statusbar_summary">Создавать тактильную вибро связь при нажатии строки состояния</string>
+    <string name="haptic_on_slider_title">Системный ползунок</string>
+    <string name="haptic_on_slider_summary">Тактильная обратная связь при изменении значения ползунка</string>
+    <string name="haptic_disabled">Отключено</string>
+    <string name="haptic_on_back_title">Вибрация жеста \"Назад\"</string>
+    <string name="back_gesture_haptic_dragged">При перетаскивании</string>
+    <string name="back_gesture_haptic_dragged_triggered">При перетаскивании &amp; триггера</string>
+    <string name="haptic_on_fod_title">Вибрация отпечатка пальцев</string>
+    <string name="fod_haptic_authenticated">При аутентификации</string>
+    <string name="fod_haptic_pressed_authenticated">При нажатии &amp; аутентификации</string>
+    <!-- Colored Statusbar Icons -->
+    <string name="statusbar_icons_style_title">Цветные иконки</string>
+    <string name="statusbar_icons_style_summary">Отображать цветные иконки на строке состояния (требуется перезапуск SystemUI)</string>
+    <!-- Udfps background -->
+    <string name="udfps_background_title">Задний фон иконки</string>
+    <string name="udfps_background_summary">Показывать задний фон для иконки отпечатка пальца на экране блокировки</string>
+    <string name="udfps_icon_color_title">Цвет значка отпечатков пальца</string>
+    <string name="udfps_icon_color_black">Чёрный</string>
+    <string name="udfps_icon_color_white">Белый</string>
+    <!--  screen, setting option name to change wifi timeout -->
+    <string name="wifi_timeout">Автоматическое отключение Wi-Fi</string>
+    <!--  screen, setting option summary to change wifi timeout -->
+    <string name="wifi_timeout_summary">Wi-Fi отключится через <xliff:g id="timeout_description">%1$s</xliff:g>, если нет подключения к сети</string>
+    <string name="wifi_timeout_summary2">Отключено</string>
+    <string name="wifi_timeout_summary_never">Никогда</string>
+    <string name="wifi_timeout_summary_15secs">15 секунд</string>
+    <string name="wifi_timeout_summary_30secs">30 секунд</string>
+    <string name="wifi_timeout_summary_1min">1 минуту</string>
+    <string name="wifi_timeout_summary_2mins">2 минуты</string>
+    <string name="wifi_timeout_summary_5mins">5 минут</string>
+    <string name="wifi_timeout_summary_10mins">10 минут</string>
+    <string name="wifi_timeout_summary_30mins">30 минут</string>
+    <string name="wifi_timeout_summary_1hour">1 час</string>
+    <string name="wifi_timeout_summary_2hours">2 часа</string>
+    <string name="wifi_timeout_summary_4hours">4 часа</string>
+    <string name="wifi_timeout_summary_8hours">8 часов</string>
+    <!-- Connected devices screen, setting option name to change bluetooth timeout -->
+    <string name="bluetooth_timeout">Тайм-аут Bluetooth</string>
+    <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
+    <string name="bluetooth_timeout_summary">Bluetooth отключится через <xliff:g id="timeout_description">%1$s</xliff:g>, если не подключено ни одно устройство</string>
+    <string name="bluetooth_timeout_summary2">Не отключать автоматически Bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">Никогда</string>
+    <string name="bluetooth_timeout_summary_15secs">15 секунд</string>
+    <string name="bluetooth_timeout_summary_30secs">30 секунд</string>
+    <string name="bluetooth_timeout_summary_1min">1 минуту</string>
+    <string name="bluetooth_timeout_summary_2mins">2 минуты</string>
+    <string name="bluetooth_timeout_summary_5mins">5 минут</string>
+    <string name="bluetooth_timeout_summary_10mins">10 минут</string>
+    <string name="bluetooth_timeout_summary_30mins">30 минут</string>
+    <string name="bluetooth_timeout_summary_1hour">1 час</string>
+    <string name="bluetooth_timeout_summary_2hours">2 часа</string>
+    <string name="bluetooth_timeout_summary_4hours">4 часа</string>
+    <string name="bluetooth_timeout_summary_8hours">8 часов</string>
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_custom_title">Иконка батареи</string>
+    <string name="status_bar_battery_custom_summary">Настройте иконку батареи в строке состояния</string>
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_icon_portrait">Портретная иконка (по умолчанию)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ландшафтная иконка (справа)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ландшафтная иконка (слева)</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+    <string name="status_bar_battery_style_dotted_circle">Точечный круг</string>
+    <string name="status_bar_battery_style_filled_circle">Заполненный круг</string>
+    <string name="status_bar_battery_style_text">Текст</string>
+    <string name="status_bar_battery_style_hidden">Скрытая</string>
+    <string name="status_bar_battery_percent_title">Процент батареи</string>
+    <string name="status_bar_battery_percent_hidden">Спрятан</string>
+    <string name="status_bar_battery_percent_text_inside">Внутри иконки</string>
+    <string name="status_bar_battery_percent_text_next">Рядом с иконкой</string>
+    <string name="status_bar_battery_text_charging_title">Процент батареи во время зарядки</string>
+    <string name="status_bar_battery_text_charging_summary">Всегда показывать процент батареи при зарядке</string>
+    <string name="left_battery_text_title">Текст батареи слева</string>
+    <string name="left_battery_text_summary">Поместить текст о батарее слева от значка батареи</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Платформа</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Всего ОЗУ</string>
+    <!-- QSTile requires unlocking before being accessible -->
+    <string name="qstile_requires_unlocking_title">Важные плитки QS</string>
+    <string name="qstile_requires_unlocking_summary">Требуется разблокировка для доступа к некоторым важным плиткам QS</string>
+    <!-- Charging animation -->
+    <string name="charging_animation_title">Анимация зарядки</string>
+    <string name="charging_animation_summary">Отображение анимацию при подключении устройства к зарядке</string>
+    <!-- Floating rotation button -->
+    <string name="enable_floating_rotation_button_title">Включить плавающую кнопку поворота</string>
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Защищенное меню питания</string>
+    <string name="lockscreen_power_menu_disabled_summary">Отключение меню питания на защищенном экране блокировки</string>
+    <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">Отключить при отображении FOD</string>
+    <string name="fod_night_light_summary">Отключите ночную подсветку на экране блокировки, если активен FOD</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Минимальное время между звуками уведомления</string>
+    <string name="app_notification_sound_timeout_summary_template">Разрешить звуки или вибрацию не чаще одного раза в <xliff:g id="duration">%1$s</xliff:g>.</string>
+    <string name="app_notification_sound_timeout_value_none">Нет ограничений</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 секунд</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 секунд</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 минуту</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 минут</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 минут</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
+    <string name="display_cutout_force_fullscreen_summary">Принудительное игнорирование приложениями пробела</string>
+    <!-- App list -->
+    <string name="search">Поиск</string>
+    <string name="search_apps">Поиск приложений</string>
+    <!-- System Update -->
+    <string name="system_update_title">Обновление системы</string>
+    <!-- Font style / Icon pack -->
+    <string name="theme_category_title">Тема</string>
+    <string name="theme_customization_font_title">Шрифт заголовка / основного текста</string>
+    <string name="theme_customization_font_summary">Установка шрифта системы</string>
+    <string name="theme_customization_icon_pack_title">Набор значков</string>
+    <string name="theme_customization_icon_pack_summary">Установка набора значков</string>
+    <string name="theme_customization_icon_shape_title">Форма значка</string>
+    <string name="theme_customization_icon_shape_summary">Установка формы значков системы</string>
+    <string name="theme_customization_signal_icon_title">Вид значка сети</string>
+    <string name="theme_customization_signal_icon_summary">Установка вида значка сети</string>
+    <string name="theme_customization_wifi_icon_title">Вид значка Wi-Fi</string>
+    <string name="theme_customization_wifi_icon_summary">Установка вида значка Wi-Fi</string>
+    <!-- Gesture navbar radius -->
+    <string name="gesture_navbar_radius_title">Радиус закругления</string>
+    <string name="thin_label">Тонкий</string>
+    <string name="thick_label">Толстый</string>
+    <!-- One shot automatic brightness -->
+    <string name="auto_brightness_one_shot_title">Мгновенная автояркость</string>
+    <string name="auto_brightness_one_shot_summary">Регулировка яркости будет выполнена только в момент включения экрана</string>
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Разрешить использование клиентского VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа использование\u2019 VPN-соединения этого устройства для входящего подключения</string>
+    <!-- Strings for per-app volume -->
+    <string name="app_volume">Громкость приложения</string>
+    <string name="app_volume_title">Контроль громкости каждого приложения</string>
+    <string name="app_volume_summary">Добавить кнопку громкости для каждого приложения</string>
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Инвертировать расположение кнопок панели навигации</string>
+    <string name="navbar_invert_layout_summary">Показать кнопку \"Назад\" справа</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Сохраненные наушники</string>
+    <!-- Resolution switcher -->
+    <string name="lower_resolution_title">Снижение разрешения экрана</string>
+    <string name="lower_resolution_summary">Переключиться на разрешение %1$s для снижения энергопотребления</string>
+    <string name="lower_resolution_dlg_title">Внимание</string>
+    <string name="lower_resolution_dlg_text">Это остановит все фоновые приложения и перезапустит SystemUI!\n\nПримечание: Анимация загрузки будет неправильно отображаться после включения более низкого разрешения</string>
+    <!-- App lock -->
+    <string name="app_lock_title">Блокировка приложений</string>
+    <string name="app_lock_summary_singular">1 приложение защищено</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> приложений защищены</string>
+    <string name="app_lock_authentication_dialog_title">Разблокировать</string>
+    <string name="app_lock_packages_title">Защищенные приложения</string>
+    <string name="app_lock_packages_summary">Выберите приложения для защиты с помощью биометрии или учетных данных устройства</string>
+    <string name="app_lock_timeout_title">Тайм-аут автоматической блокировки</string>
+    <string name="app_lock_timeout_summary">Продолжительность времени, по истечении которого разблокированное приложение в фоновом режиме должно быть заблокировано</string>
+    <string name="app_lock_timeout_5_secs">5 секунд</string>
+    <string name="app_lock_timeout_10_secs">10 секунд</string>
+    <string name="app_lock_timeout_30_secs">30 секунд</string>
+    <string name="app_lock_timeout_1_min">1 минута</string>
+    <string name="app_lock_timeout_5_mins">5 минут</string>
+    <string name="app_lock_timeout_10_mins">10 минут</string>
+    <string name="app_lock_timeout_30_mins">30 минут</string>
+    <string name="app_lock_notifications_title">Свернуть уведомления</string>
+    <string name="app_lock_notifications_summary">Содержимое уведомлений будет скрыто и свернуто для выбранных приложений при их блокировке. Уведомления вверху будут автоматически отключены.</string>
+    <string name="app_lock_notifications_disabled_summary">Сначала защитите приложение</string>
+    <string name="app_lock_biometrics_allowed_title">Включить биометрические данные для разблокировки</string>
+    <string name="app_lock_footer_text">Пузырьки будут автоматически удаляться по истечении времени</string>
+    <!-- Lawnchair switcher -->
+    <string name="app_info_misc">Прочее</string>
+    <string name="enable_lawnchair_title">Переключить на Lawnchair</string>
+    <string name="enable_lawnchair_summary">Выбрать лаунчером по умолчанию - Lawnchair, отключив Pixel Launcher</string>
+    <string name="enable_lawnchair_info">Перезагрузите для применения</string>
+    <!-- Click to partical screenshot -->
+    <string name="click_partial_screenshot_title">Нажмите для частичного скриншота</string>
+    <string name="click_partial_screenshot_summary">Коротко нажмите Volume Down и Power, чтобы сделать частичный скриншот</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Ступени громкости</string>
+    <string name="volume_steps_summary">Настройка различных ступеней громкости</string>
+    <string name="volume_steps_alarm_title">Ступени громкости: будильник</string>
+    <string name="volume_steps_dtmf_title">Ступени громкости: взаимодействие</string>
+    <string name="volume_steps_music_title">Ступени громкости: Медиа</string>
+    <string name="volume_steps_notification_title">Ступени громкости: Уведомление</string>
+    <string name="volume_steps_ring_title">Ступени громкости: Звонок</string>
+    <string name="volume_steps_system_title">Ступени громкости: Система</string>
+    <string name="volume_steps_voice_call_title">Ступени громкости: Голосовой вызов</string>
+    <string name="volume_steps_reset">Сброс</string>
+    <!-- Custom actions -->
+    <string name="action_nothing">Никаких действий</string>
+    <string name="action_voice_search">Голосовой поиск</string>
+    <string name="action_launch_camera">Камера</string>
+    <string name="action_flashlight">Фонарик</string>
+    <string name="action_clear_notifications">Очистить уведомления</string>
+    <string name="action_volume_panel">Панель громкости</string>
+    <string name="action_screen_off">Выключить экран</string>
+    <string name="action_notifications">Уведомления</string>
+    <string name="action_screenshot">Скриншот</string>
+    <string name="action_qs_panel">Панель быстрых настроек</string>
+    <string name="action_app_action">Приложение</string>
+    <string name="action_ringer_modes">Режимы звонка</string>
+    <string name="kill_app">Закрыть приложение, находящееся в фоновом режиме</string>
+    <string name="recent_app_toggle">Переключить последнее приложение</string>
+    <string name="skip_song">Пропустить песню</string>
+    <string name="prev_song">Предыдущая песня</string>
+    <string name="show_powermenu">Показать меню питания</string>
+    <string name="partial_screenshot">Частичный скриншот</string>
+    <string name="hush_mute">Беззвучные уведомления</string>
+    <!-- Long swipe gestures -->
+    <string name="navbar_gesture_tweaks_pref_title">Расширенные параметры жестов</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Настраивайте жесты и задавайте пользовательские действия</string>
+    <string name="swipe_app_select_summary">Выберите приложение для запуска с помощью действия сжатия</string>
+    <string name="long_back_swipe_timeout_title">Тайм-аут действия длинного свайпа</string>
+    <string name="left_swipe_actions_title">Действие на длинный свой слева</string>
+    <string name="left_swipe_app_action_title">Выберите приложение для длинного свайпа слева</string>
+    <string name="right_swipe_actions_title">Действие на длинный свой справа</string>
+    <string name="right_swipe_app_action_title">Выберите приложение для длинного свайпа справа</string>
+    <string name="left_vertical_swipe_actions_title">Вертикальное действие L-свайпа слева</string>
+    <string name="left_vertical_swipe_app_action_title">Выберите приложение для вертикального свайпа слева</string>
+    <string name="right_vertical_swipe_actions_title">Вертикальное действие L-свайпа слева</string>
+    <string name="right_vertical_swipe_app_action_title">Выберите приложение для вертикального свайпа справа</string>
+    <string name="gesture_nav_tweaks_footer_info">Чтобы выбрать конкретное приложение для выполнения действия, нажмите на любое приложение в меню выбора приложений.\n\nЕсли отображается программа запуска, проведите пальцем в самой нижней области экрана, чтобы запустить действие.</string>
+    <string name="back_swipe_extended_title">Действие широкого свайпа</string>
+    <string name="back_swipe_extended_summary">Срабатывание при широком свайпе (более половины размера дисплея) или при L-свайпе (достаточно длинном по вертикали)</string>
+    <!-- Volume dialog position -->
+    <string name="left_volume_dialog_title">Ползунок громкости слева</string>
+    <string name="left_volume_dialog_summary">Ползунок громкости слева в портретном режиме</string>
+    <!-- Unlimited g00gle ph0t0s st0rage -->
+    <string name="use_photos_spoof_title">Безлимитное хранилище Google фото</string>
+    <string name="use_photos_spoof_summary">Представить устройство как Pixel XL, чтобы получить неограниченное хранилище фотографий в оригинальном качестве</string>
+    <string name="use_photos_spoof_info">Перезапустить приложение Google фото для изменений</string>
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
+    <string name="duration_less_than_one_minute">Меньше 1 минуты</string>
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s сегодня</string>
+    <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">Разблокировка по лицу позволяет разблокировать устройство, взглянув на него. Имейте в виду:\n\n● Ваше устройство может разблокироваться в любое время, когда вы на него смотрите.\n● Ваше устройство может быть разблокировано кем-то другим, если он будет держать его перед вашим лицом, когда ваши глаза открыты.\n● Ваше устройство также может быть разблокировано кем-то, кто очень похож на вас, например, ребенком или братом или сестрой.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Данные, записанные при разблокировке по лицу, будут удалены навсегда и надежно. После удаления для разблокировки телефона потребуется PIN-код, рисунок или пароль.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить существующее сканирование лица и создать новое сканирование</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Переделать сканирование лица</string>
+    <string name="face_redo_confirm_btn">Переделать</string>
+    <string name="face_redo_warning_msg">Вы хотите удалить существующее сканирование лица и создать новое?</string>
+    <string name="face_unlock_method_title">Разрешить разблокировку по лицу на экране блокировки</string>
+    <string name="face_unlock_method_default">Когда экран включен</string>
+    <string name="face_unlock_method_swipe">При проведении пальцем по экрану блокировки</string>
+    <string name="skip_biometric_auth_confirmation_title">Пропуск ручного подтверждения</string>
+    <!-- Optimized charge -->
+    <string name="optimized_charge_title">Оптимизированная зарядка</string>
+    <string name="optimized_charge_summary">Ограничить зарядку для продления срока службы батареи</string>
+    <string name="optimized_charge_enable_title">Включить оптимизированную зарядку</string>
+    <string name="optimized_charge_ceiling_title">Начальный уровень зарядки</string>
+    <string name="optimized_charge_floor_title">Уровень прекращения зарядки</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Сбросить статистику?</string>
+    <string name="battery_stats_message">Статистика истории батареи будет сброшена!</string>
+    <!-- Monet Engine -->
+    <string name="monet_engine_title">Настройки Monet</string>
+    <string name="monet_engine_summary">Настроить цвета Monet</string>
+    <string name="monet_engine_custom_color_title">Использовать собственный цвет</string>
+    <string name="monet_engine_custom_color_summary">Использовать собственный цвет для движка Monet вместо цветов обоев</string>
+    <string name="monet_engine_color_override_title">Пользовательский цвет</string>
+    <string name="monet_engine_white_luminance_user_title">Яркость белого</string>
+    <string name="monet_engine_accurate_shades_title">Использовать точные оттенки</string>
+    <string name="monet_engine_chroma_factor_title">Фактор цветности</string>
+    <string name="monet_engine_linear_lightness_title">Использовать линейную яркость</string>
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Использовать чёрную тему</string>
+    <string name="system_black_theme_summary">Принудительные черные цвета фона</string>
+    <!-- QS tiles layout -->
+    <string name="qs_tile_layout_title">Расположение плитки QS</string>
+    <string name="qs_tile_layout_summary">Настройка расположения плиток в панели QS</string>
+    <string name="qs_columns_portrait_title">Колонки (портрет)</string>
+    <string name="qs_columns_landscape_title">Колонки (Ландшафт)</string>
+    <string name="qs_rows_portrait_title">Строки (Портрет)</string>
+    <string name="qs_rows_landscape_title">Строки (Ландшафт)</string>
+    <string name="qqs_rows_portrait_title">Строки (Портрет Quick QS)</string>
+    <string name="qs_tile_hide_label_title">Hide labels</string>
+    <string name="qs_tile_hide_label_summary">Show only icon for QS tiles</string>
+    <string name="qs_tile_vertical_layout_title">Вертикальное расположение</string>
+    <string name="qs_tile_vertical_layout_summary">Включить вертикальную раскладку для плиток QS</string>
+    <!-- QS Brightness -->
+    <string name="qs_brightness_slider_title">QS brightness slider</string>
+    <string name="qs_brightness_slider_summary">Настройка ползунка яркости в QS панели</string>
+    <string name="qs_show_brightness_title">Brightness slider</string>
+    <string name="qs_show_brightness_hide">Hide</string>
+    <string name="qs_show_brightness_normal">Show in QS Panel</string>
+    <string name="qs_show_brightness_both">Show in QS &amp; Quick QS Panel</string>
+    <string name="qs_show_auto_brightness_button_title">Кнопка автояркости</string>
+    <string name="qs_show_auto_brightness_button_hide">Скрыть</string>
+    <string name="qs_show_auto_brightness_button_slider">Показывать рядом с ползунком</string>
+    <string name="qs_show_auto_brightness_button_footer">Показывать снизу QS</string>
+    <string name="qs_brightness_position_position_title">Переместить вниз</string>
+    <string name="qs_brightness_position_position_summary">Показывать ползунок яркости в нижней части панели QS</string>
+    <!-- Lockscreen media art -->
+    <string name="keygaurd_media_art_title">Media art</string>
+    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
+    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+</resources>
