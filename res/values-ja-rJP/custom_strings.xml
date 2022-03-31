@@ -336,7 +336,7 @@
     <string name="haptic_on_back_title">戻るジェスチャーの振動</string>
     <string name="back_gesture_haptic_dragged">ドラッグ時</string>
     <string name="back_gesture_haptic_dragged_triggered">ドラッグ&amp;起動時</string>
-    <string name="haptic_on_fod_title">Fingerprint haptic</string>
+    <string name="haptic_on_fod_title">指紋の振動</string>
     <string name="fod_haptic_authenticated">認証時</string>
     <string name="fod_haptic_pressed_authenticated">押下&amp;認証時</string>
     <!-- Colored Statusbar Icons -->
@@ -583,47 +583,47 @@
     <string name="battery_stats_reset">統計を初期化しますか?</string>
     <string name="battery_stats_message">バッテリーの統計の履歴は初期化されます!</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet settings</string>
-    <string name="monet_engine_summary">Customizate monet color performance</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="monet_engine_title">Monet 設定</string>
+    <string name="monet_engine_summary">Monet カラーキャリブレーションを編集する</string>
+    <string name="monet_engine_custom_color_title">カスタムの色を使用</string>
+    <string name="monet_engine_custom_color_summary">壁紙の代わりに Monet エンジンにカスタムの色を使用する</string>
+    <string name="monet_engine_color_override_title">カスタムの色</string>
+    <string name="monet_engine_white_luminance_user_title">白い輝き</string>
+    <string name="monet_engine_accurate_shades_title">正確な影を使用</string>
+    <string name="monet_engine_chroma_factor_title">クローマ (彩度) 係数</string>
+    <string name="monet_engine_linear_lightness_title">線形の明るさを使用</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">ブラックテーマを使用</string>
+    <string name="system_black_theme_summary">黒い背景を強制的に使用する</string>
     <!-- QS tiles layout -->
-    <string name="qs_tile_layout_title">QS tiles layout</string>
-    <string name="qs_tile_layout_summary">Customize tiles layout in QS panel</string>
-    <string name="qs_columns_portrait_title">Columns (Portrait)</string>
-    <string name="qs_columns_landscape_title">Columns (Landscape)</string>
-    <string name="qs_rows_portrait_title">Rows (Portrait)</string>
-    <string name="qs_rows_landscape_title">Rows (Landscape)</string>
-    <string name="qqs_rows_portrait_title">Rows (Quick QS portrait)</string>
-    <string name="qs_tile_hide_label_title">Hide labels</string>
-    <string name="qs_tile_hide_label_summary">Show only icon for QS tiles</string>
-    <string name="qs_tile_vertical_layout_title">Vertical layout</string>
-    <string name="qs_tile_vertical_layout_summary">Enable vertical layout for QS tiles</string>
+    <string name="qs_tile_layout_title">クイック設定タイルのレイアウト</string>
+    <string name="qs_tile_layout_summary">クイック設定パネル内のタイルのレイアウトを編集する</string>
+    <string name="qs_columns_portrait_title">列数 (縦)</string>
+    <string name="qs_columns_landscape_title">列数 (横)</string>
+    <string name="qs_rows_portrait_title">行数 (縦)</string>
+    <string name="qs_rows_landscape_title">行数 (横)</string>
+    <string name="qqs_rows_portrait_title">行数 (クイック設定の縦)</string>
+    <string name="qs_tile_hide_label_title">ラベルを隠す</string>
+    <string name="qs_tile_hide_label_summary">クイック設定タイルにアイコンだけを表示する</string>
+    <string name="qs_tile_vertical_layout_title">縦向きのレイアウト</string>
+    <string name="qs_tile_vertical_layout_summary">クイック設定タイルに縦向きのレイアウトを有効化する</string>
     <!-- QS Brightness -->
-    <string name="qs_brightness_slider_title">QS brightness slider</string>
-    <string name="qs_brightness_slider_summary">Customize brightness slider in QS panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_hide">Hide</string>
-    <string name="qs_show_brightness_normal">Show in QS Panel</string>
-    <string name="qs_show_brightness_both">Show in QS &amp; Quick QS Panel</string>
-    <string name="qs_show_auto_brightness_button_title">Auto brightness button</string>
-    <string name="qs_show_auto_brightness_button_hide">Hide</string>
-    <string name="qs_show_auto_brightness_button_slider">Show near slider</string>
-    <string name="qs_show_auto_brightness_button_footer">Show in footer</string>
-    <string name="qs_brightness_position_position_title">Move to bottom</string>
-    <string name="qs_brightness_position_position_summary">Show brightness slider in the bottom of QS panel</string>
+    <string name="qs_brightness_slider_title">明るさスライダー</string>
+    <string name="qs_brightness_slider_summary">クイック設定パネル内の明るさスライダーを編集する</string>
+    <string name="qs_show_brightness_title">明るさスライダー</string>
+    <string name="qs_show_brightness_hide">非表示</string>
+    <string name="qs_show_brightness_normal">クイック設定タイルに表示</string>
+    <string name="qs_show_brightness_both">クイック設定とクイック設定タイルに表示する</string>
+    <string name="qs_show_auto_brightness_button_title">自動明るさボタン</string>
+    <string name="qs_show_auto_brightness_button_hide">非表示</string>
+    <string name="qs_show_auto_brightness_button_slider">スライダー付近に表示</string>
+    <string name="qs_show_auto_brightness_button_footer">フッターに表示</string>
+    <string name="qs_brightness_position_position_title">下部へ移動</string>
+    <string name="qs_brightness_position_position_summary">クイック設定パネル下部内に明るさスライダーを表示する</string>
     <!-- Lockscreen media art -->
-    <string name="keygaurd_media_art_title">Media art</string>
-    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
+    <string name="keygaurd_media_art_title">メディアアート</string>
+    <string name="keygaurd_media_art_summary">ロック画面の背景にメディアアートを表示する</string>
     <!-- Gestures: Touchscreen gestures -->
-    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
-    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <string name="touchscreen_gesture_settings_title">タッチ画面のジェスチャー</string>
+    <string name="touchscreen_gesture_settings_summary">クイックアクションの様々なタッチ画面のジェスチャーを構成する</string>
 </resources>

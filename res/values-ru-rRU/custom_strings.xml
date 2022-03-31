@@ -603,17 +603,17 @@
     <string name="qs_rows_portrait_title">Строки (Портрет)</string>
     <string name="qs_rows_landscape_title">Строки (Ландшафт)</string>
     <string name="qqs_rows_portrait_title">Строки (Портрет Quick QS)</string>
-    <string name="qs_tile_hide_label_title">Hide labels</string>
-    <string name="qs_tile_hide_label_summary">Show only icon for QS tiles</string>
+    <string name="qs_tile_hide_label_title">Спрятать ярлыки</string>
+    <string name="qs_tile_hide_label_summary">Показывать только иконку плиток QS</string>
     <string name="qs_tile_vertical_layout_title">Вертикальное расположение</string>
     <string name="qs_tile_vertical_layout_summary">Включить вертикальную раскладку для плиток QS</string>
     <!-- QS Brightness -->
-    <string name="qs_brightness_slider_title">QS brightness slider</string>
+    <string name="qs_brightness_slider_title">Ползунок яркости QS</string>
     <string name="qs_brightness_slider_summary">Настройка ползунка яркости в QS панели</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_hide">Hide</string>
-    <string name="qs_show_brightness_normal">Show in QS Panel</string>
-    <string name="qs_show_brightness_both">Show in QS &amp; Quick QS Panel</string>
+    <string name="qs_show_brightness_title">Ползунок яркости</string>
+    <string name="qs_show_brightness_hide">Скрыть</string>
+    <string name="qs_show_brightness_normal">Показывать в панели QS</string>
+    <string name="qs_show_brightness_both">Показывать в QS &amp; Быстрая панель QS</string>
     <string name="qs_show_auto_brightness_button_title">Кнопка автояркости</string>
     <string name="qs_show_auto_brightness_button_hide">Скрыть</string>
     <string name="qs_show_auto_brightness_button_slider">Показывать рядом с ползунком</string>
@@ -621,9 +621,9 @@
     <string name="qs_brightness_position_position_title">Переместить вниз</string>
     <string name="qs_brightness_position_position_summary">Показывать ползунок яркости в нижней части панели QS</string>
     <!-- Lockscreen media art -->
-    <string name="keygaurd_media_art_title">Media art</string>
-    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
+    <string name="keygaurd_media_art_title">Медиа-арт</string>
+    <string name="keygaurd_media_art_summary">Отображение обложки в качестве фона экрана блокировки</string>
     <!-- Gestures: Touchscreen gestures -->
-    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
-    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <string name="touchscreen_gesture_settings_title">Жесты сенсорного экрана</string>
+    <string name="touchscreen_gesture_settings_summary">Выполняйте различные жесты на сенсорном экране для быстрых действий</string>
 </resources>

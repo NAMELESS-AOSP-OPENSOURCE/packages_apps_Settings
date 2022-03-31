@@ -159,7 +159,7 @@
     <string name="wakeup_when_plugged_unplugged_summary">Despertar celular se o carregador for conectado/desconectado</string>
     <!-- QS battery estimates -->
     <string name="qs_show_battery_estimate_title">Estimativa da bateria</string>
-    <string name="qs_show_battery_estimate_summary">Mostrar estimativa da bateria próxima do ícone</string>
+    <string name="qs_show_battery_estimate_summary">Mostrar estimativa da bateria próxima ao ícone</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Usar ícone de 4G</string>
     <string name="show_fourg_icon_summary">Usar ícone de 4G em vez de LTE</string>
@@ -180,18 +180,18 @@
     <string name="use_old_mobiletype_summary">Mostrar o ícone do tipo de sinal (5G/4G/3G) na parte superior do indicador de sinal</string>
     <!-- QS footer items -->
     <string name="quick_settings_category_title">Config. rápidas</string>
-    <string name="qs_footer_items_title">Itens de rodapé das CR</string>
-    <string name="qs_footer_items_summary">Selecione quais itens mostrar no rodapé das CR</string>
-    <string name="qs_footer_warnings_title">Avisos no rodapé das CR</string>
-    <string name="qs_footer_warnings_summary">Mostrar um aviso no rodapé das CR quando a internet estiver sendo monitorada por VPN/Apps externos</string>
+    <string name="qs_footer_items_title">Itens de rodapé das configurações rápidas</string>
+    <string name="qs_footer_items_summary">Selecione quais itens mostrar no rodapé das configurações rápidas</string>
+    <string name="qs_footer_warnings_title">Avisos no rodapé das configurações rápidas</string>
+    <string name="qs_footer_warnings_summary">Mostrar um aviso no rodapé das configurações rápidas quando a internet estiver sendo monitorada por VPN/Apps externos</string>
     <string name="qs_edit_title">Ícone de edição</string>
-    <string name="qs_edit_summary">Mostrar o ícone de edição no rodapé das CR</string>
+    <string name="qs_edit_summary">Mostrar o ícone de edição no rodapé das configurações rápidas</string>
     <string name="qs_multi_users_title">Ícone de múltiplos usuários</string>
-    <string name="qs_multi_users_summary">Mostrar o ícone de múltiplos usuários no rodapé das CR</string>
+    <string name="qs_multi_users_summary">Mostrar o ícone de múltiplos usuários no rodapé das configurações rápidas</string>
     <string name="qs_power_menu_title">Ícone do menu de energia</string>
-    <string name="qs_power_menu_summary">Mostrar o ícone do menu de energia no rodapé das CR</string>
+    <string name="qs_power_menu_summary">Mostrar o ícone do menu de energia no rodapé das configurações rápidas</string>
     <string name="qs_running_services_title">Ícone de serviços rodando</string>
-    <string name="qs_running_services_summary">Mostrar ícone de serviços rodando no rodapé das CR</string>
+    <string name="qs_running_services_summary">Mostrar ícone de serviços rodando no rodapé das configurações rápidas</string>
     <!-- Ambient Display Swipe Gesture -->
     <string name="ambient_gesture_title">Gestos</string>
     <string name="ambient_swipe_title">Desligar para despertar</string>
@@ -324,8 +324,8 @@
     <string name="haptic_feedback_enable">Ativar feedback tátil</string>
     <string name="haptic_on_face_title">Desbloqueio facial</string>
     <string name="haptic_on_face_summary">Vibrar quando o desbloqueio facial for autenticado</string>
-    <string name="haptic_on_qs_title">Botões das CR</string>
-    <string name="haptic_on_qs_summary">Vibrar quando clicar em botões das CR</string>
+    <string name="haptic_on_qs_title">Botões das configurações rápidas</string>
+    <string name="haptic_on_qs_summary">Vibrar quando clicar em botões das configurações rápidas</string>
     <string name="haptic_on_switch_title">Botões alternadores</string>
     <string name="haptic_on_switch_summary">Vibrar quando clicar em botões alternadores nas configurações</string>
     <string name="haptic_on_statusbar_title">Barra de status</string>
@@ -408,8 +408,8 @@
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Quantidade de RAM disponível</string>
     <!-- QSTile requires unlocking before being accessible -->
-    <string name="qstile_requires_unlocking_title">Botões seguros das CR</string>
-    <string name="qstile_requires_unlocking_summary">Requer desbloqueio de tela para acessar certos botões das CR</string>
+    <string name="qstile_requires_unlocking_title">Botões seguros das configurações rápidas</string>
+    <string name="qstile_requires_unlocking_summary">Requer desbloqueio de tela para acessar certos botões das configurações rápidas</string>
     <!-- Charging animation -->
     <string name="charging_animation_title">Animação de carregamento</string>
     <string name="charging_animation_summary">Mostrar animação de carregamento quando o dispositivo estiver conectado</string>
@@ -525,7 +525,7 @@
     <string name="action_screen_off">Tela desligada</string>
     <string name="action_notifications">Notificações</string>
     <string name="action_screenshot">Captura de tela</string>
-    <string name="action_qs_panel">Painel de CR</string>
+    <string name="action_qs_panel">Painel de configurações rápidas</string>
     <string name="action_app_action">Aplicação</string>
     <string name="action_ringer_modes">Modos de toque</string>
     <string name="kill_app">Matar aplicativo em primeiro plano</string>
@@ -603,27 +603,27 @@
     <string name="qs_rows_portrait_title">Linhas (Retrato)</string>
     <string name="qs_rows_landscape_title">Linhas (Paisagem)</string>
     <string name="qqs_rows_portrait_title">Linhas (modo rápido, retrato)</string>
-    <string name="qs_tile_hide_label_title">Hide labels</string>
-    <string name="qs_tile_hide_label_summary">Show only icon for QS tiles</string>
+    <string name="qs_tile_hide_label_title">Ocultar nomes</string>
+    <string name="qs_tile_hide_label_summary">Mostrar apenas os ícones nas configurações rápidas</string>
     <string name="qs_tile_vertical_layout_title">Layout vertical</string>
     <string name="qs_tile_vertical_layout_summary">Ativar layout vertical para os botões das configurações rápidas</string>
     <!-- QS Brightness -->
-    <string name="qs_brightness_slider_title">QS brightness slider</string>
-    <string name="qs_brightness_slider_summary">Configurar controle de brilho no painel de CR</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_hide">Hide</string>
-    <string name="qs_show_brightness_normal">Show in QS Panel</string>
-    <string name="qs_show_brightness_both">Show in QS &amp; Quick QS Panel</string>
+    <string name="qs_brightness_slider_title">Controle de brilho nas configurações rápidas</string>
+    <string name="qs_brightness_slider_summary">Configurar controle de brilho no painel de configurações rápidas</string>
+    <string name="qs_show_brightness_title">Controle de brilho</string>
+    <string name="qs_show_brightness_hide">Ocultar</string>
+    <string name="qs_show_brightness_normal">Mostrar no painel de configurações rápidas</string>
+    <string name="qs_show_brightness_both">Mostrar nas configurações rápidas &amp; Painel de Configurações Rápidas</string>
     <string name="qs_show_auto_brightness_button_title">Botão de brilho automático</string>
     <string name="qs_show_auto_brightness_button_hide">Ocultar</string>
     <string name="qs_show_auto_brightness_button_slider">Mostrar próximo à barra</string>
     <string name="qs_show_auto_brightness_button_footer">Mostrar no rodapé</string>
     <string name="qs_brightness_position_position_title">Mover para baixo</string>
-    <string name="qs_brightness_position_position_summary">Mostrar controle de brilho no rodapé do painel de CR</string>
+    <string name="qs_brightness_position_position_summary">Mostrar controle de brilho no rodapé do painel de configurações rápidas</string>
     <!-- Lockscreen media art -->
-    <string name="keygaurd_media_art_title">Media art</string>
-    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
+    <string name="keygaurd_media_art_title">Capa do álbum</string>
+    <string name="keygaurd_media_art_summary">Mostrar capa do álbum como papel de parede na tela de bloqueio</string>
     <!-- Gestures: Touchscreen gestures -->
-    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
-    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <string name="touchscreen_gesture_settings_title">Gestos na tela</string>
+    <string name="touchscreen_gesture_settings_summary">Faça vários gestos na tela para ações rápidas</string>
 </resources>
