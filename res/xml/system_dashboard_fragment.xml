@@ -50,7 +50,7 @@
         android:icon="@drawable/ic_system_update"
         android:order="-235">
         <intent android:targetPackage="org.nameless.updates"
-                android:targetClass="org.nameless.updates.ui.activity.UpdaterActivity" />
+                android:targetClass="org.nameless.updates.UpdatesActivity" />
     </Preference>
 
     <Preference
