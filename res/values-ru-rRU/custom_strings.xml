@@ -21,7 +21,7 @@
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
     <string name="color_mode_balance_category">Баланс цвета</string>
     <string name="color_mode_balance_red">Интенсивность красного</string>
-    <string name="color_mode_balance_green">Интенсивность зеленого</string>
+    <string name="color_mode_balance_green">Интенсивность зелёного</string>
     <string name="color_mode_balance_blue">Интенсивность синего</string>
     <string name="keywords_color_balance">цвет, цветовой баланс, цветокоррекция, красный, зеленый, синий, LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->

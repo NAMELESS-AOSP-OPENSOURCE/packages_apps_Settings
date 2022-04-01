@@ -323,20 +323,20 @@
     <string name="touch_haptic_summary">自訂系統組件的觸感回饋</string>
     <string name="haptic_feedback_enable">啟用觸感回饋</string>
     <string name="haptic_on_face_title">臉部解鎖</string>
-    <string name="haptic_on_face_summary">Do haptic feedback when face unlock authenticated</string>
+    <string name="haptic_on_face_summary">人臉識別解鎖認證過程中提供震動反饋</string>
     <string name="haptic_on_qs_title">快捷設置磁貼</string>
     <string name="haptic_on_qs_summary">點擊快捷設置磁貼時啟用觸感回饋</string>
     <string name="haptic_on_switch_title">設置開關</string>
     <string name="haptic_on_switch_summary">點擊設置中的開關時啟用觸感回饋</string>
     <string name="haptic_on_statusbar_title">狀態欄</string>
     <string name="haptic_on_statusbar_summary">點擊狀態欄時啟用觸感回饋</string>
-    <string name="haptic_on_slider_title">System slider</string>
-    <string name="haptic_on_slider_summary">Do haptic feedback when changed slider value</string>
+    <string name="haptic_on_slider_title">系統滑塊</string>
+    <string name="haptic_on_slider_summary">更改滑塊值時提供振動反饋</string>
     <string name="haptic_disabled">已禁用</string>
     <string name="haptic_on_back_title">返回手勢觸感</string>
     <string name="back_gesture_haptic_dragged">拖拽時啟用</string>
     <string name="back_gesture_haptic_dragged_triggered">拖拽時和觸發後都啟用</string>
-    <string name="haptic_on_fod_title">Fingerprint haptic</string>
+    <string name="haptic_on_fod_title">指紋辨識回饋</string>
     <string name="fod_haptic_authenticated">驗證通過後啟用</string>
     <string name="fod_haptic_pressed_authenticated">按下時和驗證通過後都啟用</string>
     <!-- Colored Statusbar Icons -->
@@ -476,13 +476,13 @@
     <string name="lower_resolution_dlg_title">警告</string>
     <string name="lower_resolution_dlg_text">This will kill all background apps and restart SystemUI!\n\nNote: Bootanimation will be misplaced after enabled lower resolution</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
+    <string name="app_lock_title">應用鎖</string>
     <string name="app_lock_summary_singular">1 application is protected</string>
     <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> applications are protected</string>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
+    <string name="app_lock_authentication_dialog_title">解鎖</string>
+    <string name="app_lock_packages_title">以保護的Apps</string>
+    <string name="app_lock_packages_summary">選擇要通過生物識別或設備身份識別保護的應用</string>
+    <string name="app_lock_timeout_title">自動鎖定時限</string>
     <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
     <string name="app_lock_timeout_5_secs">5 seconds</string>
     <string name="app_lock_timeout_10_secs">10 seconds</string>
@@ -491,10 +491,10 @@
     <string name="app_lock_timeout_5_mins">5 minutes</string>
     <string name="app_lock_timeout_10_mins">10 minutes</string>
     <string name="app_lock_timeout_30_mins">30 minutes</string>
-    <string name="app_lock_notifications_title">Collapse notifications</string>
+    <string name="app_lock_notifications_title">消除通知</string>
     <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
+    <string name="app_lock_notifications_disabled_summary">第一個保護的應用</string>
+    <string name="app_lock_biometrics_allowed_title">使用生物辨識解鎖Apps</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
     <!-- Lawnchair switcher -->
     <string name="app_info_misc">雜項</string>
@@ -502,7 +502,7 @@
     <string name="enable_lawnchair_summary">Switch to lawnchair as default launcher and disable pixel launcher</string>
     <string name="enable_lawnchair_info">Reboot to take effect</string>
     <!-- Click to partical screenshot -->
-    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
+    <string name="click_partial_screenshot_title">點擊部分截圖</string>
     <string name="click_partial_screenshot_summary">短按音量減和電源鍵以局部截圖</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">音量階級</string>
@@ -532,7 +532,7 @@
     <string name="recent_app_toggle">Switch recent app</string>
     <string name="skip_song">下一首歌曲</string>
     <string name="prev_song">上一首歌曲</string>
-    <string name="show_powermenu">Show Power menu</string>
+    <string name="show_powermenu">顯示電源菜單</string>
     <string name="partial_screenshot">局部截圖</string>
     <string name="hush_mute">Silence notifications</string>
     <!-- Long swipe gestures -->
@@ -569,61 +569,61 @@
     <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
     <string name="face_redo_confirm_btn">Redo</string>
     <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
+    <string name="face_unlock_method_title">人臉識別解鎖</string>
     <string name="face_unlock_method_default">When the screen is turned on</string>
     <string name="face_unlock_method_swipe">When swiping on lock screen</string>
     <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
     <!-- Optimized charge -->
-    <string name="optimized_charge_title">Optimized charging</string>
-    <string name="optimized_charge_summary">Limit charging to extend battery life</string>
-    <string name="optimized_charge_enable_title">Enable optimized charging</string>
-    <string name="optimized_charge_ceiling_title">Stop charging level</string>
-    <string name="optimized_charge_floor_title">Start charging level</string>
+    <string name="optimized_charge_title">充電優化</string>
+    <string name="optimized_charge_summary">限制充電以延長電池壽命</string>
+    <string name="optimized_charge_enable_title">啟用充電優化</string>
+    <string name="optimized_charge_ceiling_title">停止充電電量</string>
+    <string name="optimized_charge_floor_title">開始充電電量</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats?</string>
+    <string name="battery_stats_reset">重設數據？</string>
     <string name="battery_stats_message">Battery history stats are going to be reset!</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet settings</string>
-    <string name="monet_engine_summary">Customizate monet color performance</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="monet_engine_title">Monet 設置</string>
+    <string name="monet_engine_summary">自訂 Monet 取色</string>
+    <string name="monet_engine_custom_color_title">使用自訂顏色</string>
+    <string name="monet_engine_custom_color_summary">為 Monet 引擎使用自訂顏色而不是壁紙顏色</string>
+    <string name="monet_engine_color_override_title">自訂顏色</string>
+    <string name="monet_engine_white_luminance_user_title">白色亮度</string>
+    <string name="monet_engine_accurate_shades_title">使用準確色調</string>
+    <string name="monet_engine_chroma_factor_title">色度值</string>
+    <string name="monet_engine_linear_lightness_title">使用線性亮度</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Use black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
     <!-- QS tiles layout -->
-    <string name="qs_tile_layout_title">QS tiles layout</string>
-    <string name="qs_tile_layout_summary">Customize tiles layout in QS panel</string>
-    <string name="qs_columns_portrait_title">Columns (Portrait)</string>
-    <string name="qs_columns_landscape_title">Columns (Landscape)</string>
-    <string name="qs_rows_portrait_title">Rows (Portrait)</string>
-    <string name="qs_rows_landscape_title">Rows (Landscape)</string>
-    <string name="qqs_rows_portrait_title">Rows (Quick QS portrait)</string>
-    <string name="qs_tile_hide_label_title">Hide labels</string>
-    <string name="qs_tile_hide_label_summary">Show only icon for QS tiles</string>
-    <string name="qs_tile_vertical_layout_title">Vertical layout</string>
-    <string name="qs_tile_vertical_layout_summary">Enable vertical layout for QS tiles</string>
+    <string name="qs_tile_layout_title">快捷設置磁貼布局</string>
+    <string name="qs_tile_layout_summary">自定義快捷設置面板的磁塊佈局</string>
+    <string name="qs_columns_portrait_title">列數(垂直)</string>
+    <string name="qs_columns_landscape_title">列數 (橫)</string>
+    <string name="qs_rows_portrait_title">行數(垂直)</string>
+    <string name="qs_rows_landscape_title">行數 (橫)</string>
+    <string name="qqs_rows_portrait_title">行數(垂直快速設置)</string>
+    <string name="qs_tile_hide_label_title">隱藏標籤</string>
+    <string name="qs_tile_hide_label_summary">僅顯示快捷設置磁塊的圖標</string>
+    <string name="qs_tile_vertical_layout_title">垂直布局</string>
+    <string name="qs_tile_vertical_layout_summary">為快捷設置磁塊啟用垂直佈局</string>
     <!-- QS Brightness -->
-    <string name="qs_brightness_slider_title">QS brightness slider</string>
-    <string name="qs_brightness_slider_summary">Customize brightness slider in QS panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_hide">Hide</string>
-    <string name="qs_show_brightness_normal">Show in QS Panel</string>
-    <string name="qs_show_brightness_both">Show in QS &amp; Quick QS Panel</string>
-    <string name="qs_show_auto_brightness_button_title">Auto brightness button</string>
-    <string name="qs_show_auto_brightness_button_hide">Hide</string>
-    <string name="qs_show_auto_brightness_button_slider">Show near slider</string>
-    <string name="qs_show_auto_brightness_button_footer">Show in footer</string>
-    <string name="qs_brightness_position_position_title">Move to bottom</string>
-    <string name="qs_brightness_position_position_summary">Show brightness slider in the bottom of QS panel</string>
+    <string name="qs_brightness_slider_title">快捷設置亮度條滑塊</string>
+    <string name="qs_brightness_slider_summary">自訂快捷設置面板的亮度條滑塊</string>
+    <string name="qs_show_brightness_title">亮度條滑塊</string>
+    <string name="qs_show_brightness_hide">不顯示</string>
+    <string name="qs_show_brightness_normal">在快捷設置面板中顯示</string>
+    <string name="qs_show_brightness_both">在快捷設置&amp; 快捷設置面板中顯示</string>
+    <string name="qs_show_auto_brightness_button_title">自動亮度按鈕</string>
+    <string name="qs_show_auto_brightness_button_hide">不顯示</string>
+    <string name="qs_show_auto_brightness_button_slider">在滑塊旁顯示</string>
+    <string name="qs_show_auto_brightness_button_footer">在頁尾顯示</string>
+    <string name="qs_brightness_position_position_title">移至底部</string>
+    <string name="qs_brightness_position_position_summary">在快捷設置面板底部顯示亮度條滑塊</string>
     <!-- Lockscreen media art -->
-    <string name="keygaurd_media_art_title">Media art</string>
-    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
+    <string name="keygaurd_media_art_title">媒體封面</string>
+    <string name="keygaurd_media_art_summary">將鎖定螢幕背景替換為媒體封面</string>
     <!-- Gestures: Touchscreen gestures -->
-    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
+    <string name="touchscreen_gesture_settings_title">觸控螢幕手勢</string>
     <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
 </resources>
