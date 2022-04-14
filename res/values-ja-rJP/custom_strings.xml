@@ -626,4 +626,55 @@
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">タッチ画面のジェスチャー</string>
     <string name="touchscreen_gesture_settings_summary">クイックアクションの様々なタッチ画面のジェスチャーを構成する</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">非表示のネットワーク</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">あなたのモバイルホットスポット名は利用可能な Wi-Fi ネットワークに表示されなくなります。</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+    <plurals name="wifi_hotspot_auto_off_timeout">
+        <item quantity="other"><xliff:g id="DURATION">%1$d</xliff:g>分間端末の接続がない場合はオフにする</item>
+    </plurals>
+    <string name="wifi_hotspot_auto_off_timeout_never">ホットスポットをオフにしない</string>
+    <string name="wifi_hotspot_client_manager_title">接続済みの端末</string>
+    <string name="wifi_hotspot_client_manager_summary">ホットスポットに接続された端末のリスト、それらの管理、クライアントの数の上限を設定する。</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">ホットスポットに接続した端末のリストです</string>
+    <string name="wifi_hotspot_client_limit_title">接続する端末の制限数</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other"><xliff:g id="device_num">%1$d</xliff:g>台までのホットスポットへの接続を許可する</item>
+    </plurals>
+    <string name="wifi_hotspot_blocked_clients_list_title">ブロック済みの端末</string>
+    <string name="wifi_hotspot_connected_clients_list_title">接続された端末</string>
+    <string name="wifi_hotspot_block_client_dialog_title">端末をブロック</string>
+    <string name="wifi_hotspot_block_client_dialog_text">このアクションは \"<xliff:g id="device_name">%1$s</xliff:g>\" をこの端末から切断しブロックリストに追加します。</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">端末をブロック解除</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">端末 \"<xliff:g id="device_name">%1$s</xliff:g>\" は今後このホットスポットに接続できるようになります。</string>
+    <string name="wifi_hotspot_client_manager_footer_text">現在利用可能なクライアントはありません。接続済みまたはブロック済みの端末は利用可能になったらこのリストに表示されます。</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Sleep Mode</string>
+    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Ringer mode</string>
+    <string name="sleep_mode_ringer_off_title">Do not change</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
+    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
+    <string name="sleep_mode_ringer_silent_title">Silent</string>
+    <string name="sleep_mode_schedule_sunset">Sunset</string>
+    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
+    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
+    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
+    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
+    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
+    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
+    <string name="background_process_killer_title">Kill background processes</string>
+    <string name="background_process_killer_summary">Stop all non-essential background processes when the device is idle</string>
+    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
 </resources>

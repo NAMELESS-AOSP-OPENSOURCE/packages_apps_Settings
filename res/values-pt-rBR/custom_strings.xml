@@ -124,7 +124,7 @@
     <string name="add_heads_up_package">Adicionar aplicativo</string>
     <string name="add_heads_up_stoplist_summary">Desativar notificação flutuante nestes aplicativos</string>
     <string name="add_heads_up_blacklist_summary">Desativar notificações flutuantes destes aplicativos</string>
-    <string name="heads_up_stoplist_title">Ponto de parada</string>
+    <string name="heads_up_stoplist_title">Não perturbar</string>
     <string name="heads_up_blacklist_title">Lista negra</string>
     <string name="profile_choose_app">Escolher aplicativo</string>
     <string name="dialog_delete_title">Apagar</string>
@@ -249,7 +249,7 @@
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Ativar lanterna com a tela desligada</string>
     <string name="torch_power_button_gesture_none">Desativado</string>
-    <string name="torch_power_button_gesture_dt">Toque duplo no botão de energia (diminui velocidade da resposta), Desativa o toque duplo para abrir a câmera.</string>
+    <string name="torch_power_button_gesture_dt">Toque duplo no botão de energia (diminui a velocidade de resposta, além de desativar o toque duplo para abrir a câmera).</string>
     <string name="torch_power_button_gesture_lp">Segurar botão de energia</string>
     <!-- Pulse notifications lightning -->
     <string name="pulse_ambient_light_title">Luz ambiente lateral</string>
@@ -343,7 +343,7 @@
     <string name="statusbar_icons_style_title">Ícones coloridos</string>
     <string name="statusbar_icons_style_summary">Mostrar ícones coloridos na barra de status (a interface deve ser reiniciada)</string>
     <!-- Udfps background -->
-    <string name="udfps_background_title">Ícone de impressões digitais</string>
+    <string name="udfps_background_title">Fundo do ícone de impressões digitais</string>
     <string name="udfps_background_summary">Mostrar cor de fundo para ícone de impressões digitais</string>
     <string name="udfps_icon_color_title">Cor do ícone de impressões digitais</string>
     <string name="udfps_icon_color_black">Preto</string>
@@ -400,7 +400,7 @@
     <string name="status_bar_battery_percent_text_next">Próximo ao ícone</string>
     <string name="status_bar_battery_text_charging_title">Percentual da bateria enquanto carrega</string>
     <string name="status_bar_battery_text_charging_summary">Sempre mostrar percentual da bateria enquanto carrega</string>
-    <string name="left_battery_text_title">Texto de bateria restante</string>
+    <string name="left_battery_text_title">Texto de bateria à esquerda</string>
     <string name="left_battery_text_summary">Colocar texto de bateria à esquerda do ícone</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
@@ -457,7 +457,7 @@
     <string name="thick_label">Grosso</string>
     <!-- One shot automatic brightness -->
     <string name="auto_brightness_one_shot_title">Brilho automático rápido</string>
-    <string name="auto_brightness_one_shot_summary">O ajuste de brilho somente ocorrerá quando até for ligada</string>
+    <string name="auto_brightness_one_shot_summary">O ajuste de brilho automático ocorrerá uma única vez, no momento em que a tela for ligada. Útil quando a tela apresenta variações excessivas de brilho</string>
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permitir que pessoas conectadas a esse aparelho\u2019s conexões VPN para conectividade</string>
@@ -577,8 +577,8 @@
     <string name="optimized_charge_title">Carregamento otimizado</string>
     <string name="optimized_charge_summary">Limita o carregamento para aumentar a vida útil da bateria</string>
     <string name="optimized_charge_enable_title">Ativar carregamento otimizado</string>
-    <string name="optimized_charge_ceiling_title">Começo do carregamento</string>
-    <string name="optimized_charge_floor_title">Limite do carregamento</string>
+    <string name="optimized_charge_ceiling_title">Limite do carregamento</string>
+    <string name="optimized_charge_floor_title">Começo do carregamento</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Redefinir dados?</string>
     <string name="battery_stats_message">As estatísticas da bateria serão redefinidas!</string>
@@ -626,4 +626,57 @@
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Gestos na tela</string>
     <string name="touchscreen_gesture_settings_summary">Faça vários gestos na tela para ações rápidas</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Rede oculta</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">O nome do seu ponto de acesso não aparecerá na lista de redes disponíveis.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+    <plurals name="wifi_hotspot_auto_off_timeout">
+        <item quantity="other">Desativar quando nenhum dispositivo estiver conectado após <xliff:g id="DURATION">%1$d</xliff:g> minutos</item>
+        <item quantity="one">Desativar quando nenhum dispositivo estiver conectado após <xliff:g id="DURATION">%1$d</xliff:g> minuto</item>
+    </plurals>
+    <string name="wifi_hotspot_auto_off_timeout_never">Nunca desligar o ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivos conectados</string>
+    <string name="wifi_hotspot_client_manager_summary">Listar e configurar os dispositivos conectados ao ponto de acesso, além de definir o limite do número de conexões</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Listar dispositivos conectados ao ponto de acesso</string>
+    <string name="wifi_hotspot_client_limit_title">Limite de dispositivos conectados</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Até <xliff:g id="device_num">%1$d</xliff:g> dispositivos conseguem se conectar a este ponto de acesso</item>
+        <item quantity="one">Apenas <xliff:g id="device_num">%1$d</xliff:g> dispositivo consegue se conectar a este ponto de acesso</item>
+    </plurals>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivos Bloqueados</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivos Conectados</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Bloquear dispositivo</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Esta ação irá desconectar \"<xliff:g id="device_name">%1$s</xliff:g>\" deste dispositivo e adicioná-lo à lista de bloqueados</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Desbloquear dispositivo</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">O dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" poderá se conectar a este ponto de acesso</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nenhum cliente disponível atualmente. Conectados e bloqueados aparecerão aqui quando disponíveis.</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Modo Sono</string>
+    <string name="sleep_mode_summary_on">Ativado / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Desativado / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modo de toque</string>
+    <string name="sleep_mode_ringer_off_title">Não mudar</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibração</string>
+    <string name="sleep_mode_ringer_dnd_title">Não perturbe</string>
+    <string name="sleep_mode_ringer_silent_title">Silencioso</string>
+    <string name="sleep_mode_schedule_sunset">Pôr do sol</string>
+    <string name="sleep_mode_schedule_sunrise">Nascer do sol</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Ativa do pôr do sol até certo tempo</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Ativa de certo tempo até o pôr do sol</string>
+    <string name="sleep_mode_toggles_title">Botões</string>
+    <string name="sleep_mode_wifi_toggle_title">Desligar o Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Desativar o Wi-Fi quando o Modo Sono estiver ativado</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Desligar o Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Desativar o Bluetooth quando o Modo Sono estiver ativado</string>
+    <string name="sleep_mode_cellular_toggle_title">Desativar os Dados Móveis</string>
+    <string name="sleep_mode_cellular_toggle_summary">Desativar os Dados Móveis quando o Modo Sono estiver ativado</string>
+    <string name="sleep_mode_location_toggle_title">Desativar a Localização</string>
+    <string name="sleep_mode_location_toggle_summary">Desativar a Localização quando o Modo Sono estiver ativado</string>
+    <string name="sleep_mode_sensors_toggle_title">Desativar Sensores</string>
+    <string name="sleep_mode_sensors_toggle_summary">Desativar os Sensores quando o Modo Sono estiver ativado</string>
+    <string name="background_process_killer_title">Fechar aplicativos em segundo plano</string>
+    <string name="background_process_killer_summary">Fechar todos os aplicativos não essenciais em segundo plano quando o dispositivo não estiver em uso</string>
+    <string name="sleep_mode_display_text">O Modo Sono permite desativar certos serviços para ajudar a economizar bateria e silenciar o telefone enquanto você dorme.</string>
 </resources>

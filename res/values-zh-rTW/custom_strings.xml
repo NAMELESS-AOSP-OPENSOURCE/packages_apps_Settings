@@ -301,7 +301,7 @@
     <string name="long_label">最長</string>
     <!-- Wake up from fod -->
     <string name="wake_on_fod_pressed_title">指紋喚醒</string>
-    <string name="wake_on_fod_pressed_summary">Jump to lockscreen when fod is pressed in ambient display</string>
+    <string name="wake_on_fod_pressed_summary">在環境顯示界面按下指紋後跳轉至鎖定螢幕界面</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">選擇一個圖案大小</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -500,7 +500,7 @@
     <string name="app_info_misc">雜項</string>
     <string name="enable_lawnchair_title">Enable Lawnchair</string>
     <string name="enable_lawnchair_summary">Switch to lawnchair as default launcher and disable pixel launcher</string>
-    <string name="enable_lawnchair_info">Reboot to take effect</string>
+    <string name="enable_lawnchair_info">重新啟動後生效</string>
     <!-- Click to partical screenshot -->
     <string name="click_partial_screenshot_title">點擊部分截圖</string>
     <string name="click_partial_screenshot_summary">短按音量減和電源鍵以局部截圖</string>
@@ -559,12 +559,12 @@
     <string name="use_photos_spoof_summary">偽裝機型為 Pixel XL 以獲得無限制的原圖儲存空間</string>
     <string name="use_photos_spoof_info">重啟 Google Photos 應用以生效</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">少於1分鐘</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="screen_time_summary_usage_today">今天使用 %1$s</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
+    <string name="security_settings_face_settings_footer_custom">臉部解鎖可讓您通過查看設備來解鎖設備。請記住：\n\n● 您的設備可能會在您看到它的任何時候解鎖。 \n● 如果其他人在您睜著眼睛的情況下將設備放在您面前，他們可能會解鎖您的設備。 \n● 您的設備也可能被長得像您的人（例如孩子或同胞兄弟姐妹）解鎖。</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">臉部解鎖記錄的數據將被永久、安全地刪除。刪除後，您將需要您的 PIN 碼、圖案或密碼來解鎖您的手機。</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
     <string name="face_redo_confirm_btn">Redo</string>
@@ -581,7 +581,7 @@
     <string name="optimized_charge_floor_title">開始充電電量</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">重設數據？</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset!</string>
+    <string name="battery_stats_message">電池用量數據將會被重設!</string>
     <!-- Monet Engine -->
     <string name="monet_engine_title">Monet 設置</string>
     <string name="monet_engine_summary">自訂 Monet 取色</string>
@@ -593,7 +593,7 @@
     <string name="monet_engine_chroma_factor_title">色度值</string>
     <string name="monet_engine_linear_lightness_title">使用線性亮度</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_title">使用純黑主題</string>
     <string name="system_black_theme_summary">Force black background colors</string>
     <!-- QS tiles layout -->
     <string name="qs_tile_layout_title">快捷設置磁貼布局</string>
@@ -626,4 +626,55 @@
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">觸控螢幕手勢</string>
     <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+    <plurals name="wifi_hotspot_auto_off_timeout">
+        <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
+    </plurals>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
+    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
+    </plurals>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
+    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Sleep Mode</string>
+    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Ringer mode</string>
+    <string name="sleep_mode_ringer_off_title">Do not change</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
+    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
+    <string name="sleep_mode_ringer_silent_title">Silent</string>
+    <string name="sleep_mode_schedule_sunset">Sunset</string>
+    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
+    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
+    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
+    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
+    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
+    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
+    <string name="background_process_killer_title">Kill background processes</string>
+    <string name="background_process_killer_summary">Stop all non-essential background processes when the device is idle</string>
+    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
 </resources>

@@ -626,4 +626,61 @@
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Жесты сенсорного экрана</string>
     <string name="touchscreen_gesture_settings_summary">Выполняйте различные жесты на сенсорном экране для быстрых действий</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Скрытая сеть</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Имя вашей мобильной точки доступа не появится в списке доступных сетей WLAN.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+    <plurals name="wifi_hotspot_auto_off_timeout">
+        <item quantity="other">Выключение при отсутствии подключенного устройства в течение <xliff:g id="DURATION">%1$d</xliff:g> минут</item>
+        <item quantity="one">Выключение при отсутствии подключенного устройства в течение <xliff:g id="DURATION">%1$d</xliff:g> минуту</item>
+        <item quantity="few">Выключение при отсутствии подключенного устройства в течение <xliff:g id="DURATION">%1$d</xliff:g> минуты</item>
+        <item quantity="many">Выключение при отсутствии подключенного устройства в течение <xliff:g id="DURATION">%1$d</xliff:g> минут</item>
+    </plurals>
+    <string name="wifi_hotspot_auto_off_timeout_never">Никогда не выключать точку доступа</string>
+    <string name="wifi_hotspot_client_manager_title">Подключенные устройства</string>
+    <string name="wifi_hotspot_client_manager_summary">Список и управление устройствами, подключенными к точке доступа, а также установка ограничения на количество клиентов</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Список устройств, подключенных к точке доступа</string>
+    <string name="wifi_hotspot_client_limit_title">Предел подключенных устройств</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">К этой точке доступа может подключиться до <xliff:g id="device_num">%1$d</xliff:g> устройств</item>
+        <item quantity="one">К этой точке доступа может подключиться <xliff:g id="device_num">%1$d</xliff:g> устройство</item>
+        <item quantity="few">К этой точке доступа может подключиться до <xliff:g id="device_num">%1$d</xliff:g> устройств</item>
+        <item quantity="many">К этой точке доступа может подключиться до <xliff:g id="device_num">%1$d</xliff:g> устройств</item>
+    </plurals>
+    <string name="wifi_hotspot_blocked_clients_list_title">Заблокированные устройства</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Подключенные устройства</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Заблокировать устройство</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Это действие отключит \"<xliff:g id="device_name">%1$s</xliff:g>\" от этого устройства и добавит его в список блокировки</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Разблокировать устройство</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Это устройство \"<xliff:g id="device_name">%1$s</xliff:g>\" сможет подключиться к этой точке доступа</string>
+    <string name="wifi_hotspot_client_manager_footer_text">В настоящее время нет доступных клиентов. Подключенные и заблокированные устройства будут перечислены здесь по мере их появления.</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Спящий режим</string>
+    <string name="sleep_mode_summary_on">Вкл / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Выкл / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Режим звонка</string>
+    <string name="sleep_mode_ringer_off_title">Не менять</string>
+    <string name="sleep_mode_ringer_vibrate_title">Вибрация</string>
+    <string name="sleep_mode_ringer_dnd_title">Не беспокоить</string>
+    <string name="sleep_mode_ringer_silent_title">Тихий</string>
+    <string name="sleep_mode_schedule_sunset">Закат</string>
+    <string name="sleep_mode_schedule_sunrise">Восход</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Включается с момента захода солнца до заданного времени</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Включается с заданного времени до восхода солнца</string>
+    <string name="sleep_mode_toggles_title">Переключатели</string>
+    <string name="sleep_mode_wifi_toggle_title">Выключить Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Отключать Wi-Fi при включении спящего режима</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Выключить Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Отключать Bluetooth при включении спящего режима</string>
+    <string name="sleep_mode_cellular_toggle_title">Отключить мобильные данные</string>
+    <string name="sleep_mode_cellular_toggle_summary">Отключать мобильные данные при включении спящего режима</string>
+    <string name="sleep_mode_location_toggle_title">Выключить местоположение</string>
+    <string name="sleep_mode_location_toggle_summary">Отключать местоположение при включении спящего режима</string>
+    <string name="sleep_mode_sensors_toggle_title">Отключить датчики</string>
+    <string name="sleep_mode_sensors_toggle_summary">Отключение датчиков при включении спящего режима</string>
+    <string name="background_process_killer_title">Завершать фоновые процессы</string>
+    <string name="background_process_killer_summary">Остановка всех несущественных фоновых процессов, когда устройство простаивает</string>
+    <string name="sleep_mode_display_text">Спящий режим позволяет отключить некоторые службы для экономии заряда батареи и отключения звука телефона во время сна.</string>
 </resources>

@@ -336,7 +336,7 @@
     <string name="haptic_on_back_title">Haptisches Feedback bei Zurück-Geste</string>
     <string name="back_gesture_haptic_dragged">Beim Ziehen</string>
     <string name="back_gesture_haptic_dragged_triggered">Beim Ziehen &amp; Abzug</string>
-    <string name="haptic_on_fod_title">Fingerprint haptic</string>
+    <string name="haptic_on_fod_title">Fingerabdruck Vibration</string>
     <string name="fod_haptic_authenticated">Bei Authentifizierung</string>
     <string name="fod_haptic_pressed_authenticated">Bei gedrücktem &amp; authentifiziert</string>
     <!-- Colored Statusbar Icons -->
@@ -474,7 +474,7 @@
     <string name="lower_resolution_title">Niedrigere Bildschirmauflösung</string>
     <string name="lower_resolution_summary">Wechseln Sie zur Auflösung von %1$s, um den Stromverbrauch zu senken</string>
     <string name="lower_resolution_dlg_title">Warnung</string>
-    <string name="lower_resolution_dlg_text">This will kill all background apps and restart SystemUI!\n\nNote: Bootanimation will be misplaced after enabled lower resolution</string>
+    <string name="lower_resolution_dlg_text">Es werden alle Hintergrund-Apps geschlossen und SystemUI neugestartet!\n\nHinweis: Die Bootanimation wird nach der Aktivierung der niedrigen Auflösung falsch angezeigt</string>
     <!-- App lock -->
     <string name="app_lock_title">App Sperren</string>
     <string name="app_lock_summary_singular">1 Anwendung ist geschützt</string>
@@ -559,11 +559,11 @@
     <string name="use_photos_spoof_summary">Gerät als Pixel XL fälschen, um unbegrenzten Fotospeicher in Originalqualität zu erhalten</string>
     <string name="use_photos_spoof_info">Starten Sie die Google Fotos-App neu, damit sie wirksam wird</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">Weniger als 1 Minute</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="screen_time_summary_usage_today">%1$s heute</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
+    <string name="security_settings_face_settings_footer_custom">Mit Face Unlock kannst du dein Gerät entsperren, indem du es ansiehst. Bedenke:\n\n● Das Gerät kann jederzeit entsperrt werden, wenn sie darauf schauen.\n● Das Gerät kann von einer anderen Person entsperrt werden, indem diese es vor ihr Gesicht mit geöffneten Augen hält.\n● Das Gerät kann von jemandem entsperrt werden der ihnen sehr ähnlich sieht, z. B. ein Kind oder ein identischer Zwilling.</string>
     <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Entfernen Sie einen vorhandenen Gesichtsscan und erstellen Sie einen neuen Scan</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Gesichtsscan wiederholen</string>
@@ -574,29 +574,29 @@
     <string name="face_unlock_method_swipe">Beim Wischen auf dem Sperrbildschirm</string>
     <string name="skip_biometric_auth_confirmation_title">Manuelle Bestätigung überspringen</string>
     <!-- Optimized charge -->
-    <string name="optimized_charge_title">Optimized charging</string>
-    <string name="optimized_charge_summary">Limit charging to extend battery life</string>
-    <string name="optimized_charge_enable_title">Enable optimized charging</string>
-    <string name="optimized_charge_ceiling_title">Stop charging level</string>
-    <string name="optimized_charge_floor_title">Start charging level</string>
+    <string name="optimized_charge_title">optimiertes Laden</string>
+    <string name="optimized_charge_summary">Ladevorgang begrenzen, um die Lebensdauer des Akkus zu verlängern</string>
+    <string name="optimized_charge_enable_title">Aktiviere optimiertes Laden</string>
+    <string name="optimized_charge_ceiling_title">Stoppen bei diesem Ladestand</string>
+    <string name="optimized_charge_floor_title">Starten bei diesem Ladestand</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats?</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset!</string>
+    <string name="battery_stats_reset">Statistik zurücksetzen?</string>
+    <string name="battery_stats_message">Akkuverlaufsstatistik wird zurückgesetzt werden!</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet settings</string>
-    <string name="monet_engine_summary">Customizate monet color performance</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="monet_engine_title">Monet Einstellungen</string>
+    <string name="monet_engine_summary">Monet Farbleistung anpassen</string>
+    <string name="monet_engine_custom_color_title">Benutzerdefinierte Farbe verwenden</string>
+    <string name="monet_engine_custom_color_summary">Verwende benutzerdefinierte Farbe für Monet Engine, anstelle der Hintergrundfarben</string>
+    <string name="monet_engine_color_override_title">Benutzerdefinierte Farbe</string>
+    <string name="monet_engine_white_luminance_user_title">Weiße Leuchtstärke</string>
+    <string name="monet_engine_accurate_shades_title">Genaue Schattierungen verwenden</string>
+    <string name="monet_engine_chroma_factor_title">Chroma Faktor</string>
+    <string name="monet_engine_linear_lightness_title">Lineare Helligkeit verwenden</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Schwarzes Theme verwenden</string>
+    <string name="system_black_theme_summary">Schwarze Hintergrundfarbe erzwingen</string>
     <!-- QS tiles layout -->
-    <string name="qs_tile_layout_title">QS tiles layout</string>
+    <string name="qs_tile_layout_title">QS Tiles Layout</string>
     <string name="qs_tile_layout_summary">Customize tiles layout in QS panel</string>
     <string name="qs_columns_portrait_title">Columns (Portrait)</string>
     <string name="qs_columns_landscape_title">Columns (Landscape)</string>
@@ -626,4 +626,57 @@
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
     <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+    <plurals name="wifi_hotspot_auto_off_timeout">
+        <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
+        <item quantity="one">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minute</item>
+    </plurals>
+    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
+    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
+    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
+        <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
+    </plurals>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
+    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">Sleep Mode</string>
+    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Ringer mode</string>
+    <string name="sleep_mode_ringer_off_title">Do not change</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
+    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
+    <string name="sleep_mode_ringer_silent_title">Silent</string>
+    <string name="sleep_mode_schedule_sunset">Sunset</string>
+    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
+    <string name="sleep_mode_toggles_title">Toggles</string>
+    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
+    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
+    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
+    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
+    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
+    <string name="background_process_killer_title">Kill background processes</string>
+    <string name="background_process_killer_summary">Stop all non-essential background processes when the device is idle</string>
+    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
 </resources>

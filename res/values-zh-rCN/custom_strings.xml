@@ -626,4 +626,55 @@
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">触摸屏手势</string>
     <string name="touchscreen_gesture_settings_summary">使用各种触摸屏手势进行快捷操作</string>
+    <!-- Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">隐藏网络</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">您的热点名称将不会出现在可用 WLAN 网络的列表中</string>
+    <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
+    <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
+    <string name="wifi_band_60ghz">60 GHz</string>
+    <plurals name="wifi_hotspot_auto_off_timeout">
+        <item quantity="other">当无设备连接超过 <xliff:g id="DURATION">%1$d</xliff:g> 分钟时自动关闭热点</item>
+    </plurals>
+    <string name="wifi_hotspot_auto_off_timeout_never">永不关闭</string>
+    <string name="wifi_hotspot_client_manager_title">已连接的设备</string>
+    <string name="wifi_hotspot_client_manager_summary">列出并管理已连接到热点的设备，并设置最大连接数</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出已连接到热点的设备</string>
+    <string name="wifi_hotspot_client_limit_title">连接设备的限制</string>
+    <plurals name="wifi_hotspot_client_limit_summary">
+        <item quantity="other">最多 <xliff:g id="device_num">%1$d</xliff:g> 个设备可连接到热点</item>
+    </plurals>
+    <string name="wifi_hotspot_blocked_clients_list_title">已屏蔽的设备</string>
+    <string name="wifi_hotspot_connected_clients_list_title">已连接的设备</string>
+    <string name="wifi_hotspot_block_client_dialog_title">屏蔽设备</string>
+    <string name="wifi_hotspot_block_client_dialog_text">该操作将断开 <xliff:g id="device_name">%1$s</xliff:g> 的连接并将其加入黑名单</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">解除屏蔽设备</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">该设备 <xliff:g id="device_name">%1$s</xliff:g> 将被允许连接到此热点</string>
+    <string name="wifi_hotspot_client_manager_footer_text">当前没有可用的客户端。 如果可用，将在此处列出已连接和已屏蔽的设备。</string>
+    <!-- Sleep Mode -->
+    <string name="sleep_mode_title">睡眠模式</string>
+    <string name="sleep_mode_summary_on">已开启 / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">已关闭 / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">响铃模式</string>
+    <string name="sleep_mode_ringer_off_title">不改变</string>
+    <string name="sleep_mode_ringer_vibrate_title">振动模式</string>
+    <string name="sleep_mode_ringer_dnd_title">免打扰模式</string>
+    <string name="sleep_mode_ringer_silent_title">静音模式</string>
+    <string name="sleep_mode_schedule_sunset">日落</string>
+    <string name="sleep_mode_schedule_sunrise">日出</string>
+    <string name="sleep_mode_schedule_mixed_sunset">从日落开启直到某一时间</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">从某一时间开启直到日出</string>
+    <string name="sleep_mode_toggles_title">开关</string>
+    <string name="sleep_mode_wifi_toggle_title">关闭 Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">睡眠模式开启时禁用 Wi-Fi</string>
+    <string name="sleep_mode_bluetooth_toggle_title">关闭蓝牙</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">睡眠模式开启时禁用蓝牙</string>
+    <string name="sleep_mode_cellular_toggle_title">关闭移动数据</string>
+    <string name="sleep_mode_cellular_toggle_summary">睡眠模式开启时禁用移动数据</string>
+    <string name="sleep_mode_location_toggle_title">关闭位置信息</string>
+    <string name="sleep_mode_location_toggle_summary">睡眠模式开启时禁用位置信息</string>
+    <string name="sleep_mode_sensors_toggle_title">关闭传感器</string>
+    <string name="sleep_mode_sensors_toggle_summary">睡眠模式开启时禁用传感器</string>
+    <string name="background_process_killer_title">结束后台进程</string>
+    <string name="background_process_killer_summary">当设备休眠时终止所有非必要的后台进程</string>
+    <string name="sleep_mode_display_text">睡眠模式允许您禁用某些服务，以帮助您在睡眠时节省电池用量并使手机静音。</string>
 </resources>
