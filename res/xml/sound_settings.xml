@@ -299,11 +299,18 @@
         android:order="-6"
         android:defaultValue="true" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="volume_dialog_force_show_settings"
+        android:title="@string/volume_dialog_force_show_settings_title"
+        android:summary="@string/volume_dialog_force_show_settings_summary"
+        android:order="-5"
+        android:defaultValue="false" />
+
     <com.android.settings.custom.preference.SwitchPreference
         android:key="app_volume"
         android:title="@string/app_volume_title"
         android:summary="@string/app_volume_summary"
-        android:order="-5"
+        android:order="-4"
         android:defaultValue="true" />
 
     <Preference
