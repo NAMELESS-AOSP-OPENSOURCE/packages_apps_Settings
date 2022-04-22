@@ -58,6 +58,7 @@ android_library {
         "androidx.appcompat_appcompat",
         "androidx.cardview_cardview",
         "androidx.fragment_fragment-ktx",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
         "androidx.preference_preference",
         "androidx.preference_preference-ktx",
         "androidx.recyclerview_recyclerview",
