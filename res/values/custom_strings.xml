@@ -793,4 +793,8 @@
     <!-- Force to show settings in volume dialog -->
     <string name="volume_dialog_force_show_settings_title">Force to show media controller</string>
     <string name="volume_dialog_force_show_settings_summary">Always show media controller in volume dialog</string>
+
+    <!-- Back gesture arrow -->
+    <string name="back_gesture_arrow_title">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
 </resources>
