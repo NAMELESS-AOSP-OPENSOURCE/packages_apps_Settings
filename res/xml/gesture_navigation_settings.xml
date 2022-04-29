@@ -79,6 +79,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="navigation_bar_misc"
         android:title="@string/navbar_category">
 
         <com.android.settings.widget.LabeledSeekBarPreference

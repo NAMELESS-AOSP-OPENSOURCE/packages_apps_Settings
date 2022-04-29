@@ -83,6 +83,7 @@ android_library {
         "windowExtLib",
         "custom-preference",
         "faceunlock_framework",
+        "SystemUISharedLib",
     ],
 
     libs: [
