@@ -93,6 +93,7 @@ import com.android.settings.display.darkmode.DarkModeSettingsFragment;
 import com.android.settings.dream.DreamSettings;
 import com.android.settings.enterprise.EnterprisePrivacySettings;
 import com.android.settings.fuelgauge.AdvancedPowerUsageDetail;
+import com.android.settings.fuelgauge.OptimizedCharge;
 import com.android.settings.fuelgauge.PowerUsageSummary;
 import com.android.settings.fuelgauge.batterysaver.BatterySaverScheduleSettings;
 import com.android.settings.fuelgauge.batterysaver.BatterySaverSettings;
@@ -333,6 +334,7 @@ public class SettingsGateway {
             HeadsUpSettings.class.getName(),
             WifiTetherClientManager.class.getName(),
             SleepMode.class.getName(),
+            OptimizedCharge.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -375,6 +377,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
             Settings.HeadsUpSettingsActivity.class.getName(),
-            Settings.SleepModeActivity.class.getName()
+            Settings.SleepModeActivity.class.getName(),
+            Settings.OptimizedChargeActivity.class.getName()
     };
 }

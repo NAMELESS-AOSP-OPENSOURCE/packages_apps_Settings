@@ -330,4 +330,6 @@ public class Settings extends SettingsActivity {
     public static class HeadsUpSettingsActivity extends SettingsActivity {}
 
     public static class SleepModeActivity extends SettingsActivity {}
+
+    public static class OptimizedChargeActivity extends SettingsActivity {}
 }
