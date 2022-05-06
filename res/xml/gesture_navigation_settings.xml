@@ -97,6 +97,12 @@
             settings:textStart="@string/thin_label"
             settings:textEnd="@string/thick_label"/>
 
+        <com.android.settings.custom.preference.SecureSettingSwitchPreference
+            android:key="navigation_bar_immersive"
+            android:title="@string/immersive_gesture_bar_title"
+            android:summary="@string/immersive_gesture_bar_summary"
+            android:defaultValue="false"/>
+
         <com.android.settings.custom.preference.SystemSettingSwitchPreference
             android:key="navigation_bar_ime_space"
             android:title="@string/navigation_bar_ime_space_title"

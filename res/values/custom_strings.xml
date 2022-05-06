@@ -820,4 +820,8 @@
     <!-- Custom DNS Option -->
     <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
     <string name="private_dns_mode_adguard" translatable="false">AdGuard DNS</string>
+
+    <!-- Immersive gesture bar -->
+    <string name="immersive_gesture_bar_title">Immersive gesture bar</string>
+    <string name="immersive_gesture_bar_summary">Remove navigation bar height while keeping the gesture pill</string>
 </resources>
