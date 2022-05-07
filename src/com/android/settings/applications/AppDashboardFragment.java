@@ -23,6 +23,7 @@ import android.os.SystemProperties;
 import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 
+import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceGroup;
@@ -56,11 +57,10 @@ public class AppDashboardFragment extends DashboardFragment implements
 
     private static final String KEY_MISC = "app_info_misc";
 
-    private static final String KEY_ENABLE_LAWNCHAIR = "enable_lawnchair";
-    private static final String KEY_LAWNCHAIR_INFO = "enable_lawnchair_info";
+    private static final String KEY_LAUNCHER_SWITCHER_CATEGORY = "launcher_switcher_category";
+    private static final String KEY_LAUNCHER_SWITCHER = "launcher_switcher";
 
-    private SwitchPreference mEnableLawnchair;
-    private Preference mLawnchairInfo;
+    private ListPreference mLauncherSwitcher;
 
     private static List<AbstractPreferenceController> buildPreferenceControllers(Context context) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
@@ -109,11 +109,45 @@ public class AppDashboardFragment extends DashboardFragment implements
         mPhotosSpoof.setChecked(SystemProperties.getBoolean(SYS_PHOTOS_SPOOF, true));
         mPhotosSpoof.setOnPreferenceChangeListener(this);
 
-        mEnableLawnchair = (SwitchPreference) findPreference(KEY_ENABLE_LAWNCHAIR);
-        mLawnchairInfo = (Preference) findPreference(KEY_LAWNCHAIR_INFO);
+        mLauncherSwitcher = (ListPreference) findPreference(KEY_LAUNCHER_SWITCHER);
 
-        ((PreferenceGroup) findPreference(KEY_MISC)).removePreference(mEnableLawnchair);
-        ((PreferenceGroup) findPreference(KEY_MISC)).removePreference(mLawnchairInfo);
+        final int status = LauncherUtils.getAvailableStatus(getContext(), true);
+        final int launcher = LauncherUtils.getLauncher();
+        if (LauncherUtils.hasNoLauncher(status)) {
+            getPreferenceScreen().removePreference(
+                    getPreferenceScreen().findPreference(KEY_LAUNCHER_SWITCHER_CATEGORY));
+        } else {
+            ArrayList<CharSequence> entriesList = new ArrayList<CharSequence>();
+            ArrayList<CharSequence> valuesList = new ArrayList<CharSequence>();
+            if (LauncherUtils.isPixelAvailable(status)) {
+                entriesList.add(getResources().getString(R.string.launcher_pixel));
+                valuesList.add("0");
+            }
+            if (LauncherUtils.isNamelessAvailable(status)) {
+                entriesList.add(getResources().getString(R.string.launcher_nameless));
+                valuesList.add("1");
+            }
+            if (LauncherUtils.isLawnchairAvailable(status)) {
+                entriesList.add(getResources().getString(R.string.launcher_lawnchair));
+                valuesList.add("2");
+            }
+            if (entriesList.isEmpty()) {
+                getPreferenceScreen().removePreference(
+                        getPreferenceScreen().findPreference(KEY_LAUNCHER_SWITCHER_CATEGORY));
+            } else {
+                CharSequence[] entries = new CharSequence[entriesList.size()];
+                CharSequence[] values = new CharSequence[valuesList.size()];
+                for (int i = 0; i < entriesList.size(); ++i) {
+                    entries[i] = entriesList.get(i);
+                    values[i] = valuesList.get(i);
+                }
+                mLauncherSwitcher.setEntries(entries);
+                mLauncherSwitcher.setEntryValues(values);
+                mLauncherSwitcher.setValue(String.valueOf(launcher));
+                mLauncherSwitcher.setSummary(mLauncherSwitcher.getEntry());
+                mLauncherSwitcher.setOnPreferenceChangeListener(this);
+            }
+        }
     }
 
     @Override
@@ -122,10 +156,21 @@ public class AppDashboardFragment extends DashboardFragment implements
             boolean value = (Boolean) newValue;
             SystemProperties.set(SYS_PHOTOS_SPOOF, value ? "true" : "false");
             return true;
-        } else if (preference == mEnableLawnchair) {
-            boolean value = (Boolean) newValue;
-            LauncherUtils.setEnabled(value);
-            LauncherUtils.setLastStatus(value);
+        } else if (preference == mLauncherSwitcher) {
+            int value = Integer.parseInt((String) newValue);
+            LauncherUtils.setLauncher(value);
+            switch (value) {
+                default:
+                case 0:
+                    mLauncherSwitcher.setSummary(getResources().getString(R.string.launcher_pixel));
+                    break;
+                case 1:
+                    mLauncherSwitcher.setSummary(getResources().getString(R.string.launcher_nameless));
+                    break;
+                case 2:
+                    mLauncherSwitcher.setSummary(getResources().getString(R.string.launcher_lawnchair));
+                    break;
+            }
             return true;
         }
         return false;

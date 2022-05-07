@@ -95,6 +95,22 @@
         settings:controller="com.android.settings.applications.SpecialAppAccessPreferenceController"/>
 
     <PreferenceCategory
+        android:key="launcher_switcher_category"
+        android:title="@string/launcher_switcher_category"
+        android:order="200">
+
+        <ListPreference
+            android:key="launcher_switcher"
+            android:title="@string/launcher_switcher_title"/>
+
+        <com.android.settingslib.widget.FooterPreference
+            android:key="launcher_switcher_info"
+            android:title="@string/launcher_switcher_info"
+            android:selectable="false"
+            settings:searchable="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="app_info_misc"
         android:title="@string/app_info_misc"
         android:order="233">
@@ -108,18 +124,6 @@
         <Preference
             android:icon="@drawable/ic_info_outline"
             android:summary="@string/use_photos_spoof_info"
-            android:selectable="false"
-            settings:searchable="false"/>
-
-        <com.android.settings.custom.preference.SwitchPreference
-            android:key="enable_lawnchair"
-            android:title="@string/enable_lawnchair_title"
-            android:summary="@string/enable_lawnchair_summary"/>
-
-        <Preference
-            android:key="enable_lawnchair_info"
-            android:icon="@drawable/ic_info_outline"
-            android:summary="@string/enable_lawnchair_info"
             android:selectable="false"
             settings:searchable="false"/>
     </PreferenceCategory>

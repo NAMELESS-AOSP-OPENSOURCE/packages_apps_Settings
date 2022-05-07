@@ -581,11 +581,16 @@
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
 
-    <!-- Lawnchair switcher -->
+    <!-- App info misc -->
     <string name="app_info_misc">Miscellaneous</string>
-    <string name="enable_lawnchair_title">Enable Lawnchair</string>
-    <string name="enable_lawnchair_summary">Switch to lawnchair as default launcher and disable pixel launcher</string>
-    <string name="enable_lawnchair_info">Reboot to take effect</string>
+
+    <!-- Launcher switcher -->
+    <string name="launcher_switcher_category">Launcher switcher</string>
+    <string name="launcher_switcher_title">Default Launcher</string>
+    <string name="launcher_switcher_info">This setting is different from the default home app setting. You will be able to switch selected launcher as default launcher &amp; recent provider without root needed.\nReboot is needed for the change to take effect.</string>
+    <string name="launcher_pixel">Pixel Launcher</string>
+    <string name="launcher_nameless">Nameless Launcher</string>
+    <string name="launcher_lawnchair">Lawnchair</string>
 
     <!-- Click to partical screenshot -->
     <string name="click_partial_screenshot_title">Click to partial screenshot</string>
