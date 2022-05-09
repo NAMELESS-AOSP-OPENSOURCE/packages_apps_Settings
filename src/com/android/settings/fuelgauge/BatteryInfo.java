@@ -273,7 +273,8 @@ public class BatteryInfo {
             int chargingLimitedResId = R.string.power_charging_limited;
             info.chargeLabel =
                 context.getString(chargingLimitedResId, info.batteryPercentString);
-        } else if (chargeTimeMs > 0 && status != BatteryManager.BATTERY_STATUS_FULL) {
+        } else if (chargeTimeMs > 0 && status != BatteryManager.BATTERY_STATUS_FULL &&
+                    context.getResources().getBoolean(com.android.internal.R.bool.config_show_charging_remaining_time)) {
             info.remainingTimeUs = PowerUtil.convertMsToUs(chargeTimeMs);
             final CharSequence timeString = StringUtil.formatElapsedTime(
                     context,
