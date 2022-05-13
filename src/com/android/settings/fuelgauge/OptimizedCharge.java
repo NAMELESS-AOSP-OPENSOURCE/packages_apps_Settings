@@ -18,8 +18,6 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.widget.Switch;
 
-import androidx.preference.Preference;
-
 import com.android.internal.logging.nano.MetricsProto;
 
 import com.android.settings.R;
@@ -31,8 +29,8 @@ import com.android.settings.preference.SystemSettingMainSwitchPreference;
 
 import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
-public class OptimizedCharge extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener, OnMainSwitchChangeListener {
+public class OptimizedCharge extends SettingsPreferenceFragment
+        implements OnMainSwitchChangeListener {
 
     private SystemSettingSeekBarPreference mCeiling;
     private SystemSettingSeekBarPreference mFloor;
@@ -64,11 +62,6 @@ public class OptimizedCharge extends SettingsPreferenceFragment implements
 
         mCeiling.setEnabled(isChecked);
         mFloor.setEnabled(isChecked);
-    }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        return false;
     }
 
     @Override

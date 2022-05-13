@@ -20,8 +20,6 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.widget.Switch;
 
-import androidx.preference.Preference;
-
 import com.android.internal.logging.nano.MetricsProto;
 
 import com.android.settings.R;
@@ -34,8 +32,8 @@ import com.android.settings.preference.SystemSettingMainSwitchPreference;
 
 import com.android.settingslib.widget.OnMainSwitchChangeListener;
 
-public class NetworkTraffic extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener, OnMainSwitchChangeListener {
+public class NetworkTraffic extends SettingsPreferenceFragment
+        implements OnMainSwitchChangeListener {
 
     private SystemSettingListPreference mIndicatorMode;
     private SystemSettingSeekBarPreference mThreshold;
@@ -72,16 +70,6 @@ public class NetworkTraffic extends SettingsPreferenceFragment implements
         mIndicatorMode.setEnabled(isChecked);
         mThreshold.setEnabled(isChecked);
         mInterval.setEnabled(isChecked);
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-    }
-
-    @Override
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
-        return false;
     }
 
     @Override

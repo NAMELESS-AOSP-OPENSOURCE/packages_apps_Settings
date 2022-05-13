@@ -5,6 +5,7 @@ import android.content.Context;
 import android.database.ContentObserver;
 import android.net.Uri;
 import android.os.Handler;
+import android.os.UserHandle;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
@@ -39,12 +40,14 @@ public class TouchHapticPreferenceController extends TogglePreferenceController
 
     @Override
     public boolean isChecked() {
-        return Settings.System.getInt(mContext.getContentResolver(), KEY_HAPTIC_ENABLED, 1) == 1;
+        return Settings.System.getIntForUser(mContext.getContentResolver(),
+                KEY_HAPTIC_ENABLED, 1, UserHandle.USER_CURRENT) == 1;
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
-        return Settings.System.putInt(mContext.getContentResolver(), KEY_HAPTIC_ENABLED, isChecked ? 1 : 0);
+        return Settings.System.putIntForUser(mContext.getContentResolver(),
+                KEY_HAPTIC_ENABLED, isChecked ? 1 : 0, UserHandle.USER_CURRENT);
     }
 
     @Override
