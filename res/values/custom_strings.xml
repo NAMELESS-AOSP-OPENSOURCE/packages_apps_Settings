@@ -541,11 +541,6 @@
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
 
-    <!-- Strings for per-app volume -->
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Add per-app volume button into volume dialog</string>
-
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
     <string name="navbar_invert_layout_summary">Show back button at right side</string>
@@ -645,10 +640,6 @@
     <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
     <string name="back_swipe_extended_title">Extended swipe action</string>
     <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
-
-    <!-- Volume dialog position -->
-    <string name="left_volume_dialog_title">Left volume dialog</string>
-    <string name="left_volume_dialog_summary">Show volume dialog at left side in portrait mode</string>
 
     <!-- Unlimited g00gle ph0t0s st0rage -->
     <string name="use_photos_spoof_title">Unlimited Google Photos storage</string>
@@ -797,8 +788,7 @@
     <string name="window_ignore_secure_warning">This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
 
     <!-- Force to show settings in volume dialog -->
-    <string name="volume_dialog_force_show_settings_title">Force to show media controller</string>
-    <string name="volume_dialog_force_show_settings_summary">Always show media controller in volume dialog</string>
+    
 
     <!-- Back gesture arrow -->
     <string name="back_gesture_arrow_title">Back gesture animation</string>
@@ -841,4 +831,14 @@
 
     <!-- Hidden apps -->
     <string name="hidden_apps_title">Hidden apps</string>
+
+    <!-- Volume dialog -->
+    <string name="volume_dialog_category">Volume dialog</string>
+    <string name="left_volume_dialog_title">Move to left</string>
+    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
+    <string name="volume_dialog_force_show_settings_title">Media controller</string>
+    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
 </resources>
