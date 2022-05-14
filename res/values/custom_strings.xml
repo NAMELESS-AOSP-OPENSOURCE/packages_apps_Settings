@@ -787,9 +787,6 @@
     <string name="window_ignore_secure_summary">Remove screenshot / screenrecord limits for all applications</string>
     <string name="window_ignore_secure_warning">This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
 
-    <!-- Force to show settings in volume dialog -->
-    
-
     <!-- Back gesture arrow -->
     <string name="back_gesture_arrow_title">Back gesture animation</string>
     <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
@@ -810,7 +807,7 @@
     <string name="package_details_group_title">Package details</string>
     <string name="package_name">Package name</string>
     <string name="package_version">Package version</string>
-    <string name="package_version_text"><xliff:g id="version_num">%1$s</xliff:g></string>
+    <string name="package_version_text" translatable="false"><xliff:g id="version_num">%1$s</xliff:g></string>
 
     <!-- Custom DNS Option -->
     <string name="private_dns_mode_cloudflare" translatable="false">Cloudflare DNS</string>
