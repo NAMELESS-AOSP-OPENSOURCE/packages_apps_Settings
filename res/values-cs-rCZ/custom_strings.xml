@@ -461,10 +461,6 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
-    <!-- Strings for per-app volume -->
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Add per-app volume button into volume dialog</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
     <string name="navbar_invert_layout_summary">Show back button at right side</string>
@@ -496,11 +492,15 @@
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <!-- Lawnchair switcher -->
+    <!-- App info misc -->
     <string name="app_info_misc">Miscellaneous</string>
-    <string name="enable_lawnchair_title">Enable Lawnchair</string>
-    <string name="enable_lawnchair_summary">Switch to lawnchair as default launcher and disable pixel launcher</string>
-    <string name="enable_lawnchair_info">Reboot to take effect</string>
+    <!-- Launcher switcher -->
+    <string name="launcher_switcher_category">Launcher switcher</string>
+    <string name="launcher_switcher_title">Default Launcher</string>
+    <string name="launcher_switcher_info">This setting is different from the default home app setting. You will be able to switch selected launcher as default launcher &amp; recent provider without root needed.\nReboot is needed for the change to take effect.</string>
+    <string name="launcher_pixel">Pixel Launcher</string>
+    <string name="launcher_nameless">Nameless Launcher</string>
+    <string name="launcher_lawnchair">Lawnchair</string>
     <!-- Click to partical screenshot -->
     <string name="click_partial_screenshot_title">Click to partial screenshot</string>
     <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
@@ -551,9 +551,6 @@
     <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
     <string name="back_swipe_extended_title">Extended swipe action</string>
     <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
-    <!-- Volume dialog position -->
-    <string name="left_volume_dialog_title">Left volume dialog</string>
-    <string name="left_volume_dialog_summary">Show volume dialog at left side in portrait mode</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
     <string name="use_photos_spoof_title">Unlimited Google Photos storage</string>
     <string name="use_photos_spoof_summary">Spoof device as Pixel XL to get unlimited photo storage at original quality</string>
@@ -598,11 +595,12 @@
     <!-- QS tiles layout -->
     <string name="qs_tile_layout_title">QS tiles layout</string>
     <string name="qs_tile_layout_summary">Customize tiles layout in QS panel</string>
-    <string name="qs_columns_portrait_title">Columns (Portrait)</string>
-    <string name="qs_columns_landscape_title">Columns (Landscape)</string>
+    <string name="qs_tiles_layout_category">Tiles layout</string>
     <string name="qs_rows_portrait_title">Rows (Portrait)</string>
-    <string name="qs_rows_landscape_title">Rows (Landscape)</string>
     <string name="qqs_rows_portrait_title">Rows (Quick QS portrait)</string>
+    <string name="qs_columns_portrait_title">Columns (Portrait)</string>
+    <string name="qs_apply_change_button_title">Apply change</string>
+    <string name="qs_apply_change_failed">Failed to apply change</string>
     <string name="qs_tile_hide_label_title">Hide labels</string>
     <string name="qs_tile_hide_label_summary">Show only icon for QS tiles</string>
     <string name="qs_tile_vertical_layout_title">Vertical layout</string>
@@ -683,4 +681,53 @@
     <string name="background_process_killer_title">Kill background processes</string>
     <string name="background_process_killer_summary">Stop all non-essential background processes when the device is idle</string>
     <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <!-- Ignore secure flag -->
+    <string name="window_ignore_secure_title">Ignore window secure flags</string>
+    <string name="window_ignore_secure_summary">Remove screenshot / screenrecord limits for all applications</string>
+    <string name="window_ignore_secure_warning">This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <!-- Back gesture arrow -->
+    <string name="back_gesture_arrow_title">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+    <!-- Carrier label -->
+    <string name="carrier_label_category">Carrier label</string>
+    <string name="carrier_label_custom">Custom carrier label</string>
+    <string name="carrier_label_custom_unset">Click to set</string>
+    <string name="carrier_label_custom_title">Custom carrier label</string>
+    <string name="carrier_label_custom_explain">Enter a custom label. Leave blank to use your network name</string>
+    <string name="carrier_label_position">Carrier label position</string>
+    <string name="carrier_label_position_hide">Hide</string>
+    <string name="carrier_label_position_lockscreen">Lockscreen</string>
+    <string name="carrier_label_position_statusbar">Status Bar</string>
+    <string name="carrier_label_position_both">Lockscreen &amp; Status Bar</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Package details</string>
+    <string name="package_name">Package name</string>
+    <string name="package_version">Package version</string>
+    <!-- Custom DNS Option -->
+    <!-- Immersive gesture bar -->
+    <string name="immersive_gesture_bar_title">Immersive gesture bar</string>
+    <string name="immersive_gesture_bar_summary">Remove navigation bar height while keeping the gesture pill</string>
+    <!-- reTicker -->
+    <string name="reticker_category">reTicker</string>
+    <string name="reticker_title">Enable reTicker</string>
+    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <string name="reticker_landscape_only_title">Landscape only</string>
+    <string name="reticker_landscape_only_summary">Only enable reTicker when device is in landscape mode</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Hidden apps</string>
+    <!-- Volume dialog -->
+    <string name="volume_dialog_category">Volume dialog</string>
+    <string name="left_volume_dialog_title">Move to left</string>
+    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
+    <string name="volume_dialog_force_show_settings_title">Media controller</string>
+    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
+    <!-- App downgrade -->
+    <string name="app_downgrade_title">Allow application downgrade</string>
+    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
+    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
 </resources>

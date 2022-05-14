@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Warning message displayed if user choses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Geen certificaat opgegeven. Uw verbinding zal niet privé zijn.</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="min_greater_than_peak">Minimum refresh rate cannot be greater than maximum refresh rate!</string>
-    <string name="peak_less_than_min">Maximum refresh rate cannot be less than minimum refresh rate!</string>
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz as max refresh rate to save power when Battery Saver is on</string>
+    <string name="min_refresh_rate_title">Minimale verversingsfrequentie</string>
+    <string name="max_refresh_rate_title">Maximale verversingsfrequentie</string>
+    <string name="min_greater_than_peak">De minimale verversingsfrequentie kan niet groter zijn dan de maximale verversingsfrequentie!</string>
+    <string name="peak_less_than_min">De maximale verversingsfrequentie kan niet minder zijn dan de minimale verversingsfrequentie!</string>
+    <string name="battery_saver_refresh_rate_title">Verlagen verversingsfrequentie</string>
+    <string name="battery_saver_refresh_rate_summary">Gebruik 60 Hz als maximale verversingssnelheid om energie te besparen wanneer batterijbesparing is ingeschakeld</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Tik om info te tonen</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Veeg voor screenshot</string>
+    <string name="three_finger_gesture_summary">Veeg omlaag met drie vingers om een screenshot te maken</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Screenshot geluid</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_category">Color balance</string>
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <string name="color_mode_balance_category">Kleur balans</string>
+    <string name="color_mode_balance_red">Rode sterkte</string>
+    <string name="color_mode_balance_green">Groene sterkte</string>
+    <string name="color_mode_balance_blue">Blauwe sterkte</string>
+    <string name="keywords_color_balance">kleur, kleur balans, kleur correctie, rood, groen, blauw, LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">Bouw datum</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_volume_option_title">Verhooging belvolume</string>
     <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_ramp_up_time_title">Opvoedingstijd</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_title">Geavanceerde herstart inschakelen</string>
+    <string name="global_actions_advanced_reboot_summary">Toon opties voor herstel en bootloader in power menu</string>
     <!-- Double Tap to wake/sleep -->
-    <string name="double_tap_gesture_category">Tap to wake / sleep</string>
-    <string name="double_tap_gesture_title">Enable tap gesture</string>
-    <string name="double_tap_gesture_summary">Double-tap on the screen to wake or sleep device</string>
-    <string name="disable_in_landscape_title">Disable in landscape</string>
-    <string name="disable_in_landscape_summary">Prevent mistouch while in landscape mode</string>
+    <string name="double_tap_gesture_category">Tik om te ontwaken / slapen</string>
+    <string name="double_tap_gesture_title">Tikgebaar inschakelen</string>
+    <string name="double_tap_gesture_summary">Dubbeltik op het scherm om het apparaat te activeren of te laten slapen</string>
+    <string name="disable_in_landscape_title">Uitschakelen in landschap</string>
+    <string name="disable_in_landscape_summary">Voorkom verkeerd aanraken in landschap modus</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
-    <string name="statusbar_items_summary">Choose what icons to show in status bar</string>
+    <string name="statusbar_items_title">Statusbalkpictogrammen</string>
+    <string name="statusbar_items_summary">Kies welke pictogrammen getoond moeten worden in de statusbalk</string>
     <!-- Statusbar customization category -->
-    <string name="status_bar_category_title">Status bar</string>
+    <string name="status_bar_category_title">Statusbalk</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Pocket mode -->
@@ -69,7 +69,7 @@
     <string name="volume_button_music_control_title">Playback control</string>
     <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
     <!-- Statusbar net monitor -->
-    <string name="network_category_title">Network</string>
+    <string name="network_category_title">Netwerk</string>
     <string name="network_traffic_state_title">Network speed</string>
     <string name="network_traffic_state_summary">Show network speed in the status bar</string>
     <string name="network_traffic_state_enable">Show network speed</string>
@@ -132,22 +132,22 @@
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Time out</string>
     <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_5sec">5 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_2sec">2 seconden</string>
+    <string name="heads_up_time_out_4sec">4 seconden</string>
+    <string name="heads_up_time_out_5sec">5 seconden</string>
+    <string name="heads_up_time_out_6sec">6 seconden</string>
+    <string name="heads_up_time_out_8sec">8 seconden</string>
+    <string name="heads_up_time_out_10sec">10 seconden</string>
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Snooze timer</string>
     <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
     <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
     <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-    <string name="heads_up_snooze_1min">1 minute</string>
-    <string name="heads_up_snooze_5min">5 minutes</string>
-    <string name="heads_up_snooze_10min">10 minutes</string>
-    <string name="heads_up_snooze_15min">15 minutes</string>
-    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_1min">1 minuut</string>
+    <string name="heads_up_snooze_5min">5 minuten</string>
+    <string name="heads_up_snooze_10min">10 minuten</string>
+    <string name="heads_up_snooze_15min">15 minuten</string>
+    <string name="heads_up_snooze_20min">20 minuten</string>
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Make heads up less annoying</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string>
@@ -158,11 +158,11 @@
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged</string>
     <!-- QS battery estimates -->
-    <string name="qs_show_battery_estimate_title">Battery estimates</string>
+    <string name="qs_show_battery_estimate_title">Batterij schattingen</string>
     <string name="qs_show_battery_estimate_summary">Show estimated remaining battery life next to the icon</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Use 4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">Gebruik 4G-icoon</string>
+    <string name="show_fourg_icon_summary">4G-pictogram in signaalpictogram weergeven in plaats van LTE</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Show data disabled icon</string>
     <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
@@ -461,10 +461,6 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
     <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
-    <!-- Strings for per-app volume -->
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Add per-app volume button into volume dialog</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
     <string name="navbar_invert_layout_summary">Show back button at right side</string>
@@ -496,11 +492,15 @@
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
     <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
     <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <!-- Lawnchair switcher -->
+    <!-- App info misc -->
     <string name="app_info_misc">Miscellaneous</string>
-    <string name="enable_lawnchair_title">Enable Lawnchair</string>
-    <string name="enable_lawnchair_summary">Switch to lawnchair as default launcher and disable pixel launcher</string>
-    <string name="enable_lawnchair_info">Reboot to take effect</string>
+    <!-- Launcher switcher -->
+    <string name="launcher_switcher_category">Launcher switcher</string>
+    <string name="launcher_switcher_title">Default Launcher</string>
+    <string name="launcher_switcher_info">This setting is different from the default home app setting. You will be able to switch selected launcher as default launcher &amp; recent provider without root needed.\nReboot is needed for the change to take effect.</string>
+    <string name="launcher_pixel">Pixel Launcher</string>
+    <string name="launcher_nameless">Nameless Launcher</string>
+    <string name="launcher_lawnchair">Lawnchair</string>
     <!-- Click to partical screenshot -->
     <string name="click_partial_screenshot_title">Click to partial screenshot</string>
     <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
@@ -551,9 +551,6 @@
     <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
     <string name="back_swipe_extended_title">Extended swipe action</string>
     <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
-    <!-- Volume dialog position -->
-    <string name="left_volume_dialog_title">Left volume dialog</string>
-    <string name="left_volume_dialog_summary">Show volume dialog at left side in portrait mode</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
     <string name="use_photos_spoof_title">Unlimited Google Photos storage</string>
     <string name="use_photos_spoof_summary">Spoof device as Pixel XL to get unlimited photo storage at original quality</string>
@@ -598,11 +595,12 @@
     <!-- QS tiles layout -->
     <string name="qs_tile_layout_title">QS tiles layout</string>
     <string name="qs_tile_layout_summary">Customize tiles layout in QS panel</string>
-    <string name="qs_columns_portrait_title">Columns (Portrait)</string>
-    <string name="qs_columns_landscape_title">Columns (Landscape)</string>
+    <string name="qs_tiles_layout_category">Tiles layout</string>
     <string name="qs_rows_portrait_title">Rows (Portrait)</string>
-    <string name="qs_rows_landscape_title">Rows (Landscape)</string>
     <string name="qqs_rows_portrait_title">Rows (Quick QS portrait)</string>
+    <string name="qs_columns_portrait_title">Columns (Portrait)</string>
+    <string name="qs_apply_change_button_title">Apply change</string>
+    <string name="qs_apply_change_failed">Failed to apply change</string>
     <string name="qs_tile_hide_label_title">Hide labels</string>
     <string name="qs_tile_hide_label_summary">Show only icon for QS tiles</string>
     <string name="qs_tile_vertical_layout_title">Vertical layout</string>
@@ -679,4 +677,53 @@
     <string name="background_process_killer_title">Kill background processes</string>
     <string name="background_process_killer_summary">Stop all non-essential background processes when the device is idle</string>
     <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <!-- Ignore secure flag -->
+    <string name="window_ignore_secure_title">Ignore window secure flags</string>
+    <string name="window_ignore_secure_summary">Remove screenshot / screenrecord limits for all applications</string>
+    <string name="window_ignore_secure_warning">This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
+    <!-- Back gesture arrow -->
+    <string name="back_gesture_arrow_title">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+    <!-- Carrier label -->
+    <string name="carrier_label_category">Carrier label</string>
+    <string name="carrier_label_custom">Custom carrier label</string>
+    <string name="carrier_label_custom_unset">Click to set</string>
+    <string name="carrier_label_custom_title">Custom carrier label</string>
+    <string name="carrier_label_custom_explain">Enter a custom label. Leave blank to use your network name</string>
+    <string name="carrier_label_position">Carrier label position</string>
+    <string name="carrier_label_position_hide">Hide</string>
+    <string name="carrier_label_position_lockscreen">Lockscreen</string>
+    <string name="carrier_label_position_statusbar">Status Bar</string>
+    <string name="carrier_label_position_both">Lockscreen &amp; Status Bar</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Package details</string>
+    <string name="package_name">Package name</string>
+    <string name="package_version">Package version</string>
+    <!-- Custom DNS Option -->
+    <!-- Immersive gesture bar -->
+    <string name="immersive_gesture_bar_title">Immersive gesture bar</string>
+    <string name="immersive_gesture_bar_summary">Remove navigation bar height while keeping the gesture pill</string>
+    <!-- reTicker -->
+    <string name="reticker_category">reTicker</string>
+    <string name="reticker_title">Enable reTicker</string>
+    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
+    <string name="reticker_colored_title">Use app colored background</string>
+    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
+    <string name="reticker_landscape_only_title">Landscape only</string>
+    <string name="reticker_landscape_only_summary">Only enable reTicker when device is in landscape mode</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Hidden apps</string>
+    <!-- Volume dialog -->
+    <string name="volume_dialog_category">Volume dialog</string>
+    <string name="left_volume_dialog_title">Move to left</string>
+    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
+    <string name="volume_dialog_force_show_settings_title">Media controller</string>
+    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
+    <string name="app_volume">App volume</string>
+    <string name="app_volume_title">Per-app volume control</string>
+    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
+    <!-- App downgrade -->
+    <string name="app_downgrade_title">Allow application downgrade</string>
+    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
+    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
 </resources>

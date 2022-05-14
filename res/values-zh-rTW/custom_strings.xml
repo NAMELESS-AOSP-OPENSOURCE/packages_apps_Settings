@@ -287,7 +287,7 @@
     <string name="pulse_ambient_light_layout_solid">光滑</string>
     <string name="pulse_ambient_light_layout_faded">淡入淡出</string>
     <string name="pulse_ambient_light_width_title">閃光寬度</string>
-    <string name="pulse_light_layout_style_title">Light Layout Style</string>
+    <string name="pulse_light_layout_style_title">閃光布局風格</string>
     <string name="pulse_light_both">螢幕四周</string>
     <string name="pulse_light_top_bottom">從上往下</string>
     <string name="pulse_light_left_right">從左往右</string>
@@ -461,52 +461,52 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">允許用戶端使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允許熱點用戶端使用此設備\u2019的 VPN 連接到上游</string>
-    <!-- Strings for per-app volume -->
-    <string name="app_volume">分應用音量</string>
-    <string name="app_volume_title">分應用音量控制</string>
-    <string name="app_volume_summary">在音量調節面板添加分應用音量控制按鈕</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">反轉導航欄布局</string>
     <string name="navbar_invert_layout_summary">在右側顯示返回按鈕</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">已保存的耳機</string>
     <!-- Resolution switcher -->
-    <string name="lower_resolution_title">Lower screen resolution</string>
-    <string name="lower_resolution_summary">Switch to %1$s resolution to decrease power consumption</string>
+    <string name="lower_resolution_title">低螢幕分辨率</string>
+    <string name="lower_resolution_summary">切換到 %1$s 分辨率以節省電量</string>
     <string name="lower_resolution_dlg_title">警告</string>
-    <string name="lower_resolution_dlg_text">This will kill all background apps and restart SystemUI!\n\nNote: Bootanimation will be misplaced after enabled lower resolution</string>
+    <string name="lower_resolution_dlg_text">這將會強制停止所有的後台應用並重啟系統UI!\n\n注意：開啟低分辨率後開機動畫將會錯位</string>
     <!-- App lock -->
     <string name="app_lock_title">應用鎖</string>
-    <string name="app_lock_summary_singular">1 application is protected</string>
-    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> applications are protected</string>
+    <string name="app_lock_summary_singular">1個應用程式已被保護</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> 個應用程式已被鎖定</string>
     <string name="app_lock_authentication_dialog_title">解鎖</string>
-    <string name="app_lock_packages_title">以保護的Apps</string>
-    <string name="app_lock_packages_summary">選擇要通過生物識別或設備身份識別保護的應用</string>
+    <string name="app_lock_packages_title">以保護的應用程式</string>
+    <string name="app_lock_packages_summary">選擇要通過生物識別或設備身份識別鎖定的應用程式</string>
     <string name="app_lock_timeout_title">自動鎖定時限</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_timeout_5_secs">5 seconds</string>
-    <string name="app_lock_timeout_10_secs">10 seconds</string>
-    <string name="app_lock_timeout_30_secs">30 seconds</string>
-    <string name="app_lock_timeout_1_min">1 minute</string>
-    <string name="app_lock_timeout_5_mins">5 minutes</string>
-    <string name="app_lock_timeout_10_mins">10 minutes</string>
-    <string name="app_lock_timeout_30_mins">30 minutes</string>
+    <string name="app_lock_timeout_summary">鎖定在後台未鎖定應用程序的持續時間</string>
+    <string name="app_lock_timeout_5_secs">5 秒</string>
+    <string name="app_lock_timeout_10_secs">10 秒</string>
+    <string name="app_lock_timeout_30_secs">30 秒</string>
+    <string name="app_lock_timeout_1_min">1 分鐘</string>
+    <string name="app_lock_timeout_5_mins">5 分鐘</string>
+    <string name="app_lock_timeout_10_mins">10 分鐘</string>
+    <string name="app_lock_timeout_30_mins">30 分鐘</string>
     <string name="app_lock_notifications_title">消除通知</string>
-    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
-    <string name="app_lock_notifications_disabled_summary">第一個保護的應用</string>
-    <string name="app_lock_biometrics_allowed_title">使用生物辨識解鎖Apps</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
-    <!-- Lawnchair switcher -->
+    <string name="app_lock_notifications_summary">當鎖定時，將為所選應用程式隱藏並折疊通知內容。浮動通知將被自動禁用。</string>
+    <string name="app_lock_notifications_disabled_summary">請先鎖上一個應用程式</string>
+    <string name="app_lock_biometrics_allowed_title">使用生物辨識解鎖應用程式</string>
+    <string name="app_lock_footer_text">泡泡將於時間後自動消失</string>
+    <!-- App info misc -->
     <string name="app_info_misc">雜項</string>
-    <string name="enable_lawnchair_title">Enable Lawnchair</string>
-    <string name="enable_lawnchair_summary">Switch to lawnchair as default launcher and disable pixel launcher</string>
-    <string name="enable_lawnchair_info">重新啟動後生效</string>
+    <!-- Launcher switcher -->
+    <string name="launcher_switcher_category">啟動器切換</string>
+    <string name="launcher_switcher_title">預設啟動器</string>
+    <string name="launcher_switcher_info">此設置不同於默認的家庭應用程序設置。 您將能夠將選定的啟動器切換為默認啟動器&amp; 不需要root的最近的提供程序。\n需要重新啟動才能使更改生效。</string>
+    <string name="launcher_pixel">Pixel 啟動器</string>
+    <string name="launcher_nameless">Nameless 啟動器</string>
+    <string name="launcher_lawnchair">Lawnchair</string>
     <!-- Click to partical screenshot -->
     <string name="click_partial_screenshot_title">點擊部分截圖</string>
     <string name="click_partial_screenshot_summary">短按音量減和電源鍵以局部截圖</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">音量階級</string>
-    <string name="volume_steps_summary">自定義不同的音量階級</string>
+    <string name="volume_steps_summary">自訂不同的音量階級</string>
     <string name="volume_steps_alarm_title">音量階級: 鬧鐘</string>
     <string name="volume_steps_dtmf_title">音量階級: 撥號</string>
     <string name="volume_steps_music_title">音量階級: 媒體</string>
@@ -516,7 +516,7 @@
     <string name="volume_steps_voice_call_title">音量階級: 通話</string>
     <string name="volume_steps_reset">重設</string>
     <!-- Custom actions -->
-    <string name="action_nothing">No action</string>
+    <string name="action_nothing">無操作</string>
     <string name="action_voice_search">語音搜尋</string>
     <string name="action_launch_camera">相機</string>
     <string name="action_flashlight">手電筒</string>
@@ -526,53 +526,50 @@
     <string name="action_notifications">通知欄</string>
     <string name="action_screenshot">截圖</string>
     <string name="action_qs_panel">快捷設置面板</string>
-    <string name="action_app_action">Application</string>
+    <string name="action_app_action">打開應用程式</string>
     <string name="action_ringer_modes">響鈴模式</string>
-    <string name="kill_app">Kill foreground app</string>
-    <string name="recent_app_toggle">Switch recent app</string>
+    <string name="kill_app">結束前台應用程式</string>
+    <string name="recent_app_toggle">切換最近打開的應用程式</string>
     <string name="skip_song">下一首歌曲</string>
     <string name="prev_song">上一首歌曲</string>
     <string name="show_powermenu">顯示電源菜單</string>
     <string name="partial_screenshot">局部截圖</string>
-    <string name="hush_mute">Silence notifications</string>
+    <string name="hush_mute">靜音通知</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">進階手勢選項</string>
-    <string name="navbar_gesture_tweaks_pref_summary">自定義手勢和操作</string>
-    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
-    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
-    <string name="left_swipe_actions_title">Long left swipe action</string>
-    <string name="left_swipe_app_action_title">Select long left swipe app</string>
-    <string name="right_swipe_actions_title">Long right swipe action</string>
-    <string name="right_swipe_app_action_title">Select long right swipe app</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
-    <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-    <string name="back_swipe_extended_title">Extended swipe action</string>
-    <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
-    <!-- Volume dialog position -->
-    <string name="left_volume_dialog_title">左側音量面板</string>
-    <string name="left_volume_dialog_summary">豎屏狀態下在左側顯示音量面板</string>
+    <string name="navbar_gesture_tweaks_pref_summary">自訂手勢和操作</string>
+    <string name="swipe_app_select_summary">選擇要使用手勢操作啟動的應用程式</string>
+    <string name="long_back_swipe_timeout_title">長滑動作延遲時間</string>
+    <string name="left_swipe_actions_title">向左長滑動作</string>
+    <string name="left_swipe_app_action_title">選擇向左長滑要開啟的應用程式</string>
+    <string name="right_swipe_actions_title">向右長滑動作</string>
+    <string name="right_swipe_app_action_title">選擇向右長滑要開啟的應用程式</string>
+    <string name="left_vertical_swipe_actions_title">垂直向左 L 型滑動動作</string>
+    <string name="left_vertical_swipe_app_action_title">選擇垂直向左滑動要開啟的應用程式</string>
+    <string name="right_vertical_swipe_actions_title">垂直向右 L 型滑動動作</string>
+    <string name="right_vertical_swipe_app_action_title">選擇垂直向右滑動要開啟的應用程式</string>
+    <string name="gesture_nav_tweaks_footer_info">要為操作選擇特定的應用程序活動，請長按應用程序選擇器中的任意應用程序。 \n\n如果當前處於桌面，請在螢幕的最底部區域滑動以觸發操作。</string>
+    <string name="back_swipe_extended_title">擴展滑動動作</string>
+    <string name="back_swipe_extended_summary">在更寬的滑動(超過顯示尺寸的一半) 或 L 滑動(垂直足夠長) 上觸發手勢</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
     <string name="use_photos_spoof_title">無限制的 Google Photos 儲存</string>
     <string name="use_photos_spoof_summary">偽裝機型為 Pixel XL 以獲得無限制的原圖儲存空間</string>
     <string name="use_photos_spoof_info">重啟 Google Photos 應用以生效</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">少於1分鐘</string>
+    <string name="duration_less_than_one_minute">小於1分鐘</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">今天使用 %1$s</string>
+    <string name="screen_time_summary_usage_today">今天使用了 %1$s</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_settings_footer_custom">臉部解鎖可讓您通過查看設備來解鎖設備。請記住：\n\n● 您的設備可能會在您看到它的任何時候解鎖。 \n● 如果其他人在您睜著眼睛的情況下將設備放在您面前，他們可能會解鎖您的設備。 \n● 您的設備也可能被長得像您的人（例如孩子或同胞兄弟姐妹）解鎖。</string>
     <string name="security_settings_face_settings_remove_dialog_details_custom">臉部解鎖記錄的數據將被永久、安全地刪除。刪除後，您將需要您的 PIN 碼、圖案或密碼來解鎖您的手機。</string>
-    <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">移除現有人臉數據並重新錄入</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">重新錄入人臉</string>
+    <string name="face_redo_confirm_btn">確定</string>
+    <string name="face_redo_warning_msg">是否要刪除現有的人臉數據並創建一個新的？</string>
     <string name="face_unlock_method_title">人臉識別解鎖</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
-    <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
+    <string name="face_unlock_method_default">當螢幕開啟時</string>
+    <string name="face_unlock_method_swipe">當滑動鎖定螢幕時</string>
+    <string name="skip_biometric_auth_confirmation_title">略過手動確認</string>
     <!-- Optimized charge -->
     <string name="optimized_charge_title">充電優化</string>
     <string name="optimized_charge_summary">限制充電以延長電池壽命</string>
@@ -594,15 +591,16 @@
     <string name="monet_engine_linear_lightness_title">使用線性亮度</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">使用純黑主題</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_summary">強制背景顯示黑色</string>
     <!-- QS tiles layout -->
     <string name="qs_tile_layout_title">快捷設置磁貼布局</string>
-    <string name="qs_tile_layout_summary">自定義快捷設置面板的磁塊佈局</string>
-    <string name="qs_columns_portrait_title">列數(垂直)</string>
-    <string name="qs_columns_landscape_title">列數 (橫)</string>
+    <string name="qs_tile_layout_summary">自訂快捷設置面板的磁塊佈局</string>
+    <string name="qs_tiles_layout_category">磁貼佈局</string>
     <string name="qs_rows_portrait_title">行數(垂直)</string>
-    <string name="qs_rows_landscape_title">行數 (橫)</string>
     <string name="qqs_rows_portrait_title">行數(垂直快速設置)</string>
+    <string name="qs_columns_portrait_title">列數(垂直)</string>
+    <string name="qs_apply_change_button_title">使用更改</string>
+    <string name="qs_apply_change_failed">使用更改失敗</string>
     <string name="qs_tile_hide_label_title">隱藏標籤</string>
     <string name="qs_tile_hide_label_summary">僅顯示快捷設置磁塊的圖標</string>
     <string name="qs_tile_vertical_layout_title">垂直布局</string>
@@ -625,56 +623,105 @@
     <string name="keygaurd_media_art_summary">將鎖定螢幕背景替換為媒體封面</string>
     <!-- Gestures: Touchscreen gestures -->
     <string name="touchscreen_gesture_settings_title">觸控螢幕手勢</string>
-    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <string name="touchscreen_gesture_settings_summary">執行各種觸控螢幕手勢以進行快速動作</string>
     <!-- Hotspot -->
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">隱藏網路</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">您的行動無線基地台名稱將不會列於可用的Wi-Fi網路清單。</string>
     <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
     <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <string name="wifi_band_60ghz">60 GHz</string>
     <plurals name="wifi_hotspot_auto_off_timeout">
-        <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
+        <item quantity="other">當設備未連接超過 <xliff:g id="DURATION">%1$d</xliff:g> 分鐘時自動關閉熱點</item>
     </plurals>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
-    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">永不關閉</string>
+    <string name="wifi_hotspot_client_manager_title">已連接的設備</string>
+    <string name="wifi_hotspot_client_manager_summary">列出並管理已連接到熱點的設備，並設置最大連接數</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">列出已連接到熱點的設備</string>
+    <string name="wifi_hotspot_client_limit_title">連接設備限制</string>
     <plurals name="wifi_hotspot_client_limit_summary">
-        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
+        <item quantity="other">最多 <xliff:g id="device_num">%1$d</xliff:g> 個設備可連接到熱點</item>
     </plurals>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
-    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">已阻擋的設備</string>
+    <string name="wifi_hotspot_connected_clients_list_title">已連接的設備</string>
+    <string name="wifi_hotspot_block_client_dialog_title">阻擋設備</string>
+    <string name="wifi_hotspot_block_client_dialog_text">該操作將斷開 <xliff:g id="device_name">%1$s</xliff:g> 的連接並將其加入黑名單</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">解除阻擋設備</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">該設備 <xliff:g id="device_name">%1$s</xliff:g> 將被允許連接到此熱點</string>
+    <string name="wifi_hotspot_client_manager_footer_text">當前沒有可用的客戶端。 如果可用，將在此處列出已連接和已阻止的設備。</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
-    <string name="sleep_mode_schedule_sunset">Sunset</string>
-    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="background_process_killer_title">Kill background processes</string>
-    <string name="background_process_killer_summary">Stop all non-essential background processes when the device is idle</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_title">睡眠模式</string>
+    <string name="sleep_mode_summary_on">已開啟 / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">已關閉 / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">響鈴模式</string>
+    <string name="sleep_mode_ringer_off_title">不改變</string>
+    <string name="sleep_mode_ringer_vibrate_title">震動</string>
+    <string name="sleep_mode_ringer_dnd_title">零打擾</string>
+    <string name="sleep_mode_ringer_silent_title">靜音</string>
+    <string name="sleep_mode_schedule_sunset">日落</string>
+    <string name="sleep_mode_schedule_sunrise">日出</string>
+    <string name="sleep_mode_schedule_mixed_sunset">從日落開啟直到某一時間</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">從某一時間開啟直到日出</string>
+    <string name="sleep_mode_toggles_title">開關</string>
+    <string name="sleep_mode_wifi_toggle_title">關閉Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">睡眠模式開啟時關閉Wi-Fi</string>
+    <string name="sleep_mode_bluetooth_toggle_title">關閉藍芽</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">睡眠模式開啟時關閉藍芽</string>
+    <string name="sleep_mode_cellular_toggle_title">關閉行動數據</string>
+    <string name="sleep_mode_cellular_toggle_summary">睡眠模式開啟時關閉行動數據</string>
+    <string name="sleep_mode_location_toggle_title">關閉定位</string>
+    <string name="sleep_mode_location_toggle_summary">睡眠模式開啟時關閉位置</string>
+    <string name="sleep_mode_sensors_toggle_title">關閉傳感器</string>
+    <string name="sleep_mode_sensors_toggle_summary">睡眠模式開啟時關閉傳感器</string>
+    <string name="background_process_killer_title">結束後台流程</string>
+    <string name="background_process_killer_summary">當設備進入睡眠模式時終止所有非必要的後台流程</string>
+    <string name="sleep_mode_display_text">睡眠模式允許您關閉某些服務，以幫助您在睡眠時節省電池用量並使手機靜音。</string>
+    <!-- Ignore secure flag -->
+    <string name="window_ignore_secure_title">忽略視窗安全標記</string>
+    <string name="window_ignore_secure_summary">移除對所有應用程式的截圖/螢幕錄影的功能限制</string>
+    <string name="window_ignore_secure_warning">這在某些場合上很有用，但可能會造成隱私洩漏。更改設置後可能需要重新啟動才會生效。</string>
+    <!-- Back gesture arrow -->
+    <string name="back_gesture_arrow_title">返回手勢動畫</string>
+    <string name="back_gesture_arrow_summary">為返回手勢顯示動畫箭頭</string>
+    <!-- Carrier label -->
+    <string name="carrier_label_category">電信業者標籤</string>
+    <string name="carrier_label_custom">自定義電信業者標籤</string>
+    <string name="carrier_label_custom_unset">點擊設置</string>
+    <string name="carrier_label_custom_title">自訂電信業者名稱</string>
+    <string name="carrier_label_custom_explain">自訂電信業者名稱。 留空以使用您的網絡名稱</string>
+    <string name="carrier_label_position">電信業者名稱位置</string>
+    <string name="carrier_label_position_hide">不顯示</string>
+    <string name="carrier_label_position_lockscreen">鎖定螢幕</string>
+    <string name="carrier_label_position_statusbar">狀態欄</string>
+    <string name="carrier_label_position_both">鎖定螢幕&amp; 狀態欄</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">包裝詳情</string>
+    <string name="package_name">包裝名稱</string>
+    <string name="package_version">包裝版本</string>
+    <!-- Custom DNS Option -->
+    <!-- Immersive gesture bar -->
+    <string name="immersive_gesture_bar_title">沉浸式手勢欄</string>
+    <string name="immersive_gesture_bar_summary">在保留手勢欄的同時刪除導航欄高度</string>
+    <!-- reTicker -->
+    <string name="reticker_category">reTicker</string>
+    <string name="reticker_title">啟用reTicker</string>
+    <string name="reticker_summary">用經過重新設計的纖薄自動收報機的謹慎版本替換浮動通知</string>
+    <string name="reticker_colored_title">使用app顏色作為背景</string>
+    <string name="reticker_colored_summary">將reTicker的背景色替換為app的主色</string>
+    <string name="reticker_landscape_only_title">僅在橫向模式</string>
+    <string name="reticker_landscape_only_summary">僅在設備處於橫向模式時啟用 reTicker</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">隱藏應用程式</string>
+    <!-- Volume dialog -->
+    <string name="volume_dialog_category">Volume dialog</string>
+    <string name="left_volume_dialog_title">Move to left</string>
+    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
+    <string name="volume_dialog_force_show_settings_title">Media controller</string>
+    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
+    <string name="app_volume">分應用音量</string>
+    <string name="app_volume_title">分應用音量控制</string>
+    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
+    <!-- App downgrade -->
+    <string name="app_downgrade_title">Allow application downgrade</string>
+    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
+    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
 </resources>

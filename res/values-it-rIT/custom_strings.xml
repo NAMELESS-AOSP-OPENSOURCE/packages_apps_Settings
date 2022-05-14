@@ -287,7 +287,7 @@
     <string name="pulse_ambient_light_layout_solid">Solido</string>
     <string name="pulse_ambient_light_layout_faded">Ombra</string>
     <string name="pulse_ambient_light_width_title">Larghezza della luce</string>
-    <string name="pulse_light_layout_style_title">Light Layout Style</string>
+    <string name="pulse_light_layout_style_title">Stile della luce</string>
     <string name="pulse_light_both">Tutti e 4 i lati</string>
     <string name="pulse_light_top_bottom">Solo in alto e in basso</string>
     <string name="pulse_light_left_right">Solo a sinistra e destra</string>
@@ -336,7 +336,7 @@
     <string name="haptic_on_back_title">Gesti posteriori aptici</string>
     <string name="back_gesture_haptic_dragged">Durante trascinamento</string>
     <string name="back_gesture_haptic_dragged_triggered">&amp; Attivato al trascinamento</string>
-    <string name="haptic_on_fod_title">Fingerprint haptic</string>
+    <string name="haptic_on_fod_title">Vibrazione Impronta</string>
     <string name="fod_haptic_authenticated">All\'autenticazione</string>
     <string name="fod_haptic_pressed_authenticated">&amp; Autenticato alla pressione</string>
     <!-- Colored Statusbar Icons -->
@@ -461,10 +461,6 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Consenti ai client l\'utilizzo del VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client dell\'hotspot di utilizzare le connessioni VPN di questo dispositivo\u2019 per la connettività upstream</string>
-    <!-- Strings for per-app volume -->
-    <string name="app_volume">Volume applicazioni</string>
-    <string name="app_volume_title">Controllo del volume per applicazioni</string>
-    <string name="app_volume_summary">Aggiungi il volume per-app nella finestra del volume</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Inverti la barra di navigazione</string>
     <string name="navbar_invert_layout_summary">Mostra il pulsante indietro sul lato destro</string>
@@ -474,7 +470,7 @@
     <string name="lower_resolution_title">Risoluzione dello schermo inferiore</string>
     <string name="lower_resolution_summary">Modifica la risoluzione a %1$s per ridurre il consumo di batteria</string>
     <string name="lower_resolution_dlg_title">Attenzione</string>
-    <string name="lower_resolution_dlg_text">This will kill all background apps and restart SystemUI!\n\nNote: Bootanimation will be misplaced after enabled lower resolution</string>
+    <string name="lower_resolution_dlg_text">Verranno chiuse tutte le applicazioni in background e SystemUI verrà riavviato!\n\nNota: L\'animazione di avvio risulterà disallineata dopo aver abilitato la risoluzione inferiore</string>
     <!-- App lock -->
     <string name="app_lock_title">Blocco app</string>
     <string name="app_lock_summary_singular">Un\' applicazione è protetta</string>
@@ -496,11 +492,15 @@
     <string name="app_lock_notifications_disabled_summary">Proteggi prima un\'applicazione</string>
     <string name="app_lock_biometrics_allowed_title">Abilita biometria per sbloccare</string>
     <string name="app_lock_footer_text">Le bolle verranno automaticamente eliminate dopo il timeout</string>
-    <!-- Lawnchair switcher -->
+    <!-- App info misc -->
     <string name="app_info_misc">Varie</string>
-    <string name="enable_lawnchair_title">Abilita Lawnchair</string>
-    <string name="enable_lawnchair_summary">Imposta Lawnchair come launcher predefinito e disabilita il pixel launcher</string>
-    <string name="enable_lawnchair_info">Riavvia per avere effetto</string>
+    <!-- Launcher switcher -->
+    <string name="launcher_switcher_category">Launcher switcher</string>
+    <string name="launcher_switcher_title">Default Launcher</string>
+    <string name="launcher_switcher_info">This setting is different from the default home app setting. You will be able to switch selected launcher as default launcher &amp; recent provider without root needed.\nReboot is needed for the change to take effect.</string>
+    <string name="launcher_pixel">Pixel Launcher</string>
+    <string name="launcher_nameless">Nameless Launcher</string>
+    <string name="launcher_lawnchair">Lawnchair</string>
     <!-- Click to partical screenshot -->
     <string name="click_partial_screenshot_title">Clicca per uno screenshot parziale</string>
     <string name="click_partial_screenshot_summary">Fai clic brevemente su Volume giù e Tasto accensione per acquisire uno screenshot parziale</string>
@@ -551,20 +551,17 @@
     <string name="gesture_nav_tweaks_footer_info">Per scegliere un\'attività app specifica per l\'azione, premi a lungo su qualsiasi app nel selettore app..\n\nSe viene visualizzato il launcher, scorri il dito nella parte inferiore dello schermo per attivare l\'azione.</string>
     <string name="back_swipe_extended_title">Azione di swipe estesa</string>
     <string name="back_swipe_extended_summary">Attivare l\'azione con uno scorrimento più ampio (più della metà delle dimensioni del display) o uno scorrimento a L (più a lungo in verticale)</string>
-    <!-- Volume dialog position -->
-    <string name="left_volume_dialog_title">Pannello del volume a sinistra</string>
-    <string name="left_volume_dialog_summary">Mostra il pannello del volume a sinistra</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
     <string name="use_photos_spoof_title">Memoria illimitata Google Foto</string>
     <string name="use_photos_spoof_summary">Imposta dispositivo come Pixel XL per avere memoria illimitata su google foto a qualità originale</string>
     <string name="use_photos_spoof_info">Riavvia l\'app Google Foto per avere effetto</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">Meno di 1 Minuto</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="screen_time_summary_usage_today">%1$s oggi</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
+    <string name="security_settings_face_settings_footer_custom">Lo sblocco col volto ti permette di sbloccare il tuo dispositivo semplicemente guardandolo. Ricorda:\n\n● Il tuo dispositivo potrebbe sbloccarsi ogni volta che lo guardi.\n● Il tuo dispositivo potrebbe essere sbloccato da qualcun altro se tenuto davanti al tuo volto mentre i tuoi occhi sono aperti.\n● Il tuo dispositivo potrebbe inoltre essere sbloccato da qualuno che ti somiglia particolarmente, come un bambino o un fratello identico.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">I dati registrati dallo sblocco col volto verranno eliminati definitivamente e in sicurezza. Dopo l\'eliminazione, avrai bisogno di PIN, Sequenza, o Password per sbloccare il tuo telefono.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Rimuovi la scansione facciale esistente e creane una nuova</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Esegui nuovamente una scansione facciale</string>
     <string name="face_redo_confirm_btn">Rifai</string>
@@ -574,109 +571,161 @@
     <string name="face_unlock_method_swipe">Quando si scorre sulla schermata di blocco</string>
     <string name="skip_biometric_auth_confirmation_title">Salta la conferma manualmente</string>
     <!-- Optimized charge -->
-    <string name="optimized_charge_title">Optimized charging</string>
-    <string name="optimized_charge_summary">Limit charging to extend battery life</string>
-    <string name="optimized_charge_enable_title">Enable optimized charging</string>
-    <string name="optimized_charge_ceiling_title">Stop charging level</string>
-    <string name="optimized_charge_floor_title">Start charging level</string>
+    <string name="optimized_charge_title">Ricarica ottimizzata</string>
+    <string name="optimized_charge_summary">Limita la ricarica per aumentare la vita della batteria</string>
+    <string name="optimized_charge_enable_title">Abilita ricarica ottimizzata</string>
+    <string name="optimized_charge_ceiling_title">Fine livello di ricarica</string>
+    <string name="optimized_charge_floor_title">Inizio livello di ricarica</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats?</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset!</string>
+    <string name="battery_stats_reset">Resettare statistiche?</string>
+    <string name="battery_stats_message">La cronologia delle statistiche di ricarica sta per essere resettata!</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet settings</string>
-    <string name="monet_engine_summary">Customizate monet color performance</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="monet_engine_title">Impostazioni Monet</string>
+    <string name="monet_engine_summary">Personalizza le prestazioni del colore Monet</string>
+    <string name="monet_engine_custom_color_title">Usa un colore personalizzato</string>
+    <string name="monet_engine_custom_color_summary">Usa un colore personalizzato per monet anziché i colori del wallpaper</string>
+    <string name="monet_engine_color_override_title">Colore personalizzato</string>
+    <string name="monet_engine_white_luminance_user_title">Luminanza bianco</string>
+    <string name="monet_engine_accurate_shades_title">Usa ombre accurate</string>
+    <string name="monet_engine_chroma_factor_title">Fattore cromatico</string>
+    <string name="monet_engine_linear_lightness_title">Usa la luminosità lineare</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Usa tema scuro</string>
+    <string name="system_black_theme_summary">Forza il colore nero come background</string>
     <!-- QS tiles layout -->
-    <string name="qs_tile_layout_title">QS tiles layout</string>
-    <string name="qs_tile_layout_summary">Customize tiles layout in QS panel</string>
-    <string name="qs_columns_portrait_title">Columns (Portrait)</string>
-    <string name="qs_columns_landscape_title">Columns (Landscape)</string>
-    <string name="qs_rows_portrait_title">Rows (Portrait)</string>
-    <string name="qs_rows_landscape_title">Rows (Landscape)</string>
-    <string name="qqs_rows_portrait_title">Rows (Quick QS portrait)</string>
-    <string name="qs_tile_hide_label_title">Hide labels</string>
-    <string name="qs_tile_hide_label_summary">Show only icon for QS tiles</string>
-    <string name="qs_tile_vertical_layout_title">Vertical layout</string>
-    <string name="qs_tile_vertical_layout_summary">Enable vertical layout for QS tiles</string>
+    <string name="qs_tile_layout_title">Layout QS Tiles</string>
+    <string name="qs_tile_layout_summary">Personalizza il layout dei riquadri nel pannello QS</string>
+    <string name="qs_tiles_layout_category">Layout Tiles</string>
+    <string name="qs_rows_portrait_title">Righe (Ritratto)</string>
+    <string name="qqs_rows_portrait_title">Righe (Ritratto QS rapidi)</string>
+    <string name="qs_columns_portrait_title">Colonne (Ritratto)</string>
+    <string name="qs_apply_change_button_title">Applica modifiche</string>
+    <string name="qs_apply_change_failed">Impossibile applicare le modifiche</string>
+    <string name="qs_tile_hide_label_title">Nascondi etichette</string>
+    <string name="qs_tile_hide_label_summary">Mostra solo le icone nei riquadri QS</string>
+    <string name="qs_tile_vertical_layout_title">Layout verticale</string>
+    <string name="qs_tile_vertical_layout_summary">Abilita layout verticale per i riquadri QS</string>
     <!-- QS Brightness -->
-    <string name="qs_brightness_slider_title">QS brightness slider</string>
-    <string name="qs_brightness_slider_summary">Customize brightness slider in QS panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_hide">Hide</string>
-    <string name="qs_show_brightness_normal">Show in QS Panel</string>
-    <string name="qs_show_brightness_both">Show in QS &amp; Quick QS Panel</string>
-    <string name="qs_show_auto_brightness_button_title">Auto brightness button</string>
-    <string name="qs_show_auto_brightness_button_hide">Hide</string>
-    <string name="qs_show_auto_brightness_button_slider">Show near slider</string>
-    <string name="qs_show_auto_brightness_button_footer">Show in footer</string>
-    <string name="qs_brightness_position_position_title">Move to bottom</string>
-    <string name="qs_brightness_position_position_summary">Show brightness slider in the bottom of QS panel</string>
+    <string name="qs_brightness_slider_title">Cursore luminosità QS</string>
+    <string name="qs_brightness_slider_summary">Personalizza il cursore della luminosità nel pannello QS</string>
+    <string name="qs_show_brightness_title">Cursore luminosità</string>
+    <string name="qs_show_brightness_hide">Nascondi</string>
+    <string name="qs_show_brightness_normal">Mostra nel pannello QS</string>
+    <string name="qs_show_brightness_both">Mostra nei QS &amp; Pannello QS Rapidi</string>
+    <string name="qs_show_auto_brightness_button_title">Pulsante luminosità automatica</string>
+    <string name="qs_show_auto_brightness_button_hide">Nascondi</string>
+    <string name="qs_show_auto_brightness_button_slider">Mostra accanto al cursore</string>
+    <string name="qs_show_auto_brightness_button_footer">Mostra nel footer</string>
+    <string name="qs_brightness_position_position_title">Sposta in basso</string>
+    <string name="qs_brightness_position_position_summary">Mostra il cursore luminosità nella parte bassa del pannello QS</string>
     <!-- Lockscreen media art -->
-    <string name="keygaurd_media_art_title">Media art</string>
-    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
+    <string name="keygaurd_media_art_title">Media Art</string>
+    <string name="keygaurd_media_art_summary">Mostra la grafica multimediale come sfondo della schermata di blocco</string>
     <!-- Gestures: Touchscreen gestures -->
-    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
-    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <string name="touchscreen_gesture_settings_title">Gesti touchscreen</string>
+    <string name="touchscreen_gesture_settings_summary">Esegui vari gesti touch per azioni rapide</string>
     <!-- Hotspot -->
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Reti nascoste</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Il nome del tuo hotspot mobile non apparirà nell\'elenco delle reti WLAN disponibili.</string>
     <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
     <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <string name="wifi_band_60ghz">60 GHz</string>
     <plurals name="wifi_hotspot_auto_off_timeout">
-        <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
-        <item quantity="one">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minute</item>
+        <item quantity="other">Spegni quando nessun dispositivo è connesso per
+<xliff:g id="DURATION">%1$d</xliff:g> minuti</item>
+        <item quantity="one">Spegni quando nessun dispositivo è connesso per
+<xliff:g id="DURATION">%1$d</xliff:g> minuti</item>
     </plurals>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
-    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Non spegnere mai l\'hotspot</string>
+    <string name="wifi_hotspot_client_manager_title">Dispositivi connessi</string>
+    <string name="wifi_hotspot_client_manager_summary">Elenca e gestisci i dispositivi collegati all\'hotspot e imposta il limite del numero di client</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Elenca i dispositivi collegati all\'hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Limite di dispositivi connessi</string>
     <plurals name="wifi_hotspot_client_limit_summary">
-        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
-        <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
+        <item quantity="other">Fino a <xliff:g id="device_num">%1$d</xliff:g> dispositivi possono collegarsi a questo hotspot</item>
+        <item quantity="one">Fino a <xliff:g id="device_num">%1$d</xliff:g> dispositivi possono collegarsi a questo hotspot</item>
     </plurals>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
-    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Dispositivi bloccati</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Dispositivi connessi</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Dispositivi bloccati</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Questa azione disconnetterà \"<xliff:g id="device_name">%1$s</xliff:g>\" da questo dispositivo e li aggiungerà alla lista di blocco</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Dispositivi bloccati</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Questo dispositivo \"<xliff:g id="device_name">%1$s</xliff:g>\" potrà collegarsi a questo hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Nessun client è attualmente disponibile. I dispositivi connessi e bloccati verranno elencati qui quando disponibili.</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
-    <string name="sleep_mode_schedule_sunset">Sunset</string>
-    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="background_process_killer_title">Kill background processes</string>
-    <string name="background_process_killer_summary">Stop all non-essential background processes when the device is idle</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_title">Modalità notte</string>
+    <string name="sleep_mode_summary_on">Acceso / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Spento / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Modalità suoneria</string>
+    <string name="sleep_mode_ringer_off_title">Non cambiare</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrazione</string>
+    <string name="sleep_mode_ringer_dnd_title">Non disturbare</string>
+    <string name="sleep_mode_ringer_silent_title">Silenzioso</string>
+    <string name="sleep_mode_schedule_sunset">Tramonto</string>
+    <string name="sleep_mode_schedule_sunrise">Alba</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Attiva dal tramonto fino a un orario</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Attiva da un orario fino all\'alba</string>
+    <string name="sleep_mode_toggles_title">Alterna</string>
+    <string name="sleep_mode_wifi_toggle_title">Spegni Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Disabilita il Wi-Fi quando la modalità Sleep è attiva</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Disattiva Bluetooth</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Disabilita il Bluetooth quando la modalità Sleep è attiva</string>
+    <string name="sleep_mode_cellular_toggle_title">Disattiva dati mobili</string>
+    <string name="sleep_mode_cellular_toggle_summary">Disabilita i dati mobili quando la modalità Sleep è attiva</string>
+    <string name="sleep_mode_location_toggle_title">Spegni Posizione</string>
+    <string name="sleep_mode_location_toggle_summary">Disabilita la Posizione quando la modalità Sleep è attiva</string>
+    <string name="sleep_mode_sensors_toggle_title">Spegni i sensori</string>
+    <string name="sleep_mode_sensors_toggle_summary">Disabilita i sensori quando la modalità Sleep è attiva</string>
+    <string name="background_process_killer_title">Termina processi in background</string>
+    <string name="background_process_killer_summary">Ferma tutti i processi in background non essenziali quando il dispositivo è in idle</string>
+    <string name="sleep_mode_display_text">La modalità notte ti permette di disabilitare alcuni servizi per risparmiare la batteria e silenziare il telefono mentre dormi.</string>
+    <!-- Ignore secure flag -->
+    <string name="window_ignore_secure_title">Ignora window secure flag</string>
+    <string name="window_ignore_secure_summary">Rimuove il blocco di screenshot / registrazione schermo per tutte le applicazioni</string>
+    <string name="window_ignore_secure_warning">Potrebbe essere utile in alcuni casi, ma potrebbe portare a una riduzione della privacy. Dopo aver modificato questo toggle, potresti aver bisogno di riavviare le applicazioni perchè le modifiche abbiano effetto.</string>
+    <!-- Back gesture arrow -->
+    <string name="back_gesture_arrow_title">Animazione gesto indietro</string>
+    <string name="back_gesture_arrow_summary">Mostra una freccia animata per il gesto indietro</string>
+    <!-- Carrier label -->
+    <string name="carrier_label_category">Etichetta operatore</string>
+    <string name="carrier_label_custom">Etichetta operatore personalizzata</string>
+    <string name="carrier_label_custom_unset">Tocca per impostare</string>
+    <string name="carrier_label_custom_title">Etichetta operatore personalizzata</string>
+    <string name="carrier_label_custom_explain">Inserisci un testo personalizzato. Lascialo vuoto per utilizzare il nome della tua rete</string>
+    <string name="carrier_label_position">Posizione etichetta operatore</string>
+    <string name="carrier_label_position_hide">Nascondi</string>
+    <string name="carrier_label_position_lockscreen">Schermata di blocco</string>
+    <string name="carrier_label_position_statusbar">Barra di stato</string>
+    <string name="carrier_label_position_both">Schermata di blocco &amp; Barra di stato</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Dettagli pacchetto</string>
+    <string name="package_name">Nome pacchetto</string>
+    <string name="package_version">Versione pacchetto</string>
+    <!-- Custom DNS Option -->
+    <!-- Immersive gesture bar -->
+    <string name="immersive_gesture_bar_title">Barra dei gesti immersiva</string>
+    <string name="immersive_gesture_bar_summary">Rimuovi l\'altezza della barra di navigazione mantenendo la pillola dei gesti</string>
+    <!-- reTicker -->
+    <string name="reticker_category">reTicker</string>
+    <string name="reticker_title">Abilita reTicker</string>
+    <string name="reticker_summary">Sostituisci la notifica fluttuante con una versione più sottile e meno invasiva</string>
+    <string name="reticker_colored_title">Usa il colore dell\'app per lo sfondo</string>
+    <string name="reticker_colored_summary">Sostituisci il colore di sfondo del reTicker utilizzando il colore principale della notifica dell\'app</string>
+    <string name="reticker_landscape_only_title">Landscape only</string>
+    <string name="reticker_landscape_only_summary">Only enable reTicker when device is in landscape mode</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Hidden apps</string>
+    <!-- Volume dialog -->
+    <string name="volume_dialog_category">Volume dialog</string>
+    <string name="left_volume_dialog_title">Move to left</string>
+    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
+    <string name="volume_dialog_force_show_settings_title">Media controller</string>
+    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
+    <string name="app_volume">Volume applicazioni</string>
+    <string name="app_volume_title">Controllo del volume per applicazioni</string>
+    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
+    <!-- App downgrade -->
+    <string name="app_downgrade_title">Allow application downgrade</string>
+    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
+    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
 </resources>

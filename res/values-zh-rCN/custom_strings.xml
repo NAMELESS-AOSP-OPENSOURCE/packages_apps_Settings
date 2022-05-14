@@ -461,10 +461,6 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备\u2019的 VPN 连接到上游</string>
-    <!-- Strings for per-app volume -->
-    <string name="app_volume">分应用音量</string>
-    <string name="app_volume_title">分应用音量控制</string>
-    <string name="app_volume_summary">在音量调节面板添加分应用音量控制按钮</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">反转导航栏布局</string>
     <string name="navbar_invert_layout_summary">在右侧显示返回按钮</string>
@@ -496,11 +492,15 @@
     <string name="app_lock_notifications_disabled_summary">首先请保护一个应用程序</string>
     <string name="app_lock_biometrics_allowed_title">为解锁启用生物识别</string>
     <string name="app_lock_footer_text">气泡将于延时后自动消失</string>
-    <!-- Lawnchair switcher -->
+    <!-- App info misc -->
     <string name="app_info_misc">杂项</string>
-    <string name="enable_lawnchair_title">启用 Lawnchair</string>
-    <string name="enable_lawnchair_summary">将 Lawnchair 设置为默认桌面并禁用 Pixel Launcher</string>
-    <string name="enable_lawnchair_info">重启后生效</string>
+    <!-- Launcher switcher -->
+    <string name="launcher_switcher_category">启动器切换</string>
+    <string name="launcher_switcher_title">默认启动器</string>
+    <string name="launcher_switcher_info">此设置不同于原生默认桌面设置。您可以无需 root 权限切换默认启动器并启用后台动画。\n此设置重启后生效。</string>
+    <string name="launcher_pixel">Pixel Launcher</string>
+    <string name="launcher_nameless">Nameless Launcher</string>
+    <string name="launcher_lawnchair">Lawnchair</string>
     <!-- Click to partical screenshot -->
     <string name="click_partial_screenshot_title">单击以局部截图</string>
     <string name="click_partial_screenshot_summary">短按音量减和电源键以局部截图</string>
@@ -551,9 +551,6 @@
     <string name="gesture_nav_tweaks_footer_info">要为操作选择特定的应用程序活动，请长按应用程序选择器中的任意应用程序。\n\n如果当前处于桌面，请在屏幕的最底部区域滑动以触发操作。</string>
     <string name="back_swipe_extended_title">扩展划动操作</string>
     <string name="back_swipe_extended_summary">划动更长的距离（超过屏幕的一半）或 L 型划动（垂直划动足够长的距离）以触发操作</string>
-    <!-- Volume dialog position -->
-    <string name="left_volume_dialog_title">左侧音量面板</string>
-    <string name="left_volume_dialog_summary">竖屏状态下在左侧显示音量面板</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
     <string name="use_photos_spoof_title">无限制的 Google Photos 存储</string>
     <string name="use_photos_spoof_summary">伪装机型为 Pixel XL 以获得无限制的原图存储空间</string>
@@ -598,11 +595,12 @@
     <!-- QS tiles layout -->
     <string name="qs_tile_layout_title">快捷设置磁铁布局</string>
     <string name="qs_tile_layout_summary">自定义快捷设置面板的磁铁布局</string>
-    <string name="qs_columns_portrait_title">列数（竖屏）</string>
-    <string name="qs_columns_landscape_title">列数（横屏）</string>
+    <string name="qs_tiles_layout_category">磁贴布局</string>
     <string name="qs_rows_portrait_title">行数（竖屏）</string>
-    <string name="qs_rows_landscape_title">行数（横屏）</string>
     <string name="qqs_rows_portrait_title">行数（初级展开面板竖屏）</string>
+    <string name="qs_columns_portrait_title">列数（竖屏）</string>
+    <string name="qs_apply_change_button_title">应用更改</string>
+    <string name="qs_apply_change_failed">应用更改失败</string>
     <string name="qs_tile_hide_label_title">隐藏标签</string>
     <string name="qs_tile_hide_label_summary">仅显示快捷设置磁铁的图标</string>
     <string name="qs_tile_vertical_layout_title">垂直布局</string>
@@ -677,4 +675,53 @@
     <string name="background_process_killer_title">结束后台进程</string>
     <string name="background_process_killer_summary">当设备休眠时终止所有非必要的后台进程</string>
     <string name="sleep_mode_display_text">睡眠模式允许您禁用某些服务，以帮助您在睡眠时节省电池用量并使手机静音。</string>
+    <!-- Ignore secure flag -->
+    <string name="window_ignore_secure_title">忽略窗口安全标记</string>
+    <string name="window_ignore_secure_summary">移除对所有应用的 截屏/录屏 功能限制</string>
+    <string name="window_ignore_secure_warning">这在某些场合下很有用，但是可能会造成隐私泄露。更改设置之后，您可能需要重启应用使其生效。</string>
+    <!-- Back gesture arrow -->
+    <string name="back_gesture_arrow_title">返回手势动画</string>
+    <string name="back_gesture_arrow_summary">为返回手势显示一个箭头动画</string>
+    <!-- Carrier label -->
+    <string name="carrier_label_category">运营商标签</string>
+    <string name="carrier_label_custom">自定义运营商标签</string>
+    <string name="carrier_label_custom_unset">单击以设置</string>
+    <string name="carrier_label_custom_title">自定义运营商标签</string>
+    <string name="carrier_label_custom_explain">输入一个自定义标签。留空则使用默认名称</string>
+    <string name="carrier_label_position">运营商标签位置</string>
+    <string name="carrier_label_position_hide">隐藏</string>
+    <string name="carrier_label_position_lockscreen">锁屏界面</string>
+    <string name="carrier_label_position_statusbar">状态栏</string>
+    <string name="carrier_label_position_both">锁屏界面 &amp; 状态栏</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">应用详细信息</string>
+    <string name="package_name">应用包名</string>
+    <string name="package_version">应用版本</string>
+    <!-- Custom DNS Option -->
+    <!-- Immersive gesture bar -->
+    <string name="immersive_gesture_bar_title">沉浸式小横条</string>
+    <string name="immersive_gesture_bar_summary">在保留小横条的同时移除导航栏高度</string>
+    <!-- reTicker -->
+    <string name="reticker_category">reTicker</string>
+    <string name="reticker_title">启用 reTicker</string>
+    <string name="reticker_summary">将原生浮动通知替换为重新设计的简约版通知</string>
+    <string name="reticker_colored_title">使用应用背景颜色</string>
+    <string name="reticker_colored_summary">将 reTicker 背景颜色替换为通知应用的主色调</string>
+    <string name="reticker_landscape_only_title">仅横屏</string>
+    <string name="reticker_landscape_only_summary">仅在横屏模式下启用 reTicker</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">隐藏应用</string>
+    <!-- Volume dialog -->
+    <string name="volume_dialog_category">音量面板</string>
+    <string name="left_volume_dialog_title">移至左侧</string>
+    <string name="left_volume_dialog_summary">在屏幕左侧显示音量面板</string>
+    <string name="volume_dialog_force_show_settings_title">媒体控制器</string>
+    <string name="volume_dialog_force_show_settings_summary">强制在音量面板显示媒体控制器</string>
+    <string name="app_volume">分应用音量</string>
+    <string name="app_volume_title">分应用音量控制</string>
+    <string name="app_volume_summary">在音量面板显示分应用音量控制按钮</string>
+    <!-- App downgrade -->
+    <string name="app_downgrade_title">允许应用降级</string>
+    <string name="app_downgrade_summary">允许为已安装应用覆盖安装旧版本</string>
+    <string name="app_downgrade_info">这可能会导致应用崩溃或数据丢失</string>
 </resources>

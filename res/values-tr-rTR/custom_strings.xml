@@ -287,7 +287,7 @@
     <string name="pulse_ambient_light_layout_solid">Sağlam</string>
     <string name="pulse_ambient_light_layout_faded">Solmuş</string>
     <string name="pulse_ambient_light_width_title">Işık genişliği</string>
-    <string name="pulse_light_layout_style_title">Light Layout Style</string>
+    <string name="pulse_light_layout_style_title">Işık Düzeni Stili</string>
     <string name="pulse_light_both">Dört taraf</string>
     <string name="pulse_light_top_bottom">Sadece Üst-Alt</string>
     <string name="pulse_light_left_right">Sadece Sol-Sağ</string>
@@ -336,7 +336,7 @@
     <string name="haptic_on_back_title">Geri jestler dokunsal</string>
     <string name="back_gesture_haptic_dragged">Sürüklerken</string>
     <string name="back_gesture_haptic_dragged_triggered">Sürükleme ve tetikleme hakkında</string>
-    <string name="haptic_on_fod_title">Fingerprint haptic</string>
+    <string name="haptic_on_fod_title">Parmak izi titreşimi</string>
     <string name="fod_haptic_authenticated">Kimliği doğrulanmış</string>
     <string name="fod_haptic_pressed_authenticated">Basıldığında ve kimliği doğrulandığında</string>
     <!-- Colored Statusbar Icons -->
@@ -461,10 +461,6 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
     <string name="tethering_allow_vpn_upstreams_summary">Hotspot istemcilerinin yukarı akış bağlantısı için bu cihazın VPN bağlantılarını kullanmasına izin ver</string>
-    <!-- Strings for per-app volume -->
-    <string name="app_volume">Uygulama hacmi</string>
-    <string name="app_volume_title">Uygulama başına ses kontrolü</string>
-    <string name="app_volume_summary">Ses düzeyi iletişim kutusuna uygulama başına ses düğmesi ekle</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Gezinme çubuğu düzenini tersine çevir</string>
     <string name="navbar_invert_layout_summary">Sağ taraftaki geri düğmesini göster</string>
@@ -474,7 +470,7 @@
     <string name="lower_resolution_title">Daha düşük ekran çözünürlüğü</string>
     <string name="lower_resolution_summary">Güç tüketimini azaltmak için %1$s çözünürlüğüne geçin</string>
     <string name="lower_resolution_dlg_title">Uyarı</string>
-    <string name="lower_resolution_dlg_text">This will kill all background apps and restart SystemUI!\n\nNote: Bootanimation will be misplaced after enabled lower resolution</string>
+    <string name="lower_resolution_dlg_text">Bu, tüm arka plan uygulamalarını öldürür ve SystemUI\'yi yeniden başlatır!\n\nNot: Düşük çözünürlük etkinleştirildikten sonra önyükleme animasyonu yanlış yerleştirilecektir</string>
     <!-- App lock -->
     <string name="app_lock_title">Uygulama kilidi</string>
     <string name="app_lock_summary_singular">1 uygulama korunuyor</string>
@@ -496,11 +492,15 @@
     <string name="app_lock_notifications_disabled_summary">Önce bir uygulamayı koruyun</string>
     <string name="app_lock_biometrics_allowed_title">Kilidi açmak için biyometriyi etkinleştir</string>
     <string name="app_lock_footer_text">Balonlar zaman aşımından sonra otomatik olarak kapatılacak</string>
-    <!-- Lawnchair switcher -->
+    <!-- App info misc -->
     <string name="app_info_misc">Çeşitli</string>
-    <string name="enable_lawnchair_title">Lawnchair etkinleştir</string>
-    <string name="enable_lawnchair_summary">Varsayılan başlatıcı olarak lownchair geçin ve piksel başlatıcıyı devre dışı bırakın</string>
-    <string name="enable_lawnchair_info">Etkili olması için yeniden başlat</string>
+    <!-- Launcher switcher -->
+    <string name="launcher_switcher_category">Başlatıcı değiştirici</string>
+    <string name="launcher_switcher_title">Varsayılan başlatıcı</string>
+    <string name="launcher_switcher_info">Bu ayar, varsayılan ev uygulaması ayarından farklıdır. Seçili başlatıcıyı varsayılan başlatıcı olarak değiştirebileceksiniz &amp; root gerektirmeyen son sağlayıcı gerekli.\nDeğişikliğin etkili olması için yeniden başlatma gerekiyor.</string>
+    <string name="launcher_pixel">Piksel Başlatıcı</string>
+    <string name="launcher_nameless">Namaless Başlatıcı</string>
+    <string name="launcher_lawnchair">Lawnchair</string>
     <!-- Click to partical screenshot -->
     <string name="click_partial_screenshot_title">Kısmi ekran görüntüsü için tıklayın</string>
     <string name="click_partial_screenshot_summary">Kısmi ekran görüntüsü almak için Sesi Kısma ve Güç\'e kısa tıklayın</string>
@@ -551,20 +551,17 @@
     <string name="gesture_nav_tweaks_footer_info">Eylem için belirli bir uygulama etkinliği seçmek için uygulama seçicideki herhangi bir uygulamaya uzun basın.\n\nBaşlatıcı gösteriliyorsa eylemi tetiklemek için ekranın en alt kısmındaki hızlıca kaydırın.</string>
     <string name="back_swipe_extended_title">Genişletilmiş kaydırma eylemi</string>
     <string name="back_swipe_extended_summary">Daha geniş kaydırmada (ekran boyutunun yarısından fazlası) veya L kaydırmada (dikey olarak yeterince uzun) tetikleme eylemi</string>
-    <!-- Volume dialog position -->
-    <string name="left_volume_dialog_title">Sol ses seviyesi iletişim kutusu</string>
-    <string name="left_volume_dialog_summary">Dikey modda sol tarafta ses seviyesi iletişim kutusunu göster</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
     <string name="use_photos_spoof_title">Sınırsız Google Fotoğraflar depolama alanı</string>
     <string name="use_photos_spoof_summary">Orijinal kalitede sınırsız fotoğraf depolama alanı elde etmek için Pixel XL olarak sahte cihaz</string>
     <string name="use_photos_spoof_info">Etkili olması için Google Fotoğraflar uygulamasını yeniden başlatın</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">1 Dakikadan Az</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="screen_time_summary_usage_today">bugün %1$s</string>
     <!-- Face Unlock -->
-    <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
-    <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
+    <string name="security_settings_face_settings_footer_custom">Yüzle kilit açma, cihazınızın kilidini ona bakarak açmanıza olanak tanır. Şunu unutmayın:\n\n● Cihazınızın kilidi, ona her baktığınızda açılabilir.\n● Başka biri, gözleriniz açıkken yüzünüzün önünde tutarsa ​​cihazınızın kilidini açabilir.\n● Cihazınız cihazın kilidi, çocuk veya aynı kardeş gibi size çok benzeyen biri tarafından da açılabilir.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Yüz tanıma kilidi ile kaydedilen veriler kalıcı ve güvenli bir şekilde silinecektir. Çıkardıktan sonra, telefonunuzun kilidini açmak için PIN\'inize, deseninize veya şifrenize ihtiyacınız olacak.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Mevcut yüz taramasını kaldırın ve yeni bir tarama oluşturun</string>
     <string name="security_settings_face_unlock_redo_face_scan_title">Yüz taramasını yeniden yap</string>
     <string name="face_redo_confirm_btn">Hazır</string>
@@ -574,109 +571,159 @@
     <string name="face_unlock_method_swipe">Kilit ekranında kaydırırken</string>
     <string name="skip_biometric_auth_confirmation_title">Manuel doğrulamayı atla</string>
     <!-- Optimized charge -->
-    <string name="optimized_charge_title">Optimized charging</string>
-    <string name="optimized_charge_summary">Limit charging to extend battery life</string>
-    <string name="optimized_charge_enable_title">Enable optimized charging</string>
-    <string name="optimized_charge_ceiling_title">Stop charging level</string>
-    <string name="optimized_charge_floor_title">Start charging level</string>
+    <string name="optimized_charge_title">Optimize edilmiş şarj</string>
+    <string name="optimized_charge_summary">Pil ömrünü uzatmak için şarjı sınırlayın</string>
+    <string name="optimized_charge_enable_title">Optimize edilmiş şarjı etkinleştir</string>
+    <string name="optimized_charge_ceiling_title">Şarj seviyesini durdur</string>
+    <string name="optimized_charge_floor_title">Şarj seviyesini başlat</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats?</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset!</string>
+    <string name="battery_stats_reset">İstatistikler sıfırlansın mı?</string>
+    <string name="battery_stats_message">Pil geçmişi istatistikleri sıfırlanacak!</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet settings</string>
-    <string name="monet_engine_summary">Customizate monet color performance</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
-    <string name="monet_engine_chroma_factor_title">Chroma factor</string>
-    <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
+    <string name="monet_engine_title">Monet ayarları</string>
+    <string name="monet_engine_summary">Monet renk performansını özelleştirin</string>
+    <string name="monet_engine_custom_color_title">Özel renk kullan</string>
+    <string name="monet_engine_custom_color_summary">Monet motoru için duvar kağıdı renkleri yerine özel renk kullanın</string>
+    <string name="monet_engine_color_override_title">Özel renk</string>
+    <string name="monet_engine_white_luminance_user_title">Beyaz parlaklık</string>
+    <string name="monet_engine_accurate_shades_title">Doğru gölgeler kullanın</string>
+    <string name="monet_engine_chroma_factor_title">Chroma faktörü</string>
+    <string name="monet_engine_linear_lightness_title">Doğrusal hafiflik kullanın</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Siyah temayı kullan</string>
+    <string name="system_black_theme_summary">Siyah arka plan renklerini zorla</string>
     <!-- QS tiles layout -->
-    <string name="qs_tile_layout_title">QS tiles layout</string>
-    <string name="qs_tile_layout_summary">Customize tiles layout in QS panel</string>
-    <string name="qs_columns_portrait_title">Columns (Portrait)</string>
-    <string name="qs_columns_landscape_title">Columns (Landscape)</string>
-    <string name="qs_rows_portrait_title">Rows (Portrait)</string>
-    <string name="qs_rows_landscape_title">Rows (Landscape)</string>
-    <string name="qqs_rows_portrait_title">Rows (Quick QS portrait)</string>
-    <string name="qs_tile_hide_label_title">Hide labels</string>
-    <string name="qs_tile_hide_label_summary">Show only icon for QS tiles</string>
-    <string name="qs_tile_vertical_layout_title">Vertical layout</string>
-    <string name="qs_tile_vertical_layout_summary">Enable vertical layout for QS tiles</string>
+    <string name="qs_tile_layout_title">QS döşeme düzeni</string>
+    <string name="qs_tile_layout_summary">QS panelinde döşeme düzenini özelleştirin</string>
+    <string name="qs_tiles_layout_category">Kutucuk düzeni</string>
+    <string name="qs_rows_portrait_title">Satırlar (Portre)</string>
+    <string name="qqs_rows_portrait_title">Satırlar (Hızlı QS portresi)</string>
+    <string name="qs_columns_portrait_title">Sütunlar (Portre)</string>
+    <string name="qs_apply_change_button_title">Değişikliği uygula</string>
+    <string name="qs_apply_change_failed">Değişiklik uygulanamadı</string>
+    <string name="qs_tile_hide_label_title">Etiketleri gizle</string>
+    <string name="qs_tile_hide_label_summary">Yalnızca QS kutucukları için simgeyi göster</string>
+    <string name="qs_tile_vertical_layout_title">Dikey düzen</string>
+    <string name="qs_tile_vertical_layout_summary">QS kutucukları için dikey düzeni etkinleştir</string>
     <!-- QS Brightness -->
-    <string name="qs_brightness_slider_title">QS brightness slider</string>
-    <string name="qs_brightness_slider_summary">Customize brightness slider in QS panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_hide">Hide</string>
-    <string name="qs_show_brightness_normal">Show in QS Panel</string>
-    <string name="qs_show_brightness_both">Show in QS &amp; Quick QS Panel</string>
-    <string name="qs_show_auto_brightness_button_title">Auto brightness button</string>
-    <string name="qs_show_auto_brightness_button_hide">Hide</string>
-    <string name="qs_show_auto_brightness_button_slider">Show near slider</string>
-    <string name="qs_show_auto_brightness_button_footer">Show in footer</string>
-    <string name="qs_brightness_position_position_title">Move to bottom</string>
-    <string name="qs_brightness_position_position_summary">Show brightness slider in the bottom of QS panel</string>
+    <string name="qs_brightness_slider_title">QS parlaklık kaydırıcısı</string>
+    <string name="qs_brightness_slider_summary">QS panelinde parlaklık kaydırıcısını özelleştirin</string>
+    <string name="qs_show_brightness_title">Parlaklık kaydırıcısı</string>
+    <string name="qs_show_brightness_hide">Gizli</string>
+    <string name="qs_show_brightness_normal">QS Panelinde Göster</string>
+    <string name="qs_show_brightness_both">QS &amp; Hızlı QS Paneli</string>
+    <string name="qs_show_auto_brightness_button_title">Otomatik parlaklık düğmesi</string>
+    <string name="qs_show_auto_brightness_button_hide">Gizli</string>
+    <string name="qs_show_auto_brightness_button_slider">Yakın kaydırıcıyı göster</string>
+    <string name="qs_show_auto_brightness_button_footer">Altbilgide göster</string>
+    <string name="qs_brightness_position_position_title">Aşağıya taşı</string>
+    <string name="qs_brightness_position_position_summary">QS panelinin altındaki parlaklık kaydırıcısını göster</string>
     <!-- Lockscreen media art -->
-    <string name="keygaurd_media_art_title">Media art</string>
-    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
+    <string name="keygaurd_media_art_title">Medya albüm kapağı</string>
+    <string name="keygaurd_media_art_summary">Medya resmini kilit ekranı arka planı olarak göster</string>
     <!-- Gestures: Touchscreen gestures -->
-    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
-    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <string name="touchscreen_gesture_settings_title">Dokunmatik ekran hareketleri</string>
+    <string name="touchscreen_gesture_settings_summary">Hızlı işlemler için çeşitli dokunmatik ekran hareketleri gerçekleştirin</string>
     <!-- Hotspot -->
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Gizli ağ</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Mobil erişim noktanızın adı, kullanılabilir WLAN ağları listesinde görünmeyecektir.</string>
     <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
     <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <string name="wifi_band_60ghz">60 GHz</string>
     <plurals name="wifi_hotspot_auto_off_timeout">
-        <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
-        <item quantity="one">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minute</item>
+        <item quantity="other"><xliff:g id="DURATION">%1$d</xliff:g> dakikalar boyunca hiçbir cihaz bağlanmadığında kapatın</item>
+        <item quantity="one"><xliff:g id="DURATION">%1$d</xliff:g> dakika boyunca hiçbir cihaz bağlanmadığında kapatın</item>
     </plurals>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
-    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Hotsopt\'u asla kapatmayın</string>
+    <string name="wifi_hotspot_client_manager_title">Bağlı cihazlar</string>
+    <string name="wifi_hotspot_client_manager_summary">Hotspot\'a bağlı cihazları listeleyin ve yönetin ve istemci sayısı sınırını ayarlayın</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Hotspot\'a bağlı cihazları listeleyin</string>
+    <string name="wifi_hotspot_client_limit_title">Bağlı cihazların sınırı</string>
     <plurals name="wifi_hotspot_client_limit_summary">
-        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
-        <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
+        <item quantity="other">Bu etkin noktaya en fazla <xliff:g id="device_num">%1$d</xliff:g> cihazlar bağlanabilir</item>
+        <item quantity="one">Bu etkin noktaya en fazla <xliff:g id="device_num">%1$d</xliff:g> cihaz bağlanabilir</item>
     </plurals>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
-    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Engellenen Cihazlar</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Bağlı cihazlar</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Cihazı engelle</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Bu eylem, \"<xliff:g id="device_name">%1$s</xliff:g>\" öğesinin bu cihazla olan bağlantısını kesecek ve onu engellenenler listesine ekleyecektir</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Cihazın engellemesini kaldır</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Bu cihaz \"<xliff:g id="device_name">%1$s</xliff:g>\" bu etkin noktaya bağlanabilecek</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Şu anda uygun müşteri yok. Bağlı ve engellenen cihazlar, kullanılabilir olduğunda burada listelenir.</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_title">Uyku Modu</string>
+    <string name="sleep_mode_summary_on">Açık / <xliff:g name="auto_mode_summary" example="Asla otomatik olarak kapanma">%1$s</xliff:g></string>
     <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
-    <string name="sleep_mode_schedule_sunset">Sunset</string>
-    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
+    <string name="sleep_mode_ringer_title">Zil modu</string>
+    <string name="sleep_mode_ringer_off_title">Değiştirme</string>
+    <string name="sleep_mode_ringer_vibrate_title">Titret</string>
+    <string name="sleep_mode_ringer_dnd_title">Rahatsız etmeyin</string>
+    <string name="sleep_mode_ringer_silent_title">Sessiz</string>
+    <string name="sleep_mode_schedule_sunset">Gün batımı</string>
+    <string name="sleep_mode_schedule_sunrise">Gündoğumu</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Gün batımından özel bir zamana açılır</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Özel bir zamandan gün doğumuna kadar açılır</string>
+    <string name="sleep_mode_toggles_title">Geçiş yapar</string>
+    <string name="sleep_mode_wifi_toggle_title">Wi-Fi\'yi kapat</string>
+    <string name="sleep_mode_wifi_toggle_summary">Uyku modu açıkken Wi-Fi\'yi devre dışı bırakın</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Bluetooth\'u kapat</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Uyku modu açıkken Bluetooth\'u devre dışı bırakın</string>
     <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="background_process_killer_title">Kill background processes</string>
-    <string name="background_process_killer_summary">Stop all non-essential background processes when the device is idle</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_cellular_toggle_summary">Uyku modu açıkken Mobil verileri devre dışı bırakın</string>
+    <string name="sleep_mode_location_toggle_title">Konumu kapat</string>
+    <string name="sleep_mode_location_toggle_summary">Uyku modu açıkken Konumu Devre Dışı Bırak</string>
+    <string name="sleep_mode_sensors_toggle_title">Sensörleri Kapatın</string>
+    <string name="sleep_mode_sensors_toggle_summary">Uyku modu açıkken Sensörleri devre dışı bırakın</string>
+    <string name="background_process_killer_title">Arka plan işlemlerini sonlandır</string>
+    <string name="background_process_killer_summary">Cihaz boştayken gerekli olmayan tüm arka plan işlemlerini durdurun</string>
+    <string name="sleep_mode_display_text">Uyku modu, siz uyurken pilden tasarruf etmenize ve telefonunuzu sessize almanıza yardımcı olmak için belirli hizmetleri devre dışı bırakmanıza olanak tanır.</string>
+    <!-- Ignore secure flag -->
+    <string name="window_ignore_secure_title">Pencere güvenli bayraklarını yoksay</string>
+    <string name="window_ignore_secure_summary">Tüm uygulamalar için ekran görüntüsü / ekran kaydı sınırlarını kaldırın</string>
+    <string name="window_ignore_secure_warning">Bu, bazı durumlarda kullanışlı olabilir ancak gizlilik sızıntılarına neden olabilir. Bu geçişi değiştirdikten sonra, değişikliğin etkili olması için uygulamaları yeniden başlatmanız gerekebilir.</string>
+    <!-- Back gesture arrow -->
+    <string name="back_gesture_arrow_title">Geri hareket animasyonu</string>
+    <string name="back_gesture_arrow_summary">Geri hareket için hareketli bir ok göster</string>
+    <!-- Carrier label -->
+    <string name="carrier_label_category">Operaör etiketi</string>
+    <string name="carrier_label_custom">Özel operatör etiketi</string>
+    <string name="carrier_label_custom_unset">Ayarlamak için tıklayın</string>
+    <string name="carrier_label_custom_title">Özel operatör etiketi</string>
+    <string name="carrier_label_custom_explain">Özel bir operatör girin. Ağ adınızı kullanmak için boş bırakın</string>
+    <string name="carrier_label_position">Operatör etiket konumu</string>
+    <string name="carrier_label_position_hide">Gizli</string>
+    <string name="carrier_label_position_lockscreen">Kilit ekranı</string>
+    <string name="carrier_label_position_statusbar">Durum çubuğu</string>
+    <string name="carrier_label_position_both">Kilit ekranı &amp; Durum çubuğu</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Paket ayrıntıları</string>
+    <string name="package_name">Paket ismi</string>
+    <string name="package_version">Paket versiyonu</string>
+    <!-- Custom DNS Option -->
+    <!-- Immersive gesture bar -->
+    <string name="immersive_gesture_bar_title">Sürükleyici hareket çubuğu</string>
+    <string name="immersive_gesture_bar_summary">Hareket imgesi korurken gezinme çubuğunun yüksekliğini kaldırın</string>
+    <!-- reTicker -->
+    <string name="reticker_category">reTicker</string>
+    <string name="reticker_title">reTicker\'ı etkinleştir</string>
+    <string name="reticker_summary">Head-up bildirimini, yeniden tasarlanmış kayan yazının ince ve daha az müdahaleci versiyonuyla değiştirin</string>
+    <string name="reticker_colored_title">Uygulamanın renkli arka planını kullan</string>
+    <string name="reticker_colored_summary">Bildirim uygulaması ana rengini kullanarak reTicker arka plan rengini değiştirin</string>
+    <string name="reticker_landscape_only_title">Yalnızca manzara</string>
+    <string name="reticker_landscape_only_summary">ReTicker\'ı yalnızca cihaz yatay moddayken etkinleştirin</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Gizli uygulamalar</string>
+    <!-- Volume dialog -->
+    <string name="volume_dialog_category">Volume dialog</string>
+    <string name="left_volume_dialog_title">Move to left</string>
+    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
+    <string name="volume_dialog_force_show_settings_title">Media controller</string>
+    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
+    <string name="app_volume">Uygulama hacmi</string>
+    <string name="app_volume_title">Uygulama başına ses kontrolü</string>
+    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
+    <!-- App downgrade -->
+    <string name="app_downgrade_title">Allow application downgrade</string>
+    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
+    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
 </resources>

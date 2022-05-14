@@ -34,13 +34,13 @@
     <string name="global_actions_advanced_reboot_title">Включить расширенную перезагрузку</string>
     <string name="global_actions_advanced_reboot_summary">Показать варианты рекавери и загрузчика в меню питания</string>
     <!-- Double Tap to wake/sleep -->
-    <string name="double_tap_gesture_category">Дабл-тап, чтобы включить / выключить</string>
+    <string name="double_tap_gesture_category">Двойное касание для пробуждения/перехода в спящий режим</string>
     <string name="double_tap_gesture_title">Включить жест касания</string>
     <string name="double_tap_gesture_summary">Дважды коснитесь экрана, чтобы пробудить устройство или перевести в спящий режим</string>
     <string name="disable_in_landscape_title">Отключить в альбомной ориентации</string>
     <string name="disable_in_landscape_summary">Предотвращение ошибочного касания в альбомном режиме</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Элементы строки состояния</string>
+    <string name="statusbar_items_title">Значки строки состояния</string>
     <string name="statusbar_items_summary">Выберите, какие значки отображать в строке состояния</string>
     <!-- Statusbar customization category -->
     <string name="status_bar_category_title">Строка состояния</string>
@@ -58,7 +58,7 @@
     <string name="pattern_da_dzzz_da">да-дззз-да</string>
     <string name="pattern_custom">Пользовательский</string>
     <string name="custom_vibration_pattern_title">Пользовательский шаблон</string>
-    <string name="custom_vibration_pattern_summary">Установите пользовательский шаблон вибрации</string>
+    <string name="custom_vibration_pattern_summary">Установить пользовательский шаблон вибрации</string>
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Всегда включен при зарядке</string>
     <string name="doze_on_charge_summary">Показывать амбиент экран все время при зарядке</string>
@@ -85,15 +85,15 @@
     <string name="status_bar_clock_title">Настройки часов</string>
     <string name="status_bar_clock_show">Показать часы и дату</string>
     <string name="status_bar_clock_style_title">Стиль часов</string>
-    <string name="status_bar_clock_style_right">Вправо</string>
+    <string name="status_bar_clock_style_right">Справа</string>
     <string name="status_bar_clock_style_center">Центр</string>
-    <string name="status_bar_clock_style_left">Влево</string>
+    <string name="status_bar_clock_style_left">Слева</string>
     <string name="status_bar_date_title">Настройки даты</string>
     <string name="status_bar_am_pm_title">Стиль AM / PM</string>
     <string name="status_bar_am_pm_info">24-часовой формат включен</string>
     <string name="status_bar_am_pm_normal">Нормальный</string>
     <string name="status_bar_am_pm_small">Маленький</string>
-    <string name="status_bar_am_pm_hidden">Скрытый (по умолчанию)</string>
+    <string name="status_bar_am_pm_hidden">Скрыто (по умолчанию)</string>
     <string name="clock_seconds_display">Показать секунды</string>
     <string name="clock_date_display">Дата</string>
     <string name="clock_date_display_summary">Отображать настраиваемую дату перед часами</string>
@@ -102,14 +102,14 @@
     <string name="clock_date_display_normal">Нормальный размер шрифта</string>
     <string name="clock_date_style">Стиль даты</string>
     <string name="clock_date_style_normal">Нормальный</string>
-    <string name="clock_date_style_lowercase">Срочные буквы</string>
+    <string name="clock_date_style_lowercase">Строчные буквы</string>
     <string name="clock_date_style_uppercase">Прописные буквы</string>
     <string name="clock_date_format_custom">Пользовательский формат Java</string>
     <string name="clock_date_format">Формат даты</string>
     <string name="clock_date_string_edittext_title">Должен быть в формате, например. мм/дд/гг</string>
     <string name="clock_date_string_edittext_summary">Введите строку</string>
-    <string name="clock_date_right">Необходимое время</string>
-    <string name="clock_date_left">Осталось времени</string>
+    <string name="clock_date_right">Справа от времени</string>
+    <string name="clock_date_left">Слева от времени</string>
     <string name="clock_date_position">Позиция даты</string>
     <string name="status_bar_clock_auto_hide_title">Автоматически скрывать часы</string>
     <string name="status_bar_clock_auto_hide_summary">Скрывать и показывать часы через определенные промежутки времени</string>
@@ -118,11 +118,11 @@
     <!-- Heads up -->
     <string name="noti_cust_category">Панель уведомлений</string>
     <string name="heads_up_notifications">Внимание</string>
-    <string name="heads_up_notifications_summary">Настроить параметры уведомлений заголовков</string>
+    <string name="heads_up_notifications_summary">Настроить параметры уведомлений предупреждений</string>
     <string name="summary_heads_up_enabled">Всплывающие уведомления включены</string>
     <string name="summary_heads_up_disabled">Всплывающие уведомления отключены</string>
     <string name="add_heads_up_package">Добавить приложение</string>
-    <string name="add_heads_up_stoplist_summary">Отключить уведомления в этих приложениях</string>
+    <string name="add_heads_up_stoplist_summary">Отключить уведомления предупреждения в этих приложениях</string>
     <string name="add_heads_up_blacklist_summary">Отключить уведомления от этих приложений</string>
     <string name="heads_up_stoplist_title">Стоп список</string>
     <string name="heads_up_blacklist_title">Черный список</string>
@@ -149,23 +149,23 @@
     <string name="heads_up_snooze_15min">15 минут</string>
     <string name="heads_up_snooze_20min">20 минут</string>
     <!-- Heads up options -->
-    <string name="less_boring_heads_up_title">Сделайте заголовки менее раздражающими</string>
+    <string name="less_boring_heads_up_title">Сделать заголовки менее раздражающими</string>
     <string name="less_boring_heads_up_summary">Показывать заголовки только для программы набора номера или обмена сообщениями, если они не находятся на переднем плане</string>
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Кнопка \"Остановить приложение\"</string>
     <string name="notification_guts_kill_app_button_summary">Показывать кнопку остановки приложения в меню длительного нажатия уведомления</string>
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Просыпаться при зарядке</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Пробуждает устройство, если зарядное устройство подключено/отключено</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Пробуждать устройство при подключении/отключении зарядки</string>
     <!-- QS battery estimates -->
     <string name="qs_show_battery_estimate_title">Оценка заряда батареи</string>
     <string name="qs_show_battery_estimate_summary">Показывать приблизительный оставшийся срок службы батареи рядом со значком</string>
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Использовать значок 4G</string>
-    <string name="show_fourg_icon_summary">Отображать значок 4G в значке сигнала вместо LTE</string>
+    <string name="show_fourg_icon_summary">Отображать значок 4G вместо LTE</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Показать значок отключения данных</string>
-    <string name="data_disabled_icon_summary">Отображать крестик рядом с полосой сигналов, когда данные отключены</string>
+    <string name="data_disabled_icon_title">Показывать значок отключенных мобильных данных</string>
+    <string name="data_disabled_icon_summary">Отображать крестик рядом с полосой сигналов, когда мобильные данные отключены</string>
     <!-- Combined signal icons -->
     <string name="combined_status_bar_signal_icons_title">Комбинированные значки сети</string>
     <string name="combined_status_bar_signal_icons_summary">Включить комбинированные значки сети в строке состояния</string>
@@ -461,10 +461,6 @@
     <!-- Hotspot VPN -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить использование клиентского VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа использование\u2019 VPN-соединения этого устройства для входящего подключения</string>
-    <!-- Strings for per-app volume -->
-    <string name="app_volume">Громкость приложения</string>
-    <string name="app_volume_title">Контроль громкости каждого приложения</string>
-    <string name="app_volume_summary">Добавить кнопку громкости для каждого приложения</string>
     <!-- Navbar options -->
     <string name="navbar_invert_layout_title">Инвертировать расположение кнопок панели навигации</string>
     <string name="navbar_invert_layout_summary">Показать кнопку \"Назад\" справа</string>
@@ -496,11 +492,15 @@
     <string name="app_lock_notifications_disabled_summary">Сначала защитите приложение</string>
     <string name="app_lock_biometrics_allowed_title">Включить биометрические данные для разблокировки</string>
     <string name="app_lock_footer_text">Пузырьки будут автоматически удаляться по истечении времени</string>
-    <!-- Lawnchair switcher -->
+    <!-- App info misc -->
     <string name="app_info_misc">Прочее</string>
-    <string name="enable_lawnchair_title">Переключить на Lawnchair</string>
-    <string name="enable_lawnchair_summary">Выбрать лаунчером по умолчанию - Lawnchair, отключив Pixel Launcher</string>
-    <string name="enable_lawnchair_info">Перезагрузите для применения</string>
+    <!-- Launcher switcher -->
+    <string name="launcher_switcher_category">Смена лаунчера</string>
+    <string name="launcher_switcher_title">Стандартный лаунчер</string>
+    <string name="launcher_switcher_info">Эта настройка отличается от настройки домашнего приложения по умолчанию. Вы сможете переключать выбранную программу запуска в качестве программы по умолчанию &amp; recent provider без необходимости root.\nДля вступления изменений в силу необходима перезагрузка.</string>
+    <string name="launcher_pixel">Pixel лаунчер</string>
+    <string name="launcher_nameless">Nameless лаунчер</string>
+    <string name="launcher_lawnchair">Lawnchair</string>
     <!-- Click to partical screenshot -->
     <string name="click_partial_screenshot_title">Нажмите для частичного скриншота</string>
     <string name="click_partial_screenshot_summary">Коротко нажмите Volume Down и Power, чтобы сделать частичный скриншот</string>
@@ -551,9 +551,6 @@
     <string name="gesture_nav_tweaks_footer_info">Чтобы выбрать конкретное приложение для выполнения действия, нажмите на любое приложение в меню выбора приложений.\n\nЕсли отображается программа запуска, проведите пальцем в самой нижней области экрана, чтобы запустить действие.</string>
     <string name="back_swipe_extended_title">Действие широкого свайпа</string>
     <string name="back_swipe_extended_summary">Срабатывание при широком свайпе (более половины размера дисплея) или при L-свайпе (достаточно длинном по вертикали)</string>
-    <!-- Volume dialog position -->
-    <string name="left_volume_dialog_title">Ползунок громкости слева</string>
-    <string name="left_volume_dialog_summary">Ползунок громкости слева в портретном режиме</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
     <string name="use_photos_spoof_title">Безлимитное хранилище Google фото</string>
     <string name="use_photos_spoof_summary">Представить устройство как Pixel XL, чтобы получить неограниченное хранилище фотографий в оригинальном качестве</string>
@@ -598,11 +595,12 @@
     <!-- QS tiles layout -->
     <string name="qs_tile_layout_title">Расположение плитки QS</string>
     <string name="qs_tile_layout_summary">Настройка расположения плиток в панели QS</string>
-    <string name="qs_columns_portrait_title">Колонки (портрет)</string>
-    <string name="qs_columns_landscape_title">Колонки (Ландшафт)</string>
+    <string name="qs_tiles_layout_category">Расположение плитки</string>
     <string name="qs_rows_portrait_title">Строки (Портрет)</string>
-    <string name="qs_rows_landscape_title">Строки (Ландшафт)</string>
     <string name="qqs_rows_portrait_title">Строки (Портрет Quick QS)</string>
+    <string name="qs_columns_portrait_title">Колонки (портрет)</string>
+    <string name="qs_apply_change_button_title">Применить изменение</string>
+    <string name="qs_apply_change_failed">Не удалось применить изменение</string>
     <string name="qs_tile_hide_label_title">Спрятать ярлыки</string>
     <string name="qs_tile_hide_label_summary">Показывать только иконку плиток QS</string>
     <string name="qs_tile_vertical_layout_title">Вертикальное расположение</string>
@@ -683,4 +681,53 @@
     <string name="background_process_killer_title">Завершать фоновые процессы</string>
     <string name="background_process_killer_summary">Остановка всех несущественных фоновых процессов, когда устройство простаивает</string>
     <string name="sleep_mode_display_text">Спящий режим позволяет отключить некоторые службы для экономии заряда батареи и отключения звука телефона во время сна.</string>
+    <!-- Ignore secure flag -->
+    <string name="window_ignore_secure_title">Игнорировать флаги безопасности окна</string>
+    <string name="window_ignore_secure_summary">Убрать ограничения на снимок экрана / запись экрана для всех приложений</string>
+    <string name="window_ignore_secure_warning">Это может быть удобно в некоторых случаях, но может привести к утечке конфиденциальной информации. После изменения этого параметра может потребоваться перезапуск приложений, чтобы изменения вступили в силу.</string>
+    <!-- Back gesture arrow -->
+    <string name="back_gesture_arrow_title">Анимация жеста назад</string>
+    <string name="back_gesture_arrow_summary">Показывать анимированную стрелку для жеста назад</string>
+    <!-- Carrier label -->
+    <string name="carrier_label_category">Ярлык оператора связи</string>
+    <string name="carrier_label_custom">Индивидуальный ярлык оператора связи</string>
+    <string name="carrier_label_custom_unset">Нажмите для настройки</string>
+    <string name="carrier_label_custom_title">Индивидуальный ярлык оператора связи</string>
+    <string name="carrier_label_custom_explain">Введите пользовательскую метку. Оставьте пустым, чтобы использовать имя вашей сети</string>
+    <string name="carrier_label_position">Положение ярлыка оператора</string>
+    <string name="carrier_label_position_hide">Спрятать</string>
+    <string name="carrier_label_position_lockscreen">Экран блокировки</string>
+    <string name="carrier_label_position_statusbar">Строка состояния</string>
+    <string name="carrier_label_position_both">Экран блокировки &amp; Строка состояния</string>
+    <!-- Package details -->
+    <string name="package_details_group_title">Информация о пакете</string>
+    <string name="package_name">Название пакета</string>
+    <string name="package_version">Версия пакета</string>
+    <!-- Custom DNS Option -->
+    <!-- Immersive gesture bar -->
+    <string name="immersive_gesture_bar_title">Иммерсивная панель жестов</string>
+    <string name="immersive_gesture_bar_summary">Убрать высоту навигационной панели, сохранив панель жестов</string>
+    <!-- reTicker -->
+    <string name="reticker_category">reTicker</string>
+    <string name="reticker_title">Включить reTicker</string>
+    <string name="reticker_summary">Замените уведомление о предупреждении на более тонкую и менее инвазивную версию переработанного тикера</string>
+    <string name="reticker_colored_title">Используйте цвет фона приложения</string>
+    <string name="reticker_colored_summary">Замените цвет фона reTicker, используя основной цвет приложения уведомлений</string>
+    <string name="reticker_landscape_only_title">Только ландшафт</string>
+    <string name="reticker_landscape_only_summary">Включать reTicker только тогда, когда устройство находится в ландшафтном режиме</string>
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Скрытые приложения</string>
+    <!-- Volume dialog -->
+    <string name="volume_dialog_category">Volume dialog</string>
+    <string name="left_volume_dialog_title">Move to left</string>
+    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
+    <string name="volume_dialog_force_show_settings_title">Media controller</string>
+    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
+    <string name="app_volume">Громкость приложения</string>
+    <string name="app_volume_title">Контроль громкости каждого приложения</string>
+    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
+    <!-- App downgrade -->
+    <string name="app_downgrade_title">Allow application downgrade</string>
+    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
+    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
 </resources>
