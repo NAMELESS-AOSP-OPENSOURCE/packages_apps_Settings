@@ -87,13 +87,6 @@ public class PowerUsageSummary extends PowerUsageBase implements
     private static final String KEY_DESIGNED_BATTERY_CAPACITY = "designed_battery_capacity";
     private static final String KEY_BATTERY_CHARGE_CYCLES = "battery_charge_cycles";
 
-    private static final String FILENAME_BATTERY_DESIGN_CAPACITY =
-            "/sys/class/power_supply/bms/charge_full_design";
-    private static final String FILENAME_BATTERY_CURRENT_CAPACITY =
-            "/sys/class/power_supply/bms/charge_full";
-    private static final String FILENAME_BATTERY_CHARGE_CYCLES =
-            "/sys/class/power_supply/bms/cycle_count";
-
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
     @VisibleForTesting
@@ -404,9 +397,9 @@ public class PowerUsageSummary extends PowerUsageBase implements
         } else {
             mBatteryTempPref.setSummary(getResources().getString(R.string.status_unavailable));
         }
-        mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_CURRENT_CAPACITY));
-        mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(FILENAME_BATTERY_DESIGN_CAPACITY));
-        mBatteryChargeCycles.setSubtitle(parseBatteryCycle(FILENAME_BATTERY_CHARGE_CYCLES));
+        mCurrentBatteryCapacity.setSubtitle(parseBatterymAhText(getResources().getString(R.string.config_batteryCalculatedCapacity)));
+        mDesignedBatteryCapacity.setSubtitle(parseBatterymAhText(getResources().getString(R.string.config_batteryDesignCapacity)));
+        mBatteryChargeCycles.setSubtitle(parseBatteryCycle(getResources().getString(R.string.config_batteryChargeCycles)));
     }
 
     @VisibleForTesting
