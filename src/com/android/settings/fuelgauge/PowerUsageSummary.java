@@ -31,6 +31,7 @@ import android.os.Handler;
 import android.os.UserHandle;
 import android.provider.Settings.Global;
 import android.provider.Settings.Secure;
+import android.text.TextUtils;
 import android.text.format.DateFormat;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -124,7 +125,9 @@ public class PowerUsageSummary extends PowerUsageBase implements
 
     Preference mSleepMode;
 
-    boolean mBatteryHealthSupported;
+    String mBatteryCurrentCapacityFile;
+    String mBatteryDesignCapacityFile;
+    String mBatteryChargeCyclesFile;
 
     @VisibleForTesting
     final ContentObserver mSettingsObserver = new ContentObserver(new Handler()) {
@@ -212,10 +215,16 @@ public class PowerUsageSummary extends PowerUsageBase implements
                 KEY_BATTERY_CHARGE_CYCLES);
         mBatteryUtils = BatteryUtils.getInstance(getContext());
 
-        mBatteryHealthSupported = getResources().getBoolean(R.bool.config_supportBatteryHealth);
-        if (!mBatteryHealthSupported) {
+        mBatteryCurrentCapacityFile = getResources().getString(R.string.config_batteryCalculatedCapacity);
+        mBatteryDesignCapacityFile = getResources().getString(R.string.config_batteryDesignCapacity);
+        mBatteryChargeCyclesFile = getResources().getString(R.string.config_batteryChargeCycles);
+        if (TextUtils.isEmpty(mBatteryCurrentCapacityFile)) {
             getPreferenceScreen().removePreference(mCurrentBatteryCapacity);
+        }
+        if (TextUtils.isEmpty(mBatteryDesignCapacityFile)) {
             getPreferenceScreen().removePreference(mDesignedBatteryCapacity);
+        }
+        if (TextUtils.isEmpty(mBatteryChargeCyclesFile)) {
             getPreferenceScreen().removePreference(mBatteryChargeCycles);
         }
 
@@ -406,10 +415,14 @@ public class PowerUsageSummary extends PowerUsageBase implements
         } else {
             mBatteryTempPref.setSummary(getResources().getString(R.string.status_unavailable));
         }
-        if (mBatteryHealthSupported) {
-            mCurrentBatteryCapacity.setSummary(parseBatterymAhText(getResources().getString(R.string.config_batteryCalculatedCapacity)));
-            mDesignedBatteryCapacity.setSummary(parseBatterymAhText(getResources().getString(R.string.config_batteryDesignCapacity)));
-            mBatteryChargeCycles.setSummary(parseBatteryCycle(getResources().getString(R.string.config_batteryChargeCycles)));
+        if (!TextUtils.isEmpty(mBatteryCurrentCapacityFile)) {
+            mCurrentBatteryCapacity.setSummary(parseBatterymAhText(mBatteryCurrentCapacityFile));
+        }
+        if (!TextUtils.isEmpty(mBatteryDesignCapacityFile)) {
+            mDesignedBatteryCapacity.setSummary(parseBatterymAhText(mBatteryDesignCapacityFile));
+        }
+        if (!TextUtils.isEmpty(mBatteryChargeCyclesFile)) {
+            mBatteryChargeCycles.setSummary(parseBatterymAhText(mBatteryChargeCyclesFile));
         }
     }
 
@@ -530,9 +543,13 @@ public class PowerUsageSummary extends PowerUsageBase implements
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
 
-                    if (!context.getResources().getBoolean(R.bool.config_supportBatteryHealth)) {
+                    if (!TextUtils.isEmpty(context.getResources().getString(R.string.config_batteryCalculatedCapacity))) {
                         keys.add(KEY_CURRENT_BATTERY_CAPACITY);
+                    }
+                    if (!TextUtils.isEmpty(context.getResources().getString(R.string.config_batteryDesignCapacity))) {
                         keys.add(KEY_DESIGNED_BATTERY_CAPACITY);
+                    }
+                    if (!TextUtils.isEmpty(context.getResources().getString(R.string.config_batteryChargeCycles))) {
                         keys.add(KEY_BATTERY_CHARGE_CYCLES);
                     }
 
