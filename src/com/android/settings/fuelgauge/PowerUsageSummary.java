@@ -67,6 +67,8 @@ import java.time.format.DateTimeFormatter;
 import java.time.LocalTime;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
 
 /**
  * Displays a list of apps and subsystems that consume power, ordered by how much power was consumed
@@ -495,7 +497,13 @@ public class PowerUsageSummary extends PowerUsageBase implements
 
     private String parseBatterymAhText(String file) {
         try {
-            return Integer.parseInt(readLine(file)) / 1000 + " mAh";
+            String str = readLine(file);
+            if (isDigit(str)) {
+                return Integer.parseInt(str) / 1000 + " mAh";
+            }
+            if (str.contains("_") && str.contains("m")) {
+                return str.split("_")[1].split("m")[0] + " mAh";  // OP_4510mAh
+            }
         } catch (IOException ioe) {
             Log.e(TAG, "Cannot read battery capacity from "
                     + file, ioe);
@@ -534,6 +542,12 @@ public class PowerUsageSummary extends PowerUsageBase implements
         } finally {
             reader.close();
         }
+    }
+
+    private static boolean isDigit(String str) {
+        Pattern pattern = Pattern.compile("[0-9]*");
+        Matcher isNum = pattern.matcher(str);
+        return isNum.matches();
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
