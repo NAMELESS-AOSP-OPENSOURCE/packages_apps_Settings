@@ -718,16 +718,22 @@
     <!-- Hidden apps -->
     <string name="hidden_apps_title">Скрытые приложения</string>
     <!-- Volume dialog -->
-    <string name="volume_dialog_category">Volume dialog</string>
-    <string name="left_volume_dialog_title">Move to left</string>
-    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
-    <string name="volume_dialog_force_show_settings_title">Media controller</string>
-    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
+    <string name="volume_dialog_category">Диалог громкости</string>
+    <string name="left_volume_dialog_title">Переместить влево</string>
+    <string name="left_volume_dialog_summary">Показать диалоговое окно громкости слева</string>
+    <string name="volume_dialog_force_show_settings_title">Медиа-контроллер</string>
+    <string name="volume_dialog_force_show_settings_summary">Принудительно отображать медиа-контроллер в диалоговом окне громкости</string>
     <string name="app_volume">Громкость приложения</string>
     <string name="app_volume_title">Контроль громкости каждого приложения</string>
-    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
+    <string name="app_volume_summary">Показать кнопку регулировки громкости для каждого приложения в диалоговом окне регулировки громкости</string>
     <!-- App downgrade -->
-    <string name="app_downgrade_title">Allow application downgrade</string>
-    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
-    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
+    <string name="app_downgrade_title">Разрешить понижение версии приложения</string>
+    <string name="app_downgrade_summary">Разрешить установку более старой версии поверх установленных приложений</string>
+    <string name="app_downgrade_info">Это может привести к сбоям приложений или повреждению данных</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Температура батареи</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Текущая емкость батареи</string>
+    <string name="designed_battery_capacity">Расчетная емкость аккумулятора</string>
+    <string name="battery_charge_cycles">Циклы заряда завершены</string>
 </resources>

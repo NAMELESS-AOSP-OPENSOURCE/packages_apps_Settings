@@ -1,179 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Warning message displayed if user choses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
+    <string name="wifi_do_not_validate_eap_server_warning">לא צוין תעודה. החיבור שלך לא יהיה פרטי.</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="min_greater_than_peak">Minimum refresh rate cannot be greater than maximum refresh rate!</string>
-    <string name="peak_less_than_min">Maximum refresh rate cannot be less than minimum refresh rate!</string>
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz as max refresh rate to save power when Battery Saver is on</string>
+    <string name="min_refresh_rate_title">קצב רענון מינימלי</string>
+    <string name="max_refresh_rate_title">קצב רענון מקסימלי</string>
+    <string name="min_greater_than_peak">קצב רענון מינימלי לא יכול להיות גדול מקצב רענון מקסימלי!</string>
+    <string name="peak_less_than_min">קצב הרענון המרבי לא יכול להיות נמוך מקצב הרענון המינימלי!</string>
+    <string name="battery_saver_refresh_rate_title">הפחת את קצב הרענון</string>
+    <string name="battery_saver_refresh_rate_summary">השתמש ב-60 הרץ כקצב רענון מרבי כדי לחסוך בחשמל כאשר חיסכון בסוללה פועל</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">הקש כדי להציג מידע</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">החלק לצילום מסך</string>
+    <string name="three_finger_gesture_summary">החלק מטה בשלוש אצבעות כדי לצלם מסך</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">צליל צילום מסך</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_category">Color balance</string>
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <string name="color_mode_balance_category">איזון צבע</string>
+    <string name="color_mode_balance_red">חוזק אדום</string>
+    <string name="color_mode_balance_green">חוזק ירוק</string>
+    <string name="color_mode_balance_blue">חוזק כחול</string>
+    <string name="keywords_color_balance">צבע, איזון צבעים, תיקון צבע, אדום, ירוק, כחול, LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">תאריך בניה</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">צלצול מתחזק</string>
+    <string name="increasing_ring_min_volume_title">עוצמת הצלצול התחלתית</string>
+    <string name="increasing_ring_ramp_up_time_title">זמן התגברות</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_title">אפשר הפעלה מחדש מתקדמת</string>
+    <string name="global_actions_advanced_reboot_summary">הצג אפשרויות לשחזור ו-bootloader בתפריט ההפעלה</string>
     <!-- Double Tap to wake/sleep -->
-    <string name="double_tap_gesture_category">Tap to wake / sleep</string>
-    <string name="double_tap_gesture_title">Enable tap gesture</string>
-    <string name="double_tap_gesture_summary">Double-tap on the screen to wake or sleep device</string>
-    <string name="disable_in_landscape_title">Disable in landscape</string>
-    <string name="disable_in_landscape_summary">Prevent mistouch while in landscape mode</string>
+    <string name="double_tap_gesture_category">הקש כדי להעיר / לכבות מסך</string>
+    <string name="double_tap_gesture_title">אפשר תנועת הקשה</string>
+    <string name="double_tap_gesture_summary">הקש פעמיים על המסך כדי להעיר או לכבות את מסך המכשיר</string>
+    <string name="disable_in_landscape_title">השבת במצב מסך לרוחב</string>
+    <string name="disable_in_landscape_summary">מניעת מגע מוטעה במצב מסך לרוחב</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
-    <string name="statusbar_items_summary">Choose what icons to show in status bar</string>
+    <string name="statusbar_items_title">פריטי שורת המצב</string>
+    <string name="statusbar_items_summary">בחר אילו סמלים להציג בשורת המצב</string>
     <!-- Statusbar customization category -->
-    <string name="status_bar_category_title">Status bar</string>
+    <string name="status_bar_category_title">שורת מצב</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="proximity_wake_title">למנוע התעוררות בטעות</string>
+    <string name="proximity_wake_summary">בדוק את חיישן הקרבה לפני הדלקת המסך</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="vibration_pattern_title">רטט לפי הרינגטונים</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="pattern_custom">מותאם אישית</string>
+    <string name="custom_vibration_pattern_title">דפוס מותאם אישית</string>
+    <string name="custom_vibration_pattern_summary">הגדר דפוס רטט מותאם אישית</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
+    <string name="doze_on_charge_title">תמיד פועל בעת טעינה</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
     <!-- Lockscreen Charging info -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display detailed info while charging</string>
+    <string name="lockscreen_battery_info_title">מידע טעינה במסך נעילה</string>
+    <string name="lockscreen_battery_info_summary">הצג מידע מפורט בזמן הטעינה</string>
     <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">בקרת השמעה</string>
+    <string name="volume_button_music_control_summary">כאשר המסך כבוי, לחיצה ארוכה על מקשי עוצמת הקול תדלג על רצועות מוזיקה</string>
     <!-- Statusbar net monitor -->
-    <string name="network_category_title">Network</string>
-    <string name="network_traffic_state_title">Network speed</string>
-    <string name="network_traffic_state_summary">Show network speed in the status bar</string>
-    <string name="network_traffic_state_enable">Show network speed</string>
-    <string name="network_traffic_mode_title">Display mode</string>
-    <string name="network_traffic_dynamic">Dynamic</string>
-    <string name="network_traffic_download">Download</string>
-    <string name="network_traffic_upload">Upload</string>
-    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
-    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <string name="network_category_title">רשת</string>
+    <string name="network_traffic_state_title">מהירות רשת</string>
+    <string name="network_traffic_state_summary">הצג את מהירות הרשת בשורת המצב</string>
+    <string name="network_traffic_state_enable">הצג מהירות רשת</string>
+    <string name="network_traffic_mode_title">מצב תצוגה</string>
+    <string name="network_traffic_dynamic">דינמי</string>
+    <string name="network_traffic_download">הורדה</string>
+    <string name="network_traffic_upload">העלאה</string>
+    <string name="network_traffic_autohide_threshold_title">סף הסתרה אוטומטי</string>
+    <string name="network_traffic_refresh_interval_title">מרווח רענון</string>
     <!-- Statusbar Clock -->
-    <string name="status_bar_clock_date_title">Clock and Date</string>
-    <string name="status_bar_clock_date_summary">Customize your statusbar clock and date</string>
-    <string name="status_bar_clock_title">Clock settings</string>
-    <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
-    <string name="status_bar_clock_style_right">Right</string>
-    <string name="status_bar_clock_style_center">Center</string>
-    <string name="status_bar_clock_style_left">Left</string>
-    <string name="status_bar_date_title">Date settings</string>
-    <string name="status_bar_am_pm_title">AM/PM style</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-    <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Small</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
-    <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
-    <string name="clock_date_display_none">Don\'t show</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style">Date style</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="clock_date_right">Right of time</string>
-    <string name="clock_date_left">Left of time</string>
-    <string name="clock_date_position">Date position</string>
-    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide and show clock at regular intervals of time</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
+    <string name="status_bar_clock_date_title">שעון ותאריך</string>
+    <string name="status_bar_clock_date_summary">התאם אישית את השעון והתאריך שלך בשורת המצב</string>
+    <string name="status_bar_clock_title">הגדרות שעון</string>
+    <string name="status_bar_clock_show">הצג שעון ותאריך</string>
+    <string name="status_bar_clock_style_title">סגנון שעון</string>
+    <string name="status_bar_clock_style_right">ימין</string>
+    <string name="status_bar_clock_style_center">מרכז</string>
+    <string name="status_bar_clock_style_left">שמאל</string>
+    <string name="status_bar_date_title">הגדרות תאריך</string>
+    <string name="status_bar_am_pm_title">בסגנון AM/PM</string>
+    <string name="status_bar_am_pm_info">שעון 24 שעות מופעל</string>
+    <string name="status_bar_am_pm_normal">רגיל</string>
+    <string name="status_bar_am_pm_small">קטן</string>
+    <string name="status_bar_am_pm_hidden">מוסתר (ברירת מחדל)</string>
+    <string name="clock_seconds_display">הצג שניות</string>
+    <string name="clock_date_display">תאריך</string>
+    <string name="clock_date_display_summary">הצג תאריך מותאם אישית לפני השעון</string>
+    <string name="clock_date_display_none">אל תציג</string>
+    <string name="clock_date_display_small">גודל גופן קטן</string>
+    <string name="clock_date_display_normal">גודל גופן רגיל</string>
+    <string name="clock_date_style">סגנון תאריך</string>
+    <string name="clock_date_style_normal">רגיל</string>
+    <string name="clock_date_style_lowercase">אותיות קטנות</string>
+    <string name="clock_date_style_uppercase">אותיות גדולות</string>
+    <string name="clock_date_format_custom">פורמט ג\'אווה מותאם אישית</string>
+    <string name="clock_date_format">פורמט תאריך</string>
+    <string name="clock_date_string_edittext_title">חייב להיות בפורמט תאריך, למשל. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">הזן מחרוזת</string>
+    <string name="clock_date_right">מימין לשעה</string>
+    <string name="clock_date_left">משמאל לשעה</string>
+    <string name="clock_date_position">מיקום התאריך</string>
+    <string name="status_bar_clock_auto_hide_title">הסתר אוטומטית את השעון</string>
+    <string name="status_bar_clock_auto_hide_summary">הסתר והצג שעון במרווחי זמן קבועים</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">הסתר משך זמן</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">הצג משך זמן</string>
     <!-- Heads up -->
-    <string name="noti_cust_category">Notification bar</string>
+    <string name="noti_cust_category">סרגל התראות</string>
     <string name="heads_up_notifications">Heads up</string>
     <string name="heads_up_notifications_summary">Customise heads up notifications settings</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
+    <string name="summary_heads_up_enabled">הודעות קופצות מופעלות</string>
+    <string name="summary_heads_up_disabled">הודעות קופצות מבוטלות</string>
+    <string name="add_heads_up_package">הוסף אפליקציה</string>
     <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
     <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_stoplist_title">רשימת עצירה</string>
+    <string name="heads_up_blacklist_title">רשימה שחורה</string>
+    <string name="profile_choose_app">בחר אפליקציה</string>
+    <string name="dialog_delete_title">מחק</string>
+    <string name="dialog_delete_message">להסיר את הפריט שנבחר?</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Time out</string>
-    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_5sec">5 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_summary">הודעות הצצה יוצגו ל-<xliff:g id="number">%d</xliff:g> שניות</string>
+    <string name="heads_up_time_out_2sec">שתי שניות</string>
+    <string name="heads_up_time_out_4sec">4 שניות</string>
+    <string name="heads_up_time_out_5sec">5 שניות</string>
+    <string name="heads_up_time_out_6sec">6 שניות</string>
+    <string name="heads_up_time_out_8sec">8 שניות</string>
+    <string name="heads_up_time_out_10sec">10 שניות</string>
     <!-- Heads up snooze -->
-    <string name="heads_up_snooze_title">Snooze timer</string>
+    <string name="heads_up_snooze_title">טיימר נודניק</string>
     <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
     <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-    <string name="heads_up_snooze_1min">1 minute</string>
-    <string name="heads_up_snooze_5min">5 minutes</string>
-    <string name="heads_up_snooze_10min">10 minutes</string>
-    <string name="heads_up_snooze_15min">15 minutes</string>
-    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_disabled_summary">טיימר נודניק מושבת</string>
+    <string name="heads_up_snooze_1min">דקה אחת</string>
+    <string name="heads_up_snooze_5min">5 דקות</string>
+    <string name="heads_up_snooze_10min">10 דקות</string>
+    <string name="heads_up_snooze_15min">15 דקות</string>
+    <string name="heads_up_snooze_20min">20 דקות</string>
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Make heads up less annoying</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string>
     <!-- Notification guts kill app button -->
-    <string name="notification_guts_kill_app_button_title">Kill app button</string>
-    <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
+    <string name="notification_guts_kill_app_button_title">כפתור לסגירת אפליקציה</string>
+    <string name="notification_guts_kill_app_button_summary">הצג כפתור סגירת אפליקציה בתפריט לחיצה ארוכה של התראות</string>
     <!-- Wakeup options -->
     <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
     <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged</string>
     <!-- QS battery estimates -->
-    <string name="qs_show_battery_estimate_title">Battery estimates</string>
-    <string name="qs_show_battery_estimate_summary">Show estimated remaining battery life next to the icon</string>
+    <string name="qs_show_battery_estimate_title">הערכות סוללה</string>
+    <string name="qs_show_battery_estimate_summary">הצג את חיי הסוללה המשוערים ליד הסמל</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Use 4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">השתמש בסמל 4G</string>
+    <string name="show_fourg_icon_summary">הצג סמל 4G בסמל האות במקום LTE</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_title">הצג סמל נתונים מושבתים</string>
     <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
     <!-- Combined signal icons -->
-    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in statusbar</string>
+    <string name="combined_status_bar_signal_icons_title">סמלי אות משולבים</string>
+    <string name="combined_status_bar_signal_icons_summary">אפשר סמלי אות משולבים בשורת המצב</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_title">מחוון נדידה</string>
+    <string name="roaming_indicator_icon_summary">הצג מחוון נדידה בסמל האות כאשר במצב נדידה</string>
     <!-- Units -->
-    <string name="unit_second">sec</string>
+    <string name="unit_second">שניות</string>
     <string name="unit_ms">ms</string>
     <!-- Show old style mobile data icon -->
     <string name="use_old_mobiletype_title">Use old style mobile data icons</string>
@@ -210,18 +210,18 @@
     <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
     <string name="adaptive_playback_timeout_1_min">1 minute</string>
     <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_timeout_5_min">5 דקות</string>
+    <string name="adaptive_playback_timeout_10_min">10 דקות</string>
     <!-- Brightness control -->
-    <string name="status_bar_gesture_category">Status bar gestures</string>
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_gesture_category">מחוות שורת המצב</string>
+    <string name="status_bar_toggle_brightness">שליטה בבהירות</string>
+    <string name="status_bar_toggle_brightness_summary">התאם את הבהירות על ידי החלקה על שורת המצב</string>
     <!-- AOD Schedule -->
-    <string name="default_string">Default</string>
-    <string name="disabled">Disabled</string>
+    <string name="default_string">ברירת מחדל</string>
+    <string name="disabled">מושבת</string>
     <string name="always_on_display_schedule_title">Always on display schedule</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <string name="always_on_display_schedule_sunset">שקיעה</string>
+    <string name="always_on_display_schedule_sunrise">זריחה</string>
     <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
     <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
     <!-- Notification headers -->
@@ -730,4 +730,10 @@
     <string name="app_downgrade_title">Allow application downgrade</string>
     <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
     <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Battery temperature</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Current battery capacity</string>
+    <string name="designed_battery_capacity">Designed battery capacity</string>
+    <string name="battery_charge_cycles">Charge cycles completed</string>
 </resources>

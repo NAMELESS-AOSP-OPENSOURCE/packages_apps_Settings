@@ -722,6 +722,12 @@
     <string name="app_volume_summary">音量ダイアログ内にアプリごとの音量を表示する</string>
     <!-- App downgrade -->
     <string name="app_downgrade_title">アプリのダウングレードを許可</string>
-    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
-    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
+    <string name="app_downgrade_summary">旧バージョンのアプリのインストールを許可する</string>
+    <string name="app_downgrade_info">アプリのクラッシュやデータの破損の可能性があります</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">バッテリー温度</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">現在バッテリー容量</string>
+    <string name="designed_battery_capacity">設計バッテリー容量</string>
+    <string name="battery_charge_cycles">充電サイクル完了数</string>
 </resources>

@@ -495,9 +495,9 @@
     <!-- App info misc -->
     <string name="app_info_misc">Sonstiges</string>
     <!-- Launcher switcher -->
-    <string name="launcher_switcher_category">Launcher switcher</string>
-    <string name="launcher_switcher_title">Default Launcher</string>
-    <string name="launcher_switcher_info">This setting is different from the default home app setting. You will be able to switch selected launcher as default launcher &amp; recent provider without root needed.\nReboot is needed for the change to take effect.</string>
+    <string name="launcher_switcher_category">Launcher-Umschalter</string>
+    <string name="launcher_switcher_title">Standard-Launcher</string>
+    <string name="launcher_switcher_info">Diese Einstellung unterscheidet sich von der Standardeinstellung für die Home-App. Sie können den ausgewählten Launcher als Standard-Launcher &amp; recent provider wechseln, ohne Root zu benötigen.\nEin Neustart ist erforderlich, damit die Änderung wirksam wird.</string>
     <string name="launcher_pixel">Pixel Launcher</string>
     <string name="launcher_nameless">Nameless Launcher</string>
     <string name="launcher_lawnchair">Lawnchair</string>
@@ -709,21 +709,27 @@
     <string name="reticker_summary">Ersetzen Sie die Heads-up-Benachrichtigung durch eine schlanke und weniger invasive Version des neu gestalteten Tickers</string>
     <string name="reticker_colored_title">Verwenden Sie den farbigen Hintergrund der App</string>
     <string name="reticker_colored_summary">Ersetzen Sie die Hintergrundfarbe von reTicker durch die Hauptfarbe der Benachrichtigungs-App</string>
-    <string name="reticker_landscape_only_title">Landscape only</string>
-    <string name="reticker_landscape_only_summary">Only enable reTicker when device is in landscape mode</string>
+    <string name="reticker_landscape_only_title">Nur im Querformat</string>
+    <string name="reticker_landscape_only_summary">reTicker nur aktivieren, wenn das Gerät im Querformat ist</string>
     <!-- Hidden apps -->
-    <string name="hidden_apps_title">Hidden apps</string>
+    <string name="hidden_apps_title">Versteckte Anwendungen</string>
     <!-- Volume dialog -->
-    <string name="volume_dialog_category">Volume dialog</string>
-    <string name="left_volume_dialog_title">Move to left</string>
-    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
-    <string name="volume_dialog_force_show_settings_title">Media controller</string>
-    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
+    <string name="volume_dialog_category">Lautstärke-Dialog</string>
+    <string name="left_volume_dialog_title">Nach links verschieben</string>
+    <string name="left_volume_dialog_summary">Lautstärke-Dialog auf der linken Seite anzeigen</string>
+    <string name="volume_dialog_force_show_settings_title">Mediensteuerung</string>
+    <string name="volume_dialog_force_show_settings_summary">Erzwingen der Anzeige der Mediensteuerung im Lautstärke-Dialog</string>
     <string name="app_volume">App Lautstärke</string>
     <string name="app_volume_title">Lautstärkeregelung per App</string>
-    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
+    <string name="app_volume_summary">Lautstärke-Schaltfläche pro Anwendung im Lautstärke-Dialog anzeigen</string>
     <!-- App downgrade -->
-    <string name="app_downgrade_title">Allow application downgrade</string>
-    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
-    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
+    <string name="app_downgrade_title">Downgrade der Anwendung zulassen</string>
+    <string name="app_downgrade_summary">Installation einer älteren Version über bereits installierte Anwendungen zulassen</string>
+    <string name="app_downgrade_info">Dies kann zum Absturz der Anwendung oder zur Beschädigung von Daten führen.</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Akkutemperatur</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Aktuelle Akkukapazität</string>
+    <string name="designed_battery_capacity">Konzipierte Akkukapazität</string>
+    <string name="battery_charge_cycles">Abgeschlossene Ladezyklen</string>
 </resources>

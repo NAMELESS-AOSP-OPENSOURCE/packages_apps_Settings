@@ -714,16 +714,22 @@
     <!-- Hidden apps -->
     <string name="hidden_apps_title">Gizli uygulamalar</string>
     <!-- Volume dialog -->
-    <string name="volume_dialog_category">Volume dialog</string>
-    <string name="left_volume_dialog_title">Move to left</string>
-    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
-    <string name="volume_dialog_force_show_settings_title">Media controller</string>
-    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
+    <string name="volume_dialog_category">Ses düzeyi iletişim kutusu</string>
+    <string name="left_volume_dialog_title">Sola git</string>
+    <string name="left_volume_dialog_summary">Sol tarafta ses seviyesi iletişim kutusunu göster</string>
+    <string name="volume_dialog_force_show_settings_title">Medya denetleyicisi</string>
+    <string name="volume_dialog_force_show_settings_summary">Ses iletişim kutusunda medya denetleyicisini göstermeye zorla</string>
     <string name="app_volume">Uygulama hacmi</string>
     <string name="app_volume_title">Uygulama başına ses kontrolü</string>
-    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
+    <string name="app_volume_summary">Ses düzeyi iletişim kutusunda uygulama başına ses düğmesini göster</string>
     <!-- App downgrade -->
-    <string name="app_downgrade_title">Allow application downgrade</string>
-    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
-    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
+    <string name="app_downgrade_title">Uygulamanın eski sürüme geçirilmesine izin ver</string>
+    <string name="app_downgrade_summary">Yüklü uygulamalar üzerine daha eski bir sürümün yüklenmesine izin ver</string>
+    <string name="app_downgrade_info">Bu, uygulama çökmelerine veya veri bozulmasına neden olabilir</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Pil sıcaklığı</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
+    <string name="designed_battery_capacity">Tasarlanmış pil kapasitesi</string>
+    <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
 </resources>

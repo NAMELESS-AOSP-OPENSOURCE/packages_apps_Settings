@@ -714,16 +714,22 @@
     <!-- Hidden apps -->
     <string name="hidden_apps_title">Aplicativos ocultos</string>
     <!-- Volume dialog -->
-    <string name="volume_dialog_category">Volume dialog</string>
-    <string name="left_volume_dialog_title">Move to left</string>
-    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
-    <string name="volume_dialog_force_show_settings_title">Media controller</string>
-    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
+    <string name="volume_dialog_category">Menu de volume</string>
+    <string name="left_volume_dialog_title">Mover à esquerda</string>
+    <string name="left_volume_dialog_summary">Mostrar menu de volume à esquerda</string>
+    <string name="volume_dialog_force_show_settings_title">Controlador de mídia</string>
+    <string name="volume_dialog_force_show_settings_summary">Forçar a exibição do controlador de mídia no menu de volume</string>
     <string name="app_volume">Volume do aplicativo</string>
     <string name="app_volume_title">Controlar volume por aplicativo</string>
-    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
+    <string name="app_volume_summary">Adicionar botão de controle por aplicativo no menu de volume</string>
     <!-- App downgrade -->
-    <string name="app_downgrade_title">Allow application downgrade</string>
-    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
-    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
+    <string name="app_downgrade_title">Permitir downgrade de aplicativo</string>
+    <string name="app_downgrade_summary">Permite a instalação de uma versão mais antiga sobre aplicativos já instalados</string>
+    <string name="app_downgrade_info">Isso pode fazer com que o aplicativo pare de funcionar ou tenha seus dados perdidos</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">Temperatura da bateria</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">Capacidade atual da bateria</string>
+    <string name="designed_battery_capacity">Capacidade original da bateria</string>
+    <string name="battery_charge_cycles">Ciclos de carga</string>
 </resources>

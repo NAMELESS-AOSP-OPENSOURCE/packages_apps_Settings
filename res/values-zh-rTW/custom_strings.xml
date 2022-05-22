@@ -712,16 +712,22 @@
     <!-- Hidden apps -->
     <string name="hidden_apps_title">隱藏應用程式</string>
     <!-- Volume dialog -->
-    <string name="volume_dialog_category">Volume dialog</string>
-    <string name="left_volume_dialog_title">Move to left</string>
-    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
-    <string name="volume_dialog_force_show_settings_title">Media controller</string>
-    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
+    <string name="volume_dialog_category">音量面板</string>
+    <string name="left_volume_dialog_title">移至左側</string>
+    <string name="left_volume_dialog_summary">在螢幕左側顯示音量面板</string>
+    <string name="volume_dialog_force_show_settings_title">媒體控制器</string>
+    <string name="volume_dialog_force_show_settings_summary">在音量調節面板添加媒體控制器按鈕</string>
     <string name="app_volume">分應用音量</string>
     <string name="app_volume_title">分應用音量控制</string>
-    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
+    <string name="app_volume_summary">在音量調節面板添加分應用音量控制按鈕</string>
     <!-- App downgrade -->
-    <string name="app_downgrade_title">Allow application downgrade</string>
-    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
-    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
+    <string name="app_downgrade_title">允許應用程式降級</string>
+    <string name="app_downgrade_summary">允許為已安裝的應用程式覆蓋安裝舊版本</string>
+    <string name="app_downgrade_info">這可能會導致應用程式崩潰或數據丟失</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">電池溫度</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">當前電池容量</string>
+    <string name="designed_battery_capacity">設計電池容量</string>
+    <string name="battery_charge_cycles">充電週期已完成</string>
 </resources>

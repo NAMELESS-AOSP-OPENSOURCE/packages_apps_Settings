@@ -724,4 +724,10 @@
     <string name="app_downgrade_title">允许应用降级</string>
     <string name="app_downgrade_summary">允许为已安装应用覆盖安装旧版本</string>
     <string name="app_downgrade_info">这可能会导致应用崩溃或数据丢失</string>
+    <!-- Battery temperature -->
+    <string name="battery_temperature">电池温度</string>
+    <!-- Battery health -->
+    <string name="current_battery_capacity">当前电池容量</string>
+    <string name="designed_battery_capacity">出厂电池容量</string>
+    <string name="battery_charge_cycles">已完成的充电周期</string>
 </resources>
