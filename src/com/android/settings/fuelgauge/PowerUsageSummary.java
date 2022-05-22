@@ -424,7 +424,7 @@ public class PowerUsageSummary extends PowerUsageBase implements
             mDesignedBatteryCapacity.setSummary(parseBatterymAhText(mBatteryDesignCapacityFile));
         }
         if (!TextUtils.isEmpty(mBatteryChargeCyclesFile)) {
-            mBatteryChargeCycles.setSummary(parseBatterymAhText(mBatteryChargeCyclesFile));
+            mBatteryChargeCycles.setSummary(parseBatteryCycle(mBatteryChargeCyclesFile));
         }
     }
 
