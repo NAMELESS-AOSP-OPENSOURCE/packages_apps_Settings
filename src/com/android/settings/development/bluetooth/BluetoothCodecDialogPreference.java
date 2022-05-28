@@ -64,8 +64,11 @@ public class BluetoothCodecDialogPreference extends BaseBluetoothDialogPreferenc
         mRadioButtonIds.add(R.id.bluetooth_audio_codec_aac);
         mRadioButtonIds.add(R.id.bluetooth_audio_codec_aptx);
         mRadioButtonIds.add(R.id.bluetooth_audio_codec_aptx_hd);
-        mRadioButtonIds.add(R.id.bluetooth_audio_codec_aptx_adaptive);
         mRadioButtonIds.add(R.id.bluetooth_audio_codec_ldac);
+        mRadioButtonIds.add(R.id.bluetooth_audio_codec_lhdcv1);
+        mRadioButtonIds.add(R.id.bluetooth_audio_codec_lhdcv2);
+        mRadioButtonIds.add(R.id.bluetooth_audio_codec_lhdcv3);
+        mRadioButtonIds.add(R.id.bluetooth_audio_codec_aptx_adaptive);
         mRadioButtonIds.add(R.id.bluetooth_audio_codec_aptx_twsp);
         String[] stringArray = context.getResources().getStringArray(
                 R.array.bluetooth_a2dp_codec_titles_cm);
