@@ -75,7 +75,7 @@ public class LowerResolutionPreferenceController extends TogglePreferenceControl
         mWm = IWindowManager.Stub.asInterface(ServiceManager.checkService(
                 Context.WINDOW_SERVICE));
 
-        scale = CustomUtils.getLowerResolutionScale(mContext.getResources(), false);
+        scale = CustomUtils.getLowerResolutionScale(false);
         PKG_FWB = mContext.getResources().getString(com.android.internal.R.string.config_lower_resolution_pkg_fwb);
         PKG_SYSUI = mContext.getResources().getString(com.android.internal.R.string.config_lower_resolution_pkg_sysui);
 
