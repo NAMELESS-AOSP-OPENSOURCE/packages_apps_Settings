@@ -370,6 +370,12 @@
             android:title="@string/status_bar_clock_date_title"
             android:summary="@string/status_bar_clock_date_summary"
             android:fragment="com.android.settings.display.StatusbarClockSettings" />
+
+        <Preference
+            android:key="ticker_settings"
+            android:title="@string/ticker_title"
+            android:summary="@string/ticker_summary"
+            android:fragment="com.android.settings.display.TickerSettings"/>
     </PreferenceCategory>
 
     <PreferenceCategory
