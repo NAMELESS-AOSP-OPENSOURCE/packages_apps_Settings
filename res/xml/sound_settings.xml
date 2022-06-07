@@ -260,10 +260,10 @@
         android:order="-30"/>
 
     <!-- Show vibrate icon in status bar -->
-    <SwitchPreference
+    <!-- SwitchPreference
         android:key="vibrate_icon"
         android:title="@string/vibrate_icon_title"
-        android:order="-27"/>
+        android:order="-27"/> -->
 
     <!-- Vibrate on touch -->
     <!--com.android.settings.custom.preference.SwitchPreference
