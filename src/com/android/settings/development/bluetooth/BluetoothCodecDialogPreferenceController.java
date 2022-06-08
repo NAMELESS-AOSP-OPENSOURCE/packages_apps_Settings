@@ -119,22 +119,10 @@ public class BluetoothCodecDialogPreferenceController extends
                 codecPriorityValue = BluetoothCodecConfig.CODEC_PRIORITY_HIGHEST;
                 break;
             case 6:
-                codecTypeValue = BluetoothCodecConfig.SOURCE_CODEC_TYPE_LHDCV3;
-                codecPriorityValue = BluetoothCodecConfig.CODEC_PRIORITY_HIGHEST;
-                break;
-            case 7:
-                codecTypeValue = BluetoothCodecConfig.SOURCE_CODEC_TYPE_LHDCV2;
-                codecPriorityValue = BluetoothCodecConfig.CODEC_PRIORITY_HIGHEST;
-                break;
-            case 8:
-                codecTypeValue = BluetoothCodecConfig.SOURCE_CODEC_TYPE_LHDCV1;
-                codecPriorityValue = BluetoothCodecConfig.CODEC_PRIORITY_HIGHEST;
-                break;
-            case 9:
                 codecTypeValue = BluetoothCodecConfig.SOURCE_CODEC_TYPE_APTX_ADAPTIVE;
                 codecPriorityValue = BluetoothCodecConfig.CODEC_PRIORITY_HIGHEST;
                 break;
-            case 10:
+            case 7:
                 codecTypeValue = BluetoothCodecConfig.SOURCE_CODEC_TYPE_APTX_TWSP;
                 codecPriorityValue = BluetoothCodecConfig.CODEC_PRIORITY_HIGHEST;
                 break;
@@ -198,22 +186,13 @@ public class BluetoothCodecDialogPreferenceController extends
                 index = 4;
                 break;
             case BluetoothCodecConfig.SOURCE_CODEC_TYPE_APTX_ADAPTIVE:
-                index = 9;
+                index = 6;
                 break;
             case BluetoothCodecConfig.SOURCE_CODEC_TYPE_LDAC:
                 index = 5;
                 break;
-            case BluetoothCodecConfig.SOURCE_CODEC_TYPE_LHDCV3:
-                index = 6;
-                break;
-            case BluetoothCodecConfig.SOURCE_CODEC_TYPE_LHDCV2:
-                index = 7;
-                break;
-            case BluetoothCodecConfig.SOURCE_CODEC_TYPE_LHDCV1:
-                index = 8;
-                break;
             case BluetoothCodecConfig.SOURCE_CODEC_TYPE_APTX_TWSP:
-                index = 10;
+                index = 7;
                 break;
             default:
                 Log.e(TAG, "Unsupported config:" + config);
