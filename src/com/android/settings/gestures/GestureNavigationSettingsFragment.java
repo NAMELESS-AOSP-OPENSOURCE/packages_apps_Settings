@@ -33,7 +33,7 @@ import com.android.settings.widget.LabeledSeekBarPreference;
 import com.android.settings.widget.SeekBarPreference;
 import com.android.settingslib.search.SearchIndexable;
 
-import com.android.internal.util.custom.CustomUtils.LauncherUtils;
+import com.android.internal.util.custom.LauncherUtils;
 
 import static com.android.systemui.shared.recents.utilities.Utilities.isTablet;
 

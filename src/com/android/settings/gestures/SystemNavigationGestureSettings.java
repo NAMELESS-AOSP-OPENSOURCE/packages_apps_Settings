@@ -52,7 +52,7 @@ import com.android.settingslib.widget.CandidateInfo;
 import com.android.settingslib.widget.IllustrationPreference;
 import com.android.settingslib.widget.RadioButtonPreference;
 
-import com.android.internal.util.custom.CustomUtils.LauncherUtils;
+import com.android.internal.util.custom.LauncherUtils;
 
 import static com.android.systemui.shared.recents.utilities.Utilities.isTablet;
 

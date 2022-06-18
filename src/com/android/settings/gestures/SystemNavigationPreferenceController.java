@@ -24,7 +24,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 
-import com.android.internal.util.custom.CustomUtils.LauncherUtils;
+import com.android.internal.util.custom.LauncherUtils;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
