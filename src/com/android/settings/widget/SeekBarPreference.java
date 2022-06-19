@@ -24,7 +24,6 @@ import android.os.Parcel;
 import android.os.Parcelable;
 import android.os.UserHandle;
 import android.os.VibrationEffect;
-import android.os.Vibrator;
 import android.provider.Settings;
 import android.text.TextUtils;
 import android.util.AttributeSet;
@@ -36,6 +35,8 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 
 import androidx.core.content.res.TypedArrayUtils;
 import androidx.preference.PreferenceViewHolder;
+
+import com.android.internal.util.custom.VibratorHelper;
 
 import com.android.settingslib.RestrictedPreference;
 
@@ -65,15 +66,17 @@ public class SeekBarPreference extends RestrictedPreference
     private CharSequence mSeekBarContentDescription;
     private CharSequence mSeekBarStateDescription;
 
-    public Context mContext;
-    private Vibrator mVibrator;
+    private final Context mContext;
+    private final VibratorHelper mVibratorHelper;
 
     public SeekBarPreference(
             Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
 
         mContext = context;
-        mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
+        mVibratorHelper = new VibratorHelper(context,
+                Settings.System.HAPTIC_FEEDBACK_ENABLED,
+                Settings.System.HAPTIC_ON_SLIDER);
 
         TypedArray a = context.obtainStyledAttributes(
                 attrs, com.android.internal.R.styleable.ProgressBar, defStyleAttr, defStyleRes);
@@ -298,21 +301,16 @@ public class SeekBarPreference extends RestrictedPreference
                 setProgress(progress, false);
                 switch (mHapticFeedbackMode) {
                     case HAPTIC_FEEDBACK_MODE_ON_TICKS:
-                        if (Settings.System.getIntForUser(mContext.getContentResolver(),
-                                Settings.System.HAPTIC_FEEDBACK_ENABLED, 1, UserHandle.USER_CURRENT) == 1 &&
-                            Settings.System.getIntForUser(mContext.getContentResolver(),
-                                Settings.System.HAPTIC_ON_SLIDER, 1, UserHandle.USER_CURRENT) == 1) {
-                            int duration = 100;
-                            if (progress != mMin && progress != mMax && mMin != mMax) {
-                                duration = (int) (1 + 79 * (progress - mMin) / (mMax - mMin));
-                            }
-                            mVibrator.vibrate(VibrationEffect.createOneShot(duration, VibrationEffect.DEFAULT_AMPLITUDE));
+                        int duration = 100;
+                        if (progress != mMin && progress != mMax && mMin != mMax) {
+                            duration = (int) (1 + 79 * (progress - mMin) / (mMax - mMin));
                         }
+                        mVibratorHelper.vibrateForDuration(duration);
                         break;
                     case HAPTIC_FEEDBACK_MODE_ON_ENDS:
                         if (progress == mMax || progress == mMin) {
-                            if (Settings.System.getInt(mContext.getContentResolver(),
-                                    Settings.System.HAPTIC_ON_SLIDER, 1) == 1) {
+                            if (Settings.System.getIntForUser(mContext.getContentResolver(),
+                                    Settings.System.HAPTIC_ON_SLIDER, 1, UserHandle.USER_CURRENT) == 1) {
                                 seekBar.performHapticFeedback(CLOCK_TICK);
                             }
                         }
