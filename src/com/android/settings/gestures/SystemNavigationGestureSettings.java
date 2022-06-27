@@ -181,7 +181,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment i
                     c.getText(R.string.edge_to_edge_navigation_summary),
                     KEY_SYSTEM_NAV_GESTURAL, true /* enabled */));
         }
-        if (!isTaskbarEnabled && LauncherUtils.getCachedLauncher() == 1 &&
+        if ((!isTaskbarEnabled || LauncherUtils.getCachedLauncher() != 1) &&
                 SystemNavigationPreferenceController.isOverlayPackageAvailable(c,
                         NAV_BAR_MODE_2BUTTON_OVERLAY)) {
             candidates.add(new CandidateInfoExtra(
