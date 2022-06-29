@@ -43,6 +43,13 @@
         android:summary="@string/haptic_on_slider_summary"
         android:dependency="haptic_feedback_enabled" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:defaultValue="true"
+        android:key="haptic_on_misc"
+        android:title="@string/haptic_on_misc_title"
+        android:summary="@string/haptic_on_misc_summary"
+        android:dependency="haptic_feedback_enabled" />
+
     <com.android.settings.custom.preference.SystemSettingListPreference
         android:key="haptic_on_back"
         android:title="@string/haptic_on_back_title"

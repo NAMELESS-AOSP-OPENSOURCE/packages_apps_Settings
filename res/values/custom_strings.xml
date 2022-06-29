@@ -390,10 +390,12 @@
     <string name="haptic_on_statusbar_summary">Do haptic feedback when clicked status bar</string>
     <string name="haptic_on_slider_title">System slider</string>
     <string name="haptic_on_slider_summary">Do haptic feedback when changed slider value</string>
+    <string name="haptic_on_misc_title">Misc scenes</string>
+    <string name="haptic_on_misc_summary">Explore more hidden haptic feedback</string>
     <string name="haptic_disabled">Disabled</string>
     <string name="haptic_on_back_title">Back gestures haptic</string>
     <string name="back_gesture_haptic_dragged">On dragging</string>
-    <string name="back_gesture_haptic_dragged_triggered">On dragging &amp; trigger</string>
+    <string name="back_gesture_haptic_dragged_triggered">On dragging &amp; triggered</string>
     <string name="haptic_on_fod_title">Fingerprint haptic</string>
     <string name="fod_haptic_authenticated">On authenticated</string>
     <string name="fod_haptic_pressed_authenticated">On pressed &amp; authenticated</string>
