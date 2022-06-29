@@ -30,7 +30,6 @@
         android:dependency="haptic_feedback_enabled" />
 
     <com.android.settings.custom.preference.SystemSettingSwitchPreference
-        android:defaultValue="true"
         android:key="haptic_on_statusbar"
         android:title="@string/haptic_on_statusbar_title"
         android:summary="@string/haptic_on_statusbar_summary"
