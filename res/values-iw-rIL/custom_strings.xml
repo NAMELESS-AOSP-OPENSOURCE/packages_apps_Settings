@@ -12,7 +12,7 @@
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">הקש כדי להציג מידע</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">השווה עוצמת צלילים &amp; והתראות</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">החלק לצילום מסך</string>
     <string name="three_finger_gesture_summary">החלק מטה בשלוש אצבעות כדי לצלם מסך</string>
@@ -47,8 +47,8 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">למנוע התעוררות בטעות</string>
-    <string name="proximity_wake_summary">בדוק את חיישן הקרבה לפני הדלקת המסך</string>
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">רטט לפי הרינגטונים</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
@@ -184,7 +184,7 @@
     <string name="qs_footer_items_summary">Choose what items to show in qs footer</string>
     <string name="qs_footer_warnings_title">QS footer warnings</string>
     <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
-    <string name="qs_edit_title">Edit icon</string>
+    <string name="qs_edit_title">ערוך סמל</string>
     <string name="qs_edit_summary">Display edit icon in the QS footer</string>
     <string name="qs_multi_users_title">Multi users icon</string>
     <string name="qs_multi_users_summary">Display multi users icon in the QS footer</string>
@@ -203,13 +203,13 @@
     <string name="unlock_quick_unlock_control_title">Quick unlock</string>
     <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
     <!-- Adaptive Playback -->
-    <string name="media_category_title">Media</string>
+    <string name="media_category_title">מדיה</string>
     <string name="adaptive_playback_title">Adaptive playback</string>
     <string name="adaptive_playback_summary">Pause media when volume is muted and resume it by increasing volume within the timeout</string>
     <string name="adaptive_playback_timeout_title">Playback timeout</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
+    <string name="adaptive_playback_timeout_30_secs">30 שניות</string>
+    <string name="adaptive_playback_timeout_1_min">דקה אחת</string>
+    <string name="adaptive_playback_timeout_2_min">שתי דקות</string>
     <string name="adaptive_playback_timeout_5_min">5 דקות</string>
     <string name="adaptive_playback_timeout_10_min">10 דקות</string>
     <!-- Brightness control -->
@@ -237,7 +237,7 @@
     <string name="flashlight_on_call_ringer">When ringing</string>
     <string name="flashlight_on_call_no_ringer">When ringer is silent</string>
     <string name="flashlight_on_call_silent">When entirely silent (no ringer or vibrator)</string>
-    <string name="flashlight_on_call_always">Always</string>
+    <string name="flashlight_on_call_always">תמיד</string>
     <string name="flashlight_on_call_ignore_dnd_title">Ignore DND</string>
     <string name="flashlight_on_call_ignore_dnd_summary">Whether to flash when in Do Not Disturb mode</string>
     <string name="flashlight_on_call_rate_title">Rate</string>
@@ -245,7 +245,7 @@
     <!-- Cycle through ringer modes gesture -->
     <string name="prevent_ringing_option_cycle">Cycle through modes</string>
     <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
-    <string name="prevent_ringing_option_normal">Normal</string>
+    <string name="prevent_ringing_option_normal">רגיל</string>
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
     <string name="torch_power_button_gesture_none">Disabled</string>
@@ -266,18 +266,18 @@
     <string name="ambient_notification_light_repeats_summary">Amount of times the animation should show\n0 for infinite</string>
     <string name="ambient_notification_light_timeout_title">Timeout</string>
     <string name="ambient_notification_light_timeout_forever">Forever</string>
-    <string name="ambient_notification_light_timeout_half_minute">30 seconds</string>
-    <string name="ambient_notification_light_timeout_minute">1 minute</string>
-    <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
-    <string name="ambient_notification_light_timeout_five_minutes">5 minutes</string>
-    <string name="ambient_notification_light_timeout_ten_minutes">10 minutes</string>
+    <string name="ambient_notification_light_timeout_half_minute">30 שניות</string>
+    <string name="ambient_notification_light_timeout_minute">דקה אחת</string>
+    <string name="ambient_notification_light_timeout_three_minutes">3 דקות</string>
+    <string name="ambient_notification_light_timeout_five_minutes">5 דקות</string>
+    <string name="ambient_notification_light_timeout_ten_minutes">10 דקות</string>
     <string name="set_to_zero">Set repeats to 0 to enable</string>
     <string name="ambient_notification_color_mode_title">Color mode</string>
     <string name="ambient_notification_color_mode_accent">Accent color</string>
     <string name="ambient_notification_color_mode_wall">Wallpaper dominant color</string>
     <string name="ambient_notification_color_mode_notification">Notification icon color</string>
     <string name="ambient_notification_color_mode_custom">@string/ambient_notification_light_color_title</string>
-    <string name="ambient_notification_light_color_title">Custom color</string>
+    <string name="ambient_notification_light_color_title">צבע מותאם אישית</string>
     <string name="pulse_ambient_light_show_always_title">Show always</string>
     <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
     <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
@@ -332,16 +332,18 @@
     <string name="haptic_on_statusbar_summary">Do haptic feedback when clicked status bar</string>
     <string name="haptic_on_slider_title">System slider</string>
     <string name="haptic_on_slider_summary">Do haptic feedback when changed slider value</string>
+    <string name="haptic_on_misc_title">Misc scenes</string>
+    <string name="haptic_on_misc_summary">Explore more hidden haptic feedback</string>
     <string name="haptic_disabled">Disabled</string>
     <string name="haptic_on_back_title">Back gestures haptic</string>
     <string name="back_gesture_haptic_dragged">On dragging</string>
-    <string name="back_gesture_haptic_dragged_triggered">On dragging &amp; trigger</string>
+    <string name="back_gesture_haptic_dragged_triggered">On dragging &amp; triggered</string>
     <string name="haptic_on_fod_title">Fingerprint haptic</string>
     <string name="fod_haptic_authenticated">On authenticated</string>
     <string name="fod_haptic_pressed_authenticated">On pressed &amp; authenticated</string>
     <!-- Colored Statusbar Icons -->
     <string name="statusbar_icons_style_title">Colored icons</string>
-    <string name="statusbar_icons_style_summary">Display colored style icons on status bar (requires SystemUI restart)</string>
+    <string name="statusbar_icons_style_summary">Display colored style icons on status bar</string>
     <!-- Udfps background -->
     <string name="udfps_background_title">Fod icon background</string>
     <string name="udfps_background_summary">Show background for fod icon in lockscreen</string>
@@ -355,64 +357,64 @@
     <string name="wifi_timeout_summary2">Disabled</string>
     <string name="wifi_timeout_summary_never">Never</string>
     <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_timeout_summary_1min">1 minute</string>
-    <string name="wifi_timeout_summary_2mins">2 minutes</string>
-    <string name="wifi_timeout_summary_5mins">5 minutes</string>
-    <string name="wifi_timeout_summary_10mins">10 minutes</string>
-    <string name="wifi_timeout_summary_30mins">30 minutes</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary_30secs">30 שניות</string>
+    <string name="wifi_timeout_summary_1min">דקה אחת</string>
+    <string name="wifi_timeout_summary_2mins">שתי דקות</string>
+    <string name="wifi_timeout_summary_5mins">5 דקות</string>
+    <string name="wifi_timeout_summary_10mins">10 דקות</string>
+    <string name="wifi_timeout_summary_30mins">30 דקות</string>
+    <string name="wifi_timeout_summary_1hour">שעה אחת</string>
+    <string name="wifi_timeout_summary_2hours">שעתיים</string>
+    <string name="wifi_timeout_summary_4hours">4 שעות</string>
+    <string name="wifi_timeout_summary_8hours">8 שעות</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">זמן קצוב של בלוטות\'</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_never">Never</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
-    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
-    <string name="bluetooth_timeout_summary_1min">1 minute</string>
-    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
-    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
-    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
-    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary">Bluetooth יכבה לאחר <xliff:g id="timeout_description">%1$s</xliff:g> אם אין מכשירים מחוברים</string>
+    <string name="bluetooth_timeout_summary2">אל תכבה אוטומטית את Bluetooth</string>
+    <string name="bluetooth_timeout_summary_never">אף פעם</string>
+    <string name="bluetooth_timeout_summary_15secs">15 שניות</string>
+    <string name="bluetooth_timeout_summary_30secs">30 שניות</string>
+    <string name="bluetooth_timeout_summary_1min">דקה אחת</string>
+    <string name="bluetooth_timeout_summary_2mins">שתי דקות</string>
+    <string name="bluetooth_timeout_summary_5mins">5 דקות</string>
+    <string name="bluetooth_timeout_summary_10mins">10 דקות</string>
+    <string name="bluetooth_timeout_summary_30mins">30 דקות</string>
+    <string name="bluetooth_timeout_summary_1hour">שעה אחת</string>
+    <string name="bluetooth_timeout_summary_2hours">שעתיים</string>
+    <string name="bluetooth_timeout_summary_4hours">4 שעות</string>
+    <string name="bluetooth_timeout_summary_8hours">8 שעות</string>
     <!-- Status bar - Battery -->
-    <string name="status_bar_battery_custom_title">Battery icon</string>
-    <string name="status_bar_battery_custom_summary">Customize your statusbar battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon landscape (Left)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
-    <string name="status_bar_battery_style_filled_circle">Filled circle</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percent_title">Battery percent</string>
-    <string name="status_bar_battery_percent_hidden">Hidden</string>
-    <string name="status_bar_battery_percent_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
-    <string name="left_battery_text_title">Left battery text</string>
-    <string name="left_battery_text_summary">Put the battery text on left of battery icon</string>
+    <string name="status_bar_battery_custom_title">סמל סוללה</string>
+    <string name="status_bar_battery_custom_summary">התאם אישית את סמל הסוללה בשורת המצב שלך</string>
+    <string name="status_bar_battery_style_title">סגנון סוללה</string>
+    <string name="status_bar_battery_style_icon_portrait">דיוקן סמל (ברירת מחדל)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">סמל לרוחב (מימין)</string>
+    <string name="status_bar_battery_style_icon_landscape">סמל לרוחב (משמאל)</string>
+    <string name="status_bar_battery_style_circle">עיגול</string>
+    <string name="status_bar_battery_style_dotted_circle">עיגול מנוקד</string>
+    <string name="status_bar_battery_style_filled_circle">עיגול מלא</string>
+    <string name="status_bar_battery_style_text">טקסט</string>
+    <string name="status_bar_battery_style_hidden">מוסתר</string>
+    <string name="status_bar_battery_percent_title">אחוזי סוללה</string>
+    <string name="status_bar_battery_percent_hidden">מוסתר</string>
+    <string name="status_bar_battery_percent_text_inside">בתוך הסמל</string>
+    <string name="status_bar_battery_percent_text_next">ליד הסמל</string>
+    <string name="status_bar_battery_text_charging_title">אחוז סוללה בעת טעינה</string>
+    <string name="status_bar_battery_text_charging_summary">הצג תמיד את אחוז הסוללה בעת הטעינה</string>
+    <string name="left_battery_text_title">טקסט סוללה משמאל</string>
+    <string name="left_battery_text_summary">שים את טקסט הסוללה בצד שמאל של סמל הסוללה</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">פלטפורמה</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total available RAM</string>
+    <string name="total_ram">סך זיכרון RAM זמין</string>
     <!-- QSTile requires unlocking before being accessible -->
-    <string name="qstile_requires_unlocking_title">Secure QS tiles</string>
-    <string name="qstile_requires_unlocking_summary">Require unlocking to access some sensitive QS tiles</string>
+    <string name="qstile_requires_unlocking_title">אריחי QS מאובטחים</string>
+    <string name="qstile_requires_unlocking_summary">דרוש ביטול נעילה כדי לגשת לכמה אריחי QS רגישים כגון NFC</string>
     <!-- Charging animation -->
-    <string name="charging_animation_title">Charging animation</string>
-    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
+    <string name="charging_animation_title">אנימציית טעינה</string>
+    <string name="charging_animation_summary">הצג אנימציה כשהמכשיר מחובר לחשמל</string>
     <!-- Floating rotation button -->
     <string name="enable_floating_rotation_button_title">Enable floating rotate button</string>
     <!-- Power menu on lockscreen -->
@@ -438,15 +440,15 @@
     <string name="search">Search</string>
     <string name="search_apps">Search apps</string>
     <!-- System Update -->
-    <string name="system_update_title">System update</string>
+    <string name="system_update_title">עדכון מערכת</string>
     <!-- Font style / Icon pack -->
     <string name="theme_category_title">Theme</string>
     <string name="theme_customization_font_title">Headline / Body font</string>
-    <string name="theme_customization_font_summary">Set system font style</string>
+    <string name="theme_customization_font_summary">הגדר את עיצוב גופן המערכת</string>
     <string name="theme_customization_icon_pack_title">Icon pack</string>
     <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
     <string name="theme_customization_icon_shape_title">Icon shape</string>
-    <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
+    <string name="theme_customization_icon_shape_summary">הגדר צורת סמלי מערכת</string>
     <string name="theme_customization_signal_icon_title">Signal icon style</string>
     <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
     <string name="theme_customization_wifi_icon_title">Wi-Fi icon style</string>
@@ -470,7 +472,7 @@
     <string name="lower_resolution_title">Lower screen resolution</string>
     <string name="lower_resolution_summary">Switch to %1$s resolution to decrease power consumption</string>
     <string name="lower_resolution_dlg_title">Warning</string>
-    <string name="lower_resolution_dlg_text">This will kill all background apps and restart SystemUI!\n\nNote: Bootanimation will be misplaced after enabled lower resolution</string>
+    <string name="lower_resolution_dlg_text">זה יסגור את כל אפליקציות ברקע ויפעיל מחדש את ממשק המערכת!</string>
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
     <string name="app_lock_summary_singular">1 application is protected</string>
@@ -479,14 +481,14 @@
     <string name="app_lock_packages_title">Protected apps</string>
     <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
     <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_timeout_5_secs">5 seconds</string>
-    <string name="app_lock_timeout_10_secs">10 seconds</string>
-    <string name="app_lock_timeout_30_secs">30 seconds</string>
-    <string name="app_lock_timeout_1_min">1 minute</string>
-    <string name="app_lock_timeout_5_mins">5 minutes</string>
-    <string name="app_lock_timeout_10_mins">10 minutes</string>
-    <string name="app_lock_timeout_30_mins">30 minutes</string>
+    <string name="app_lock_timeout_summary">משך הזמן שאחריו יש לנעול אפליקציה לא נעולה ברקע</string>
+    <string name="app_lock_timeout_5_secs">5 שניות</string>
+    <string name="app_lock_timeout_10_secs">10 שניות</string>
+    <string name="app_lock_timeout_30_secs">30 שניות</string>
+    <string name="app_lock_timeout_1_min">דקה אחת</string>
+    <string name="app_lock_timeout_5_mins">5 דקות</string>
+    <string name="app_lock_timeout_10_mins">10 דקות</string>
+    <string name="app_lock_timeout_30_mins">30 דקות</string>
     <string name="app_lock_notifications_title">Collapse notifications</string>
     <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
     <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
@@ -502,8 +504,8 @@
     <string name="launcher_nameless">Nameless Launcher</string>
     <string name="launcher_lawnchair">Lawnchair</string>
     <!-- Click to partical screenshot -->
-    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
-    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
+    <string name="click_partial_screenshot_title">לחץ לצילום מסך חלקי</string>
+    <string name="click_partial_screenshot_summary">לחיצה קצרה על עוצמת הקול והפעלה כדי לצלם צילום מסך חלקי</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">Volume steps</string>
     <string name="volume_steps_summary">Customize different volume steps</string>
@@ -513,27 +515,27 @@
     <string name="volume_steps_notification_title">Volume steps: Notification</string>
     <string name="volume_steps_ring_title">Volume steps: Ringer</string>
     <string name="volume_steps_system_title">Volume steps: System</string>
-    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
-    <string name="volume_steps_reset">Reset</string>
+    <string name="volume_steps_voice_call_title">שלבי עוצמת הקול: שיחה קולית</string>
+    <string name="volume_steps_reset">אפס</string>
     <!-- Custom actions -->
-    <string name="action_nothing">No action</string>
-    <string name="action_voice_search">Voice search</string>
-    <string name="action_launch_camera">Camera</string>
-    <string name="action_flashlight">Flashlight</string>
-    <string name="action_clear_notifications">Clear notifications</string>
-    <string name="action_volume_panel">Volume panel</string>
-    <string name="action_screen_off">Screen off</string>
-    <string name="action_notifications">Notifications</string>
-    <string name="action_screenshot">Screenshot</string>
-    <string name="action_qs_panel">QS panel</string>
-    <string name="action_app_action">Application</string>
-    <string name="action_ringer_modes">Ringer modes</string>
-    <string name="kill_app">Kill foreground app</string>
+    <string name="action_nothing">שום פעולה</string>
+    <string name="action_voice_search">חיפוש קולי</string>
+    <string name="action_launch_camera">מצלמה</string>
+    <string name="action_flashlight">פנס</string>
+    <string name="action_clear_notifications">נקה התראות</string>
+    <string name="action_volume_panel">פאנל עוצמת הקול</string>
+    <string name="action_screen_off">מסך כבוי</string>
+    <string name="action_notifications">התראות</string>
+    <string name="action_screenshot">צילום מסך</string>
+    <string name="action_qs_panel">פאנל QS</string>
+    <string name="action_app_action">אפליקציה</string>
+    <string name="action_ringer_modes">מצבי צלצול</string>
+    <string name="kill_app">הרוג אפליקציית חזית</string>
     <string name="recent_app_toggle">Switch recent app</string>
     <string name="skip_song">Skip song</string>
     <string name="prev_song">Previous song</string>
     <string name="show_powermenu">Show Power menu</string>
-    <string name="partial_screenshot">Partial screenshot</string>
+    <string name="partial_screenshot">צילום מסך חלקי</string>
     <string name="hush_mute">Silence notifications</string>
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
@@ -590,8 +592,8 @@
     <string name="monet_engine_chroma_factor_title">Chroma factor</string>
     <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">השתמש בערכת נושא שחורה</string>
+    <string name="system_black_theme_summary">כפה על צבעי רקע שחורים</string>
     <!-- QS tiles layout -->
     <string name="qs_tile_layout_title">QS tiles layout</string>
     <string name="qs_tile_layout_summary">Customize tiles layout in QS panel</string>
@@ -736,4 +738,26 @@
     <string name="current_battery_capacity">Current battery capacity</string>
     <string name="designed_battery_capacity">Designed battery capacity</string>
     <string name="battery_charge_cycles">Charge cycles completed</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <!-- Reset auto brightness adjustment -->
+    <string name="reset_auto_brightness_adjustment_title">Reset preference</string>
+    <string name="reset_auto_brightness_adjustment_summary">Let the system forget your brightness preference and reset it to the default one</string>
+    <string name="reset_auto_brightness_adjustment_done">Auto brightness preference has been reset</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_title">Ticker</string>
+    <string name="ticker_summary">Show notifications ticker-style in status bar</string>
+    <string name="ticker_screen_footer">Ticker is visible only when notification heads-up is not shown. Devices with center notch should hide cutout under User Interface settings or under Developer options.</string>
+    <string name="ticker_screen_title">Status bar ticker</string>
+    <string name="ticker_disabled">No ticker</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notifications and music ticker</string>
+    <string name="ticker_animation_mode_title">Ticker animation style</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_title">Music tile track title</string>
+    <string name="qs_music_tile_track_optional_summary">Show the music track title as the QS tile title</string>
 </resources>

@@ -47,8 +47,8 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Evita encendidos de pantalla accidentales</string>
-    <string name="proximity_wake_summary">Realizar comprobación del sensor de proximidad antes de activar la pantalla</string>
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Patrón de vibración de tono de llamada</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
@@ -332,16 +332,18 @@
     <string name="haptic_on_statusbar_summary">Do haptic feedback when clicked status bar</string>
     <string name="haptic_on_slider_title">System slider</string>
     <string name="haptic_on_slider_summary">Do haptic feedback when changed slider value</string>
+    <string name="haptic_on_misc_title">Misc scenes</string>
+    <string name="haptic_on_misc_summary">Explore more hidden haptic feedback</string>
     <string name="haptic_disabled">Disabled</string>
     <string name="haptic_on_back_title">Back gestures haptic</string>
     <string name="back_gesture_haptic_dragged">On dragging</string>
-    <string name="back_gesture_haptic_dragged_triggered">On dragging &amp; trigger</string>
+    <string name="back_gesture_haptic_dragged_triggered">On dragging &amp; triggered</string>
     <string name="haptic_on_fod_title">Fingerprint haptic</string>
     <string name="fod_haptic_authenticated">On authenticated</string>
     <string name="fod_haptic_pressed_authenticated">On pressed &amp; authenticated</string>
     <!-- Colored Statusbar Icons -->
     <string name="statusbar_icons_style_title">Colored icons</string>
-    <string name="statusbar_icons_style_summary">Display colored style icons on status bar (requires SystemUI restart)</string>
+    <string name="statusbar_icons_style_summary">Display colored style icons on status bar</string>
     <!-- Udfps background -->
     <string name="udfps_background_title">Fod icon background</string>
     <string name="udfps_background_summary">Show background for fod icon in lockscreen</string>
@@ -470,7 +472,7 @@
     <string name="lower_resolution_title">Lower screen resolution</string>
     <string name="lower_resolution_summary">Switch to %1$s resolution to decrease power consumption</string>
     <string name="lower_resolution_dlg_title">Warning</string>
-    <string name="lower_resolution_dlg_text">This will kill all background apps and restart SystemUI!\n\nNote: Bootanimation will be misplaced after enabled lower resolution</string>
+    <string name="lower_resolution_dlg_text">This will kill all background apps and restart SystemUI!</string>
     <!-- App lock -->
     <string name="app_lock_title">App lock</string>
     <string name="app_lock_summary_singular">1 application is protected</string>
@@ -732,4 +734,26 @@
     <string name="current_battery_capacity">Current battery capacity</string>
     <string name="designed_battery_capacity">Designed battery capacity</string>
     <string name="battery_charge_cycles">Charge cycles completed</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <!-- Reset auto brightness adjustment -->
+    <string name="reset_auto_brightness_adjustment_title">Reset preference</string>
+    <string name="reset_auto_brightness_adjustment_summary">Let the system forget your brightness preference and reset it to the default one</string>
+    <string name="reset_auto_brightness_adjustment_done">Auto brightness preference has been reset</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_title">Ticker</string>
+    <string name="ticker_summary">Show notifications ticker-style in status bar</string>
+    <string name="ticker_screen_footer">Ticker is visible only when notification heads-up is not shown. Devices with center notch should hide cutout under User Interface settings or under Developer options.</string>
+    <string name="ticker_screen_title">Status bar ticker</string>
+    <string name="ticker_disabled">No ticker</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notifications and music ticker</string>
+    <string name="ticker_animation_mode_title">Ticker animation style</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_title">Music tile track title</string>
+    <string name="qs_music_tile_track_optional_summary">Show the music track title as the QS tile title</string>
 </resources>

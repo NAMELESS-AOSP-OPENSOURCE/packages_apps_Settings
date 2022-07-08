@@ -47,8 +47,8 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Previene risveglio accidentale</string>
-    <string name="proximity_wake_summary">Controlla prima il sensore di prossimità per riaccendere lo schermo</string>
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Modello di vibrazione</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
@@ -332,16 +332,18 @@
     <string name="haptic_on_statusbar_summary">Esegui feedback tattile quando la barra di stato viene toccata</string>
     <string name="haptic_on_slider_title">Slider di sistema</string>
     <string name="haptic_on_slider_summary">Feedback tattile quando la barra di stato viene toccata</string>
+    <string name="haptic_on_misc_title">Misc scenes</string>
+    <string name="haptic_on_misc_summary">Explore more hidden haptic feedback</string>
     <string name="haptic_disabled">Disabilitato</string>
     <string name="haptic_on_back_title">Gesti posteriori aptici</string>
     <string name="back_gesture_haptic_dragged">Durante trascinamento</string>
-    <string name="back_gesture_haptic_dragged_triggered">&amp; Attivato al trascinamento</string>
+    <string name="back_gesture_haptic_dragged_triggered">On dragging &amp; triggered</string>
     <string name="haptic_on_fod_title">Vibrazione Impronta</string>
     <string name="fod_haptic_authenticated">All\'autenticazione</string>
     <string name="fod_haptic_pressed_authenticated">&amp; Autenticato alla pressione</string>
     <!-- Colored Statusbar Icons -->
     <string name="statusbar_icons_style_title">Icone colorate</string>
-    <string name="statusbar_icons_style_summary">Visualizza icone colorate sulla barra di stato (necessario riavvio del SystemUI)</string>
+    <string name="statusbar_icons_style_summary">Display colored style icons on status bar</string>
     <!-- Udfps background -->
     <string name="udfps_background_title">Sfondo icona impronta</string>
     <string name="udfps_background_summary">Visualizza uni sfondo per l\'icona dell\'impronta nella schermata di blocco</string>
@@ -470,7 +472,7 @@
     <string name="lower_resolution_title">Risoluzione dello schermo inferiore</string>
     <string name="lower_resolution_summary">Modifica la risoluzione a %1$s per ridurre il consumo di batteria</string>
     <string name="lower_resolution_dlg_title">Attenzione</string>
-    <string name="lower_resolution_dlg_text">Verranno chiuse tutte le applicazioni in background e SystemUI verrà riavviato!\n\nNota: L\'animazione di avvio risulterà disallineata dopo aver abilitato la risoluzione inferiore</string>
+    <string name="lower_resolution_dlg_text">This will kill all background apps and restart SystemUI!</string>
     <!-- App lock -->
     <string name="app_lock_title">Blocco app</string>
     <string name="app_lock_summary_singular">Un\' applicazione è protetta</string>
@@ -495,9 +497,9 @@
     <!-- App info misc -->
     <string name="app_info_misc">Varie</string>
     <!-- Launcher switcher -->
-    <string name="launcher_switcher_category">Launcher switcher</string>
-    <string name="launcher_switcher_title">Default Launcher</string>
-    <string name="launcher_switcher_info">This setting is different from the default home app setting. You will be able to switch selected launcher as default launcher &amp; recent provider without root needed.\nReboot is needed for the change to take effect.</string>
+    <string name="launcher_switcher_category">Cambia il Launcher</string>
+    <string name="launcher_switcher_title">Launcher predefinito</string>
+    <string name="launcher_switcher_info">Questa impostazione é diversa da quella per scegliere il Launcher predefinito. Ti permette di cambiare il Launcher selezionato facendolo diventare il Launcher e la schermata delle app recenti predefiniti senza bisogno di root.\nÉ necessario un riavvio rendere effettivi i cambiamenti.</string>
     <string name="launcher_pixel">Pixel Launcher</string>
     <string name="launcher_nameless">Nameless Launcher</string>
     <string name="launcher_lawnchair">Lawnchair</string>
@@ -711,27 +713,49 @@
     <string name="reticker_summary">Sostituisci la notifica fluttuante con una versione più sottile e meno invasiva</string>
     <string name="reticker_colored_title">Usa il colore dell\'app per lo sfondo</string>
     <string name="reticker_colored_summary">Sostituisci il colore di sfondo del reTicker utilizzando il colore principale della notifica dell\'app</string>
-    <string name="reticker_landscape_only_title">Landscape only</string>
-    <string name="reticker_landscape_only_summary">Only enable reTicker when device is in landscape mode</string>
+    <string name="reticker_landscape_only_title">Solo in orizzontale</string>
+    <string name="reticker_landscape_only_summary">Abilita reTicker solo quando il dispositivo é in orizzontale</string>
     <!-- Hidden apps -->
-    <string name="hidden_apps_title">Hidden apps</string>
+    <string name="hidden_apps_title">App nascoste</string>
     <!-- Volume dialog -->
-    <string name="volume_dialog_category">Volume dialog</string>
-    <string name="left_volume_dialog_title">Move to left</string>
-    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
-    <string name="volume_dialog_force_show_settings_title">Media controller</string>
-    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
+    <string name="volume_dialog_category">Finestra di dialogo del volume</string>
+    <string name="left_volume_dialog_title">Sposta a sinistra</string>
+    <string name="left_volume_dialog_summary">Mostra la finestra di dialogo del volume a sinistra</string>
+    <string name="volume_dialog_force_show_settings_title">Controller multimediale</string>
+    <string name="volume_dialog_force_show_settings_summary">Mostra sempre il controller multimediale nella finestra di dialogo del volume</string>
     <string name="app_volume">Volume applicazioni</string>
     <string name="app_volume_title">Controllo del volume per applicazioni</string>
-    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
+    <string name="app_volume_summary">Mostra il volume per ogni app nella finestra di dialogo del volume</string>
     <!-- App downgrade -->
-    <string name="app_downgrade_title">Allow application downgrade</string>
-    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
-    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
+    <string name="app_downgrade_title">Permetti il downgrade delle app</string>
+    <string name="app_downgrade_summary">Permette di installare versioni più vecchie di app installate</string>
+    <string name="app_downgrade_info">Questo può portare a arresti forzati e corruzione dei dati</string>
     <!-- Battery temperature -->
-    <string name="battery_temperature">Battery temperature</string>
+    <string name="battery_temperature">Temperatura della batteria</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <string name="current_battery_capacity">Capacità attuale della batteria</string>
+    <string name="designed_battery_capacity">Capacità originale della batteria</string>
+    <string name="battery_charge_cycles">Cicli di ricarica completati</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <!-- Reset auto brightness adjustment -->
+    <string name="reset_auto_brightness_adjustment_title">Reset preference</string>
+    <string name="reset_auto_brightness_adjustment_summary">Let the system forget your brightness preference and reset it to the default one</string>
+    <string name="reset_auto_brightness_adjustment_done">Auto brightness preference has been reset</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_title">Ticker</string>
+    <string name="ticker_summary">Show notifications ticker-style in status bar</string>
+    <string name="ticker_screen_footer">Ticker is visible only when notification heads-up is not shown. Devices with center notch should hide cutout under User Interface settings or under Developer options.</string>
+    <string name="ticker_screen_title">Status bar ticker</string>
+    <string name="ticker_disabled">No ticker</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notifications and music ticker</string>
+    <string name="ticker_animation_mode_title">Ticker animation style</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_title">Music tile track title</string>
+    <string name="qs_music_tile_track_optional_summary">Show the music track title as the QS tile title</string>
 </resources>

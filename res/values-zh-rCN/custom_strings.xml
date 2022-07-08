@@ -47,8 +47,8 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">口袋模式</string>
-    <string name="proximity_wake_summary">唤醒屏幕前检查距离传感器</string>
+    <string name="pocket_judge_title">口袋检测</string>
+    <string name="pocket_judge_summary">当设备在口袋中时阻止屏幕和按键操作</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">铃声振动模式</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
@@ -332,6 +332,8 @@
     <string name="haptic_on_statusbar_summary">点击状态栏时启用触感反馈</string>
     <string name="haptic_on_slider_title">系统滑块</string>
     <string name="haptic_on_slider_summary">调整滑块数值时启用触感反馈</string>
+    <string name="haptic_on_misc_title">其他场景</string>
+    <string name="haptic_on_misc_summary">启用更多的触感反馈</string>
     <string name="haptic_disabled">已禁用</string>
     <string name="haptic_on_back_title">返回手势触感</string>
     <string name="back_gesture_haptic_dragged">拖拽时启用</string>
@@ -341,7 +343,7 @@
     <string name="fod_haptic_pressed_authenticated">按下时和验证通过后都启用</string>
     <!-- Colored Statusbar Icons -->
     <string name="statusbar_icons_style_title">彩色图标</string>
-    <string name="statusbar_icons_style_summary">在状态栏显示彩色风格图标（重启系统界面后生效）</string>
+    <string name="statusbar_icons_style_summary">在状态栏显示彩色风格图标</string>
     <!-- Udfps background -->
     <string name="udfps_background_title">指纹图标背景</string>
     <string name="udfps_background_summary">在锁屏下显示指纹图标的背景</string>
@@ -470,7 +472,7 @@
     <string name="lower_resolution_title">低屏幕分辨率</string>
     <string name="lower_resolution_summary">切换到 %1$s 分辨率以节省电量</string>
     <string name="lower_resolution_dlg_title">警告</string>
-    <string name="lower_resolution_dlg_text">这将会强制停止所有的后台应用并重启系统界面！\n\n注意：开启低分辨率后开机动画将会错位</string>
+    <string name="lower_resolution_dlg_text">这将会强制停止所有的后台应用并重启系统界面！</string>
     <!-- App lock -->
     <string name="app_lock_title">应用锁</string>
     <string name="app_lock_summary_singular">1 个应用已被保护</string>
@@ -730,4 +732,26 @@
     <string name="current_battery_capacity">当前电池容量</string>
     <string name="designed_battery_capacity">出厂电池容量</string>
     <string name="battery_charge_cycles">已完成的充电周期</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">防止意外唤醒</string>
+    <string name="proximity_wake_summary">唤醒屏幕前检查距离传感器</string>
+    <!-- Reset auto brightness adjustment -->
+    <string name="reset_auto_brightness_adjustment_title">重置偏好设置</string>
+    <string name="reset_auto_brightness_adjustment_summary">让系统忘记您的亮度偏好并将其重置为默认值</string>
+    <string name="reset_auto_brightness_adjustment_done">自动亮度偏好已被重置</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_title">通知提示</string>
+    <string name="ticker_summary">在状态栏中显示通知样式</string>
+    <string name="ticker_screen_footer">仅当浮动通知不显示时才会启用通知提示。 具有中心刘海的设备应在开发者选项中隐藏刘海。</string>
+    <string name="ticker_screen_title">状态栏通知样式</string>
+    <string name="ticker_disabled">不显示</string>
+    <string name="ticker_enabled">为通知显示</string>
+    <string name="ticker_media_enabled">为通知和音乐显示</string>
+    <string name="ticker_animation_mode_title">通知样式动画风格</string>
+    <string name="ticker_animation_mode_alpha_fade">淡入淡出</string>
+    <string name="ticker_animation_mode_scroll">滚动</string>
+    <string name="ticker_tick_duration_title">通知样式持续时间</string>
+    <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_title">歌曲名磁贴标题</string>
+    <string name="qs_music_tile_track_optional_summary">将当前播放的歌曲名作为音乐磁贴的标题</string>
 </resources>

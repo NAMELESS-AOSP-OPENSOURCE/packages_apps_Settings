@@ -1,735 +1,759 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Warning message displayed if user choses not to validate the EAP server -->
-    <string name="wifi_do_not_validate_eap_server_warning">No certificate specified. Your connection will not be private.</string>
+    <string name="wifi_do_not_validate_eap_server_warning">Inget certifikat specificerat. Din anslutning kommer inte vara privat.</string>
     <!-- Refresh rate -->
-    <string name="min_refresh_rate_title">Minimum refresh rate</string>
-    <string name="max_refresh_rate_title">Maximum refresh rate</string>
-    <string name="min_greater_than_peak">Minimum refresh rate cannot be greater than maximum refresh rate!</string>
-    <string name="peak_less_than_min">Maximum refresh rate cannot be less than minimum refresh rate!</string>
-    <string name="battery_saver_refresh_rate_title">Reduce refresh rate</string>
-    <string name="battery_saver_refresh_rate_summary">Use 60 Hz as max refresh rate to save power when Battery Saver is on</string>
+    <string name="min_refresh_rate_title">Minimum uppdateringsfrekvens</string>
+    <string name="max_refresh_rate_title">Max uppdateringsfrekvens</string>
+    <string name="min_greater_than_peak">Minsta uppdateringsfrekvens kan inte vara större än högsta uppdateringsfrekvensen!</string>
+    <string name="peak_less_than_min">Högsta uppdateringsfrekvensen kan inte vara mindre än minsta uppdateringsfrekvensen!</string>
+    <string name="battery_saver_refresh_rate_title">Minska uppdateringsfrekvens</string>
+    <string name="battery_saver_refresh_rate_summary">Använd 60 Hz som högsta uppdateringsfrekvens för att spara ström när Batterispar är på</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
-    <string name="device_info_protected_single_press">Tap to show info</string>
+    <string name="device_info_protected_single_press">Peka för att visa information</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+    <string name="volume_link_notification_title">Länka ring &amp; notifierings volymer</string>
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Swipe to screenshot</string>
-    <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
+    <string name="three_finger_gesture">Svep för skärmdump</string>
+    <string name="three_finger_gesture_summary">Svep ner med tre fingrar för att ta en skärmdump</string>
     <!-- Screenshot shutter -->
-    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_title">Skärmdump ljud</string>
     <!-- Add sliders for color balance adjustment via ColorDisplayManager -->
-    <string name="color_mode_balance_category">Color balance</string>
-    <string name="color_mode_balance_red">Red strength</string>
-    <string name="color_mode_balance_green">Green strength</string>
-    <string name="color_mode_balance_blue">Blue strength</string>
-    <string name="keywords_color_balance">color, color balance, color correction, red, green, blue, LiveDisplay</string>
+    <string name="color_mode_balance_category">Färgbalans</string>
+    <string name="color_mode_balance_red">Röd styrka</string>
+    <string name="color_mode_balance_green">Grön styrka</string>
+    <string name="color_mode_balance_blue">Blå styrka</string>
+    <string name="keywords_color_balance">färg, färgbalans, färgrättelse, röd, grön, blå, LiveDisplay</string>
     <!-- About phone screen,  setting option name  [CHAR LIMIT=40] -->
-    <string name="build_date">Build date</string>
+    <string name="build_date">Byggdatum</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
-    <string name="increasing_ring_min_volume_title">Start volume</string>
-    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+    <string name="increasing_ring_volume_option_title">Ökar ringvolym</string>
+    <string name="increasing_ring_min_volume_title">Startvolym</string>
+    <string name="increasing_ring_ramp_up_time_title">Upptakts tid</string>
     <!-- Global Actions -->
-    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
-    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    <string name="global_actions_advanced_reboot_title">Aktivera avancerad omstart</string>
+    <string name="global_actions_advanced_reboot_summary">Visa alternativ för återställning och starthanterare i strömmenyn</string>
     <!-- Double Tap to wake/sleep -->
-    <string name="double_tap_gesture_category">Tap to wake / sleep</string>
-    <string name="double_tap_gesture_title">Enable tap gesture</string>
-    <string name="double_tap_gesture_summary">Double-tap on the screen to wake or sleep device</string>
-    <string name="disable_in_landscape_title">Disable in landscape</string>
-    <string name="disable_in_landscape_summary">Prevent mistouch while in landscape mode</string>
+    <string name="double_tap_gesture_category">Peka för att väcka / sova</string>
+    <string name="double_tap_gesture_title">Aktivera peknings gester</string>
+    <string name="double_tap_gesture_summary">Dubbeltryck på skärmen för att väcka eller söva enheten</string>
+    <string name="disable_in_landscape_title">Inaktivera i landskap</string>
+    <string name="disable_in_landscape_summary">Förhindra felpekningar medans i landskapsläge</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Statusbar items</string>
-    <string name="statusbar_items_summary">Choose what icons to show in status bar</string>
+    <string name="statusbar_items_title">Statusfält föremål</string>
+    <string name="statusbar_items_summary">Välj vilka ikoner att visa i statusfältet</string>
     <!-- Statusbar customization category -->
-    <string name="status_bar_category_title">Status bar</string>
+    <string name="status_bar_category_title">Statusfält</string>
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <string name="pocket_judge_title">Ficka detektering</string>
+    <string name="pocket_judge_summary">Blockera skärm och knappinmatningar när enheten är i fickan</string>
     <!-- Vibration patterns -->
-    <string name="vibration_pattern_title">Ringtone vibration pattern</string>
+    <string name="vibration_pattern_title">Ringsignal vibrationsmönster</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
     <string name="pattern_dzzz_da">dzzz-da</string>
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
-    <string name="pattern_custom">Custom</string>
-    <string name="custom_vibration_pattern_title">Custom pattern</string>
-    <string name="custom_vibration_pattern_summary">Set a custom vibration pattern</string>
+    <string name="pattern_custom">Anpassad</string>
+    <string name="custom_vibration_pattern_title">Anpassat mönster</string>
+    <string name="custom_vibration_pattern_summary">Ställ in ett anpassat vibrationsmönster</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Always on when charging</string>
-    <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+    <string name="doze_on_charge_title">Alltid på vid laddning</string>
+    <string name="doze_on_charge_summary">Visa slumra skärmen hela tiden vid laddning</string>
     <!-- Lockscreen Charging info -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display detailed info while charging</string>
+    <string name="lockscreen_battery_info_title">Låsskärm laddningsinformation</string>
+    <string name="lockscreen_battery_info_summary">Visa detaljerad information under laddning</string>
     <!-- Volume button music control -->
-    <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_title">Uppspelningskontroll</string>
+    <string name="volume_button_music_control_summary">När skärmen är av, långtryck volymknapparna kommer byta musikspår</string>
     <!-- Statusbar net monitor -->
-    <string name="network_category_title">Network</string>
-    <string name="network_traffic_state_title">Network speed</string>
-    <string name="network_traffic_state_summary">Show network speed in the status bar</string>
-    <string name="network_traffic_state_enable">Show network speed</string>
-    <string name="network_traffic_mode_title">Display mode</string>
-    <string name="network_traffic_dynamic">Dynamic</string>
-    <string name="network_traffic_download">Download</string>
-    <string name="network_traffic_upload">Upload</string>
-    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
-    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <string name="network_category_title">Nätverk</string>
+    <string name="network_traffic_state_title">Nätverkshastighet</string>
+    <string name="network_traffic_state_summary">Visa nätverkshastighet i Statusfältet</string>
+    <string name="network_traffic_state_enable">Visa nätverkshastighet</string>
+    <string name="network_traffic_mode_title">Visningsläge</string>
+    <string name="network_traffic_dynamic">Dynamiskt</string>
+    <string name="network_traffic_download">Ladda ner</string>
+    <string name="network_traffic_upload">Ladda upp</string>
+    <string name="network_traffic_autohide_threshold_title">Automatiskt dölj tröskel</string>
+    <string name="network_traffic_refresh_interval_title">Uppdateringsintervall</string>
     <!-- Statusbar Clock -->
-    <string name="status_bar_clock_date_title">Clock and Date</string>
-    <string name="status_bar_clock_date_summary">Customize your statusbar clock and date</string>
-    <string name="status_bar_clock_title">Clock settings</string>
-    <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
-    <string name="status_bar_clock_style_right">Right</string>
-    <string name="status_bar_clock_style_center">Center</string>
-    <string name="status_bar_clock_style_left">Left</string>
-    <string name="status_bar_date_title">Date settings</string>
-    <string name="status_bar_am_pm_title">AM/PM style</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="status_bar_clock_date_title">Klocka och Datum</string>
+    <string name="status_bar_clock_date_summary">Anpassa ditt statusfält klocka och datum</string>
+    <string name="status_bar_clock_title">Klockinställningar</string>
+    <string name="status_bar_clock_show">Visa klocka och datum</string>
+    <string name="status_bar_clock_style_title">Klockstil</string>
+    <string name="status_bar_clock_style_right">Höger</string>
+    <string name="status_bar_clock_style_center">Centrerad</string>
+    <string name="status_bar_clock_style_left">Vänster</string>
+    <string name="status_bar_date_title">Datuminställningar</string>
+    <string name="status_bar_am_pm_title">AM/PM stil</string>
+    <string name="status_bar_am_pm_info">24-timmars klocka aktiverad</string>
     <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Small</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
-    <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
-    <string name="clock_date_display_none">Don\'t show</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style">Date style</string>
+    <string name="status_bar_am_pm_small">Liten</string>
+    <string name="status_bar_am_pm_hidden">Gömd (Standard)</string>
+    <string name="clock_seconds_display">Visa sekunder</string>
+    <string name="clock_date_display">Datum</string>
+    <string name="clock_date_display_summary">Visa anpassat datum innan klockan</string>
+    <string name="clock_date_display_none">Visa inte</string>
+    <string name="clock_date_display_small">Liten textstorlek</string>
+    <string name="clock_date_display_normal">Normal textstorlek</string>
+    <string name="clock_date_style">Datumstil</string>
     <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="clock_date_right">Right of time</string>
-    <string name="clock_date_left">Left of time</string>
-    <string name="clock_date_position">Date position</string>
-    <string name="status_bar_clock_auto_hide_title">Auto-hide clock</string>
-    <string name="status_bar_clock_auto_hide_summary">Hide and show clock at regular intervals of time</string>
-    <string name="status_bar_clock_auto_hide_hdur_title">Hide duration</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Show duration</string>
+    <string name="clock_date_style_lowercase">Små bokstäver</string>
+    <string name="clock_date_style_uppercase">Stora bokstäver</string>
+    <string name="clock_date_format_custom">Anpassat java format</string>
+    <string name="clock_date_format">Datumformat</string>
+    <string name="clock_date_string_edittext_title">Måste vara i Datumformat tex MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Ange sträng</string>
+    <string name="clock_date_right">Höger om tiden</string>
+    <string name="clock_date_left">Vänster om tiden</string>
+    <string name="clock_date_position">Datumposition</string>
+    <string name="status_bar_clock_auto_hide_title">Automatiskt göm klockan</string>
+    <string name="status_bar_clock_auto_hide_summary">Dölj och visa klockan med jämna tidsintervaller</string>
+    <string name="status_bar_clock_auto_hide_hdur_title">Göm varaktighet</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Visa varaktighet</string>
     <!-- Heads up -->
-    <string name="noti_cust_category">Notification bar</string>
+    <string name="noti_cust_category">Notifieringsfält</string>
     <string name="heads_up_notifications">Heads up</string>
-    <string name="heads_up_notifications_summary">Customise heads up notifications settings</string>
-    <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
-    <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="add_heads_up_package">Add app</string>
-    <string name="add_heads_up_stoplist_summary">Disable heads up notifications in these applications</string>
-    <string name="add_heads_up_blacklist_summary">Disable heads up from these applications</string>
-    <string name="heads_up_stoplist_title">Stoplist</string>
-    <string name="heads_up_blacklist_title">Blacklist</string>
-    <string name="profile_choose_app">Choose app</string>
-    <string name="dialog_delete_title">Delete</string>
-    <string name="dialog_delete_message">Remove selected item?</string>
+    <string name="heads_up_notifications_summary">Anpassa heads up notifieringar inställningar</string>
+    <string name="summary_heads_up_enabled">Pop-up notifieringar är aktiverade</string>
+    <string name="summary_heads_up_disabled">Pop-up notifieringar är inaktiverade</string>
+    <string name="add_heads_up_package">Lägg till app</string>
+    <string name="add_heads_up_stoplist_summary">Inaktivera heads up notifieringar i dessa applikationer</string>
+    <string name="add_heads_up_blacklist_summary">Inaktivera heads up notifieringar från dessa applikationer</string>
+    <string name="heads_up_stoplist_title">Stopplista</string>
+    <string name="heads_up_blacklist_title">Svartlista</string>
+    <string name="profile_choose_app">Välj app</string>
+    <string name="dialog_delete_title">Ta bort</string>
+    <string name="dialog_delete_message">Ta bort valt föremål?</string>
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Time out</string>
-    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
-    <string name="heads_up_time_out_2sec">2 seconds</string>
-    <string name="heads_up_time_out_4sec">4 seconds</string>
-    <string name="heads_up_time_out_5sec">5 seconds</string>
-    <string name="heads_up_time_out_6sec">6 seconds</string>
-    <string name="heads_up_time_out_8sec">8 seconds</string>
-    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <string name="heads_up_time_out_summary">Kika aviseringar kommer visas i <xliff:g id="number">%d</xliff:g> sekunder</string>
+    <string name="heads_up_time_out_2sec">2 sekunder</string>
+    <string name="heads_up_time_out_4sec">4 sekunder</string>
+    <string name="heads_up_time_out_5sec">5 sekunder</string>
+    <string name="heads_up_time_out_6sec">6 sekunder</string>
+    <string name="heads_up_time_out_8sec">8 sekunder</string>
+    <string name="heads_up_time_out_10sec">10 sekunder</string>
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Snooze timer</string>
-    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
-    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
-    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
-    <string name="heads_up_snooze_1min">1 minute</string>
-    <string name="heads_up_snooze_5min">5 minutes</string>
-    <string name="heads_up_snooze_10min">10 minutes</string>
-    <string name="heads_up_snooze_15min">15 minutes</string>
-    <string name="heads_up_snooze_20min">20 minutes</string>
+    <string name="heads_up_snooze_summary_one_minute">Svepa upp på Kika aviseringar kommer snooza heads up från den applikationen i 1 minut</string>
+    <string name="heads_up_snooze_summary">Svepa upp på Kika aviseringar kommer snooza heads up från den applikationen i <xliff:g id="number">%d</xliff:g> minuter</string>
+    <string name="heads_up_snooze_disabled_summary">Snooze timer är inaktiverad</string>
+    <string name="heads_up_snooze_1min">1 minut</string>
+    <string name="heads_up_snooze_5min">5 minuter</string>
+    <string name="heads_up_snooze_10min">10 minuter</string>
+    <string name="heads_up_snooze_15min">15 minuter</string>
+    <string name="heads_up_snooze_20min">20 minuter</string>
     <!-- Heads up options -->
-    <string name="less_boring_heads_up_title">Make heads up less annoying</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app if they are not in foreground</string>
+    <string name="less_boring_heads_up_title">Gör heads up mindre störande</string>
+    <string name="less_boring_heads_up_summary">Visa heads up bara för uppringare eller meddelande app om dom inte är i förgrunden</string>
     <!-- Notification guts kill app button -->
-    <string name="notification_guts_kill_app_button_title">Kill app button</string>
-    <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
+    <string name="notification_guts_kill_app_button_title">Stäng app knapp</string>
+    <string name="notification_guts_kill_app_button_summary">Visa en stäng ner app knapp i notifikationens långtrycksmeny</string>
     <!-- Wakeup options -->
-    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged</string>
+    <string name="wakeup_when_plugged_unplugged_title">Väck upp vid laddning</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Väck upp enheten om laddaren är kopplas in/kopplas ur</string>
     <!-- QS battery estimates -->
-    <string name="qs_show_battery_estimate_title">Battery estimates</string>
-    <string name="qs_show_battery_estimate_summary">Show estimated remaining battery life next to the icon</string>
+    <string name="qs_show_battery_estimate_title">Batteri uppskattning</string>
+    <string name="qs_show_battery_estimate_summary">Visa uppskattad återstående batteri livslängd bredvid ikonen</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Use 4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">Använd 4G ikon</string>
+    <string name="show_fourg_icon_summary">Visa 4G ikon i signal ikon istället för LTE</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
-    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+    <string name="data_disabled_icon_title">Visa data inaktiverad ikon</string>
+    <string name="data_disabled_icon_summary">Visa krysstecknet bredvid signalstapeln när data är inaktiverad</string>
     <!-- Combined signal icons -->
-    <string name="combined_status_bar_signal_icons_title">Combined signal icons</string>
-    <string name="combined_status_bar_signal_icons_summary">Enable combined signal icons in statusbar</string>
+    <string name="combined_status_bar_signal_icons_title">Kombinerade signalikoner</string>
+    <string name="combined_status_bar_signal_icons_summary">Aktivera kombinerade signalikoner i statusfältet</string>
     <!-- Roaming indicator icon -->
-    <string name="roaming_indicator_icon_title">Roaming indicator</string>
-    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
+    <string name="roaming_indicator_icon_title">Roaming indikator</string>
+    <string name="roaming_indicator_icon_summary">Visa roaming indikator i signal ikon i roaming läge</string>
     <!-- Units -->
-    <string name="unit_second">sec</string>
+    <string name="unit_second">sek</string>
     <string name="unit_ms">ms</string>
     <!-- Show old style mobile data icon -->
-    <string name="use_old_mobiletype_title">Use old style mobile data icons</string>
-    <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+    <string name="use_old_mobiletype_title">Använd äldre mobildata stil ikoner</string>
+    <string name="use_old_mobiletype_summary">Visa mobiltyp ikon över signalindikator</string>
     <!-- QS footer items -->
-    <string name="quick_settings_category_title">Quick settings</string>
-    <string name="qs_footer_items_title">QS footer items</string>
-    <string name="qs_footer_items_summary">Choose what items to show in qs footer</string>
-    <string name="qs_footer_warnings_title">QS footer warnings</string>
-    <string name="qs_footer_warnings_summary">Display a warning at bottom of QS panel when network is monitored by external apps or vpn</string>
-    <string name="qs_edit_title">Edit icon</string>
-    <string name="qs_edit_summary">Display edit icon in the QS footer</string>
-    <string name="qs_multi_users_title">Multi users icon</string>
-    <string name="qs_multi_users_summary">Display multi users icon in the QS footer</string>
-    <string name="qs_power_menu_title">Power menu icon</string>
-    <string name="qs_power_menu_summary">Display power menu icon in the QS footer</string>
-    <string name="qs_running_services_title">Running services icon</string>
-    <string name="qs_running_services_summary">Display running services icon in the QS footer</string>
+    <string name="quick_settings_category_title">Snabbinställningar</string>
+    <string name="qs_footer_items_title">QS sidfot föremål</string>
+    <string name="qs_footer_items_summary">Välj vilka föremål att visa i qs sidfoten</string>
+    <string name="qs_footer_warnings_title">QS sidfot varningar</string>
+    <string name="qs_footer_warnings_summary">Visa en varning i botten av QS panelen när nätverk är övervakad av extern app eller vpn</string>
+    <string name="qs_edit_title">Redigera ikon</string>
+    <string name="qs_edit_summary">Visa ändringsikon i QS sidfot</string>
+    <string name="qs_multi_users_title">Ikon för flera användare</string>
+    <string name="qs_multi_users_summary">Visa fleranvändare ikon i QS sidfot</string>
+    <string name="qs_power_menu_title">Strömmeny ikon</string>
+    <string name="qs_power_menu_summary">Visa strömmeny ikon i QS sidfot</string>
+    <string name="qs_running_services_title">Kör tjänster ikon</string>
+    <string name="qs_running_services_summary">Visa ikonen för tjänster igång ikonen i QS sidfot</string>
     <!-- Ambient Display Swipe Gesture -->
-    <string name="ambient_gesture_title">Gestures</string>
-    <string name="ambient_swipe_title">Swipe to wake</string>
-    <string name="ambient_swipe_summary">Allow waking the device by swiping up or down when the device is dozing</string>
+    <string name="ambient_gesture_title">Gester</string>
+    <string name="ambient_swipe_title">Svep för att väcka</string>
+    <string name="ambient_swipe_summary">Tillåt väcka upp enheten genom att svepa upp eller ner när enheten slumrar</string>
     <!-- PIN scramble -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Omkastad layout</string>
+    <string name="unlock_scramble_pin_layout_summary">Kasta om PIN layout vid upplåsning av enheten</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Snabbupplåsning</string>
+    <string name="unlock_quick_unlock_control_summary">Lås upp automatiskt när rätt PIN/lösenord är inskrivet</string>
     <!-- Adaptive Playback -->
     <string name="media_category_title">Media</string>
-    <string name="adaptive_playback_title">Adaptive playback</string>
-    <string name="adaptive_playback_summary">Pause media when volume is muted and resume it by increasing volume within the timeout</string>
-    <string name="adaptive_playback_timeout_title">Playback timeout</string>
-    <string name="adaptive_playback_timeout_30_secs">30 seconds</string>
-    <string name="adaptive_playback_timeout_1_min">1 minute</string>
-    <string name="adaptive_playback_timeout_2_min">2 minutes</string>
-    <string name="adaptive_playback_timeout_5_min">5 minutes</string>
-    <string name="adaptive_playback_timeout_10_min">10 minutes</string>
+    <string name="adaptive_playback_title">Adaptiv uppspelning</string>
+    <string name="adaptive_playback_summary">Pausa media när volym är tystad och återuppta det genom att öka volym inom timeouten</string>
+    <string name="adaptive_playback_timeout_title">Uppspelning timeout</string>
+    <string name="adaptive_playback_timeout_30_secs">30 sekunder</string>
+    <string name="adaptive_playback_timeout_1_min">1 minut</string>
+    <string name="adaptive_playback_timeout_2_min">2 minuter</string>
+    <string name="adaptive_playback_timeout_5_min">5 minuter</string>
+    <string name="adaptive_playback_timeout_10_min">10 minuter</string>
     <!-- Brightness control -->
-    <string name="status_bar_gesture_category">Status bar gestures</string>
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_gesture_category">Statusfält gester</string>
+    <string name="status_bar_toggle_brightness">Ljusstyrka kontroll</string>
+    <string name="status_bar_toggle_brightness_summary">Justera ljusstyrkan genom att glida över statusfältet</string>
     <!-- AOD Schedule -->
-    <string name="default_string">Default</string>
-    <string name="disabled">Disabled</string>
-    <string name="always_on_display_schedule_title">Always on display schedule</string>
-    <string name="always_on_display_schedule_sunset">Sunset</string>
-    <string name="always_on_display_schedule_sunrise">Sunrise</string>
-    <string name="always_on_display_schedule_mixed_sunset">Turns on from sunset till a time</string>
-    <string name="always_on_display_schedule_mixed_sunrise">Turns on from a time till sunrise</string>
+    <string name="default_string">Standard</string>
+    <string name="disabled">Inaktiverad</string>
+    <string name="always_on_display_schedule_title">Alltid på visningsschema</string>
+    <string name="always_on_display_schedule_sunset">Solnedgång</string>
+    <string name="always_on_display_schedule_sunrise">Soluppgång</string>
+    <string name="always_on_display_schedule_mixed_sunset">Sätts på från solnedgång till en tid</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Sätts på från en tid till soluppgång</string>
     <!-- Notification headers -->
-    <string name="notification_headers_title">Notification headers</string>
-    <string name="notification_headers_summary">Show headers in the notification shade</string>
+    <string name="notification_headers_title">Notifikations rubrik</string>
+    <string name="notification_headers_summary">Visa rubrik i notifieringsskugga</string>
     <!-- Incall options -->
-    <string name="incall_category">In-call options</string>
-    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
-    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
-    <string name="flashlight_on_call_title">Blink Flashlight for incoming call</string>
-    <string name="flashlight_on_call_disabled">Disabled</string>
-    <string name="flashlight_on_call_ringer">When ringing</string>
-    <string name="flashlight_on_call_no_ringer">When ringer is silent</string>
-    <string name="flashlight_on_call_silent">When entirely silent (no ringer or vibrator)</string>
-    <string name="flashlight_on_call_always">Always</string>
-    <string name="flashlight_on_call_ignore_dnd_title">Ignore DND</string>
-    <string name="flashlight_on_call_ignore_dnd_summary">Whether to flash when in Do Not Disturb mode</string>
-    <string name="flashlight_on_call_rate_title">Rate</string>
-    <string name="flashlight_on_call_rate_summary">Flashlight on call blink rate</string>
+    <string name="incall_category">I-samtal alternativ</string>
+    <string name="incall_vibrate_connect_title">Vibrera vid anslutning</string>
+    <string name="incall_vibrate_call_wait_title">Vibrera vid samtal väntar</string>
+    <string name="incall_vibrate_disconnect_title">Vibrera vid frånkoppling</string>
+    <string name="flashlight_on_call_title">Blinka Ficklampa för inkommande samtal</string>
+    <string name="flashlight_on_call_disabled">Inaktiverad</string>
+    <string name="flashlight_on_call_ringer">När det ringer</string>
+    <string name="flashlight_on_call_no_ringer">När ringsignalen är tyst</string>
+    <string name="flashlight_on_call_silent">När helt tyst (ingen ringsignal eller vibrator)</string>
+    <string name="flashlight_on_call_always">Alltid</string>
+    <string name="flashlight_on_call_ignore_dnd_title">Ignorera DND</string>
+    <string name="flashlight_on_call_ignore_dnd_summary">Huruvida att blixtra i Stör Ej läge</string>
+    <string name="flashlight_on_call_rate_title">Hastighet</string>
+    <string name="flashlight_on_call_rate_summary">Ficklampa vid samtal blinkhastighet</string>
     <!-- Cycle through ringer modes gesture -->
-    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
-    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+    <string name="prevent_ringing_option_cycle">Växla mellan lägen</string>
+    <string name="prevent_ringing_option_cycle_summary">På (växla mellan lägen)</string>
     <string name="prevent_ringing_option_normal">Normal</string>
     <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
-    <string name="torch_power_button_gesture_none">Disabled</string>
-    <string name="torch_power_button_gesture_dt">Double tap power button (slower single tap response), Disables double power tap for camera.</string>
-    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <string name="torch_power_button_gesture_title">Växla fackla när skärmen är av</string>
+    <string name="torch_power_button_gesture_none">Inaktiverad</string>
+    <string name="torch_power_button_gesture_dt">Dubbeltryck strömknappen (långsammare tryckrespons), Inaktiverar strömknapp dubbeltryck för kameran.</string>
+    <string name="torch_power_button_gesture_lp">Långtryck strömknappen</string>
     <!-- Pulse notifications lightning -->
-    <string name="pulse_ambient_light_title">Ambient edge lightning</string>
-    <string name="pulse_ambient_light_summary">Light ambient edges for pulsing notifications</string>
-    <string name="pulse_ambient_light_enable">Show edge lightning</string>
-    <string name="ambient_notification_light_enabled_title">Show on AOD</string>
-    <string name="aod_disabled">AOD is disabled</string>
-    <string name="ambient_notification_light_enabled_summary">Keep showing edge lightning on AOD</string>
-    <string name="ambient_notification_light_hide_aod_title">Hide AOD content</string>
-    <string name="ambient_notification_light_hide_aod_summary">Hide AOD content when edges are lighted</string>
-    <string name="ambient_notification_light_duration_title">Duration</string>
-    <string name="ambient_notification_light_duration_summary">Time it takes for each animation to complete</string>
-    <string name="ambient_notification_light_repeats_title">Repeats</string>
-    <string name="ambient_notification_light_repeats_summary">Amount of times the animation should show\n0 for infinite</string>
+    <string name="pulse_ambient_light_title">Omgivande kantbelysning</string>
+    <string name="pulse_ambient_light_summary">Tänder omgivande kanter för pulserande notifieringar</string>
+    <string name="pulse_ambient_light_enable">Visa kantbelysning</string>
+    <string name="ambient_notification_light_enabled_title">Visa på AOD</string>
+    <string name="aod_disabled">AOD är inaktiverad</string>
+    <string name="ambient_notification_light_enabled_summary">Fortsätt visa kantbelysning på AOD</string>
+    <string name="ambient_notification_light_hide_aod_title">Dölj AOD innehåll</string>
+    <string name="ambient_notification_light_hide_aod_summary">Dölj AOD innehåll när kanterna är belysta</string>
+    <string name="ambient_notification_light_duration_title">Varaktighet</string>
+    <string name="ambient_notification_light_duration_summary">Tid det tar för varje animation att slutföra</string>
+    <string name="ambient_notification_light_repeats_title">Upprepar</string>
+    <string name="ambient_notification_light_repeats_summary">Antal gånger animationen borde visas\n för alltid</string>
     <string name="ambient_notification_light_timeout_title">Timeout</string>
-    <string name="ambient_notification_light_timeout_forever">Forever</string>
-    <string name="ambient_notification_light_timeout_half_minute">30 seconds</string>
-    <string name="ambient_notification_light_timeout_minute">1 minute</string>
-    <string name="ambient_notification_light_timeout_three_minutes">3 minutes</string>
-    <string name="ambient_notification_light_timeout_five_minutes">5 minutes</string>
-    <string name="ambient_notification_light_timeout_ten_minutes">10 minutes</string>
-    <string name="set_to_zero">Set repeats to 0 to enable</string>
-    <string name="ambient_notification_color_mode_title">Color mode</string>
-    <string name="ambient_notification_color_mode_accent">Accent color</string>
-    <string name="ambient_notification_color_mode_wall">Wallpaper dominant color</string>
-    <string name="ambient_notification_color_mode_notification">Notification icon color</string>
+    <string name="ambient_notification_light_timeout_forever">För alltid</string>
+    <string name="ambient_notification_light_timeout_half_minute">30 sekunder</string>
+    <string name="ambient_notification_light_timeout_minute">1 minut</string>
+    <string name="ambient_notification_light_timeout_three_minutes">3 minuter</string>
+    <string name="ambient_notification_light_timeout_five_minutes">5 minuter</string>
+    <string name="ambient_notification_light_timeout_ten_minutes">10 minuter</string>
+    <string name="set_to_zero">Sätt upprepningar till 0 för att aktivera</string>
+    <string name="ambient_notification_color_mode_title">Färgläge</string>
+    <string name="ambient_notification_color_mode_accent">Accentfärg</string>
+    <string name="ambient_notification_color_mode_wall">Bakgrunds dominanta färg</string>
+    <string name="ambient_notification_color_mode_notification">Notifieringsikons färg</string>
     <string name="ambient_notification_color_mode_custom">@string/ambient_notification_light_color_title</string>
-    <string name="ambient_notification_light_color_title">Custom color</string>
-    <string name="pulse_ambient_light_show_always_title">Show always</string>
-    <string name="pulse_ambient_light_show_always_summary">Show lights for all doze events and not just notifications</string>
-    <string name="pulse_ambient_light_repeat_direction_title">Light repeat mode</string>
-    <string name="pulse_ambient_light_repeat_direction_restart">Restart</string>
-    <string name="pulse_ambient_light_repeat_direction_reverse">Reverse</string>
-    <string name="pulse_ambient_light_layout_title">Light view</string>
-    <string name="pulse_ambient_light_layout_solid">Solid</string>
-    <string name="pulse_ambient_light_layout_faded">Faded</string>
-    <string name="pulse_ambient_light_width_title">Light width</string>
-    <string name="pulse_light_layout_style_title">Light Layout Style</string>
-    <string name="pulse_light_both">All Four Sides</string>
-    <string name="pulse_light_top_bottom">Only Top-Bottom</string>
-    <string name="pulse_light_left_right">Only Left-Right</string>
+    <string name="ambient_notification_light_color_title">Anpassad färg</string>
+    <string name="pulse_ambient_light_show_always_title">Visa alltid</string>
+    <string name="pulse_ambient_light_show_always_summary">Visar ljus för alla slumrande event och inte bara för notifikationer</string>
+    <string name="pulse_ambient_light_repeat_direction_title">Ljusupprepnings läge</string>
+    <string name="pulse_ambient_light_repeat_direction_restart">Starta om</string>
+    <string name="pulse_ambient_light_repeat_direction_reverse">Omvänd</string>
+    <string name="pulse_ambient_light_layout_title">Ljus visning</string>
+    <string name="pulse_ambient_light_layout_solid">Fast</string>
+    <string name="pulse_ambient_light_layout_faded">Bleknat</string>
+    <string name="pulse_ambient_light_width_title">Ljusbredd</string>
+    <string name="pulse_light_layout_style_title">Ljuslayout stil</string>
+    <string name="pulse_light_both">Alla fyra sidor</string>
+    <string name="pulse_light_top_bottom">Bara Övre-Nedre</string>
+    <string name="pulse_light_left_right">Bara Vänster-Höger</string>
     <!-- IME button space -->
-    <string name="navbar_category">Navigation bar</string>
-    <string name="navigation_bar_ime_space_title">IME button space</string>
-    <string name="navigation_bar_ime_space_summary">Show IME button space below keyboard</string>
+    <string name="navbar_category">Navigeringsfält</string>
+    <string name="navigation_bar_ime_space_title">IME knappområde</string>
+    <string name="navigation_bar_ime_space_summary">Visa IME knapp område under tangentbord</string>
     <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Pill length</string>
-    <string name="hide_label">Hidden</string>
-    <string name="long_label">Long</string>
+    <string name="gesture_navbar_length_title">Piller längd</string>
+    <string name="hide_label">Gömd</string>
+    <string name="long_label">Lång</string>
     <!-- Wake up from fod -->
-    <string name="wake_on_fod_pressed_title">Wake up from fod</string>
-    <string name="wake_on_fod_pressed_summary">Jump to lockscreen when fod is pressed in ambient display</string>
+    <string name="wake_on_fod_pressed_title">Vakna upp av fod</string>
+    <string name="wake_on_fod_pressed_summary">Hoppa till låsskärmen när fod är tryckt på i omgivande visning</string>
     <!-- Lock screen pattern size -->
-    <string name="lock_settings_picker_pattern_size_message">Choose a pattern size</string>
+    <string name="lock_settings_picker_pattern_size_message">Välj mönsterstorlek</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Show pattern error</string>
+    <string name="lockpattern_settings_enable_error_path_title">Visa mönsterfel</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Show pattern dots</string>
+    <string name="lockpattern_settings_enable_dots_title">Visa mönsterprickar</string>
     <!-- Suppress notifications if screen is on -->
-    <string name="notification_sound_vib_screen_on_title">Notification sound if active</string>
-    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
+    <string name="notification_sound_vib_screen_on_title">Notifieringsljud om aktiv</string>
+    <string name="notification_sound_vib_screen_on_summary">Spela ljud och vibration för notifikationer när skärmen är på</string>
     <!-- Notification count -->
-    <string name="status_bar_notif_count_title">Notification count</string>
-    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+    <string name="status_bar_notif_count_title">Notifieringsantal</string>
+    <string name="status_bar_notif_count_summary">Visa antalet väntande notifieringar</string>
     <!-- Maintainer info -->
-    <string name="maintainer_info_title">Device Maintainer</string>
+    <string name="maintainer_info_title">Enhetsunderhållare</string>
     <!-- Toast app icon -->
-    <string name="toast_icon_title">Toast app icon</string>
-    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
+    <string name="toast_icon_title">Toast appiö ikon</string>
+    <string name="toast_icon_summary">Visa appens ikon motsvarande toasten</string>
     <!-- Haptic feedback -->
-    <string name="touch_haptic_summary">Customize haptic feedback for system widgets</string>
-    <string name="haptic_feedback_enable">Enable haptic feedback</string>
-    <string name="haptic_on_face_title">Face unlock</string>
-    <string name="haptic_on_face_summary">Do haptic feedback when face unlock authenticated</string>
-    <string name="haptic_on_qs_title">QS tiles</string>
-    <string name="haptic_on_qs_summary">Do haptic feedback when clicked qs tiles</string>
-    <string name="haptic_on_switch_title">Settings switch</string>
-    <string name="haptic_on_switch_summary">Do haptic feedback when clicked switches in settings</string>
-    <string name="haptic_on_statusbar_title">Status bar</string>
-    <string name="haptic_on_statusbar_summary">Do haptic feedback when clicked status bar</string>
-    <string name="haptic_on_slider_title">System slider</string>
-    <string name="haptic_on_slider_summary">Do haptic feedback when changed slider value</string>
-    <string name="haptic_disabled">Disabled</string>
-    <string name="haptic_on_back_title">Back gestures haptic</string>
-    <string name="back_gesture_haptic_dragged">On dragging</string>
-    <string name="back_gesture_haptic_dragged_triggered">On dragging &amp; trigger</string>
-    <string name="haptic_on_fod_title">Fingerprint haptic</string>
-    <string name="fod_haptic_authenticated">On authenticated</string>
-    <string name="fod_haptic_pressed_authenticated">On pressed &amp; authenticated</string>
+    <string name="touch_haptic_summary">Anpassa haptisk återkoppling för system widgets</string>
+    <string name="haptic_feedback_enable">Aktivera Haptisk återkoppling</string>
+    <string name="haptic_on_face_title">Ansiktsupplåsning</string>
+    <string name="haptic_on_face_summary">Gör haptisk återkoppling när ansiktsupplåsning autentiserade</string>
+    <string name="haptic_on_qs_title">QS brickor</string>
+    <string name="haptic_on_qs_summary">Gör haptisk återkoppling vid klick på qs brickor</string>
+    <string name="haptic_on_switch_title">Inställningsväxlare</string>
+    <string name="haptic_on_switch_summary">Gör haptisk återkoppling vid klick på växlare i inställningar</string>
+    <string name="haptic_on_statusbar_title">Statusfält</string>
+    <string name="haptic_on_statusbar_summary">Gör haptisk återkoppling vid klick på statusfältet</string>
+    <string name="haptic_on_slider_title">Systemreglage</string>
+    <string name="haptic_on_slider_summary">Gör haptisk feedback när du ändrar skjutreglagets värde</string>
+    <string name="haptic_on_misc_title">Diverse scener</string>
+    <string name="haptic_on_misc_summary">Utforska fler gömda haptiska återkopplingar</string>
+    <string name="haptic_disabled">Inaktiverad</string>
+    <string name="haptic_on_back_title">Tillbakagester haptisk</string>
+    <string name="back_gesture_haptic_dragged">Vid dragande</string>
+    <string name="back_gesture_haptic_dragged_triggered">Vid dragande &amp; triggad</string>
+    <string name="haptic_on_fod_title">Fingeravtryck haptisk</string>
+    <string name="fod_haptic_authenticated">Vid autentisering</string>
+    <string name="fod_haptic_pressed_authenticated">På tryckt &amp; autentiserad</string>
     <!-- Colored Statusbar Icons -->
-    <string name="statusbar_icons_style_title">Colored icons</string>
-    <string name="statusbar_icons_style_summary">Display colored style icons on status bar (requires SystemUI restart)</string>
+    <string name="statusbar_icons_style_title">Färgade ikoner</string>
+    <string name="statusbar_icons_style_summary">Visa färgade ikon stilar i statusfältet</string>
     <!-- Udfps background -->
-    <string name="udfps_background_title">Fod icon background</string>
-    <string name="udfps_background_summary">Show background for fod icon in lockscreen</string>
-    <string name="udfps_icon_color_title">Fod icon color</string>
-    <string name="udfps_icon_color_black">Black</string>
-    <string name="udfps_icon_color_white">White</string>
+    <string name="udfps_background_title">Fod ikon bakgrund</string>
+    <string name="udfps_background_summary">Visa bakgrund för fod ikon på låsskärmen</string>
+    <string name="udfps_icon_color_title">Fod ikon färg</string>
+    <string name="udfps_icon_color_black">Svart</string>
+    <string name="udfps_icon_color_white">Vit</string>
     <!--  screen, setting option name to change wifi timeout -->
-    <string name="wifi_timeout">Turn off Wi-Fi automatically</string>
+    <string name="wifi_timeout">Stäng av Wi-Fi automatiskt</string>
     <!--  screen, setting option summary to change wifi timeout -->
-    <string name="wifi_timeout_summary">Wi-Fi will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no network connected</string>
-    <string name="wifi_timeout_summary2">Disabled</string>
-    <string name="wifi_timeout_summary_never">Never</string>
-    <string name="wifi_timeout_summary_15secs">15 seconds</string>
-    <string name="wifi_timeout_summary_30secs">30 seconds</string>
-    <string name="wifi_timeout_summary_1min">1 minute</string>
-    <string name="wifi_timeout_summary_2mins">2 minutes</string>
-    <string name="wifi_timeout_summary_5mins">5 minutes</string>
-    <string name="wifi_timeout_summary_10mins">10 minutes</string>
-    <string name="wifi_timeout_summary_30mins">30 minutes</string>
-    <string name="wifi_timeout_summary_1hour">1 hour</string>
-    <string name="wifi_timeout_summary_2hours">2 hours</string>
-    <string name="wifi_timeout_summary_4hours">4 hours</string>
-    <string name="wifi_timeout_summary_8hours">8 hours</string>
+    <string name="wifi_timeout_summary">Wi-Fi kommer stängas av efter <xliff:g id="timeout_description">%1$s</xliff:g> om inget nätverk är anslutet</string>
+    <string name="wifi_timeout_summary2">Inaktiverad</string>
+    <string name="wifi_timeout_summary_never">Aldrig</string>
+    <string name="wifi_timeout_summary_15secs">15 sekunder</string>
+    <string name="wifi_timeout_summary_30secs">30 sekunder</string>
+    <string name="wifi_timeout_summary_1min">1 minut</string>
+    <string name="wifi_timeout_summary_2mins">2 minuter</string>
+    <string name="wifi_timeout_summary_5mins">5 minuter</string>
+    <string name="wifi_timeout_summary_10mins">10 minuter</string>
+    <string name="wifi_timeout_summary_30mins">30 minuter</string>
+    <string name="wifi_timeout_summary_1hour">1 timme</string>
+    <string name="wifi_timeout_summary_2hours">2 timmar</string>
+    <string name="wifi_timeout_summary_4hours">4 timmar</string>
+    <string name="wifi_timeout_summary_8hours">8 timmar</string>
     <!-- Connected devices screen, setting option name to change bluetooth timeout -->
-    <string name="bluetooth_timeout">Bluetooth timeout</string>
+    <string name="bluetooth_timeout">Blåtand timeout</string>
     <!-- Connected devices screen, setting option summary to change bluetooth timeout -->
-    <string name="bluetooth_timeout_summary">Bluetooth will turn off after <xliff:g id="timeout_description">%1$s</xliff:g> if no devices connected</string>
-    <string name="bluetooth_timeout_summary2">Do not automatically turn off Bluetooth</string>
-    <string name="bluetooth_timeout_summary_never">Never</string>
-    <string name="bluetooth_timeout_summary_15secs">15 seconds</string>
-    <string name="bluetooth_timeout_summary_30secs">30 seconds</string>
-    <string name="bluetooth_timeout_summary_1min">1 minute</string>
-    <string name="bluetooth_timeout_summary_2mins">2 minutes</string>
-    <string name="bluetooth_timeout_summary_5mins">5 minutes</string>
-    <string name="bluetooth_timeout_summary_10mins">10 minutes</string>
-    <string name="bluetooth_timeout_summary_30mins">30 minutes</string>
-    <string name="bluetooth_timeout_summary_1hour">1 hour</string>
-    <string name="bluetooth_timeout_summary_2hours">2 hours</string>
-    <string name="bluetooth_timeout_summary_4hours">4 hours</string>
-    <string name="bluetooth_timeout_summary_8hours">8 hours</string>
+    <string name="bluetooth_timeout_summary">Blåtand kommer stängas av efter <xliff:g id="timeout_description">%1$s</xliff:g> om inte enheter är anslutna</string>
+    <string name="bluetooth_timeout_summary2">Stäng inte av Blåtand automatiskt</string>
+    <string name="bluetooth_timeout_summary_never">Aldrig</string>
+    <string name="bluetooth_timeout_summary_15secs">15 sekunder</string>
+    <string name="bluetooth_timeout_summary_30secs">30 sekunder</string>
+    <string name="bluetooth_timeout_summary_1min">1 minut</string>
+    <string name="bluetooth_timeout_summary_2mins">2 minuter</string>
+    <string name="bluetooth_timeout_summary_5mins">5 minuter</string>
+    <string name="bluetooth_timeout_summary_10mins">10 minuter</string>
+    <string name="bluetooth_timeout_summary_30mins">30 minuter</string>
+    <string name="bluetooth_timeout_summary_1hour">1 timme</string>
+    <string name="bluetooth_timeout_summary_2hours">2 timmar</string>
+    <string name="bluetooth_timeout_summary_4hours">4 timmar</string>
+    <string name="bluetooth_timeout_summary_8hours">8 timmar</string>
     <!-- Status bar - Battery -->
-    <string name="status_bar_battery_custom_title">Battery icon</string>
-    <string name="status_bar_battery_custom_summary">Customize your statusbar battery icon</string>
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_icon_rlandscape">Icon landscape (Right)</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon landscape (Left)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Dotted circle</string>
-    <string name="status_bar_battery_style_filled_circle">Filled circle</string>
+    <string name="status_bar_battery_custom_title">Batteri ikon</string>
+    <string name="status_bar_battery_custom_summary">Anpassa din statusfält batteri ikon</string>
+    <string name="status_bar_battery_style_title">Batteri stil</string>
+    <string name="status_bar_battery_style_icon_portrait">Ikon porträtt (standard)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ikon landskap (Höger)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ikon landskap (Vänster)</string>
+    <string name="status_bar_battery_style_circle">Cirkel</string>
+    <string name="status_bar_battery_style_dotted_circle">Prickad cirkel</string>
+    <string name="status_bar_battery_style_filled_circle">Fylld cirkel</string>
     <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percent_title">Battery percent</string>
-    <string name="status_bar_battery_percent_hidden">Hidden</string>
-    <string name="status_bar_battery_percent_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percent_text_next">Next to the icon</string>
-    <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
-    <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
-    <string name="left_battery_text_title">Left battery text</string>
-    <string name="left_battery_text_summary">Put the battery text on left of battery icon</string>
+    <string name="status_bar_battery_style_hidden">Gömd</string>
+    <string name="status_bar_battery_percent_title">Batteriprocent</string>
+    <string name="status_bar_battery_percent_hidden">Gömd</string>
+    <string name="status_bar_battery_percent_text_inside">Inuti ikonen</string>
+    <string name="status_bar_battery_percent_text_next">Bredvid ikonen</string>
+    <string name="status_bar_battery_text_charging_title">Batteriprocent vid laddning</string>
+    <string name="status_bar_battery_text_charging_summary">Visa alltid batteriprocent vid laddning</string>
+    <string name="left_battery_text_title">Vänster batteritext</string>
+    <string name="left_battery_text_summary">Sätt batteritext på vänster sida om batteri konen</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
-    <string name="platform_revision">Platform</string>
+    <string name="platform_revision">Plattform</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Total available RAM</string>
+    <string name="total_ram">Totalt tillgängligt RAM</string>
     <!-- QSTile requires unlocking before being accessible -->
-    <string name="qstile_requires_unlocking_title">Secure QS tiles</string>
-    <string name="qstile_requires_unlocking_summary">Require unlocking to access some sensitive QS tiles</string>
+    <string name="qstile_requires_unlocking_title">Säkra QS brickor</string>
+    <string name="qstile_requires_unlocking_summary">Kräver upplåsning för att tillgå några känsliga QS brickor</string>
     <!-- Charging animation -->
-    <string name="charging_animation_title">Charging animation</string>
-    <string name="charging_animation_summary">Display an animation when the device is plugged in</string>
+    <string name="charging_animation_title">Laddnings animation</string>
+    <string name="charging_animation_summary">Visa en animation när enheten är inkopplad</string>
     <!-- Floating rotation button -->
-    <string name="enable_floating_rotation_button_title">Enable floating rotate button</string>
+    <string name="enable_floating_rotation_button_title">Aktivera flytande rotationsknapp</string>
     <!-- Power menu on lockscreen -->
-    <string name="lockscreen_power_menu_disabled_title">Secure power menu</string>
-    <string name="lockscreen_power_menu_disabled_summary">Disable power menu on secure lockscreen</string>
+    <string name="lockscreen_power_menu_disabled_title">Säker strömmeny</string>
+    <string name="lockscreen_power_menu_disabled_summary">Inaktivera strömmeny på säker låsskärm</string>
     <!-- Nightlight Fod -->
-    <string name="fod_night_light_title">Disable when showing FOD</string>
-    <string name="fod_night_light_summary">Disable Night Light on lock screen if FOD is active</string>
+    <string name="fod_night_light_title">Inaktivera vid visning av FOD</string>
+    <string name="fod_night_light_summary">Inaktivera Nattljus på låsskärmen om FOD är aktiv</string>
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Minimum time between notification sounds</string>
-    <string name="app_notification_sound_timeout_summary_template">Allow sounds or vibration no more than once every <xliff:g id="duration">%1$s</xliff:g></string>
-    <string name="app_notification_sound_timeout_value_none">No restriction</string>
-    <string name="app_notification_sound_timeout_value_10_seconds">10 seconds</string>
-    <string name="app_notification_sound_timeout_value_30_seconds">30 seconds</string>
-    <string name="app_notification_sound_timeout_value_1_minute">1 minute</string>
-    <string name="app_notification_sound_timeout_value_5_minutes">5 minutes</string>
-    <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
-    <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
+    <string name="app_notification_sound_timeout_title">Minsta tid mellan notifieringsljud</string>
+    <string name="app_notification_sound_timeout_summary_template">Tillåt ljud eller vibration inte mindre än en gång var <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Ingen restriktion</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 sekunder</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 sekunder</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minut</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minuter</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minuter</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minuter</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
-    <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
+    <string name="display_cutout_force_fullscreen_title">Fullskärms appar</string>
+    <string name="display_cutout_force_fullscreen_summary">Tvinga appar att ignorera hack utrymme</string>
     <!-- App list -->
-    <string name="search">Search</string>
-    <string name="search_apps">Search apps</string>
+    <string name="search">Sök</string>
+    <string name="search_apps">Sök appar</string>
     <!-- System Update -->
-    <string name="system_update_title">System update</string>
+    <string name="system_update_title">Systemuppdatering</string>
     <!-- Font style / Icon pack -->
-    <string name="theme_category_title">Theme</string>
+    <string name="theme_category_title">Tema</string>
     <string name="theme_customization_font_title">Headline / Body font</string>
-    <string name="theme_customization_font_summary">Set system font style</string>
-    <string name="theme_customization_icon_pack_title">Icon pack</string>
-    <string name="theme_customization_icon_pack_summary">Set custom icon pack style</string>
-    <string name="theme_customization_icon_shape_title">Icon shape</string>
-    <string name="theme_customization_icon_shape_summary">Set system icon shape style</string>
-    <string name="theme_customization_signal_icon_title">Signal icon style</string>
-    <string name="theme_customization_signal_icon_summary">Set custom signal icon style</string>
-    <string name="theme_customization_wifi_icon_title">Wi-Fi icon style</string>
-    <string name="theme_customization_wifi_icon_summary">Set custom Wi-Fi icon style</string>
+    <string name="theme_customization_font_summary">Sätt system textstil</string>
+    <string name="theme_customization_icon_pack_title">Ikon paket</string>
+    <string name="theme_customization_icon_pack_summary">Sätt anpassad ikonpakets stil</string>
+    <string name="theme_customization_icon_shape_title">Ikon form</string>
+    <string name="theme_customization_icon_shape_summary">Sätt systemikon formstil</string>
+    <string name="theme_customization_signal_icon_title">Signal ikon stil</string>
+    <string name="theme_customization_signal_icon_summary">Sätt anpassad signalikon stil</string>
+    <string name="theme_customization_wifi_icon_title">Wi-Fi ikon stil</string>
+    <string name="theme_customization_wifi_icon_summary">Sätt anpassad Wi-Fi ikon stil</string>
     <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
-    <string name="thin_label">Thin</string>
-    <string name="thick_label">Thick</string>
+    <string name="gesture_navbar_radius_title">Piller radie</string>
+    <string name="thin_label">Tunn</string>
+    <string name="thick_label">Tjock</string>
     <!-- One shot automatic brightness -->
-    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
-    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+    <string name="auto_brightness_one_shot_title">En tagning automatisk ljusstyrka</string>
+    <string name="auto_brightness_one_shot_summary">Ljusstyrka justering kommer bara hända just när skärmen sätts på</string>
     <!-- Hotspot VPN -->
-    <string name="tethering_allow_vpn_upstreams_title">Allow clients to use VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permit hotspot clients to use this device\u2019s VPN connections for upstream connectivity</string>
+    <string name="tethering_allow_vpn_upstreams_title">Tillåt klienter att använda VPN-er</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Tillåt hotspot klienter att använda denna enhet\u2019s VPN anslutningar för uppströms anslutningar</string>
     <!-- Navbar options -->
-    <string name="navbar_invert_layout_title">Invert navigation bar layout</string>
-    <string name="navbar_invert_layout_summary">Show back button at right side</string>
+    <string name="navbar_invert_layout_title">Invertera navigationsfält layout</string>
+    <string name="navbar_invert_layout_summary">Visa tillbakaknappen på höger sida</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
-    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+    <string name="connected_tws_device_saved_title">Sparade Hörlurar</string>
     <!-- Resolution switcher -->
-    <string name="lower_resolution_title">Lower screen resolution</string>
-    <string name="lower_resolution_summary">Switch to %1$s resolution to decrease power consumption</string>
-    <string name="lower_resolution_dlg_title">Warning</string>
-    <string name="lower_resolution_dlg_text">This will kill all background apps and restart SystemUI!\n\nNote: Bootanimation will be misplaced after enabled lower resolution</string>
+    <string name="lower_resolution_title">Lägre skärmupplösning</string>
+    <string name="lower_resolution_summary">Byt till %1$s upplösning för att minska strömförbrukningen</string>
+    <string name="lower_resolution_dlg_title">Varning</string>
+    <string name="lower_resolution_dlg_text">Detta kommer stänga ner alla bakgrunds appar och starta om SystemUI!</string>
     <!-- App lock -->
-    <string name="app_lock_title">App lock</string>
-    <string name="app_lock_summary_singular">1 application is protected</string>
-    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> applications are protected</string>
-    <string name="app_lock_authentication_dialog_title">Unlock</string>
-    <string name="app_lock_packages_title">Protected apps</string>
-    <string name="app_lock_packages_summary">Select the apps to protect with biometrics or device credentials</string>
-    <string name="app_lock_timeout_title">Auto lock timeout</string>
-    <string name="app_lock_timeout_summary">Duration of time after which an unlocked app in background should be locked</string>
-    <string name="app_lock_timeout_5_secs">5 seconds</string>
-    <string name="app_lock_timeout_10_secs">10 seconds</string>
-    <string name="app_lock_timeout_30_secs">30 seconds</string>
-    <string name="app_lock_timeout_1_min">1 minute</string>
-    <string name="app_lock_timeout_5_mins">5 minutes</string>
-    <string name="app_lock_timeout_10_mins">10 minutes</string>
-    <string name="app_lock_timeout_30_mins">30 minutes</string>
-    <string name="app_lock_notifications_title">Collapse notifications</string>
-    <string name="app_lock_notifications_summary">Notification content will be hidden and collapsed for selected apps when they are locked. Heads up notifications will be automatically disabled.</string>
-    <string name="app_lock_notifications_disabled_summary">Protect an application first</string>
-    <string name="app_lock_biometrics_allowed_title">Enable biometrics for unlocking</string>
-    <string name="app_lock_footer_text">Bubbles will be automatically dismissed after timeout</string>
+    <string name="app_lock_title">App lås</string>
+    <string name="app_lock_summary_singular">1. Applikation är skyddad</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> applikationerna är skyddade</string>
+    <string name="app_lock_authentication_dialog_title">Lås upp</string>
+    <string name="app_lock_packages_title">Skyddade appar</string>
+    <string name="app_lock_packages_summary">Välj apparna att skydda med biometrik eller enhetsreferenser</string>
+    <string name="app_lock_timeout_title">Automatisk lås timeout</string>
+    <string name="app_lock_timeout_summary">Varaktighet efter vilket en olåst app i bakgrunden borde bli låst</string>
+    <string name="app_lock_timeout_5_secs">5 sekunder</string>
+    <string name="app_lock_timeout_10_secs">10 sekunder</string>
+    <string name="app_lock_timeout_30_secs">30 sekunder</string>
+    <string name="app_lock_timeout_1_min">1 minut</string>
+    <string name="app_lock_timeout_5_mins">5 minuter</string>
+    <string name="app_lock_timeout_10_mins">10 minuter</string>
+    <string name="app_lock_timeout_30_mins">30 minuter</string>
+    <string name="app_lock_notifications_title">Fäll ner notifieringarna</string>
+    <string name="app_lock_notifications_summary">Notifikations innehåll kommer gömmas och fällas ner för valda appar när dom är låsta. Heads up notifieringar kommer automatiskt att inaktiveras.</string>
+    <string name="app_lock_notifications_disabled_summary">Skydda en applikation först</string>
+    <string name="app_lock_biometrics_allowed_title">Aktivera biometrik för upplåsning</string>
+    <string name="app_lock_footer_text">Bubblor kommer automatiskt avvisas efter timeout</string>
     <!-- App info misc -->
-    <string name="app_info_misc">Miscellaneous</string>
+    <string name="app_info_misc">Diverse</string>
     <!-- Launcher switcher -->
-    <string name="launcher_switcher_category">Launcher switcher</string>
-    <string name="launcher_switcher_title">Default Launcher</string>
+    <string name="launcher_switcher_category">Launcher bytare</string>
+    <string name="launcher_switcher_title">Standard Launcher</string>
     <string name="launcher_switcher_info">This setting is different from the default home app setting. You will be able to switch selected launcher as default launcher &amp; recent provider without root needed.\nReboot is needed for the change to take effect.</string>
     <string name="launcher_pixel">Pixel Launcher</string>
     <string name="launcher_nameless">Nameless Launcher</string>
     <string name="launcher_lawnchair">Lawnchair</string>
     <!-- Click to partical screenshot -->
-    <string name="click_partial_screenshot_title">Click to partial screenshot</string>
-    <string name="click_partial_screenshot_summary">Short click Volume Down and Power to take partial screenshot</string>
+    <string name="click_partial_screenshot_title">Klicka för delvis skärmdump</string>
+    <string name="click_partial_screenshot_summary">Kort klicka Volym Ner och Strömknapp för att ta delvis skärmdump</string>
     <!-- Volume Steps Fragment -->
-    <string name="volume_steps_fragment_title">Volume steps</string>
-    <string name="volume_steps_summary">Customize different volume steps</string>
-    <string name="volume_steps_alarm_title">Volume steps: Alarm</string>
-    <string name="volume_steps_dtmf_title">Volume steps: DTMF</string>
-    <string name="volume_steps_music_title">Volume steps: Media</string>
-    <string name="volume_steps_notification_title">Volume steps: Notification</string>
-    <string name="volume_steps_ring_title">Volume steps: Ringer</string>
-    <string name="volume_steps_system_title">Volume steps: System</string>
-    <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
-    <string name="volume_steps_reset">Reset</string>
+    <string name="volume_steps_fragment_title">Volymsteg</string>
+    <string name="volume_steps_summary">Anpassa olika volymsteg</string>
+    <string name="volume_steps_alarm_title">Volymsteg: Alarm</string>
+    <string name="volume_steps_dtmf_title">Volymsteg: DTMF</string>
+    <string name="volume_steps_music_title">Volymsteg: Media</string>
+    <string name="volume_steps_notification_title">Volymsteg: Notifieringar</string>
+    <string name="volume_steps_ring_title">Volymsteg: Ringsignal</string>
+    <string name="volume_steps_system_title">Volymsteg: System</string>
+    <string name="volume_steps_voice_call_title">Volymsteg: Röstsamtal</string>
+    <string name="volume_steps_reset">Återställ</string>
     <!-- Custom actions -->
-    <string name="action_nothing">No action</string>
-    <string name="action_voice_search">Voice search</string>
-    <string name="action_launch_camera">Camera</string>
-    <string name="action_flashlight">Flashlight</string>
-    <string name="action_clear_notifications">Clear notifications</string>
-    <string name="action_volume_panel">Volume panel</string>
-    <string name="action_screen_off">Screen off</string>
-    <string name="action_notifications">Notifications</string>
-    <string name="action_screenshot">Screenshot</string>
+    <string name="action_nothing">Ingen händelse</string>
+    <string name="action_voice_search">Röstsök</string>
+    <string name="action_launch_camera">Kamera</string>
+    <string name="action_flashlight">Ficklampa</string>
+    <string name="action_clear_notifications">Rensa notifieringar</string>
+    <string name="action_volume_panel">Volympanel</string>
+    <string name="action_screen_off">Skärm av</string>
+    <string name="action_notifications">Notifieringar</string>
+    <string name="action_screenshot">Skärmdump</string>
     <string name="action_qs_panel">QS panel</string>
-    <string name="action_app_action">Application</string>
-    <string name="action_ringer_modes">Ringer modes</string>
-    <string name="kill_app">Kill foreground app</string>
-    <string name="recent_app_toggle">Switch recent app</string>
-    <string name="skip_song">Skip song</string>
-    <string name="prev_song">Previous song</string>
-    <string name="show_powermenu">Show Power menu</string>
-    <string name="partial_screenshot">Partial screenshot</string>
-    <string name="hush_mute">Silence notifications</string>
+    <string name="action_app_action">Applikation</string>
+    <string name="action_ringer_modes">Ringlägen</string>
+    <string name="kill_app">Stäng förgrunds app</string>
+    <string name="recent_app_toggle">Växla nyligen använd app</string>
+    <string name="skip_song">Byt låt</string>
+    <string name="prev_song">Föregående låt</string>
+    <string name="show_powermenu">Visa Strömmeny</string>
+    <string name="partial_screenshot">Delvis skärmdump</string>
+    <string name="hush_mute">Tysta notifieringar</string>
     <!-- Long swipe gestures -->
-    <string name="navbar_gesture_tweaks_pref_title">Advanced gestures options</string>
-    <string name="navbar_gesture_tweaks_pref_summary">Customize gestures and set custom actions</string>
-    <string name="swipe_app_select_summary">Select an app to launch with the squeeze action</string>
-    <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
-    <string name="left_swipe_actions_title">Long left swipe action</string>
-    <string name="left_swipe_app_action_title">Select long left swipe app</string>
-    <string name="right_swipe_actions_title">Long right swipe action</string>
-    <string name="right_swipe_app_action_title">Select long right swipe app</string>
-    <string name="left_vertical_swipe_actions_title">Vertical left L-swipe action</string>
-    <string name="left_vertical_swipe_app_action_title">Select vertical left swipe app</string>
-    <string name="right_vertical_swipe_actions_title">Vertical right L-swipe action</string>
-    <string name="right_vertical_swipe_app_action_title">Select vertical right swipe app</string>
+    <string name="navbar_gesture_tweaks_pref_title">Avancerade gest alternativ</string>
+    <string name="navbar_gesture_tweaks_pref_summary">Anpassa gester och sätt anpassade händelser</string>
+    <string name="swipe_app_select_summary">Välj en app att starta med kläm ihop händelse</string>
+    <string name="long_back_swipe_timeout_title">Långsvep händelse timeout</string>
+    <string name="left_swipe_actions_title">Långsvep vänster händelse</string>
+    <string name="left_swipe_app_action_title">Välj lång vänster svep app</string>
+    <string name="right_swipe_actions_title">Långsvep höger händelse</string>
+    <string name="right_swipe_app_action_title">Välj höger långsvep app</string>
+    <string name="left_vertical_swipe_actions_title">Vertikal vänster L-svep händelse</string>
+    <string name="left_vertical_swipe_app_action_title">Välj vertikal vänstersvep app</string>
+    <string name="right_vertical_swipe_actions_title">Vertikal höger L-svep händelse</string>
+    <string name="right_vertical_swipe_app_action_title">Välj vertikal högersvep app</string>
     <string name="gesture_nav_tweaks_footer_info">To choose a specific app activity for the action, long press on any app in the apps picker.\n\nIf launcher is showing, do the swipe at the very bottom area of the screen to trigger the action.</string>
-    <string name="back_swipe_extended_title">Extended swipe action</string>
+    <string name="back_swipe_extended_title">Utökad svep händelse</string>
     <string name="back_swipe_extended_summary">Trigger action on wider swipe (more than half of display size), or a L swipe (vertically longer enough)</string>
     <!-- Unlimited g00gle ph0t0s st0rage -->
-    <string name="use_photos_spoof_title">Unlimited Google Photos storage</string>
+    <string name="use_photos_spoof_title">Oändlig Google Photos lagring</string>
     <string name="use_photos_spoof_summary">Spoof device as Pixel XL to get unlimited photo storage at original quality</string>
-    <string name="use_photos_spoof_info">Restart Google Photos app for it to take effect</string>
+    <string name="use_photos_spoof_info">Starta om Google Photos appen för att det skall få effekt</string>
     <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] -->
-    <string name="duration_less_than_one_minute">Less than 1 Minute</string>
+    <string name="duration_less_than_one_minute">Mindre än 1 minut</string>
     <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
-    <string name="screen_time_summary_usage_today">%1$s today</string>
+    <string name="screen_time_summary_usage_today">%1$s idag</string>
     <!-- Face Unlock -->
     <string name="security_settings_face_settings_footer_custom">Face unlock lets you unlock your device by looking at it. Keep in mind:\n\n● Your device may unlock any time you look at it.\n● Your device can be unlocked by someone else if they hold it in front of your face while your eyes are open.\n● Your device may also be unlocked by someone who looks a lot like you, such as a child or identical sibling.</string>
     <string name="security_settings_face_settings_remove_dialog_details_custom">Data recorded by face unlock will be permanently and securely deleted. After removal, you will need your PIN, pattern, or password to unlock your phone.</string>
     <string name="security_settings_face_unlock_redo_face_scan_summary">Remove existing face scan and create a new scan</string>
-    <string name="security_settings_face_unlock_redo_face_scan_title">Redo face scan</string>
-    <string name="face_redo_confirm_btn">Redo</string>
-    <string name="face_redo_warning_msg">Do you want to remove the existing face scan and create a new one?</string>
-    <string name="face_unlock_method_title">Allow face unlock on lock screen</string>
-    <string name="face_unlock_method_default">When the screen is turned on</string>
-    <string name="face_unlock_method_swipe">When swiping on lock screen</string>
-    <string name="skip_biometric_auth_confirmation_title">Skip manually confirmation</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Gör om ansiktsskanning</string>
+    <string name="face_redo_confirm_btn">Gör om</string>
+    <string name="face_redo_warning_msg">Vill du ta bort den existerande ansiktsskanningen och skapa en ny?</string>
+    <string name="face_unlock_method_title">Tillåt ansiktsupplåsning på låsskärmen</string>
+    <string name="face_unlock_method_default">När skärmen är på</string>
+    <string name="face_unlock_method_swipe">Vid svepning på låsskärmen</string>
+    <string name="skip_biometric_auth_confirmation_title">Manuellt hoppa över bekräftelsen</string>
     <!-- Optimized charge -->
-    <string name="optimized_charge_title">Optimized charging</string>
-    <string name="optimized_charge_summary">Limit charging to extend battery life</string>
-    <string name="optimized_charge_enable_title">Enable optimized charging</string>
-    <string name="optimized_charge_ceiling_title">Stop charging level</string>
-    <string name="optimized_charge_floor_title">Start charging level</string>
+    <string name="optimized_charge_title">Optimerad laddning</string>
+    <string name="optimized_charge_summary">Begränsa laddning för att utöka batteriets livslängd</string>
+    <string name="optimized_charge_enable_title">Aktivera optimerad laddning</string>
+    <string name="optimized_charge_ceiling_title">Laddningsnivå stopp</string>
+    <string name="optimized_charge_floor_title">Laddningsnivå start</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Reset stats?</string>
-    <string name="battery_stats_message">Battery history stats are going to be reset!</string>
+    <string name="battery_stats_reset">Nollställ statistik?</string>
+    <string name="battery_stats_message">Batteri historik är på väg att nollställas!</string>
     <!-- Monet Engine -->
-    <string name="monet_engine_title">Monet settings</string>
-    <string name="monet_engine_summary">Customizate monet color performance</string>
-    <string name="monet_engine_custom_color_title">Use custom color</string>
-    <string name="monet_engine_custom_color_summary">Use custom color for monet engine instead of wallpaper colors</string>
-    <string name="monet_engine_color_override_title">Custom color</string>
-    <string name="monet_engine_white_luminance_user_title">White luminance</string>
-    <string name="monet_engine_accurate_shades_title">Use accurate shades</string>
+    <string name="monet_engine_title">Monet inställningar</string>
+    <string name="monet_engine_summary">Anpassa monet färgprestanda</string>
+    <string name="monet_engine_custom_color_title">Använd systenfärger</string>
+    <string name="monet_engine_custom_color_summary">Använd anpassade färger för monet motorn istället för bakgrundsfärger</string>
+    <string name="monet_engine_color_override_title">Anpassad färg</string>
+    <string name="monet_engine_white_luminance_user_title">Vit upplysning</string>
+    <string name="monet_engine_accurate_shades_title">Använd exakta skuggor</string>
     <string name="monet_engine_chroma_factor_title">Chroma factor</string>
     <string name="monet_engine_linear_lightness_title">Use linear lightness</string>
     <!-- Black theme -->
-    <string name="system_black_theme_title">Use black theme</string>
-    <string name="system_black_theme_summary">Force black background colors</string>
+    <string name="system_black_theme_title">Använd svart tema</string>
+    <string name="system_black_theme_summary">Tvinga svarta bakgrundsfärger</string>
     <!-- QS tiles layout -->
-    <string name="qs_tile_layout_title">QS tiles layout</string>
-    <string name="qs_tile_layout_summary">Customize tiles layout in QS panel</string>
-    <string name="qs_tiles_layout_category">Tiles layout</string>
-    <string name="qs_rows_portrait_title">Rows (Portrait)</string>
-    <string name="qqs_rows_portrait_title">Rows (Quick QS portrait)</string>
-    <string name="qs_columns_portrait_title">Columns (Portrait)</string>
-    <string name="qs_apply_change_button_title">Apply change</string>
-    <string name="qs_apply_change_failed">Failed to apply change</string>
-    <string name="qs_tile_hide_label_title">Hide labels</string>
-    <string name="qs_tile_hide_label_summary">Show only icon for QS tiles</string>
-    <string name="qs_tile_vertical_layout_title">Vertical layout</string>
-    <string name="qs_tile_vertical_layout_summary">Enable vertical layout for QS tiles</string>
+    <string name="qs_tile_layout_title">QS brickor layout</string>
+    <string name="qs_tile_layout_summary">Anpassa bricklayout i QS panel</string>
+    <string name="qs_tiles_layout_category">Brickor layout</string>
+    <string name="qs_rows_portrait_title">Rader (Porträtt)</string>
+    <string name="qqs_rows_portrait_title">Rader (Snabb QS porträtt)</string>
+    <string name="qs_columns_portrait_title">Kolumner (Porträtt)</string>
+    <string name="qs_apply_change_button_title">Gör ändringar</string>
+    <string name="qs_apply_change_failed">Misslyckades att göra ändringarna</string>
+    <string name="qs_tile_hide_label_title">Göm etiketter</string>
+    <string name="qs_tile_hide_label_summary">Visa bara ikon för QS brickor</string>
+    <string name="qs_tile_vertical_layout_title">Vertikal layout</string>
+    <string name="qs_tile_vertical_layout_summary">Aktivera vertikal layout för QS brickor</string>
     <!-- QS Brightness -->
-    <string name="qs_brightness_slider_title">QS brightness slider</string>
-    <string name="qs_brightness_slider_summary">Customize brightness slider in QS panel</string>
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_hide">Hide</string>
-    <string name="qs_show_brightness_normal">Show in QS Panel</string>
-    <string name="qs_show_brightness_both">Show in QS &amp; Quick QS Panel</string>
-    <string name="qs_show_auto_brightness_button_title">Auto brightness button</string>
-    <string name="qs_show_auto_brightness_button_hide">Hide</string>
-    <string name="qs_show_auto_brightness_button_slider">Show near slider</string>
-    <string name="qs_show_auto_brightness_button_footer">Show in footer</string>
-    <string name="qs_brightness_position_position_title">Move to bottom</string>
-    <string name="qs_brightness_position_position_summary">Show brightness slider in the bottom of QS panel</string>
+    <string name="qs_brightness_slider_title">QS ljusstyrka skjutreglage</string>
+    <string name="qs_brightness_slider_summary">Anpassa ljusstyrka skjutreglaget i QS panelen</string>
+    <string name="qs_show_brightness_title">Ljusstyrka reglage</string>
+    <string name="qs_show_brightness_hide">Göm</string>
+    <string name="qs_show_brightness_normal">Visa i QS Panel</string>
+    <string name="qs_show_brightness_both">Visa i QS &amp; Snabb QS Panel</string>
+    <string name="qs_show_auto_brightness_button_title">Automatisk ljusstyrka knapp</string>
+    <string name="qs_show_auto_brightness_button_hide">Göm</string>
+    <string name="qs_show_auto_brightness_button_slider">Visa nära reglage</string>
+    <string name="qs_show_auto_brightness_button_footer">Visa i sidfot</string>
+    <string name="qs_brightness_position_position_title">Flytta till botten</string>
+    <string name="qs_brightness_position_position_summary">Visa ljusstyrka reglage i botten av QS panelen</string>
     <!-- Lockscreen media art -->
-    <string name="keygaurd_media_art_title">Media art</string>
-    <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
+    <string name="keygaurd_media_art_title">Media konst</string>
+    <string name="keygaurd_media_art_summary">Visa media konst som låsskärmsbakgrund</string>
     <!-- Gestures: Touchscreen gestures -->
-    <string name="touchscreen_gesture_settings_title">Touchscreen gestures</string>
-    <string name="touchscreen_gesture_settings_summary">Perform various touchscreen gestures for quick actions</string>
+    <string name="touchscreen_gesture_settings_title">Pekskärm gester</string>
+    <string name="touchscreen_gesture_settings_summary">Utför olika pekskärmsgester för snabba åtgärder</string>
     <!-- Hotspot -->
-    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
-    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+    <string name="wifi_hotspot_hidden_ssid_title">Dolt nätverk</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Din mobils hotspots namn kommer inte visa sig i listan över tillgängliga WLAN nätverk.</string>
     <string name="wifi_band_24ghz_and_5ghz">2.4 GHz &amp; 5 GHz</string>
     <string name="wifi_band_24ghz_and_6ghz">2.4 GHz &amp; 6 GHz</string>
     <string name="wifi_band_60ghz">60 GHz</string>
     <plurals name="wifi_hotspot_auto_off_timeout">
-        <item quantity="other">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minutes</item>
-        <item quantity="one">Turn off when no device connected for <xliff:g id="DURATION">%1$d</xliff:g> minute</item>
+        <item quantity="other">Stäng av när ingen enhet är ansluten i <xliff:g id="DURATION">%1$d</xliff:g> minuter</item>
+        <item quantity="one">Stäng av när ingen enhet är ansluten i <xliff:g id="DURATION">%1$d</xliff:g> minut</item>
     </plurals>
-    <string name="wifi_hotspot_auto_off_timeout_never">Never turn off hotsopt</string>
-    <string name="wifi_hotspot_client_manager_title">Connected devices</string>
-    <string name="wifi_hotspot_client_manager_summary">List and manage devices connected to the hotspot, and set the limit of the number of clients</string>
-    <string name="wifi_hotspot_client_manager_list_only_summary">List devices connected to the hotspot</string>
-    <string name="wifi_hotspot_client_limit_title">Limit of connected devices</string>
+    <string name="wifi_hotspot_auto_off_timeout_never">Stäng aldrig av hotspot</string>
+    <string name="wifi_hotspot_client_manager_title">Anslutna enheter</string>
+    <string name="wifi_hotspot_client_manager_summary">Lista och hantera enheter anslutna till hotspot, och begränsar antalet klienter</string>
+    <string name="wifi_hotspot_client_manager_list_only_summary">Listar enheter kopplade till hotspot</string>
+    <string name="wifi_hotspot_client_limit_title">Gräns ​​för anslutna enheter</string>
     <plurals name="wifi_hotspot_client_limit_summary">
-        <item quantity="other">Up to <xliff:g id="device_num">%1$d</xliff:g> devices can connect to this hotspot</item>
-        <item quantity="one">Up to <xliff:g id="device_num">%1$d</xliff:g> device can connect to this hotspot</item>
+        <item quantity="other">Upp till <xliff:g id="device_num">%1$d</xliff:g> enheter kan ansluta till denna hotspot</item>
+        <item quantity="one">Upp till <xliff:g id="device_num">%1$d</xliff:g> enheter kan ansluta till denna hotspot</item>
     </plurals>
-    <string name="wifi_hotspot_blocked_clients_list_title">Blocked Devices</string>
-    <string name="wifi_hotspot_connected_clients_list_title">Connected Devices</string>
-    <string name="wifi_hotspot_block_client_dialog_title">Block device</string>
-    <string name="wifi_hotspot_block_client_dialog_text">This action will disconnect \"<xliff:g id="device_name">%1$s</xliff:g>\" from this device and add it to blocklist</string>
-    <string name="wifi_hotspot_unblock_client_dialog_title">Unblock device</string>
-    <string name="wifi_hotspot_unblock_client_dialog_text">This device \"<xliff:g id="device_name">%1$s</xliff:g>\" will be able to connect to this hotspot</string>
-    <string name="wifi_hotspot_client_manager_footer_text">No clients are currently available. Connected and blocked devices will be listed here when avaialable.</string>
+    <string name="wifi_hotspot_blocked_clients_list_title">Blockerade enheter</string>
+    <string name="wifi_hotspot_connected_clients_list_title">Anslutna Enheter</string>
+    <string name="wifi_hotspot_block_client_dialog_title">Blockera enhet</string>
+    <string name="wifi_hotspot_block_client_dialog_text">Denna åtgärd kommer koppla ifrån \"<xliff:g id="device_name">%1$s</xliff:g>\" från denna enhet och lägga till i blockerings listan</string>
+    <string name="wifi_hotspot_unblock_client_dialog_title">Avblockera enhet</string>
+    <string name="wifi_hotspot_unblock_client_dialog_text">Denna enhet \"<xliff:g id="device_name">%1$s</xliff:g>\" kommer kunna ansluta till denna hotspot</string>
+    <string name="wifi_hotspot_client_manager_footer_text">Inga klienter tillgängliga. Anslutna och blockerade enheter kommer listas här när det är tillgängligt.</string>
     <!-- Sleep Mode -->
-    <string name="sleep_mode_title">Sleep Mode</string>
-    <string name="sleep_mode_summary_on">On / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_summary_off">Off / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
-    <string name="sleep_mode_ringer_title">Ringer mode</string>
-    <string name="sleep_mode_ringer_off_title">Do not change</string>
-    <string name="sleep_mode_ringer_vibrate_title">Vibrate</string>
-    <string name="sleep_mode_ringer_dnd_title">Do Not Disturb</string>
-    <string name="sleep_mode_ringer_silent_title">Silent</string>
-    <string name="sleep_mode_schedule_sunset">Sunset</string>
-    <string name="sleep_mode_schedule_sunrise">Sunrise</string>
-    <string name="sleep_mode_schedule_mixed_sunset">Turns on from sunset to a custom time</string>
-    <string name="sleep_mode_schedule_mixed_sunrise">Turns on from a custom time to sunrise</string>
-    <string name="sleep_mode_toggles_title">Toggles</string>
-    <string name="sleep_mode_wifi_toggle_title">Turn off Wi-Fi</string>
-    <string name="sleep_mode_wifi_toggle_summary">Disable Wi-Fi when Sleep mode is turned on</string>
-    <string name="sleep_mode_bluetooth_toggle_title">Turn off Bluetooth</string>
-    <string name="sleep_mode_bluetooth_toggle_summary">Disable Bluetooth when Sleep mode is turned on</string>
-    <string name="sleep_mode_cellular_toggle_title">Turn off Mobile data</string>
-    <string name="sleep_mode_cellular_toggle_summary">Disable Mobile data when Sleep mode is turned on</string>
-    <string name="sleep_mode_location_toggle_title">Turn off Location</string>
-    <string name="sleep_mode_location_toggle_summary">Disable Location when Sleep mode is turned on</string>
-    <string name="sleep_mode_sensors_toggle_title">Turn off Sensors</string>
-    <string name="sleep_mode_sensors_toggle_summary">Disable Sensors when Sleep mode is turned on</string>
-    <string name="background_process_killer_title">Kill background processes</string>
-    <string name="background_process_killer_summary">Stop all non-essential background processes when the device is idle</string>
-    <string name="sleep_mode_display_text">Sleep mode allows you to disable certain services to help save battery and silence your phone while you sleep.</string>
+    <string name="sleep_mode_title">Sömnläge</string>
+    <string name="sleep_mode_summary_on">På / <xliff:g name="auto_mode_summary" example="Never turn off automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_summary_off">Av / <xliff:g name="auto_mode_summary" example="Never turn on automatically">%1$s</xliff:g></string>
+    <string name="sleep_mode_ringer_title">Ringläge</string>
+    <string name="sleep_mode_ringer_off_title">Byt inte</string>
+    <string name="sleep_mode_ringer_vibrate_title">Vibrera</string>
+    <string name="sleep_mode_ringer_dnd_title">Stör ej</string>
+    <string name="sleep_mode_ringer_silent_title">Ljudlös</string>
+    <string name="sleep_mode_schedule_sunset">Solnedgång</string>
+    <string name="sleep_mode_schedule_sunrise">Soluppgång</string>
+    <string name="sleep_mode_schedule_mixed_sunset">Sätts på från solnedgång till en anpassad tid</string>
+    <string name="sleep_mode_schedule_mixed_sunrise">Sätts på från en anpassad tid till soluppgång</string>
+    <string name="sleep_mode_toggles_title">Växlare</string>
+    <string name="sleep_mode_wifi_toggle_title">Stäng av Wi-Fi</string>
+    <string name="sleep_mode_wifi_toggle_summary">Inaktivera Wi-Fi när Sömnläge är på</string>
+    <string name="sleep_mode_bluetooth_toggle_title">Stäng av Blåtand</string>
+    <string name="sleep_mode_bluetooth_toggle_summary">Inaktivera Blåtand när Sömnläge är på</string>
+    <string name="sleep_mode_cellular_toggle_title">Stäng av Mobildata</string>
+    <string name="sleep_mode_cellular_toggle_summary">Inaktivera Mobildata när Sömnläge är på</string>
+    <string name="sleep_mode_location_toggle_title">Stäng av Plats</string>
+    <string name="sleep_mode_location_toggle_summary">Inaktivera Plats när Sömnläge är på</string>
+    <string name="sleep_mode_sensors_toggle_title">Stäng av Sensorer</string>
+    <string name="sleep_mode_sensors_toggle_summary">Inaktivera Sensorer när Sömnläge är på</string>
+    <string name="background_process_killer_title">Stäng ner bakgrundsprocesser</string>
+    <string name="background_process_killer_summary">Stoppa alla icke-nödvändiga bakgrundsprocesser när enheten är inaktiv</string>
+    <string name="sleep_mode_display_text">Sömnläge tillåter sig att inaktivera vissa tjänster för att hjälpa spara på batteriet och tysta din telefon medans du sover.</string>
     <!-- Ignore secure flag -->
-    <string name="window_ignore_secure_title">Ignore window secure flags</string>
-    <string name="window_ignore_secure_summary">Remove screenshot / screenrecord limits for all applications</string>
+    <string name="window_ignore_secure_title">Ignorera fönster säkra flaggor</string>
+    <string name="window_ignore_secure_summary">Ta bort skärmdump / skärminspelning gränser för alla applikationer</string>
     <string name="window_ignore_secure_warning">This can be convenient in some cases but may lead to privacy leaks. After changing this toggle, you may need to restart applications for the change to take effect.</string>
     <!-- Back gesture arrow -->
-    <string name="back_gesture_arrow_title">Back gesture animation</string>
-    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
+    <string name="back_gesture_arrow_title">Bakåt gestanimation</string>
+    <string name="back_gesture_arrow_summary">Visa en animerad pil för bakåtgest</string>
     <!-- Carrier label -->
-    <string name="carrier_label_category">Carrier label</string>
-    <string name="carrier_label_custom">Custom carrier label</string>
-    <string name="carrier_label_custom_unset">Click to set</string>
-    <string name="carrier_label_custom_title">Custom carrier label</string>
-    <string name="carrier_label_custom_explain">Enter a custom label. Leave blank to use your network name</string>
-    <string name="carrier_label_position">Carrier label position</string>
-    <string name="carrier_label_position_hide">Hide</string>
-    <string name="carrier_label_position_lockscreen">Lockscreen</string>
-    <string name="carrier_label_position_statusbar">Status Bar</string>
-    <string name="carrier_label_position_both">Lockscreen &amp; Status Bar</string>
+    <string name="carrier_label_category">Operatörs etikett</string>
+    <string name="carrier_label_custom">Anpassad operatörs etikett</string>
+    <string name="carrier_label_custom_unset">Klicka för att sätta</string>
+    <string name="carrier_label_custom_title">Anpassad operatörs etikett</string>
+    <string name="carrier_label_custom_explain">Gör en anpassad etikett. Lämna tomt för att använda ditt nätverksnamn</string>
+    <string name="carrier_label_position">Operatörs etikett position</string>
+    <string name="carrier_label_position_hide">Göm</string>
+    <string name="carrier_label_position_lockscreen">Låsskärm</string>
+    <string name="carrier_label_position_statusbar">Statusfält</string>
+    <string name="carrier_label_position_both">Låsskärm &amp; Statusfält</string>
     <!-- Package details -->
-    <string name="package_details_group_title">Package details</string>
-    <string name="package_name">Package name</string>
-    <string name="package_version">Package version</string>
+    <string name="package_details_group_title">Paketdetaljer</string>
+    <string name="package_name">Paketnamn</string>
+    <string name="package_version">Paketversion</string>
     <!-- Custom DNS Option -->
     <!-- Immersive gesture bar -->
-    <string name="immersive_gesture_bar_title">Immersive gesture bar</string>
-    <string name="immersive_gesture_bar_summary">Remove navigation bar height while keeping the gesture pill</string>
+    <string name="immersive_gesture_bar_title">Uppslukande gestfält</string>
+    <string name="immersive_gesture_bar_summary">Ta bort navigeringsfält höjd medans du behåller gest pillret</string>
     <!-- reTicker -->
     <string name="reticker_category">reTicker</string>
-    <string name="reticker_title">Enable reTicker</string>
-    <string name="reticker_summary">Replace heads-up notification with slim and less invasive version of redesigned ticker</string>
-    <string name="reticker_colored_title">Use app colored background</string>
-    <string name="reticker_colored_summary">Replace reTicker background color using notification app main color</string>
-    <string name="reticker_landscape_only_title">Landscape only</string>
-    <string name="reticker_landscape_only_summary">Only enable reTicker when device is in landscape mode</string>
+    <string name="reticker_title">Aktivera reTicker</string>
+    <string name="reticker_summary">Byt ut heads-up notifikationer med tunn och mindre påträngande version av omdesignad ticker</string>
+    <string name="reticker_colored_title">Använd app färgade bakgrunder</string>
+    <string name="reticker_colored_summary">Byt ut reTicker bakgrundsfärg genom att använda notifierings appens huvudfärg</string>
+    <string name="reticker_landscape_only_title">Landskap bara</string>
+    <string name="reticker_landscape_only_summary">Aktivera bara reTicker när enheten är i landskapsläge</string>
     <!-- Hidden apps -->
-    <string name="hidden_apps_title">Hidden apps</string>
+    <string name="hidden_apps_title">Gömda appar</string>
     <!-- Volume dialog -->
-    <string name="volume_dialog_category">Volume dialog</string>
-    <string name="left_volume_dialog_title">Move to left</string>
-    <string name="left_volume_dialog_summary">Show volume dialog at left side</string>
-    <string name="volume_dialog_force_show_settings_title">Media controller</string>
-    <string name="volume_dialog_force_show_settings_summary">Force to show media controller in volume dialog</string>
-    <string name="app_volume">App volume</string>
-    <string name="app_volume_title">Per-app volume control</string>
-    <string name="app_volume_summary">Show per-app volume button in volume dialog</string>
+    <string name="volume_dialog_category">Volym dialog</string>
+    <string name="left_volume_dialog_title">Flytta till vänster</string>
+    <string name="left_volume_dialog_summary">Visa volymdialogen på vänster sida</string>
+    <string name="volume_dialog_force_show_settings_title">Media kontroller</string>
+    <string name="volume_dialog_force_show_settings_summary">Tvinga att visa media kontroller i volymdialogen</string>
+    <string name="app_volume">App volym</string>
+    <string name="app_volume_title">Per-app volymkontroll</string>
+    <string name="app_volume_summary">Visa per-app volymknapp i volymdialogen</string>
     <!-- App downgrade -->
-    <string name="app_downgrade_title">Allow application downgrade</string>
-    <string name="app_downgrade_summary">Allow to install an older version over installed applications</string>
-    <string name="app_downgrade_info">This may lead to application crashes or data corruption</string>
+    <string name="app_downgrade_title">Tillåt applikations nedgradering</string>
+    <string name="app_downgrade_summary">Tillåt att installera en äldre version över installerade applikationer</string>
+    <string name="app_downgrade_info">Detta kan leda till att applikation kraschar eller korrupt data</string>
     <!-- Battery temperature -->
-    <string name="battery_temperature">Battery temperature</string>
+    <string name="battery_temperature">Batteri temperatur</string>
     <!-- Battery health -->
-    <string name="current_battery_capacity">Current battery capacity</string>
-    <string name="designed_battery_capacity">Designed battery capacity</string>
-    <string name="battery_charge_cycles">Charge cycles completed</string>
+    <string name="current_battery_capacity">Nuvarande batteri kapacitet</string>
+    <string name="designed_battery_capacity">Designad batteri kapacitet</string>
+    <string name="battery_charge_cycles">Laddningscykler slutförda</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Förhindra olyckliga uppvaknanden</string>
+    <string name="proximity_wake_summary">Kontrollera närhetssensorn innan väcker upp skärmen</string>
+    <!-- Reset auto brightness adjustment -->
+    <string name="reset_auto_brightness_adjustment_title">Återställ preferenser</string>
+    <string name="reset_auto_brightness_adjustment_summary">Låt systemet glömma din ljusstyrka preferens och återställa den till standard</string>
+    <string name="reset_auto_brightness_adjustment_done">Automatisk ljusstyrka preferens har återställts</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_title">Ticker</string>
+    <string name="ticker_summary">Show notifications ticker-style in status bar</string>
+    <string name="ticker_screen_footer">Ticker is visible only when notification heads-up is not shown. Devices with center notch should hide cutout under User Interface settings or under Developer options.</string>
+    <string name="ticker_screen_title">Status bar ticker</string>
+    <string name="ticker_disabled">No ticker</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notifications and music ticker</string>
+    <string name="ticker_animation_mode_title">Ticker animation style</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_title">Music tile track title</string>
+    <string name="qs_music_tile_track_optional_summary">Show the music track title as the QS tile title</string>
 </resources>

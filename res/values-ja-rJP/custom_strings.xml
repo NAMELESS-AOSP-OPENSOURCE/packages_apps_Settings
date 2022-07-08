@@ -47,8 +47,8 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">誤復帰の回避</string>
-    <string name="proximity_wake_summary">端末復帰前に近接センサーを確認する</string>
+    <string name="pocket_judge_title">ポケット検出</string>
+    <string name="pocket_judge_summary">ポケット内にあることを検出している時は画面とボタンをブロックする</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">着信時の振動の種類</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
@@ -332,16 +332,18 @@
     <string name="haptic_on_statusbar_summary">ステータスバーのタップ時に振動フィードバックを行う</string>
     <string name="haptic_on_slider_title">システムスライダー</string>
     <string name="haptic_on_slider_summary">スライダーの値を変更した時に振動フィードバックを行う</string>
+    <string name="haptic_on_misc_title">その他のシーン</string>
+    <string name="haptic_on_misc_summary">Explore more hidden haptic feedback</string>
     <string name="haptic_disabled">無効</string>
     <string name="haptic_on_back_title">戻るジェスチャーの振動</string>
     <string name="back_gesture_haptic_dragged">ドラッグ時</string>
-    <string name="back_gesture_haptic_dragged_triggered">ドラッグ&amp;起動時</string>
+    <string name="back_gesture_haptic_dragged_triggered">On dragging &amp; triggered</string>
     <string name="haptic_on_fod_title">指紋の振動</string>
     <string name="fod_haptic_authenticated">認証時</string>
     <string name="fod_haptic_pressed_authenticated">押下&amp;認証時</string>
     <!-- Colored Statusbar Icons -->
     <string name="statusbar_icons_style_title">色の付いたアイコン</string>
-    <string name="statusbar_icons_style_summary">ステータスバーに色付きスタイルのアイコンを表示する (システム UI の再起動が必要です)</string>
+    <string name="statusbar_icons_style_summary">ステータスバーに色付きのアイコンを表示する</string>
     <!-- Udfps background -->
     <string name="udfps_background_title">画面内指紋認証アイコンの背景</string>
     <string name="udfps_background_summary">ロック画面の画面内指紋認証アイコンに背景を表示する</string>
@@ -470,7 +472,7 @@
     <string name="lower_resolution_title">ロック画面の解像度</string>
     <string name="lower_resolution_summary">消費電力削減のため%1$sに解像度を切り替える</string>
     <string name="lower_resolution_dlg_title">警告</string>
-    <string name="lower_resolution_dlg_text">これにより全てのバックグラウンドアプリを終了しシステム UI を再起動します!\n\n注意: 低い解像度の有効後はブートアニメーションが間違えて置き換えられます。</string>
+    <string name="lower_resolution_dlg_text">これにより全てのバックグラウンドプロセスは終了され、システム UI は再起動されます!</string>
     <!-- App lock -->
     <string name="app_lock_title">アプリロック</string>
     <string name="app_lock_summary_singular">1個のアプリをロック中です</string>
@@ -730,4 +732,26 @@
     <string name="current_battery_capacity">現在バッテリー容量</string>
     <string name="designed_battery_capacity">設計バッテリー容量</string>
     <string name="battery_charge_cycles">充電サイクル完了数</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <!-- Reset auto brightness adjustment -->
+    <string name="reset_auto_brightness_adjustment_title">Reset preference</string>
+    <string name="reset_auto_brightness_adjustment_summary">Let the system forget your brightness preference and reset it to the default one</string>
+    <string name="reset_auto_brightness_adjustment_done">Auto brightness preference has been reset</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_title">Ticker</string>
+    <string name="ticker_summary">Show notifications ticker-style in status bar</string>
+    <string name="ticker_screen_footer">Ticker is visible only when notification heads-up is not shown. Devices with center notch should hide cutout under User Interface settings or under Developer options.</string>
+    <string name="ticker_screen_title">Status bar ticker</string>
+    <string name="ticker_disabled">No ticker</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notifications and music ticker</string>
+    <string name="ticker_animation_mode_title">Ticker animation style</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_title">Music tile track title</string>
+    <string name="qs_music_tile_track_optional_summary">Show the music track title as the QS tile title</string>
 </resources>

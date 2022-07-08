@@ -47,8 +47,8 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
     <!-- Pocket mode -->
-    <string name="proximity_wake_title">Yanlışlıkla uyanmayı önleyin</string>
-    <string name="proximity_wake_summary">Ekranı uyandırmadan önce yakınlık sensörünü kontrol edin</string>
+    <string name="pocket_judge_title">Pocket detection</string>
+    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
     <!-- Vibration patterns -->
     <string name="vibration_pattern_title">Zil sesi titreşim modeli</string>
     <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
@@ -332,16 +332,18 @@
     <string name="haptic_on_statusbar_summary">Durum çubuğuna tıklandığında dokunsal geri bildirim yapın</string>
     <string name="haptic_on_slider_title">Sistem kaydırıcısı</string>
     <string name="haptic_on_slider_summary">Kaydırıcı değeri değiştirildiğinde dokunsal geri bildirim yapın</string>
+    <string name="haptic_on_misc_title">Çeşitli senaryolar</string>
+    <string name="haptic_on_misc_summary">Daha fazla gizli dokunsal geri bildirimi keşfedin</string>
     <string name="haptic_disabled">Kapalı</string>
     <string name="haptic_on_back_title">Geri jestler dokunsal</string>
     <string name="back_gesture_haptic_dragged">Sürüklerken</string>
-    <string name="back_gesture_haptic_dragged_triggered">Sürükleme ve tetikleme hakkında</string>
+    <string name="back_gesture_haptic_dragged_triggered">Sürüklerken &amp; tetiklenmiş</string>
     <string name="haptic_on_fod_title">Parmak izi titreşimi</string>
     <string name="fod_haptic_authenticated">Kimliği doğrulanmış</string>
     <string name="fod_haptic_pressed_authenticated">Basıldığında ve kimliği doğrulandığında</string>
     <!-- Colored Statusbar Icons -->
     <string name="statusbar_icons_style_title">Renkli simgeler</string>
-    <string name="statusbar_icons_style_summary">Durum çubuğunda renkli stil simgelerini görüntüle (SystemUI\'nin yeniden başlatılmasını gerektirir)</string>
+    <string name="statusbar_icons_style_summary">Durum çubuğunda renkli stil simgelerini görüntüle</string>
     <!-- Udfps background -->
     <string name="udfps_background_title">Yem simgesi arka plan</string>
     <string name="udfps_background_summary">Kilit ekranında yem simgesinin arka planını göster</string>
@@ -470,7 +472,7 @@
     <string name="lower_resolution_title">Daha düşük ekran çözünürlüğü</string>
     <string name="lower_resolution_summary">Güç tüketimini azaltmak için %1$s çözünürlüğüne geçin</string>
     <string name="lower_resolution_dlg_title">Uyarı</string>
-    <string name="lower_resolution_dlg_text">Bu, tüm arka plan uygulamalarını öldürür ve SystemUI\'yi yeniden başlatır!\n\nNot: Düşük çözünürlük etkinleştirildikten sonra önyükleme animasyonu yanlış yerleştirilecektir</string>
+    <string name="lower_resolution_dlg_text">Bu, tüm arka plan uygulamalarını öldürecek ve SystemUI\'yi yeniden başlatacaktır!</string>
     <!-- App lock -->
     <string name="app_lock_title">Uygulama kilidi</string>
     <string name="app_lock_summary_singular">1 uygulama korunuyor</string>
@@ -732,4 +734,26 @@
     <string name="current_battery_capacity">Mevcut pil kapasitesi</string>
     <string name="designed_battery_capacity">Tasarlanmış pil kapasitesi</string>
     <string name="battery_charge_cycles">Şarj döngüleri tamamlandı</string>
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+    <!-- Reset auto brightness adjustment -->
+    <string name="reset_auto_brightness_adjustment_title">Reset preference</string>
+    <string name="reset_auto_brightness_adjustment_summary">Let the system forget your brightness preference and reset it to the default one</string>
+    <string name="reset_auto_brightness_adjustment_done">Auto brightness preference has been reset</string>
+    <!-- Status Bar Ticker -->
+    <string name="ticker_title">Ticker</string>
+    <string name="ticker_summary">Show notifications ticker-style in status bar</string>
+    <string name="ticker_screen_footer">Ticker is visible only when notification heads-up is not shown. Devices with center notch should hide cutout under User Interface settings or under Developer options.</string>
+    <string name="ticker_screen_title">Status bar ticker</string>
+    <string name="ticker_disabled">No ticker</string>
+    <string name="ticker_enabled">Notification ticker</string>
+    <string name="ticker_media_enabled">Notifications and music ticker</string>
+    <string name="ticker_animation_mode_title">Ticker animation style</string>
+    <string name="ticker_animation_mode_alpha_fade">Fade</string>
+    <string name="ticker_animation_mode_scroll">Scroll</string>
+    <string name="ticker_tick_duration_title">Ticker duration</string>
+    <!-- Disable music track title in QS tile -->
+    <string name="qs_music_tile_track_optional_title">Music tile track title</string>
+    <string name="qs_music_tile_track_optional_summary">Show the music track title as the QS tile title</string>
 </resources>
